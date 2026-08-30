@@ -1,0 +1,36 @@
+{
+  "stage": "BOOT1_NOT_SUCCESS",
+  "boot1": {
+    "pid": 8268,
+    "argv": [
+      "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "-accel",
+      "tcg",
+      "-display",
+      "none",
+      "-monitor",
+      "none",
+      "-serial",
+      "none",
+      "-no-reboot",
+      "-boot",
+      "a",
+      "-drive",
+      "file=E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/persistence/D64_PR01/runs/20260830T064500Z_d64_pr01_persistence_02/disk.img,format=raw,if=floppy",
+      "-device",
+      "isa-debug-exit,iobase=0xf4,iosize=0x04",
+      "-debugcon",
+      "file:E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/persistence/D64_PR01/runs/20260830T064500Z_d64_pr01_persistence_02/boot1.debugcon.txt",
+      "-global",
+      "isa-debugcon.iobase=0xe9"
+    ],
+    "started_utc": "2026-08-30T06:39:25.174234+00:00",
+    "ended_utc": "2026-08-30T06:39:25.376626+00:00",
+    "started_monotonic": 198580.9354852,
+    "ended_monotonic": 198581.1378574,
+    "wall_ms": 202.3988000000827,
+    "status": "COMPLETED",
+    "exit_code": 35,
+    "timeout_seconds": 12
+  }
+}

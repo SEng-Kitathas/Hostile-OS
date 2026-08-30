@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   3057	      0	   4166	   7223	   1c37	E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\persistence\D64_PR01\runs\20260830T065100Z_d64_pr01_persistence_04\stage2.elf

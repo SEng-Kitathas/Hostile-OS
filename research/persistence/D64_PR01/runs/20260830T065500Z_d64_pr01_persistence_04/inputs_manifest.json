@@ -1,0 +1,147 @@
+{
+  "run_id": "20260830T065500Z_d64_pr01_persistence_04",
+  "snapshot_utc": "2026-08-30T06:42:37.882371+00:00",
+  "controlling_git_head": "ee3376a3f324c0b3cf523d0548a6d02a19780765",
+  "controlling_preregistration_commit": "0f1146f5782b729f77cfa8d4292e956f5c5f28a8",
+  "declared_working_directory": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS",
+  "launcher_path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\persistence\\D64_PR01\\probe\\launch_pr01.py",
+  "launcher_sha256": "c9d71743f0858121278fadbb3de33f6d5c5f43c9610c7fc4f563fe132fd8a0b3",
+  "no_host_disk_write_between_boots": true,
+  "tools": {
+    "clang": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+    "lld": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+    "objcopy": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+    "size": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-size.exe",
+    "nm": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-nm.exe",
+    "qemu": "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+    "python": "C:\\Users\\ancal\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe"
+  },
+  "inputs": [
+    {
+      "key": "preregistration",
+      "source_project_relative": "research/persistence/D64_PR01/D64_PR01_PREREGISTRATION.md",
+      "snapshot_path": "inputs/preregistration.md",
+      "bytes": 12910,
+      "sha256": "e3bfdd89f53f66390ac9e82db61c59c317736aad94105e6d0d95fdfc477c98ff"
+    },
+    {
+      "key": "persistence_plan",
+      "source_project_relative": "research/plans/D64_EXPANDED_RELATION_CLEAN_RESTART_PLAN_2026-08-30.md",
+      "snapshot_path": "inputs/persistence_plan.md",
+      "bytes": 9719,
+      "sha256": "af8bb6ca8d2a30406af44aaf9420cbbe6743f068db974c32c65071028601ecf7"
+    },
+    {
+      "key": "i001_result",
+      "source_project_relative": "research/integration/I001/I001_RESULT.md",
+      "snapshot_path": "inputs/i001_result.md",
+      "bytes": 13655,
+      "sha256": "41c52da7f2787be5bceafcb204e11f61ef18d4261a75f82c27221a6c974d0ef8"
+    },
+    {
+      "key": "rb02_result",
+      "source_project_relative": "research/resource_binding/D64_RB02/D64_RB02_RESULT.md",
+      "snapshot_path": "inputs/rb02_result.md",
+      "bytes": 13894,
+      "sha256": "634edb4185e20388f3c80b13b32b5140b35b7ff0be257aa56dd59fc32094767c"
+    },
+    {
+      "key": "arb01_result",
+      "source_project_relative": "research/composition/D64_ARB01/D64_ARB01_RESULT.md",
+      "snapshot_path": "inputs/arb01_result.md",
+      "bytes": 12610,
+      "sha256": "4dc29d3ec73edace379fd4200bb5e0e34569429b8f6fb7a9487eba594c629ede"
+    },
+    {
+      "key": "arb01_adoption",
+      "source_project_relative": "research/architecture/D64_ARB01_COMPOSITION_ADOPTION_REVIEW_2026-08-30.md",
+      "snapshot_path": "inputs/arb01_adoption.md",
+      "bytes": 6761,
+      "sha256": "a602169694643bb8e52c3d64825827403bc12986db325962e56426ca4c0868ac"
+    },
+    {
+      "key": "rr01_result",
+      "source_project_relative": "research/resource_rekey/D64_RR01/D64_RR01_RESULT.md",
+      "snapshot_path": "inputs/rr01_result.md",
+      "bytes": 11065,
+      "sha256": "c958531ff4b35bf168e1c650722d48fdb302bc80578ac7373ff45815bdcb449e"
+    },
+    {
+      "key": "rr01_adoption",
+      "source_project_relative": "research/architecture/D64_RR01_RESOURCE_REKEY_ADOPTION_REVIEW_2026-08-30.md",
+      "snapshot_path": "inputs/rr01_adoption.md",
+      "bytes": 6234,
+      "sha256": "bb704438fd98738a6e2e5b62cae42e2366b1c56a853d7234a2813be5005accc1"
+    },
+    {
+      "key": "irq01_result",
+      "source_project_relative": "research/irq_coherence/D64_IRQ01/D64_IRQ01_RESULT.md",
+      "snapshot_path": "inputs/irq01_result.md",
+      "bytes": 7654,
+      "sha256": "19e463d9822c97060ac9e70d9bb7ab3196459fe3e7444fea1592d956b96ab197"
+    },
+    {
+      "key": "irq01_adoption",
+      "source_project_relative": "research/architecture/D64_IRQ01_COHERENCE_ADOPTION_REVIEW_2026-08-30.md",
+      "snapshot_path": "inputs/irq01_adoption.md",
+      "bytes": 5835,
+      "sha256": "8820c3acbc22c578fd423e363394a72f34fdaa2539fc437b7d09ad32c0dceb7f"
+    },
+    {
+      "key": "loader_qualification_result",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/QUALIFICATION_RESULT.md",
+      "snapshot_path": "inputs/loader_qualification_result.md",
+      "bytes": 7338,
+      "sha256": "cdd1b3bd083868067b6d8be2346aa413332f3d8888fcaa1e809cc48bc36610f6"
+    },
+    {
+      "key": "stage1_s",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/stage1.S",
+      "snapshot_path": "inputs/stage1_s.S",
+      "bytes": 751,
+      "sha256": "6cacc1e2fb397cb09321459b7d930718546288fce1a68a619adf76b795c00276"
+    },
+    {
+      "key": "stage1_ld",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/stage1.ld",
+      "snapshot_path": "inputs/stage1_ld.ld",
+      "bytes": 184,
+      "sha256": "e5da57aefb8ff22b1c858e7372bab49c29d8cd45d83650b53664e44c51a6a3fa"
+    },
+    {
+      "key": "stage2_s",
+      "source_project_relative": "research/persistence/D64_PR01/probe/stage2.S",
+      "snapshot_path": "inputs/stage2_s.S",
+      "bytes": 27851,
+      "sha256": "9ba8fa6415877da268b15d16249f18ff9feff68b7098f2e4b4f0fbbeb6cdbd64"
+    },
+    {
+      "key": "stage2_ld",
+      "source_project_relative": "research/persistence/D64_PR01/probe/stage2.ld",
+      "snapshot_path": "inputs/stage2_ld.ld",
+      "bytes": 217,
+      "sha256": "d060931b1a15a6b1d2213c60af028a2fc62d9cffbb43f6d1f78aaa72fba836d8"
+    },
+    {
+      "key": "launcher",
+      "source_project_relative": "research/persistence/D64_PR01/probe/launch_pr01.py",
+      "snapshot_path": "inputs/launcher.py",
+      "bytes": 20362,
+      "sha256": "c9d71743f0858121278fadbb3de33f6d5c5f43c9610c7fc4f563fe132fd8a0b3"
+    },
+    {
+      "key": "evaluator",
+      "source_project_relative": "research/persistence/D64_PR01/probe/evaluate_pr01.py",
+      "snapshot_path": "inputs/evaluator.py",
+      "bytes": 2481,
+      "sha256": "a2655ff76c6cb5c4c94cdb94d1704ca142b2fc89b24848e14caf15dafd32393e"
+    },
+    {
+      "key": "static_checker",
+      "source_project_relative": "research/persistence/D64_PR01/probe/static_check_pr01.py",
+      "snapshot_path": "inputs/static_checker.py",
+      "bytes": 14240,
+      "sha256": "6a45902e99468e50eddfe8494060cc3e362fb194d21f3014a7fbfbb7994fd883"
+    }
+  ]
+}

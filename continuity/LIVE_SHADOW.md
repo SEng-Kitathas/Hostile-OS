@@ -2,9 +2,9 @@
 
 ## Thread Identity
 - Thread: HOSTILE-OS PCMMAD reincarnation
-- Last Updated: 2026-08-30T06:38Z
+- Last Updated: 2026-08-30T06:45Z
 - Mode: BUILD-COMMIT — PR01 persistence implementation plus overnight regression campaign
-- Dominant Objective: implement and close D64/PR01 clean-restart persistence while running an isolated long-duration regression campaign over earned D64 mechanisms
+- Dominant Objective: preserve closed D64/PR01 clean-restart persistence while three isolated overnight reliability/integrity campaigns run against immutable or read-only surfaces
 
 ## Active User Intent
 - Continue HOSTILE-OS continuously from verified persisted state.
@@ -22,6 +22,7 @@
 - D64/ARB01 closed/adopted: checked activity release requires empty owned binding row; activity rekey requires complete activity/binding/resource quiescence and preserves resource namespace history.
 - D64/RR01 closed/adopted: checked resource rekey at binding/resource quiescence changes resource epoch/reset while preserving current activity/binding namespace.
 - D64/IRQ01 science closed at `c5c3fff717f49f35f6a5eaf6e1f41b75d8841e83`. Controlling run `20260830T060500Z_d64_irq01_coherence_01`: QEMU exit33; exact evaluator PASS; 16 static checks true; 14 independent checks true; stage2 4,773/8,192 bytes; runtime state 3,615 bytes.
+- D64/PR01 science closed at `50e33085805d3bb5b74eba4df1ca23683c8d0283`. Controlling run `20260830T065500Z_d64_pr01_persistence_05`: two distinct fresh QEMU processes exit33; exact evaluator PASS; 27/27 static checks true; independent audit PASS; stage2 3,057/8,192 bytes; runtime state 3,653 bytes; durable 20-byte record survives runtime reclamation and explicit rebind under fresh activity/resource epochs while old handles reject after intentional slot/gen reuse.
 - IRQ01 directly observed mixed/orphan state `binding=0, resource_identity=0x51, live_count=1` when real IRQ0 was admitted inside unprotected bind publication and final detach. Protected paths exposed coherent states only.
 - IRQ01 current protected witness cost: bind 6 instructions/6 tested writes; final detach 6 instructions/4 tested writes.
 - IRQ01 adoption review: coherence requirement is incumbent for current single-core maskable-IRQ D64 scope; literal six-instruction count is witness cost, not universal architecture law.
@@ -30,7 +31,9 @@
 - Publication snapshot source is now an immutable captured Git commit exported with `git archive <canonical_local_head>`; concurrent local HEAD advancement does not invalidate that captured publication and instead creates a later publication obligation.
 - `os/` is the future install/build tree. `INSTALL_FROM_GIT.md` defines partial clone + sparse checkout so `research/` is not an install dependency.
 - Verified GitHub publication at 2026-08-30T06:35:24Z: canonical `0f1146f5782b729f77cfa8d4292e956f5c5f28a8` -> remote publication `5f1bb224b5e32bbe93df52d313dd0bc3115dbf3f`; 1,594 tracked files; research included; install surface remains `os/`.
-- Overnight isolated regression campaign started at 2026-08-30T06:36:48Z under `.pcmmad_sync_runs/overnight/campaign_20260830T063648Z`, PID 24520, eight-hour deadline; detached worktree at canonical `0f1146f...`; first observed A01/RK01/RB02 iterations returned QEMU exit33 with evaluator/static PASS.
+- Overnight isolated regression campaign PID `24520` (child `24156`) is RUNNING under `.pcmmad_sync_runs/overnight/campaign_20260830T063648Z`; current coverage A01/RK01/RB02/ARB01/RR01/IRQ01/I001; sampled cycles PASS.
+- PR01 overnight sealed-fixture soak PID `29312` is RUNNING from immutable close commit `50e3308...`; iteration1 full PASS; stop-on-first-failure; compact retention.
+- Overnight read-only integrity/provenance sweep PID `27376` is RUNNING; first git fsck/LFS/critical-artifact/remote sweep PASS; 300-second interval.
 - Exact final C002 Python source remains unrecovered; source-dependent historical subsidy details remain UNKNOWN.
 
 ## Active Constraints
@@ -63,7 +66,7 @@
 - P1 process scar: sealed R3.1 Windows path-separator verifier portability issue.
 
 ## Immediate Next Step
-- Complete PR01 launcher/independent closure from the preregistered two-QEMU clean-restart discriminator, review provisional probe files before tracking them, and promote only exact passing evidence. Keep the isolated overnight regression campaign outside canonical science unless reviewed.
+- Leave all three overnight campaigns isolated and running. End this substantive pass with a canonical continuity/timestamp commit and GitHub publication SHA readback. On return, read campaign terminal/status journals first; treat any missing process return as UNKNOWN and review failures before promotion.
 
 ## Last 10 Turn Reinforcement Window
 1. User established GitHub as project-wide timestamp repository and ordered publication after each substantive pass; research included, installation independent.
@@ -78,6 +81,6 @@
 10. Current action adopts the bounded IRQ-coherence rule and moves the next frontier to expanded clean-restart persistence.
 
 ## Delta Since Previous Shadow
-- Hardened GitHub publication from moving-worktree copy to exact captured-commit export via `git archive`.
-- First verified GitHub publication remains canonical `1ac99c8...` -> remote `d10c6e...`; current adopted IRQ01 frontier still requires its own end-of-pass publication.
-- Next science frontier remains expanded D64 clean-restart persistence after publication closes.
+- PR01 closed PASS at canonical `50e3308...` after five visible engineering attempts; controlling run `_05` satisfies exact traces, 27 static checks, durable bytes, and independent audit.
+- Three overnight lanes are now actually RUNNING: full earned-chain regression PID24520, PR01 persistence soak PID29312, integrity/provenance sweep PID27376.
+- First PR01 soak iteration PASS; first integrity sweep PASS.

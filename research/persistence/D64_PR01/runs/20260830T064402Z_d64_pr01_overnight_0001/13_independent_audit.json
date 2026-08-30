@@ -1,0 +1,25 @@
+{
+  "audit_version": "D64-PR01-independent-closure-v1",
+  "checks": {
+    "manifest_hash_matches_receipt": true,
+    "snapshot_sources_match_manifest": true,
+    "receipt_sources_match_manifest": true,
+    "preregistration_lineage_exact": true,
+    "boot1_exit33": true,
+    "boot2_exit33": true,
+    "distinct_qemu_processes": true,
+    "strict_process_order": true,
+    "evaluator_pass": true,
+    "static_pass": true,
+    "durable_boot1_exact": true,
+    "durable_boot2_exact": true,
+    "stage2_fit": true,
+    "runtime_state_measured": true,
+    "capacities_exact": true,
+    "no_host_disk_write_between_boots": true
+  },
+  "passed": true,
+  "check_count": 16,
+  "receipt_sha256": "01e3b75d17eee8f8edf5e3779d5800fb462ded388214e5c401bf5928e75ecd4d",
+  "input_manifest_sha256": "455a7373d7dd98a1afd97d05a6be707acc04d474999e10d4c2d1324b32df3d41"
+}

@@ -1135,3 +1135,21 @@ Hardened `tools/publish_github_snapshot.py` so publication content comes from an
 - Verified publication: canonical local `0f1146f5782b729f77cfa8d4292e956f5c5f28a8` -> GitHub `main` publication `5f1bb224b5e32bbe93df52d313dd0bc3115dbf3f`; remote readback matched. Research included; `os/` remains sparse install surface.
 - Started isolated eight-hour regression campaign PID 24520 under `.pcmmad_sync_runs/overnight/campaign_20260830T063648Z` from detached canonical worktree. Passing runs are compacted; failing runs are retained fully. Initial observed A01/RK01/RB02 iterations passed QEMU/evaluator/static gates.
 - Canonical science frontier remains D64/PR01 clean-restart persistence. Existing untracked PR01 probe files remain provisional and were not silently promoted.
+
+---
+
+## Turn 080 — USER
+Timestamp: 2026-08-30T06:39Z
+Tags: OVERNIGHT, PROCEED, EXECUTION
+
+User instructed the lab to proceed and finish setting up the overnight run/campaign rather than leaving the machine idle.
+
+---
+
+## Turn 081 — ASSISTANT / PR01 CLOSE + OVERNIGHT CAMPAIGNS LIVE
+Timestamp: 2026-08-30T06:45Z
+Tags: BUILD-COMMIT, PR01, PERSISTENCE, OVERNIGHT, INTEGRITY, GITHUB-PENDING
+
+Re-grounded on canonical state and found the existing eight-hour earned-chain regression campaign PID24520 already running and covering A01/RK01/RB02/ARB01/RR01/IRQ01/I001. Completed PR01 harness recovery: attempt1 missing adoption-path scar; attempt2 qualified stage1 boot-drive handoff defect; attempt3 checker argv guard; attempt4 three checker false negatives; attempt5 controlling PASS. PR01 science closed at canonical `50e33085805d3bb5b74eba4df1ca23683c8d0283`: two fresh QEMU processes exit33, exact traces, evaluator PASS, 27/27 static checks true, independent audit PASS, stage2 3057/8192 bytes, runtime state3653 bytes, durable Boot1/Boot2 hashes fixed.
+
+Actually launched the two previously missing overnight lanes. PR01 sealed-fixture soak PID29312 runs from immutable close commit `50e3308...`, stops on first failure, journals every iteration, and retains first/every20th full successful run; iteration1 passed all evaluator/static/audit gates. Read-only integrity/provenance campaign PID27376 runs every300s and checks `git fsck --full --strict`, `git lfs fsck`, critical artifacts/JSON closure, and GitHub remote readback; first sweep passed. Existing PID24520 campaign remains isolated and healthy. Overnight repetitions remain reliability/control evidence only, not new architecture passes.

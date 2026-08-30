@@ -1,0 +1,181 @@
+{
+  "run_id": "20260830T065500Z_d64_pr01_persistence_04",
+  "run_class": "D64_PR01_EXPANDED_RELATION_CLEAN_RESTART",
+  "scientific_status": "COMPLETED",
+  "authority_ceiling": "two clean QEMU boots over one shared disk; explicit D64 relation rebind under fresh activity/resource epochs",
+  "input_manifest_sha256": "0e5b885f1294b6d0f7b5d0a05fad26e464c9530b280f80c1f11aef009ed29c14",
+  "controlling_git_head": "ee3376a3f324c0b3cf523d0548a6d02a19780765",
+  "controlling_preregistration_commit": "0f1146f5782b729f77cfa8d4292e956f5c5f28a8",
+  "boot1": {
+    "pid": 20084,
+    "argv": [
+      "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "-accel",
+      "tcg",
+      "-display",
+      "none",
+      "-monitor",
+      "none",
+      "-serial",
+      "none",
+      "-no-reboot",
+      "-boot",
+      "a",
+      "-drive",
+      "file=E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/persistence/D64_PR01/runs/20260830T065500Z_d64_pr01_persistence_04/disk.img,format=raw,if=floppy",
+      "-device",
+      "isa-debug-exit,iobase=0xf4,iosize=0x04",
+      "-debugcon",
+      "file:E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/persistence/D64_PR01/runs/20260830T065500Z_d64_pr01_persistence_04/boot1.debugcon.txt",
+      "-global",
+      "isa-debugcon.iobase=0xe9"
+    ],
+    "started_utc": "2026-08-30T06:42:38.250771+00:00",
+    "ended_utc": "2026-08-30T06:42:38.458579+00:00",
+    "started_monotonic": 198773.984,
+    "ended_monotonic": 198774.187,
+    "wall_ms": 206.67689997935668,
+    "status": "COMPLETED",
+    "exit_code": 33,
+    "timeout_seconds": 12
+  },
+  "boot2": {
+    "pid": 12196,
+    "argv": [
+      "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "-accel",
+      "tcg",
+      "-display",
+      "none",
+      "-monitor",
+      "none",
+      "-serial",
+      "none",
+      "-no-reboot",
+      "-boot",
+      "a",
+      "-drive",
+      "file=E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/persistence/D64_PR01/runs/20260830T065500Z_d64_pr01_persistence_04/disk.img,format=raw,if=floppy",
+      "-device",
+      "isa-debug-exit,iobase=0xf4,iosize=0x04",
+      "-debugcon",
+      "file:E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/persistence/D64_PR01/runs/20260830T065500Z_d64_pr01_persistence_04/boot2.debugcon.txt",
+      "-global",
+      "isa-debugcon.iobase=0xe9"
+    ],
+    "started_utc": "2026-08-30T06:42:38.474957+00:00",
+    "ended_utc": "2026-08-30T06:42:38.673715+00:00",
+    "started_monotonic": 198774.203,
+    "ended_monotonic": 198774.406,
+    "wall_ms": 197.39580000168644,
+    "status": "COMPLETED",
+    "exit_code": 33,
+    "timeout_seconds": 12
+  },
+  "process_contract": {
+    "distinct_pids": true,
+    "boot2_started_after_boot1_ended": true,
+    "no_host_disk_write_between_boots": true
+  },
+  "source_sha256": {
+    "preregistration": "e3bfdd89f53f66390ac9e82db61c59c317736aad94105e6d0d95fdfc477c98ff",
+    "persistence_plan": "af8bb6ca8d2a30406af44aaf9420cbbe6743f068db974c32c65071028601ecf7",
+    "i001_result": "41c52da7f2787be5bceafcb204e11f61ef18d4261a75f82c27221a6c974d0ef8",
+    "rb02_result": "634edb4185e20388f3c80b13b32b5140b35b7ff0be257aa56dd59fc32094767c",
+    "arb01_result": "4dc29d3ec73edace379fd4200bb5e0e34569429b8f6fb7a9487eba594c629ede",
+    "arb01_adoption": "a602169694643bb8e52c3d64825827403bc12986db325962e56426ca4c0868ac",
+    "rr01_result": "c958531ff4b35bf168e1c650722d48fdb302bc80578ac7373ff45815bdcb449e",
+    "rr01_adoption": "bb704438fd98738a6e2e5b62cae42e2366b1c56a853d7234a2813be5005accc1",
+    "irq01_result": "19e463d9822c97060ac9e70d9bb7ab3196459fe3e7444fea1592d956b96ab197",
+    "irq01_adoption": "8820c3acbc22c578fd423e363394a72f34fdaa2539fc437b7d09ad32c0dceb7f",
+    "loader_qualification_result": "cdd1b3bd083868067b6d8be2346aa413332f3d8888fcaa1e809cc48bc36610f6",
+    "stage1_s": "6cacc1e2fb397cb09321459b7d930718546288fce1a68a619adf76b795c00276",
+    "stage1_ld": "e5da57aefb8ff22b1c858e7372bab49c29d8cd45d83650b53664e44c51a6a3fa",
+    "stage2_s": "9ba8fa6415877da268b15d16249f18ff9feff68b7098f2e4b4f0fbbeb6cdbd64",
+    "stage2_ld": "d060931b1a15a6b1d2213c60af028a2fc62d9cffbb43f6d1f78aaa72fba836d8",
+    "launcher": "c9d71743f0858121278fadbb3de33f6d5c5f43c9610c7fc4f563fe132fd8a0b3",
+    "evaluator": "a2655ff76c6cb5c4c94cdb94d1704ca142b2fc89b24848e14caf15dafd32393e",
+    "static_checker": "6a45902e99468e50eddfe8494060cc3e362fb194d21f3014a7fbfbb7994fd883"
+  },
+  "tools": {
+    "clang": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "sha256": "f2e1b93d9dd27b847773e7de61b00f1b49ae27eb20ba434297cc020f768a1dfb"
+    },
+    "lld": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+      "sha256": "1260f9d6e0522bd476d040203998fa03406607971c13a9aa74f3f66f1e6d1c5d"
+    },
+    "objcopy": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+      "sha256": "4a7559a17dba5f35eb8d209e4765516b548e83b664278c8640f484c3be70e901"
+    },
+    "size": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-size.exe",
+      "sha256": "aea68b227c9d842bbe8b5ee1c373deddc36efc0160f21e27ce74b37416f45119"
+    },
+    "nm": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-nm.exe",
+      "sha256": "682d479f37f1b0aea7f0c5b400dc6ac46b309f040dfe0935b12e902dee3244fc"
+    },
+    "qemu": {
+      "path": "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "sha256": "dbbf7242e5b0d295e54336c69034a266ee1cc117d7ac6e3060e38bb61651200b"
+    },
+    "python": {
+      "path": "C:\\Users\\ancal\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "sha256": "03168c01b7b7491423350e82c26fee71f35b43694d1319d3c668bda6903a0c38"
+    }
+  },
+  "artifacts": {
+    "stage1_bin": {
+      "bytes": 512,
+      "sha256": "feecbbfdea750fc26f401c0e8eeeabcdd70953036bd60e287368e987ac1ed97d",
+      "boot_signature": "55aa"
+    },
+    "stage2_raw": {
+      "bytes": 3057,
+      "sha256": "fc99dbf98f10762dd3e469e35d9e50077863083aa18d3ef88c1fc3ff3fe49885"
+    },
+    "stage2_padded": {
+      "bytes": 8192,
+      "sha256": "2438f9bed1d68b629b638fcdae9e89ebfd287e6ff3fef09afeba6b0f61b2f367"
+    },
+    "disk_initial_sha256": "d1565c47287fec38406c649e44d3eef72c540479ebd22767cf4543b37fa2b238",
+    "disk_after_boot1_sha256": "1d1e79bd905dc42faecb93860c771b46967b66dbba845fc3a7b54e2319a82116",
+    "disk_after_boot2_sha256": "ce3c9325e7aa378e1baa8f7da13e7fc3f9abeda5e108c52e2ec1a60543ed01f0",
+    "boot1_debugcon_sha256": "6ad34b2d1e38182a4f0d3b12d7b191a831f5086752f7ef98ebf4e598d9cd9965",
+    "boot2_debugcon_sha256": "d86e9b77a487980319a1b565762aa07f6eb489e0678b7268d5d44aaded4c669b",
+    "durable_after_boot1_sha256": "81f0ef773233ec321a7d649294bf0a6fc549342f2d013486afcc405689f1e004",
+    "durable_after_boot2_sha256": "d97723fc58f0288736881b2f05b2814d9fd41eb512863cd91d5bfb192134241e",
+    "evaluation": {
+      "sha256": "f69ba3339ce47eb9d2778ada27f2f234f8360caab5daaa5559950963b79f9c86",
+      "exit": 0
+    },
+    "size": {
+      "sha256": "4cdc4c17bc0d85e45f83834208ec1d25406aedd9e9afd7fc8af8718b9763f27f",
+      "exit": 0
+    },
+    "nm": {
+      "sha256": "a90d00f5637ef7e06d781cb413540b5e99d74cb4d60101703ed37b5e8c1dd3e3",
+      "exit": 0
+    },
+    "static_closure": {
+      "sha256": "aabaaaf873b2dd3e60e96a64db18c0e3cecfb0baf909376a5b1fcfea548ab4a3",
+      "exit": 0
+    },
+    "receipt_pre_static_sha256": "913bf314e9eb6fff8f8228464d64355a7708f62c14c95f27503139dec7adb2b4"
+  },
+  "pareto": {
+    "stage2_raw_bytes": 3057,
+    "stage2_extent_bytes": 8192,
+    "runtime_state_bytes": 3653,
+    "activity_capacity": 64,
+    "bindings_per_activity": 20,
+    "binding_cell_count": 1280,
+    "resource_capacity": 64,
+    "resource_live_count_bits": 16,
+    "durable_logical_record_bytes": 20,
+    "durable_sector_bytes": 512
+  }
+}
