@@ -72,4 +72,13 @@ Future relevant campaigns should extend receipts where the measurement is meanin
 
 Modern OS/prior-architecture blind convergence comparison remains deferred.
 
-Do not open that comparison casually. First define a maturity gate after current persistence/writer work and before comparison can feed back into design.
+Do not open that comparison casually. First define a maturity gate after current persistence/writer work and before comparison can feed back into design.## Revisit closure
+
+WT01 has now CLOSED PASS. The process-cadence revisit is closed by `continuity/14_RESEARCH_CADENCE_DOCTRINE_2026-08-30.md`.
+
+Adopted model:
+- broad open-ended domains -> exact 20-pass campaigns;
+- localized seams -> individually preregistered descendant experiments;
+- maximum 5 descendants per tranche before mandatory reconciliation.
+
+The research-only embodiment lag also reached its review trigger. `research/audits/POST_WT01_RESEARCH_OS_EMBODIMENT_CONVERGENCE_REVIEW_2026-08-30.md` decides that a new versioned `d64_reference_v2` body is due; the historical I001 reference remains immutable.

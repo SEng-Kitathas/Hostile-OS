@@ -1,0 +1,24 @@
+{
+  "version": "D64-WT01-static-v1",
+  "passed": true,
+  "checks": {
+    "qualified_boot_drive_7c4b": true,
+    "writer_target_c0_h1_s1": true,
+    "writer_bios_ah03_one_sector": true,
+    "int13_symbol_exact": true,
+    "embedded_record_exact": true,
+    "writer_zero_tail": true,
+    "writer_no_other_int13_write": true,
+    "launcher_derives_symbol": true,
+    "launcher_verifies_cd13": true,
+    "five_calibration_runs": true,
+    "five_repetitions_each": true,
+    "uses_measured_transition": true,
+    "force_kill_only_when_stopped": true,
+    "overlay_only_code_and_label": true,
+    "sealed_fr01_reader_snapshotted": true,
+    "snapshots_prereg_and_feasibility": true
+  },
+  "check_count": 16,
+  "embedded_record_hex": "4834463151720202000102000100010234120100020000006c36434d4954"
+}

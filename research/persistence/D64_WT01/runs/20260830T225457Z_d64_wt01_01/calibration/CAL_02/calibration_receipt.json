@@ -1,0 +1,16 @@
+{
+  "case_id": "CAL_02",
+  "relative_dir": "calibration/CAL_02",
+  "writer": {
+    "pid": 26840,
+    "status": "FORCED_TERMINATED",
+    "exit_code": 1,
+    "termination_requested_utc": "2026-08-30T22:55:05.734491+00:00",
+    "terminal_verified": true
+  },
+  "pre_b_sha256": "076a27c79e5ace2a3d47f9dd2e83e4ff6ea8872b3c2218f66c92b89b55f36560",
+  "prior_states_all_zero": true,
+  "transition_step": 547,
+  "first_change_class": "FULL",
+  "first_change_sha256": "34daecb79d1fdff1b95748032898e999ed8d54e854ec8eb06451ad0343668e28"
+}

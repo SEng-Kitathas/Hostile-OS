@@ -1,0 +1,21 @@
+{
+  "version": "D64-WT01-independent-audit-v1",
+  "passed": true,
+  "checks": {
+    "input_manifest_hashes": true,
+    "writer_stage1_512_55aa": true,
+    "writer_stage2_within_8192": true,
+    "calibration_5_same_t": true,
+    "calibration_full_only": true,
+    "termination_population_20": true,
+    "recovery_population_20": true,
+    "all_process_statuses": true,
+    "no_other_b_state": true,
+    "overlay_preserves_a_b": true,
+    "sealed_fr01_reader_hashes": true,
+    "evaluation_passed": true,
+    "static_passed": true
+  },
+  "check_count": 13,
+  "transition_step": 547
+}

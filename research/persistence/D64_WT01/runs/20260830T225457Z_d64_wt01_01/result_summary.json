@@ -1,0 +1,14 @@
+{
+  "run_id": "20260830T225457Z_d64_wt01_01",
+  "git_head": "93d2c1b6d5d204d224ad8a1f0edb1871a075326a",
+  "transition_step": 547,
+  "evaluator_exit": 0,
+  "static_exit": 0,
+  "audit_exit": 0,
+  "all_pass": true,
+  "writer_stage2_bytes": 197,
+  "campaign_sha256": "6224fe28510313804a3e9332c5e83824579a9dbbab62d272fc3ff30a5f42d406",
+  "evaluation_sha256": "33fb48c728c2664061a84755556fc8cf09a9db0e38a5b6b420d2784934b104d0",
+  "static_sha256": "6086671ae33f1a43061f0612078af56a067ff7a855bb04a8af4371e231c77775",
+  "audit_sha256": "252eefcc3fb84d46496130f152d36779f6ee86d7f2874460716582483a5d5571"
+}

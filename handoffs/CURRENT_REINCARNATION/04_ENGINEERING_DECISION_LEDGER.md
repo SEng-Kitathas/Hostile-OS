@@ -83,3 +83,14 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | Do not alter WT01 method mid-preregistration because of the thesis audit | Preserve experiment question/order and avoid audit-induced HARKing | WT01 only | WT01 closes or is explicitly aborted |
 | 20-pass versus targeted-descendant cadence requires explicit post-WT01 adjudication | Original doctrine and current practice genuinely differ | Process doctrine revisit, not science | Formal method decision is made and recorded |
 | Pareto claims remain bounded to measured dimensions | Current work measures bytes/state/capacity/critical windows better than energy/latency/maintenance/proof burden | Interpretive guard | New measurements expand the justified vector |
+
+## 2026-08-30 WT01 and cadence/embodiment decisions
+
+| Decision | Why it exists | Authority ceiling | Reopen / demote when |
+|---|---|---|---|
+| WT01 adopts whole-old/whole-new persistence only at tested QEMU/directsync stop boundary | 5/5 calibration + 20 controlled writers + 20 sealed-FR01 recoveries matched persisted bytes exactly | QEMU i386 TCG + BIOS floppy + raw directsync only | OTHER media state, different cache/device envelope, physical hardware, or multi-sector protocol changes the result |
+| `T=547` is telemetry, not architecture | It was measured repeatably but belongs to the exact BIOS/QEMU execution path | Current campaign only | Never promote without a new discriminator |
+| Broad research keeps 20-pass HSP campaigns; localized seams may use targeted descendants | Preserves original anti-drift purpose without pass-count theater | Process doctrine | A future process audit shows the two-level cadence is too weak/rigid |
+| Maximum 5 targeted descendants per tranche before reconciliation | Prevents endless descendant chains and forces architecture/Pareto/embodiment review | Governance bound, not science constant | Explicit process decision changes it |
+| Preserve I001 reference body; create versioned D64 v2 body | Historical reproducibility and current reviewer relevance both matter | Research-only embodiment | v2 plan proves too large/contaminating or another integration strategy dominates |
+| Exact uploaded frozen-intent bytes remain an explicit Git-ingress seam | Local action server has not received a byte bridge from upload `/mnt/data` plane | Durability bookkeeping | Close only on exact byte/hash readback inside tracked Git state |

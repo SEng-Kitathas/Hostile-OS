@@ -1,0 +1,15 @@
+000000e9 a DEBUG_PORT
+000000f4 a EXIT_PORT
+00007000 a WRITE_BUF
+00007c4b a QUAL_STAGE1_BOOT_DRIVE_MEM
+00008000 T _start
+00008042 T writer_int13_site
+00008046 T writer_after_int13
+0000805b t write_fail
+0000806a t print_string
+0000807a r record_b
+00008098 r lab_ready
+000080a5 r lab_return
+000080b3 r lab_done
+000080b9 r lab_fail
+000080c5 b boot_drive

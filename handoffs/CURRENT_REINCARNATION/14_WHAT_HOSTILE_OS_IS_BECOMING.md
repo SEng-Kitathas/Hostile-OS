@@ -175,3 +175,13 @@ They are therefore explicitly demoted from any implicit constitutional reading. 
 remains the best working compression of the tested relation family, but every one of those words can still be split, merged, or replaced when future-relevant behavior proves a cheaper grammar.
 
 The audit also makes the embodiment boundary explicit: the runnable I001 research body is a reference body, not the full current shadow architecture, because D64/FR01 science has advanced beyond it.
+
+## WT01 — actual writer termination now reaches the recovery chain
+
+WT01 extends the persistence story one step beyond host-constructed bad media. A real freestanding guest issued the BIOS one-sector durable write; QEMU was stopped and force-terminated at measured instruction boundaries around the first observed backing-sector transition; the unchanged FR01 reader then recovered from the bytes actually left behind.
+
+At the tested QEMU/directsync scope, the media appeared whole-old through the boundary immediately before the transition and whole-complete-new immediately after it. Recovery selected A/value71 for the old state and B/value72 for the new state. No controlling run exposed an intermediate `OTHER` sector.
+
+The important rule is still not “sector writes are atomic.” The earned rule is narrower: **recovery follows validated persisted meaning, and the current emulated one-sector transport exposed only the two whole states at the controlled observation boundary.** Physical power loss and multi-sector ordering remain open.
+
+The project is now due for a new versioned research-only embodiment that integrates the adopted D64-era mechanism family while preserving the historical I001 body unchanged.

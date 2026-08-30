@@ -393,3 +393,33 @@ New continuity guard:
 `continuity/13_ORIGINAL_THESIS_GUARDS_AND_METHOD_REVISIT_2026-08-30.md`.
 
 WT01 preregistration remains unchanged. Its currently untracked probe implementation is provisional/unsealed and has not been smoke-qualified or executed.
+
+## 2026-08-30 WT01 closure and post-WT01 convergence
+
+D64/WT01 controlled guest-write termination boundary is CLOSED PASS. Science close commit: `0553f3254c6a98e41f5f3c3a6ac519a271bf0a66`.
+
+Controlling run:
+`research/persistence/D64_WT01/runs/20260830T225457Z_d64_wt01_01`
+
+Verified closure:
+- 45 controlling QEMU processes total;
+- 5/5 calibration runs measured the same first media-transition guest step `T=547`;
+- every pre-transition inspected B state was exact ZERO;
+- every first changed B state was exact FULL seq2/value72;
+- K0 5/5 and KPRE 5/5 preserved ZERO B and sealed FR01 recovery selected A/value71;
+- KPOST 5/5 and CLEAN 5/5 preserved FULL B and recovery selected B/value72;
+- A remained unchanged in every controlling writer case;
+- no controlling B state classified `OTHER`;
+- every recovery overlay preserved exact A/B hashes;
+- evaluator PASS 12/12; static PASS 16/16; independent audit PASS 13/13;
+- 15/15 controlling run inputs verified from committed Git-object bytes.
+
+WT01 earns only the tested QEMU/BIOS/raw-directsync observation boundary and recovery consequence. It does not earn actual torn-write impossibility, physical power-loss atomicity, physical-device guarantees, non-directsync cache semantics, or multi-sector ordering.
+
+WT01 adoption is recorded at `research/persistence/D64_WT01/D64_WT01_ADOPTION.md`.
+
+The original-thesis method revisit is now closed by `continuity/14_RESEARCH_CADENCE_DOCTRINE_2026-08-30.md`: broad open-ended domains retain exact 20-pass campaigns; already-localized seams may use preregistered targeted descendant experiments; at most 5 descendants may accumulate before mandatory reconciliation.
+
+The post-WT01 embodiment convergence review decides the current I001 research-only body should remain immutable and a new versioned `os/research_only/d64_reference_v2/` is due. The build plan is `research/plans/D64_RESEARCH_OS_V2_EMBODIMENT_PLAN_2026-08-30.md`.
+
+A separate ingress receipt records a remaining cross-plane durability seam for the two newly uploaded frozen intent/history files: filenames, sizes, hashes and derived audit are in Git, but their exact `/mnt/data` source bytes are not yet claimed to be inside the Windows Git worktree. See `research/audits/UPLOADED_FROZEN_INTENT_INGRESS_RECEIPT_2026-08-30.md`.

@@ -1,0 +1,112 @@
+{
+  "format": "D64_WT01_INPUTS_V1",
+  "git_head": "93d2c1b6d5d204d224ad8a1f0edb1871a075326a",
+  "created_utc": "2026-08-30T22:54:57.801963+00:00",
+  "inputs": [
+    {
+      "key": "stage1.S",
+      "source_project_relative": "research/persistence/D64_WT01/probe/stage1.S",
+      "snapshot_path": "inputs/stage1.S",
+      "bytes": 706,
+      "sha256": "24e3976a6c248fb4250e3ef79cb112dd9a97c5ef7d7c12a7245fa4ac66c6859c"
+    },
+    {
+      "key": "stage1.ld",
+      "source_project_relative": "research/persistence/D64_WT01/probe/stage1.ld",
+      "snapshot_path": "inputs/stage1.ld",
+      "bytes": 176,
+      "sha256": "df82423232fc19b14d7a221c4dab4b3764a3651442b2890339d3f4fa91e29cf1"
+    },
+    {
+      "key": "writer.S",
+      "source_project_relative": "research/persistence/D64_WT01/probe/writer.S",
+      "snapshot_path": "inputs/writer.S",
+      "bytes": 1574,
+      "sha256": "5eac3adca4c6087eb87c57ff13d63e5ab18ccdd9f03fc5438938b5b660d315c1"
+    },
+    {
+      "key": "writer.ld",
+      "source_project_relative": "research/persistence/D64_WT01/probe/writer.ld",
+      "snapshot_path": "inputs/writer.ld",
+      "bytes": 203,
+      "sha256": "c99b9c86b01600fd40aeb903d43caaf853b84a29c3857be566d1e431da2708e4"
+    },
+    {
+      "key": "launcher",
+      "source_project_relative": "research/persistence/D64_WT01/probe/launch_wt01.py",
+      "snapshot_path": "inputs/launch_wt01.py",
+      "bytes": 16222,
+      "sha256": "1127feee1b172fff595bdf9d0aa43c8abddd4a836eba45bd06c044af5876299c"
+    },
+    {
+      "key": "evaluator",
+      "source_project_relative": "research/persistence/D64_WT01/probe/evaluate_wt01.py",
+      "snapshot_path": "inputs/evaluate_wt01.py",
+      "bytes": 4693,
+      "sha256": "38e238b12c069b3330052c40eaa2c601ae0861903eeeda079dc42bf8c9c50213"
+    },
+    {
+      "key": "static",
+      "source_project_relative": "research/persistence/D64_WT01/probe/static_check_wt01.py",
+      "snapshot_path": "inputs/static_check_wt01.py",
+      "bytes": 2445,
+      "sha256": "65237640ca568971bf12788e02b5725e7cc534e9729c6711ad93cc365e51d14e"
+    },
+    {
+      "key": "audit",
+      "source_project_relative": "research/persistence/D64_WT01/probe/audit_wt01.py",
+      "snapshot_path": "inputs/audit_wt01.py",
+      "bytes": 2721,
+      "sha256": "4dca27b4ec17a6442345a4fc1de063dc93dec322a3a81a37443d4b8c20d0d395"
+    },
+    {
+      "key": "prereg",
+      "source_project_relative": "research/persistence/D64_WT01/D64_WT01_PREREGISTRATION.md",
+      "snapshot_path": "inputs/D64_WT01_PREREGISTRATION.md",
+      "bytes": 11665,
+      "sha256": "a44ce3687e7b30d5c80a8f31e1b56e0f775196df8b8a34fd098b96a2dd96c74f"
+    },
+    {
+      "key": "plan",
+      "source_project_relative": "research/plans/D64_INTERRUPTED_DURABLE_WRITE_PLAN_2026-08-30.md",
+      "snapshot_path": "inputs/D64_INTERRUPTED_DURABLE_WRITE_PLAN_2026-08-30.md",
+      "bytes": 5279,
+      "sha256": "3d352be59f22e8f3594526ab77934cc6fde3459bff43d42b7d5cedf6b56bd676"
+    },
+    {
+      "key": "feasibility",
+      "source_project_relative": "research/persistence/D64_IW00_FEASIBILITY_2026-08-30/FEASIBILITY_RESULT.md",
+      "snapshot_path": "inputs/FEASIBILITY_RESULT.md",
+      "bytes": 3393,
+      "sha256": "675beb6c01609173d82dd5494d62d16c41049e585875bdc9eda65da98a2b6c4f"
+    },
+    {
+      "key": "fr01_result",
+      "source_project_relative": "research/persistence/D64_FR01/D64_FR01_RESULT_2026-08-30.md",
+      "snapshot_path": "inputs/D64_FR01_RESULT_2026-08-30.md",
+      "bytes": 7907,
+      "sha256": "e2894b4648e6f0027d60cd213eea90ec9fc9a650ecc6b3593857b4091df17eab"
+    },
+    {
+      "key": "fr01_adoption",
+      "source_project_relative": "research/persistence/D64_FR01/D64_FR01_ADOPTION.md",
+      "snapshot_path": "inputs/D64_FR01_ADOPTION.md",
+      "bytes": 1862,
+      "sha256": "41fee30fc89e82e9cd0a486e08a6f52b5ad677406309047f1c03979350ba22c8"
+    },
+    {
+      "key": "fr01_stage1",
+      "source_project_relative": "research/persistence/D64_FR01/runs/20260830T212145Z_d64_fr01_01/stage1.bin",
+      "snapshot_path": "inputs/fr01_stage1.bin",
+      "bytes": 512,
+      "sha256": "feecbbfdea750fc26f401c0e8eeeabcdd70953036bd60e287368e987ac1ed97d"
+    },
+    {
+      "key": "fr01_stage2",
+      "source_project_relative": "research/persistence/D64_FR01/runs/20260830T212145Z_d64_fr01_01/stage2.padded.bin",
+      "snapshot_path": "inputs/fr01_stage2.padded.bin",
+      "bytes": 8192,
+      "sha256": "462390b5306bc58a5bea0123fc3fa5376b70cebc8377701d1fe108d54d1478f3"
+    }
+  ]
+}

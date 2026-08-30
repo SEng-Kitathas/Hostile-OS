@@ -1,0 +1,20 @@
+{
+  "version": "D64-WT01-evaluator-v1",
+  "passed": true,
+  "checks": {
+    "calibration_five_same_transition": true,
+    "calibration_first_change_full": true,
+    "measured_transition_used": true,
+    "termination_boundary_media_classes": true,
+    "all_a_sectors_unchanged": true,
+    "no_controlling_other_b_state": true,
+    "process_statuses_verified": true,
+    "recovery_overlays_preserve_a_b": true,
+    "all_recovery_traces_exact_from_actual_bytes": true,
+    "recovery_selection_and_handles": true,
+    "clean_writer_trace_exact": true,
+    "population_5_calibration_20_writer_20_recovery": true
+  },
+  "transition_step": 547,
+  "check_count": 12
+}
