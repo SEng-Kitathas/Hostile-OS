@@ -2,7 +2,7 @@
 
 ## Thread Identity
 - Thread: HOSTILE-OS PCMMAD reincarnation
-- Last Updated: 2026-08-30T06:05Z
+- Last Updated: 2026-08-30T06:14Z
 - Mode: BUILD-PLAN after RR01 close/adoption
 - Dominant Objective: derive the smallest real-IRQ coherence discriminator for coupled binding/resource publication and detach without widening architecture scope
 
@@ -13,6 +13,7 @@
 - Keep science/provenance exact; do not duplicate concurrent writer work.
 
 ## Current Authoritative State
+- GitHub bootstrap scar: first publication attempt did not push; mirror cleanup hit a Windows lock on ignored `.pcmmad_sync_runs`. Repair preserves mirror runtime scratch during cleanup. Scar: `continuity/07_GITHUB_PUBLICATION_BOOTSTRAP_SCAR_2026-08-30.md`.
 - C001/C002/C003 closed at their bounded scopes; C003 remains hard-stopped 20/20.
 - HOSTILE-OS posture remains `INTEGRATED_SHADOW_CANDIDATE`; final=false; production-ready=false; canonical replacement=false.
 - R3.1 is `ADOPTED_IN_HOUSE_SOP` at `b8912647a5a1fb1fc62cfa8fbe125d3f64b7bc5f`; operational SOP replacement-ready=true; R6 remains parent lineage/fallback; foundation promotion=false.
@@ -37,7 +38,7 @@
 ## Active Constraints
 - Git/runtime evidence outranks chat narrative and stale continuity text.
 - Check HEAD/status before mutation because concurrent writers actively advance the repo.
-- Use small bounded tool calls; prior oversized calls caused transport/thread stalls.
+- Bounded execution doctrine is adopted at `continuity/06_BOUNDED_EXECUTION_DOCTRINE_2026-08-30.md`: one bounded server action at a time, short synchronous waits, persist intent before expensive work, missing/incomplete tool return = `UNKNOWN`, re-inspect before retry, and use submitted server jobs with journal/checkpoint surfaces for long whole-suite work.
 - Run-local controlling-input snapshot/manifest is mandatory before mutating experiment builds.
 - No `git add .`; stage exact paths.
 - Donor counts are workload pressure only; no Process/File/inode/Manager ontology is imported by count.
@@ -51,6 +52,7 @@
 - End-of-substantive-pass discipline now includes GitHub publication + remote HEAD readback. Do not claim publication until the remote SHA matches the publication mirror SHA.
 
 ## Decisions Locked In
+- GitHub publication remains end-of-substantive-pass law; full tracked research is included while `os/` stays independently sparse-checkout/installable.
 - R3.1 is the normal engineering/research SOP; R6 is fallback ancestry.
 - D64 activity release may not clear identity while its binding row is nonempty.
 - D64 activity rekey resets activity+binding namespace only at full relation quiescence and preserves resource namespace history.
@@ -68,7 +70,7 @@
 - P1 process scar: sealed R3.1 Windows path-separator verifier portability issue remains visible.
 
 ## Immediate Next Step
-- Stay in BUILD-PLAN. Derive one D64 asynchronous binding/resource coherence discriminator using real QEMU IRQ0. Required shape: intentionally unprotected bind-publication/detach exposes a mixed-state observer; minimal protected region prevents acceptance of mixed state; measure or instruction-count interrupt-off region; keep persistence/rekey/filesystem/native transport out of scope. Seal preregistration before mechanism code.
+- Commit the GitHub publication cleanup repair + bootstrap scar, then retry publication from the new canonical HEAD. Require remote `main` SHA readback before success. After publication closes, resume the already-preregistered D64 IRQ01 real-IRQ coherence pass from its preserved untracked probe/run state, using bounded/job-style execution.
 
 ## Last 10 Turn Reinforcement Window
 1. User ordered R3.1 SOP adoption and continuation; adoption was verified already durable at `b891264...` after thread/action stalls.
@@ -83,7 +85,6 @@
 10. RR01 resource-rekey rule was adopted at `5126bae...`; leading frontier moved to real-IRQ observation of binding/resource mutation.
 
 ## Delta Since Previous Shadow
-- Operator made GitHub publication a standing project obligation: publish at end of every substantive pass.
-- Added full-project publication model with research included, LFS transport for oversized payloads, and canonical-local-HEAD binding.
-- Added `os/` install surface plus sparse/partial code-only checkout rule so research is not required for installation.
-- First GitHub publication remains the immediate mutation before continuing the next science pass.
+- First GitHub publication attempt failed before push on a Windows lock inside mirror `.pcmmad_sync_runs`; no remote success claimed.
+- Patched publication cleanup to preserve ignored mirror runtime scratch.
+- Added explicit publication bootstrap scar; next action is commit repair, retry, and verify remote SHA before resuming IRQ01.

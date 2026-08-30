@@ -37,8 +37,12 @@ def utc_now() -> str:
 
 
 def clear_worktree(root: Path) -> None:
+    # The PCMMAD execution surface may create ignored runtime logs inside the
+    # mirror while publication is running. They are control-plane scratch, not
+    # project content, and on Windows may be locked by the active process.
+    preserve = {".git", ".pcmmad_sync_runs"}
     for child in root.iterdir():
-        if child.name == ".git":
+        if child.name in preserve:
             continue
         if child.is_dir() and not child.is_symlink():
             shutil.rmtree(child)

@@ -1068,3 +1068,19 @@ Tags: CONTINUITY, ARCHITECTURE-FRONTIER, IRQ-COHERENCE
 Reconciled concurrent architecture/continuity edits without overwriting their valid GitHub/provenance additions. Updated architecture posture, current-state/frontier, and Live Shadow to include ARB01 and RR01 as closed/adopted bounded rules.
 
 The leading P0 seam is now asynchronous observation of coupled binding/resource publication and detach. RB02/ARB01/RR01 executed these transitions with maskable interrupts disabled. Earlier C003/P14 established generic multi-field coherence pressure under IRQ observation, but the full D64 relation has not yet been observed by a real IRQ0 handler. The next lawful BUILD-PLAN is a real-IRQ discriminator comparing an intentionally unprotected transition with the smallest interrupt-masked region that prevents mixed-state acceptance and reports its interrupt-off cost.
+
+---
+
+## Turn 074 — USER
+Timestamp: 2026-08-30T06:10Z
+Tags: EXECUTION-DOCTRINE, RECOVERY, GITHUB, CONTINUE
+
+User relayed a finding from another PCMMAD thread: dropped tool turns and incomplete return surfaces repeated during recovery itself. User instructed this thread to proceed under a stricter execution doctrine: one bounded action at a time, short timeouts, no chained tool bursts, persist intent/state before expensive work, treat missing returns as UNKNOWN, and move whole-suite work to server jobs with journal/checkpoint surfaces and separate readback. This instruction applies while continuing the earlier GitHub publication and HOSTILE-OS work.
+
+---
+
+## Turn 075 — ASSISTANT / EXECUTION-DOCTRINE ADOPTION
+Timestamp: 2026-08-30T06:12Z
+Tags: BUILD-COMMIT, CONTINUITY, EXECUTION, NO-SCIENCE-PROMOTION
+
+Adopted the bounded-execution rule as `continuity/06_BOUNDED_EXECUTION_DOCTRINE_2026-08-30.md`. The doctrine changes control/execution behavior only, not HOSTILE-OS architecture or prior science. Standing rules now include bounded actions, short synchronous waits, persisted intent before expensive work, UNKNOWN on missing/incomplete returns, re-inspection before retry, and submitted server jobs plus separate status/output readback for long whole-suite work. GitHub publication remains required at the end of each substantive pass with full tracked research included and `os/` kept install-independent. In-progress IRQ01 untracked probe/run artifacts remain outside the publication/bootstrap commit until their pass is closed.
