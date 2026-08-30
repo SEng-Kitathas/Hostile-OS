@@ -1,0 +1,101 @@
+{
+  "cases": [
+    {
+      "case": "promote_C09_class",
+      "message": "FAIL: engineering source class drift: C09",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "invert_C16_human_body",
+      "message": "FAIL: human engineering section drift: C16",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "relocate_expected_C16_text_outside_live_section",
+      "message": "FAIL: human engineering section drift: C16",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "mutate_C16_registry_body",
+      "message": "FAIL: engineering source body drift: C16",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "move_G10_into_engineering",
+      "message": "FAIL: candidate semantic binding drift: machine/INTERNAL_GOVERNANCE_REGISTRY.json",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "grant_G10_product_authority",
+      "message": "FAIL: candidate semantic binding drift: machine/INTERNAL_GOVERNANCE_REGISTRY.json",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "activate_project_by_default",
+      "message": "FAIL: candidate semantic binding drift: machine/PROJECT_OBLIGATION_SCHEMA.json",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "instantiate_unearned_substrate_profile",
+      "message": "FAIL: candidate semantic binding drift: machine/SUBSTRATE_PROFILE.json",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "drop_legacy_topic",
+      "message": "FAIL: candidate semantic binding drift: machine/COLD_START_COVERAGE.json",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "fake_replacement_ready",
+      "message": "FAIL: candidate semantic binding drift: machine/AUTHORITY_CONTRACT.json",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "drop_active_scar",
+      "message": "FAIL: active scar set drift",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "drop_execution_obligation",
+      "message": "FAIL: candidate semantic binding drift: machine/EXECUTION_RELEASE_OBLIGATIONS.json",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "change_pinned_parent_source",
+      "message": "FAIL: pinned ancestry drift: ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "add_unmanifested_authority_file",
+      "message": "FAIL: package membership drift missing=[] extra=['UNDECLARED_AUTHORITY.md']",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "remove_human_C01_class",
+      "message": "FAIL: human engineering section drift: C01",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "change_authority_effect",
+      "message": "FAIL: engineering authority effect drift: C01",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "resume_method_stack_automatically",
+      "message": "FAIL: candidate semantic binding drift: machine/MACHINERY_AND_MODES.json",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "grant_role_authority",
+      "message": "FAIL: candidate semantic binding drift: machine/MACHINERY_AND_MODES.json",
+      "result": "REJECTED_AS_EXPECTED"
+    },
+    {
+      "case": "drop_named_machinery_status",
+      "message": "FAIL: candidate semantic binding drift: machine/MACHINERY_AND_MODES.json",
+      "result": "REJECTED_AS_EXPECTED"
+    }
+  ],
+  "rejected": 19,
+  "total": 19
+}

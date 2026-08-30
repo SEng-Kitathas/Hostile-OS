@@ -1,0 +1,10 @@
+{
+  "image_bytes": 1474560,
+  "sector_bytes": 512,
+  "durable_sector_index_zero_based": 1,
+  "initial_fill_byte": 0,
+  "record_prefix_hex": "484f5334525a",
+  "record_magic_ascii": "HOS4",
+  "resource_identity_ascii": "R",
+  "payload_hex": "5a"
+}

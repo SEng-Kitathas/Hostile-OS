@@ -1,0 +1,37 @@
+{
+  "evaluator_version": "C003-P10-explicit-continuation-v1",
+  "expected_lines": [
+    "BOUND_ID=A",
+    "BOUND_CONT=2",
+    "BOUND_WAKE=1",
+    "BOUND_PRE=0",
+    "BOUND_POST=2",
+    "BAD_ID=A",
+    "BAD_WAKE=1",
+    "BAD_POST=1",
+    "DONE"
+  ],
+  "observed_lines": [
+    "BOUND_ID=A",
+    "BOUND_CONT=2",
+    "BOUND_WAKE=1",
+    "BOUND_PRE=0",
+    "BOUND_POST=2",
+    "BAD_ID=A",
+    "BAD_WAKE=1",
+    "BAD_POST=1",
+    "DONE"
+  ],
+  "checks": {
+    "exact_lines": true,
+    "same_identity": true,
+    "bound_continuation_created": true,
+    "wake_does_not_apply": true,
+    "bound_resume_step2": true,
+    "identity_only_fixed_step1": true
+  },
+  "debugcon_sha256": "98b0384dd3c2a1a4d4dcd70a0d317cd5bbc09b929e3920d61711abac1db466af",
+  "passed": true,
+  "interpretation": "explicit continuation binding selected logical resume step 2 while identity-only fixed resume selected step 1",
+  "authority_ceiling": "bounded explicit activity continuation identity only; no arbitrary stack/register context, coroutine, scheduler, or architecture claim"
+}

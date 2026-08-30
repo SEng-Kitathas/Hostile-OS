@@ -1,0 +1,39 @@
+HOSTILE-OS PCMMAD environment inventory
+observed_utc=2026-08-29T19:40:42.0941695Z
+cwd=E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS
+os=Microsoft Windows 11 Home
+os_version=10.0.26200
+os_arch=64-bit
+memory_total_bytes=33511960576
+cpu_name=AMD Ryzen 9 7940HX with Radeon Graphics
+cpu_arch_wmi=9
+cpu_logical=32
+cpu_cores=16
+git_path=C:\Users\ancal\AppData\Local\Programs\Git\cmd\git.exe
+git_version=2.55.0.windows.3
+python_path=C:\Users\ancal\AppData\Local\Microsoft\WindowsApps\python.exe
+python_version=3.14.6
+py_path=C:\Users\ancal\AppData\Local\Microsoft\WindowsApps\py.exe
+py_version=3.14.6
+cmake_path=C:\Users\ancal\AppData\Local\Programs\CMake\bin\cmake.exe
+cmake_version=4.4.2
+gcc_path=NOT_FOUND_ON_PATH
+clang_path=NOT_FOUND_ON_PATH
+ld_path=NOT_FOUND_ON_PATH
+as_path=NOT_FOUND_ON_PATH
+nasm_path=NOT_FOUND_ON_PATH
+qemu-system-i386_path=NOT_FOUND_ON_PATH
+qemu-system-x86_64_path=NOT_FOUND_ON_PATH
+make_path=NOT_FOUND_ON_PATH
+ia16_bcc_targeted_search=NO_HITS under C:\Users\ancal\Downloads, C:\Users\ancal\Desktop, E:\new pc\AI_Pushes_Sandbox
+filesystem_root=E:\
+filesystem_case_probe=continuity path resolves under both lower/upper case spellings on this Windows filesystem
+pcmmad_project_root=E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD
+pcmmad_receiver_observed_path=C:\Users\ancal\Desktop\PCMMAD_RECEIVER_V29_NATIVE_PROTOCOL_RC1
+pcmmad_bridge_version=PROVISIONAL_FROM_PATH_NAME_ONLY_V29_NATIVE_PROTOCOL_RC1
+
+Interpretation boundary:
+- NOT_FOUND_ON_PATH means only that the command was not resolved through the current PATH.
+- The targeted IA16/BCC search found no matching filenames in the named roots; this is not proof of absence elsewhere.
+- QEMU/compiler infrastructure is therefore NOT QUALIFIED for C003 execution yet.
+- Historical successful toolchain/QEMU runs remain historical evidence only.

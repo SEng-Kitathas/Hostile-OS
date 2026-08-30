@@ -1,0 +1,15 @@
+{
+  "format": "HOSTILE_OS_GITHUB_PUBLICATION_SNAPSHOT_V1",
+  "canonical_local_head": "45dd13ac4ada90a545aade83a13deff5bb4c8a3f",
+  "canonical_branch": "main",
+  "publication_utc": "2026-08-30T06:06:08.777528+00:00",
+  "remote": "https://github.com/SEng-Kitathas/Hostile-OS.git",
+  "published_tracked_file_count": 1530,
+  "published_tracked_bytes_before_lfs": 185401088,
+  "lfs_paths": [
+    "payload_history/lab_tooling/HOSTILE_OS_BACKDOOR_004_IA16_TOOLCHAIN.zip"
+  ],
+  "research_included": true,
+  "install_surface": "os/",
+  "research_required_for_install": false
+}

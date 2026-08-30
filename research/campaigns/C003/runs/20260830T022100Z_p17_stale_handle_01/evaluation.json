@@ -1,0 +1,35 @@
+{
+  "evaluator_version": "C003-P17-stale-handle-v1",
+  "expected_lines": [
+    "OLD_GEN=1",
+    "NEW_GEN=2",
+    "FRESH_STATUS=W",
+    "FRESH_READ=Y",
+    "STALE_STATUS=R",
+    "STALE_READ=0",
+    "BAD_STATUS=W",
+    "BAD_READ=Y",
+    "DONE"
+  ],
+  "observed_lines": [
+    "OLD_GEN=1",
+    "NEW_GEN=2",
+    "FRESH_STATUS=W",
+    "FRESH_READ=Y",
+    "STALE_STATUS=R",
+    "STALE_READ=0",
+    "BAD_STATUS=W",
+    "BAD_READ=Y",
+    "DONE"
+  ],
+  "checks": {
+    "exact_lines": true,
+    "gens": true,
+    "fresh": true,
+    "stale_reject": true,
+    "bad_retarget": true
+  },
+  "debugcon_sha256": "0c5bc7ca8467d32f851f9d20889155988d46933b2a901bf817fdc94c72c25ab0",
+  "passed": true,
+  "authority_ceiling": "one reused slot generation-check discriminator only; no general pointer/capability safety claim"
+}

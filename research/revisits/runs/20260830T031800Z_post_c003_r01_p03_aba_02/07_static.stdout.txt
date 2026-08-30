@@ -1,0 +1,18 @@
+{
+  "checker_version": "POST-C003-R01-static-v1",
+  "mechanism_sha256": "6810a0e5fe7b427b8b8a1337810b2df6c5e056663f9f207551875c72ca0be7b8",
+  "checks": {
+    "one_state_owner": true,
+    "one_state_history": true,
+    "one_state_active": true,
+    "one_state_version": true,
+    "same_mutation_routine_twice": true,
+    "mutation_order_exact": true,
+    "flag_path_no_version_compare": true,
+    "version_compares_saved_pre_post": true,
+    "stable_compare_and_accept": true,
+    "fixture_results_not_embedded": true,
+    "single_record_no_second_record": true
+  },
+  "passed": true
+}

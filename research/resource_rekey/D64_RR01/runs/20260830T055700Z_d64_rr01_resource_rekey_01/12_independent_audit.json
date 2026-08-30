@@ -1,0 +1,20 @@
+{
+  "audit_version": "D64-RR01-independent-closure-v1",
+  "checks": {
+    "manifest_hash_matches_receipt": true,
+    "snapshots_match_manifest": true,
+    "receipt_sources_match_manifest": true,
+    "prereg_lineage_exact": true,
+    "qemu_exit33": true,
+    "evaluator_pass": true,
+    "static_pass": true,
+    "all_static_checks_bool_true": true,
+    "stage2_fit": true,
+    "runtime_state": true,
+    "capacity_measurements": true,
+    "scan_measurements": true,
+    "namespace_observations": true
+  },
+  "passed": true,
+  "static_check_count": 17
+}

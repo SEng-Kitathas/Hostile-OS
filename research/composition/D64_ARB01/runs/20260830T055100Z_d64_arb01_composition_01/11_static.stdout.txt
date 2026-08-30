@@ -1,0 +1,41 @@
+{
+  "checker_version": "D64-ARB01-static-v1",
+  "checks": {
+    "named_capacities_and_livecount": true,
+    "shared_arrays_good_bad": true,
+    "checked_release_validates_and_scans_row_before_clear": true,
+    "checked_release_reject_no_mutation": true,
+    "unsafe_release_identity_only": true,
+    "rekey_scans_all_activities_before_mutation": true,
+    "rekey_scans_all_bindings_before_mutation": true,
+    "rekey_scans_resource_livecount_words_before_mutation": true,
+    "rekey_checks_resource_identity_before_mutation": true,
+    "rekey_other_guards_before_mutation": true,
+    "rekey_reject_no_namespace_mutation": true,
+    "rekey_resets_eleven_activity_arrays": true,
+    "rekey_resets_full_binding_namespace": true,
+    "rekey_changes_activity_epoch_nonzero": true,
+    "rekey_preserves_resource_generation_epoch": true,
+    "binding_generation_reset_after_guards": true,
+    "ordinary_rb02_paths_reused": false,
+    "inheritance_uses_good_binding_read_new_handle": true,
+    "tail_seed_after_detach_before_rekey": true,
+    "snapshot_receipt_and_host_boundary": true,
+    "all_checks_literal_boolean": true
+  },
+  "passed": false,
+  "stage2_sha256": "8b9479e08372d89f0adbc9dc4024d8f147ecf28b5e33aa365ad9c4208dba807a",
+  "input_manifest_sha256": "d05a1e70f26c9c1c21cd91c33e863a37b365779baef0af615a80e5cde33ca332",
+  "measurements": {
+    "activity_capacity": 64,
+    "bindings_per_activity": 20,
+    "binding_cell_count": 1280,
+    "resource_capacity": 64,
+    "activity_identity_scan_bound": 64,
+    "checked_release_row_scan_bound": 20,
+    "rekey_binding_scan_bound": 1280,
+    "rekey_resource_scan_bound": 64,
+    "activity_reset_bound": 64,
+    "binding_reset_bound": 1280
+  }
+}

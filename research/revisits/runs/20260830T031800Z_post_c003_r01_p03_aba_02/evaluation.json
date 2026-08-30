@@ -1,0 +1,43 @@
+{
+  "evaluator_version": "POST-C003-R01-P03-ABA-v1",
+  "debugcon_sha256": "552862e9a7893f015ea71010cbba25c4ad9d8b97decdf81327642e1c92260e2f",
+  "expected_lines": [
+    "FLAG_PRE=0",
+    "FLAG_OWNER=A",
+    "FLAG_HISTORY=B",
+    "FLAG_POST=0",
+    "FLAG_ACCEPT=S",
+    "VER_PRE=1",
+    "VER_OWNER=A",
+    "VER_HISTORY=B",
+    "VER_POST=2",
+    "VER_ACCEPT=R",
+    "STABLE_VER_PRE=2",
+    "STABLE_OWNER=B",
+    "STABLE_HISTORY=B",
+    "STABLE_VER_POST=2",
+    "STABLE_ACCEPT=C",
+    "DONE"
+  ],
+  "observed_lines": [
+    "FLAG_PRE=0",
+    "FLAG_OWNER=A",
+    "FLAG_HISTORY=B",
+    "FLAG_POST=0",
+    "FLAG_ACCEPT=S",
+    "VER_PRE=1",
+    "VER_OWNER=A",
+    "VER_HISTORY=B",
+    "VER_POST=2",
+    "VER_ACCEPT=R",
+    "STABLE_VER_PRE=2",
+    "STABLE_OWNER=B",
+    "STABLE_HISTORY=B",
+    "STABLE_VER_POST=2",
+    "STABLE_ACCEPT=C",
+    "DONE"
+  ],
+  "passed": true,
+  "interpretation": "clear/clear active flag accepted an ABA-shaped mixed snapshot; changed version rejected it; unchanged post-mutation version accepted stable B/B",
+  "authority_ceiling": "one fixed record, one completed mutation, bounded single-core freestanding discriminator only; no general ABA, seqlock, linearizability, SMP, or architecture claim"
+}

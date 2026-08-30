@@ -1,0 +1,123 @@
+{
+  "run_id": "20260830T052900Z_d64_stage2_8k_loader_02",
+  "run_class": "D64_STAGE2_8K_LOADER_QUALIFICATION",
+  "scientific_status": "COMPLETED",
+  "authority_ceiling": "fixed 16-sector/8192-byte first-track stage2 loader qualification only",
+  "input_manifest_sha256": "54524105a9aab6d6bda31249c9f234a93120fb38b4a50070426c430d8114155f",
+  "controlling_git_head": "b8912647a5a1fb1fc62cfa8fbe125d3f64b7bc5f",
+  "controlling_preregistration_commit": "ca21370643b8526ce2d66b4de1f2aec2c78a008d",
+  "qemu": {
+    "pid": 17504,
+    "argv": [
+      "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "-accel",
+      "tcg",
+      "-display",
+      "none",
+      "-monitor",
+      "none",
+      "-serial",
+      "none",
+      "-no-reboot",
+      "-boot",
+      "a",
+      "-drive",
+      "file=E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/runs/20260830T052900Z_d64_stage2_8k_loader_02/disk.img,format=raw,if=floppy",
+      "-device",
+      "isa-debug-exit,iobase=0xf4,iosize=0x04",
+      "-debugcon",
+      "file:E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/runs/20260830T052900Z_d64_stage2_8k_loader_02/debugcon.txt",
+      "-global",
+      "isa-debugcon.iobase=0xe9"
+    ],
+    "started_utc": "2026-08-30T05:26:53.782249+00:00",
+    "ended_utc": "2026-08-30T05:26:54.068389+00:00",
+    "wall_ms": 286.12299999804236,
+    "status": "COMPLETED",
+    "exit_code": 33,
+    "timeout_seconds": 8
+  },
+  "source_sha256": {
+    "qualification_spec": "467383ba72152e744b7310781bb93214d9a5382cf282eef7b7f9e8accab4a40d",
+    "resource_plan": "2775f5c4c9e4191f3c002fa44d7fdca24fb34a456733c336734906da7b76c02b",
+    "stage1_s": "6cacc1e2fb397cb09321459b7d930718546288fce1a68a619adf76b795c00276",
+    "stage1_ld": "e5da57aefb8ff22b1c858e7372bab49c29d8cd45d83650b53664e44c51a6a3fa",
+    "stage2_s": "fdef8cb5f69d1ef699ae369a31083d42a948d976367ccb83ce8946e8e2c2dfd1",
+    "stage2_ld": "04a4141c295bf71c4086d147acd55b57ef745ba77e4e318275140f6c2bc1f64d",
+    "launcher": "457229dcf43248836e822d8eada88c0d75ca01fa2fb9b19d0c53f32c7963450e",
+    "evaluator": "ba6d962a7290780113d5fe9e1c0881b6dd37528d128bb4e6f54b03a19a1d4f4b",
+    "static_checker": "aac6757ba1ea8e66f89210fe1a3b165945625b9074a0fa768daf22c4fbfb8df4"
+  },
+  "tools": {
+    "clang": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "sha256": "f2e1b93d9dd27b847773e7de61b00f1b49ae27eb20ba434297cc020f768a1dfb"
+    },
+    "lld": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+      "sha256": "1260f9d6e0522bd476d040203998fa03406607971c13a9aa74f3f66f1e6d1c5d"
+    },
+    "objcopy": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+      "sha256": "4a7559a17dba5f35eb8d209e4765516b548e83b664278c8640f484c3be70e901"
+    },
+    "size": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-size.exe",
+      "sha256": "aea68b227c9d842bbe8b5ee1c373deddc36efc0160f21e27ce74b37416f45119"
+    },
+    "qemu": {
+      "path": "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "sha256": "dbbf7242e5b0d295e54336c69034a266ee1cc117d7ac6e3060e38bb61651200b"
+    },
+    "python": {
+      "path": "C:\\Users\\ancal\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "sha256": "03168c01b7b7491423350e82c26fee71f35b43694d1319d3c668bda6903a0c38"
+    }
+  },
+  "artifacts": {
+    "stage1_bin": {
+      "bytes": 512,
+      "sha256": "feecbbfdea750fc26f401c0e8eeeabcdd70953036bd60e287368e987ac1ed97d",
+      "boot_signature": "55aa"
+    },
+    "stage2_raw": {
+      "bytes": 8177,
+      "sha256": "7ff9ebe7ac73ea4f88e259690d6a630d9d8333bc6a8089a86e08aee364975680",
+      "tail_offset": 8176,
+      "tail_value": 165
+    },
+    "stage2_padded": {
+      "bytes": 8192,
+      "sha256": "492ef24b371cc0a98a0c52fad76b5f2d4260b6878ee20b91c580605005f8b632"
+    },
+    "disk": {
+      "bytes": 1474560,
+      "sha256": "5641f085bb29bc2d92bf54a4f2425f8235651a68f607879744f630258eb8dd5e",
+      "sector18_zero": true
+    },
+    "debugcon": {
+      "sha256": "9d31529e2364385c629bcdb6ce8938aea1cce9ed5eeaf0d8350d5ab007fc67d4"
+    },
+    "evaluation": {
+      "sha256": "eb9a416f77c5762a1b271f2e423b7fd131ee16a6460078eb85062aa8f0154101",
+      "exit": 0
+    },
+    "size": {
+      "sha256": "1bb17053c3173648985dd1bddff7f924c3b2a43f338048191adafe28eb9d460e",
+      "exit": 0
+    },
+    "static_closure": {
+      "sha256": "21bc5c81d96903253dfe07d0facae1215d8447aebefe0676599ed5bc80e2e0a3",
+      "exit": 0
+    },
+    "receipt_pre_static": {
+      "sha256": "41d94e0d373be08ba74591e2d2975dad2a7e316abddd7a8a82cf7616ea7f9814"
+    }
+  },
+  "measurements": {
+    "stage2_extent_bytes": 8192,
+    "stage2_sector_count": 16,
+    "stage2_load_start": "0x8000",
+    "stage2_load_end_inclusive": "0x9fff"
+  }
+}

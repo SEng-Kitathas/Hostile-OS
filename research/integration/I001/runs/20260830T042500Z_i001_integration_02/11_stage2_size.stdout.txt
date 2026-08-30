@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   2478	      0	      0	   2478	    9ae	E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\integration\I001\runs\20260830T042500Z_i001_integration_02\stage2.elf

@@ -1,0 +1,31 @@
+{
+  "cases": [
+    {
+      "case": "invert_K06_human_body",
+      "finding": "Human rule body was not bound.",
+      "r2_verifier_result": "PASS"
+    },
+    {
+      "case": "promote_K18_human_body",
+      "finding": "Research-class semantics could become mandatory in prose without detection.",
+      "r2_verifier_result": "PASS"
+    },
+    {
+      "case": "mutate_registry_statement",
+      "finding": "Registry statement body was not bound.",
+      "r2_verifier_result": "PASS"
+    },
+    {
+      "case": "delete_all_relation_groups",
+      "finding": "Declared relation/duplication map had no required membership.",
+      "r2_verifier_result": "PASS"
+    }
+  ],
+  "r2_sha256": "8229439e3b5a6feba4b4d9cd5dccbd5ed049e29c24875b1aa9b69b37c7acf063",
+  "scars": [
+    "REGISTRY_HEADING_BOUND != RULE_SEMANTICS_BOUND",
+    "SCAR_RECORDED != SCAR_EMBODIED",
+    "DECLARED_REJECTION_CRITERION != IMPLEMENTED_REJECTION_CHECK"
+  ],
+  "status": "R2_REJECTED_AS_REPLACEMENT"
+}

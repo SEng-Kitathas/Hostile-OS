@@ -1,0 +1,39 @@
+{
+  "evaluator_version": "C003-P11-explicit-bounds-v1",
+  "expected_lines": [
+    "VALID_INDEX=1",
+    "INVALID_INDEX=2",
+    "GOOD_VALID=W",
+    "GOOD_SLOT1=X",
+    "GOOD_INVALID=R",
+    "GOOD_SENT=S",
+    "BAD_INVALID=W",
+    "BAD_SENT=X",
+    "DONE"
+  ],
+  "observed_lines": [
+    "VALID_INDEX=1",
+    "INVALID_INDEX=2",
+    "GOOD_VALID=W",
+    "GOOD_SLOT1=X",
+    "GOOD_INVALID=R",
+    "GOOD_SENT=S",
+    "BAD_INVALID=W",
+    "BAD_SENT=X",
+    "DONE"
+  ],
+  "checks": {
+    "exact_lines": true,
+    "valid_index_1": true,
+    "invalid_index_2": true,
+    "checked_valid_writes": true,
+    "checked_invalid_rejects": true,
+    "checked_preserves_sentinel": true,
+    "unchecked_invalid_writes": true,
+    "unchecked_corrupts_adjacent": true
+  },
+  "debugcon_sha256": "cff0f806025f82a1bfef6bb674171841d522870f2375f90d109a6634d401eeca",
+  "passed": true,
+  "interpretation": "explicit index bound accepted valid relation write and rejected invalid write while unchecked index 2 overwrote the adjacent sentinel",
+  "authority_ceiling": "fixed two-slot plus adjacent-sentinel bounds distinction only; no general memory-safety, allocator, protection, or architecture claim"
+}

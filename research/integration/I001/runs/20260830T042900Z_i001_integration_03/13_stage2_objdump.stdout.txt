@@ -1,0 +1,1513 @@
+
+E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\integration\I001\runs\20260830T042900Z_i001_integration_03\stage2.elf:	file format elf32-i386
+
+Disassembly of section .payload:
+
+00008000 <_start>:
+    8000: fa                           	cli
+    8001: 31 c0                        	xorl	%eax, %eax
+    8003: 8e d8                        	movl	%eax, %ds
+    8005: 8e c0                        	movl	%eax, %es
+    8007: 8e d0                        	movl	%eax, %ss
+    8009: bc 00 7b e8 2f               	movl	$0x2fe87b00, %esp       # imm = 0x2FE87B00
+    800e: 06                           	pushl	%es
+    800f: 0f 82 50 07 e8 60            	jb	0x60e88765 <lab_state_fail+0x60e7fdc3>
+    8015: 06                           	pushl	%es
+    8016: 3c 01                        	cmpb	$0x1, %al
+    8018: 0f 84 36 02 eb 00            	je	0xeb8254 <lab_state_fail+0xeaf8b2>
+
+0000801e <boot1>:
+    801e: e8 b6 02 c6 06               	calll	0x6c682d9 <lab_state_fail+0x6c5f937>
+    8023: 98                           	cwtl
+    8024: 87 01                        	xchgl	%eax, (%ecx)
+    8026: e8 76 05 e8 aa               	calll	0xaae885a1 <lab_state_fail+0xffffffffaae7fbff>
+    802b: 05 e8 b4 05 fb               	addl	$0xfb05b4e8, %eax       # imm = 0xFB05B4E8
+    8030: be b1 87 b0 31               	movl	$0x31b087b1, %esi       # imm = 0x31B087B1
+    8035: e8 ff 06 bb 00               	calll	0xbb8739 <lab_state_fail+0xbafd97>
+    803a: 00 b0 50 8a 26 98            	addb	%dh, -0x67d975b0(%eax)
+    8040: 87 e8                        	xchgl	%eax, %ebp
+    8042: a2 02 be b7 87               	movb	%al, 0x87b7be02
+    8047: e8 ed 06 a0 7c               	calll	0x7ca08739 <lab_state_fail+0x7c9ffd97>
+    804c: 87 04 30                     	xchgl	%eax, (%eax,%esi)
+    804f: be be 87 e8 e2               	movl	$0xe2e887be, %esi       # imm = 0xE2E887BE
+    8054: 06                           	pushl	%es
+    8055: bb 01 00 b0 43               	movl	$0x43b00001, %ebx       # imm = 0x43B00001
+    805a: 8a 26                        	movb	(%esi), %ah
+    805c: 98                           	cwtl
+    805d: 87 e8                        	xchgl	%eax, %ebp
+    805f: 85 02                        	testl	%eax, (%edx)
+    8061: be c5 87 e8 d0               	movl	$0xd0e887c5, %esi       # imm = 0xD0E887C5
+    8066: 06                           	pushl	%es
+    8067: a0 7d 87 04 30               	movb	0x3004877d, %al
+    806c: be cc 87 e8 c5               	movl	$0xc5e887cc, %esi       # imm = 0xC5E887CC
+    8071: 06                           	pushl	%es
+    8072: c6 06 87                     	movb	$-0x79, (%esi)
+    8075: 87 00                        	xchgl	%eax, (%eax)
+    8077: a0 7c 87 a2 89               	movb	0x89a2877c, %al
+    807c: 87 c6                        	xchgl	%esi, %eax
+    807e: 06                           	pushl	%es
+    807f: 90                           	nop
+    8080: 87 52 c6                     	xchgl	%edx, -0x3a(%edx)
+    8083: 06                           	pushl	%es
+    8084: 91                           	xchgl	%ecx, %eax
+    8085: 87 5a c6                     	xchgl	%ebx, -0x3a(%edx)
+    8088: 06                           	pushl	%es
+    8089: 92                           	xchgl	%edx, %eax
+    808a: 87 02                        	xchgl	%eax, (%edx)
+    808c: bb 01 00 b0 42               	movl	$0x42b00001, %ebx       # imm = 0x42B00001
+    8091: 8a 26                        	movb	(%esi), %ah
+    8093: 98                           	cwtl
+    8094: 87 e8                        	xchgl	%eax, %ebp
+    8096: 4e                           	decl	%esi
+    8097: 02 be d3 87 e8 99            	addb	-0x6617782d(%esi), %bh
+    809d: 06                           	pushl	%es
+    809e: a0 7b 87 be db               	movb	0xdbbe877b, %al
+    80a3: 87 e8                        	xchgl	%eax, %ebp
+    80a5: 90                           	nop
+    80a6: 06                           	pushl	%es
+    80a7: e8 d2 02 a0 80               	calll	0x80a0837e <lab_state_fail+0xffffffff809ff9dc>
+    80ac: 87 04 30                     	xchgl	%eax, (%eax,%esi)
+    80af: be e7 87 e8 82               	movl	$0x82e887e7, %esi       # imm = 0x82E887E7
+    80b4: 06                           	pushl	%es
+    80b5: b0 55                        	movb	$0x55, %al
+    80b7: e8 df 02 be f2               	calll	0xf2be839b <lab_state_fail+0xfffffffff2bdf9f9>
+    80bc: 87 e8                        	xchgl	%eax, %ebp
+    80be: 77 06                        	ja	0x80c6 <boot1+0xa8>
+    80c0: a0 7e 87 04 30               	movb	0x3004877e, %al
+    80c5: be f8 87 e8 6c               	movl	$0x6ce887f8, %esi       # imm = 0x6CE887F8
+    80ca: 06                           	pushl	%es
+    80cb: a0 80 87 04 30               	movb	0x30048780, %al
+    80d0: be 03 88 e8 61               	movl	$0x61e88803, %esi       # imm = 0x61E88803
+    80d5: 06                           	pushl	%es
+    80d6: e8 1d 05 e8 13               	calll	0x13e885f8 <lab_state_fail+0x13e7fc56>
+    80db: 05 be 0e 88 b0               	addl	$0xb0880ebe, %eax       # imm = 0xB0880EBE
+    80e0: 31 e8                        	xorl	%ebp, %eax
+    80e2: 53                           	pushl	%ebx
+    80e3: 06                           	pushl	%es
+    80e4: fb                           	sti
+
+000080e5 <wait_irq>:
+    80e5: f4                           	hlt
+    80e6: 80 3e 96                     	cmpb	$-0x6a, (%esi)
+    80e9: 87 00                        	xchgl	%eax, (%eax)
+    80eb: 74 f8                        	je	0x80e5 <wait_irq>
+    80ed: fa                           	cli
+    80ee: e8 f2 04 a0 96               	calll	0x96a085e5 <lab_state_fail+0xffffffff969ffc43>
+    80f3: 87 04 30                     	xchgl	%eax, (%eax,%esi)
+    80f6: be 1a 88 e8 3b               	movl	$0x3be8881a, %esi       # imm = 0x3BE8881A
+    80fb: 06                           	pushl	%es
+    80fc: a0 97 87 04 30               	movb	0x30048797, %al
+    8101: be 25 88 e8 30               	movl	$0x30e88825, %esi       # imm = 0x30E88825
+    8106: 06                           	pushl	%es
+    8107: e8 99 02 e8 a7               	calll	0xa7e883a5 <lab_state_fail+0xffffffffa7e7fa03>
+    810c: 02 be 2e 88 e8 24            	addb	0x24e8882e(%esi), %bh
+    8112: 06                           	pushl	%es
+    8113: a0 7e 87 04 30               	movb	0x3004877e, %al
+    8118: be 34 88 e8 19               	movl	$0x19e88834, %esi       # imm = 0x19E88834
+    811d: 06                           	pushl	%es
+    811e: e8 d3 02 a0 7e               	calll	0x7ea083f6 <lab_state_fail+0x7e9ffa54>
+    8123: 87 04 30                     	xchgl	%eax, (%eax,%esi)
+    8126: be 3f 88 e8 0b               	movl	$0xbe8883f, %esi        # imm = 0xBE8883F
+    812b: 06                           	pushl	%es
+    812c: c6 06 7e                     	movb	$0x7e, (%esi)
+    812f: 87 00                        	xchgl	%eax, (%eax)
+    8131: e8 ce 02 a0 7e               	calll	0x7ea08404 <lab_state_fail+0x7e9ffa62>
+    8136: 87 04 30                     	xchgl	%eax, (%eax,%esi)
+    8139: be 4b 88 e8 f8               	movl	$0xf8e8884b, %esi       # imm = 0xF8E8884B
+    813e: 05 c6 06 7e 87               	addl	$0x877e06c6, %eax       # imm = 0x877E06C6
+    8143: 02 bb 01 00 e8 ef            	addb	-0x1017ffff(%ebx), %bh
+    8149: 01 be 5a 88 e8 e7            	addl	%edi, -0x181777a6(%esi)
+    814f: 05 a0 92 87 04               	addl	$0x48792a0, %eax        # imm = 0x48792A0
+    8154: 30 be 65 88 e8 dc            	xorb	%bh, -0x2317779b(%esi)
+    815a: 05 a0 91 87 be               	addl	$0xbe8791a0, %eax       # imm = 0xBE8791A0
+    815f: 73 88                        	jae	0x80e9 <wait_irq+0x4>
+    8161: e8 d3 05 bb 01               	calll	0x1bb8739 <lab_state_fail+0x1bafd97>
+    8166: 00 b0 42 8a 26 98            	addb	%dh, -0x67d975be(%eax)
+    816c: 87 e8                        	xchgl	%eax, %ebp
+    816e: 76 01                        	jbe	0x8171 <wait_irq+0x8c>
+    8170: be 81 88 e8 c1               	movl	$0xc1e88881, %esi       # imm = 0xC1E88881
+    8175: 05 a0 7d 87 04               	addl	$0x4877da0, %eax        # imm = 0x4877DA0
+    817a: 30 be 88 88 e8 b6            	xorb	%bh, -0x49177778(%esi)
+    8180: 05 b0 4b e8 13               	addl	$0x13e84bb0, %eax       # imm = 0x13E84BB0
+    8185: 02 3c 4f                     	addb	(%edi,%ecx,2), %bh
+    8188: 0f 85 df 05 c6 06            	jne	0x6c6876d <lab_state_fail+0x6c5fdcb>
+    818e: 7f 87                        	jg	0x8117 <wait_irq+0x32>
+    8190: 01 a0 7f 87 04 30            	addl	%esp, 0x3004877f(%eax)
+    8196: be 8f 88 e8 9b               	movl	$0x9be8888f, %esi       # imm = 0x9BE8888F
+    819b: 05 bb 01 00 b2               	addl	$0xb20001bb, %eax       # imm = 0xB20001BB
+    81a0: 01 b6 01 e8 68 02            	addl	%esi, 0x268e801(%esi)
+    81a6: be 97 88 e8 8b               	movl	$0x8be88897, %esi       # imm = 0x8BE88897
+    81ab: 05 a0 7b 87 be               	addl	$0xbe877ba0, %eax       # imm = 0xBE877BA0
+    81b0: a0 88 e8 82 05               	movb	0x582e888, %al
+    81b5: e8 78 02 a0 a3               	calll	0xa3a08432 <lab_state_fail+0xffffffffa39ffa90>
+    81ba: 87 be ab 88 e8 76            	xchgl	%edi, 0x76e888ab(%esi)
+    81c0: 05 a0 a4 87 be               	addl	$0xbe87a4a0, %eax       # imm = 0xBE87A4A0
+    81c5: b5 88                        	movb	$-0x78, %ch
+    81c7: e8 6d 05 a0 a5               	calll	0xa5a08739 <lab_state_fail+0xffffffffa59ffd97>
+    81cc: 87 be be 88 e8 64            	xchgl	%edi, 0x64e888be(%esi)
+    81d2: 05 e8 e4 03 e8               	addl	$0xe803e4e8, %eax       # imm = 0xE803E4E8
+    81d7: b6 04                        	movb	$0x4, %dh
+    81d9: 0f 82 86 05 be ca            	jb	0xcabe8765 <lab_state_fail+0xffffffffcabdfdc3>
+    81df: 88 b0 57 e8 52 05            	movb	%dh, 0x552e857(%eax)
+    81e5: bb 00 00 e8 4e               	movl	$0x4ee80000, %ebx       # imm = 0x4EE80000
+    81ea: 01 be d9 88 e8 46            	addl	%edi, 0x46e888d9(%esi)
+    81f0: 05 a0 92 87 04               	addl	$0x48792a0, %eax        # imm = 0x48792A0
+    81f5: 30 be e4 88 e8 3b            	xorb	%bh, 0x3be888e4(%esi)
+    81fb: 05 a0 91 87 84               	addl	$0x848791a0, %eax       # imm = 0x848791A0
+    8200: c0 75 02                     	<unknown>
+    8203: b0 30                        	movb	$0x30, %al
+    8205: be f2 88 e8 2c               	movl	$0x2ce888f2, %esi       # imm = 0x2CE888F2
+    820a: 05 bb 01 00 e8               	addl	$0xe80001bb, %eax       # imm = 0xE80001BB
+    820f: 5b                           	popl	%ebx
+    8210: 01 c6                        	addl	%eax, %esi
+    8212: 06                           	pushl	%es
+    8213: 7d 87                        	jge	0x819c <wait_irq+0xb7>
+    8215: ff bb 01 00 b0 42            	<unknown>
+    821b: 8a 26                        	movb	(%esi), %ah
+    821d: 98                           	cwtl
+    821e: 87 e8                        	xchgl	%eax, %ebp
+    8220: c4 00                        	lesl	(%eax), %eax
+    8222: be 00 89 e8 0f               	movl	$0xfe88900, %esi        # imm = 0xFE88900
+    8227: 05 a0 7b 87 84               	addl	$0x84877ba0, %eax       # imm = 0x84877BA0
+    822c: c0 75 02                     	<unknown>
+    822f: b0 30                        	movb	$0x30, %al
+    8231: be 0d 89 e8 00               	movl	$0xe8890d, %esi         # imm = 0xE8890D
+    8236: 05 e8 e7 02 be               	addl	$0xbe02e7e8, %eax       # imm = 0xBE02E7E8
+    823b: 18 89 e8 f7 04 e8            	sbbb	%cl, -0x17fb0818(%ecx)
+    8241: 04 03                        	addb	$0x3, %al
+    8243: be 26 89 e8 ee               	movl	$0xeee88926, %esi       # imm = 0xEEE88926
+    8248: 04 be                        	addb	$-0x42, %al
+    824a: 93                           	xchgl	%ebx, %eax
+    824b: 89 e8                        	movl	%ebp, %eax
+    824d: f4                           	hlt
+    824e: 04 e9                        	addb	$-0x17, %al
+    8250: 08 05 e8 88 04 3c            	orb	%al, 0x3c0488e8
+
+00008252 <boot2>:
+    8252: e8 88 04 3c 01               	calll	0x13c86df <lab_state_fail+0x13bfd3d>
+    8257: 0f 85 10 05 e8 79            	jne	0x79e8876d <lab_state_fail+0x79e7fdcb>
+    825d: 00 be b1 87 b0 32            	addb	%bh, 0x32b087b1(%esi)
+    8263: e8 d1 04 be 36               	calll	0x36be8739 <lab_state_fail+0x36bdfd97>
+    8268: 89 e8                        	movl	%ebp, %eax
+    826a: d7                           	xlatb
+    826b: 04 bb                        	addb	$-0x45, %al
+    826d: 00 00                        	addb	%al, (%eax)
+    826f: b2 01                        	movb	$0x1, %dl
+    8271: b6 01                        	movb	$0x1, %dh
+    8273: e8 98 01 be 44               	calll	0x44be8410 <lab_state_fail+0x44bdfa6e>
+    8278: 89 e8                        	movl	%ebp, %eax
+    827a: bb 04 e8 db 02               	movl	$0x2dbe804, %ebx        # imm = 0x2DBE804
+    827f: be 4d 89 e8 b2               	movl	$0xb2e8894d, %esi       # imm = 0xB2E8894D
+    8284: 04 e8                        	addb	$-0x18, %al
+    8286: df 02                        	filds	(%edx)
+    8288: 3c 57                        	cmpb	$0x57, %al
+    828a: 0f 85 dd 04 be 5e            	jne	0x5ebe876d <lab_state_fail+0x5ebdfdcb>
+    8290: 89 e8                        	movl	%ebp, %eax
+    8292: a3 04 bb 00 00               	movl	%eax, 0xbb04
+    8297: b2 01                        	movb	$0x1, %dl
+    8299: b6 02                        	movb	$0x2, %dh
+    829b: e8 70 01 be 66               	calll	0x66be8410 <lab_state_fail+0x66bdfa6e>
+    82a0: 89 e8                        	movl	%ebp, %eax
+    82a2: 93                           	xchgl	%ebx, %eax
+    82a3: 04 bb                        	addb	$-0x45, %al
+    82a5: 00 00                        	addb	%al, (%eax)
+    82a7: b2 01                        	movb	$0x1, %dl
+    82a9: b6 01                        	movb	$0x1, %dh
+    82ab: e8 60 01 be 70               	calll	0x70be8410 <lab_state_fail+0x70bdfa6e>
+    82b0: 89 e8                        	movl	%ebp, %eax
+    82b2: 83 04 a0 98                  	addl	$-0x68, (%eax,%eiz,4)
+    82b6: 87 04 30                     	xchgl	%eax, (%eax,%esi)
+    82b9: be 7b 89 e8 78               	movl	$0x78e8897b, %esi       # imm = 0x78E8897B
+    82be: 04 e8                        	addb	$-0x18, %al
+    82c0: 98                           	cwtl
+    82c1: 03 0f                        	addl	(%edi), %ecx
+    82c3: 82 9d 04 be 82 89 b0         	sbbb	$-0x50, -0x767d41fc(%ebp)
+    82ca: 57                           	pushl	%edi
+    82cb: e8 69 04 be 93               	calll	0x93be8739 <lab_state_fail+0xffffffff93bdfd97>
+    82d0: 89 e8                        	movl	%ebp, %eax
+    82d2: 6f                           	outsl	(%esi), %dx
+    82d3: 04 e9                        	addb	$-0x17, %al
+    82d5: 83 04 57 51                  	addl	$0x51, (%edi,%edx,2)
+
+000082d7 <init_runtime>:
+    82d7: 57                           	pushl	%edi
+    82d8: 51                           	pushl	%ecx
+    82d9: 31 c0                        	xorl	%eax, %eax
+    82db: bf 7a 87 b9 33               	movl	$0x33b9877a, %edi       # imm = 0x33B9877A
+    82e0: 00 f3                        	addb	%dh, %bl
+    82e2: aa                           	stosb	%al, %es:(%edi)
+    82e3: 59                           	popl	%ecx
+    82e4: 5f                           	popl	%edi
+    82e5: c3                           	retl
+
+000082e6 <acquire_checked>:
+    82e6: 83 fb 02                     	cmpl	$0x2, %ebx
+    82e9: 73 4b                        	jae	0x8336 <acquire_reject>
+    82eb: 80 bf 7a 87 00 75 3e         	cmpb	$0x3e, 0x7500877a(%edi)
+    82f2: 80 bf 7c 87 ff 74 3a         	cmpb	$0x3a, 0x74ff877c(%edi)
+    82f9: fe 87 7c 87 88 87            	incb	-0x78777884(%edi)
+    82ff: 7a 87                        	jp	0x8288 <boot2+0x36>
+    8301: 88 a7 8e 87 c6 87            	movb	%ah, -0x78397872(%edi)
+    8307: 7e 87                        	jle	0x8290 <boot2+0x3e>
+    8309: 00 c6                        	addb	%al, %dh
+    830b: 87 80 87 00 c6 87            	xchgl	%eax, -0x7839ff79(%eax)
+    8311: 82 87 00 c6 87 84 87         	addb	$-0x79, -0x7b783a00(%edi)
+    8318: 00 c6                        	addb	%al, %dh
+    831a: 87 86 87 00 c6 87            	xchgl	%eax, -0x7839ff79(%esi)
+    8320: 88 87 00 c6 87 8a            	movb	%al, -0x75783a00(%edi)
+    8326: 87 00                        	xchgl	%eax, (%eax)
+    8328: c6 87 8c 87 00 b0 57         	movb	$0x57, -0x4fff7874(%edi)
+    832f: c3                           	retl
+
+00008330 <acquire_full>:
+    8330: b0 46                        	movb	$0x46, %al
+    8332: c3                           	retl
+
+00008333 <acquire_exhausted>:
+    8333: b0 47                        	movb	$0x47, %al
+    8335: c3                           	retl
+
+00008336 <acquire_reject>:
+    8336: b0 52                        	movb	$0x52, %al
+    8338: c3                           	retl
+
+00008339 <release_binding_activity>:
+    8339: 83 fb 02                     	cmpl	$0x2, %ebx
+    833c: 73 2b                        	jae	0x8369 <release_fail>
+    833e: 80 bf 7a 87 00 74 24         	cmpb	$0x24, 0x7400877a(%edi)
+    8345: 80 3e 92                     	cmpb	$-0x6e, (%esi)
+    8348: 87 00                        	xchgl	%eax, (%eax)
+    834a: 74 1d                        	je	0x8369 <release_fail>
+    834c: fe 0e                        	decb	(%esi)
+    834e: 92                           	xchgl	%edx, %eax
+    834f: 87 80 3e 92 87 00            	xchgl	%eax, 0x87923e(%eax)
+    8355: 75 0a                        	jne	0x8361 <release_clear_activity>
+    8357: c6 06 90                     	movb	$-0x70, (%esi)
+    835a: 87 00                        	xchgl	%eax, (%eax)
+    835c: c6 06 91                     	movb	$-0x6f, (%esi)
+    835f: 87 00                        	xchgl	%eax, (%eax)
+
+00008361 <release_clear_activity>:
+    8361: c6 87 7a 87 00 b0 57         	movb	$0x57, -0x4fff7886(%edi)
+    8368: c3                           	retl
+
+00008369 <release_fail>:
+    8369: b0 52                        	movb	$0x52, %al
+    836b: c3                           	retl
+
+0000836c <release_activity_only>:
+    836c: 83 fb 02                     	cmpl	$0x2, %ebx
+    836f: 73 08                        	jae	0x8379 <release_only_fail>
+    8371: c6 87 7a 87 00 b0 57         	movb	$0x57, -0x4fff7886(%edi)
+    8378: c3                           	retl
+
+00008379 <release_only_fail>:
+    8379: b0 52                        	movb	$0x52, %al
+    837b: c3                           	retl
+
+0000837c <bind_parent_wait>:
+    837c: fa                           	cli
+
+0000837d <critical_wait_begin>:
+    837d: c6 06 8a                     	movb	$-0x76, (%esi)
+    8380: 87 01                        	xchgl	%eax, (%ecx)
+    8382: a0 7d 87 a2 8c               	movb	0x8ca2877d, %al
+    8387: 87 c6                        	xchgl	%esi, %eax
+    8389: 06                           	pushl	%es
+    838a: 80 87 02 c6 06 82 87         	addb	$-0x79, -0x7df939fe(%edi)
+    8391: 01 c6                        	addl	%eax, %esi
+    8393: 06                           	pushl	%es
+    8394: 84 87 00 fb c3 3c            	testb	%al, 0x3cc3fb00(%edi)
+
+00008397 <critical_wait_end>:
+    8397: fb                           	sti
+    8398: c3                           	retl
+
+00008399 <request_execute>:
+    8399: 3c 4b                        	cmpb	$0x4b, %al
+    839b: 74 03                        	je	0x83a0 <request_known>
+    839d: b0 4d                        	movb	$0x4d, %al
+    839f: c3                           	retl
+
+000083a0 <request_known>:
+    83a0: b0 4f                        	movb	$0x4f, %al
+    83a2: c3                           	retl
+
+000083a3 <record_child_completion>:
+    83a3: c6 06 93                     	movb	$-0x6d, (%esi)
+    83a6: 87 01                        	xchgl	%eax, (%ecx)
+    83a8: a0 7d 87 a2 94               	movb	0x94a2877d, %al
+    83ad: 87 c6                        	xchgl	%esi, %eax
+    83af: 06                           	pushl	%es
+    83b0: 95                           	xchgl	%ebp, %eax
+    83b1: 87 53 c3                     	xchgl	%edx, -0x3d(%ebx)
+
+000083b4 <generic_wait_match>:
+    83b4: 80 3e 82                     	cmpb	$-0x7e, (%esi)
+    83b7: 87 01                        	xchgl	%eax, (%ecx)
+    83b9: 75 36                        	jne	0x83f1 <wait_no>
+    83bb: 80 3e 95                     	cmpb	$-0x6b, (%esi)
+    83be: 87 53 75                     	xchgl	%edx, 0x75(%ebx)
+    83c1: 2f                           	das
+    83c2: a0 8a 87 3a 06               	movb	0x63a878a, %al
+    83c7: 93                           	xchgl	%ebx, %eax
+    83c8: 87 75 26                     	xchgl	%esi, 0x26(%ebp)
+    83cb: a0 8c 87 3a 06               	movb	0x63a878c, %al
+    83d0: 94                           	xchgl	%esp, %eax
+    83d1: 87 75 1d                     	xchgl	%esi, 0x1d(%ebp)
+    83d4: 80 3e 87                     	cmpb	$-0x79, (%esi)
+    83d7: 87 00                        	xchgl	%eax, (%eax)
+    83d9: 75 16                        	jne	0x83f1 <wait_no>
+    83db: a0 89 87 3a 06               	movb	0x63a8789, %al
+    83e0: 7c 87                        	jl	0x8369 <release_fail>
+    83e2: 75 0d                        	jne	0x83f1 <wait_no>
+    83e4: c6 06 82                     	movb	$-0x7e, (%esi)
+    83e7: 87 00                        	xchgl	%eax, (%eax)
+    83e9: c6 06 84                     	movb	$-0x7c, (%esi)
+    83ec: 87 01                        	xchgl	%eax, (%ecx)
+    83ee: b0 31                        	movb	$0x31, %al
+    83f0: c3                           	retl
+
+000083f1 <wait_no>:
+    83f1: b0 30                        	movb	$0x30, %al
+    83f3: c3                           	retl
+
+000083f4 <apply_parent>:
+    83f4: 80 3e 84                     	cmpb	$-0x7c, (%esi)
+    83f7: 87 01                        	xchgl	%eax, (%ecx)
+    83f9: 75 06                        	jne	0x8401 <apply_done>
+    83fb: a0 80 87 a2 7e               	movb	0x7ea28780, %al
+    8400: 87 c3                        	xchgl	%ebx, %eax
+
+00008401 <apply_done>:
+    8401: c3                           	retl
+
+00008402 <bad_wake_apply>:
+    8402: c6 06 84                     	movb	$-0x7c, (%esi)
+    8405: 87 01                        	xchgl	%eax, (%ecx)
+    8407: a0 80 87 a2 7e               	movb	0x7ea28780, %al
+    840c: 87 c3                        	xchgl	%ebx, %eax
+
+0000840e <checked_use_handle>:
+    840e: 83 fb 02                     	cmpl	$0x2, %ebx
+    8411: 73 1a                        	jae	0x842d <handle_reject>
+    8413: 80 bf 7a 87 00 74 13         	cmpb	$0x13, 0x7400877a(%edi)
+    841a: 8a 87 7c 87 38 d0            	movb	-0x2fc77884(%edi), %al
+    8420: 75 0b                        	jne	0x842d <handle_reject>
+    8422: 8a 87 8e 87 38 f0            	movb	-0xfc77872(%edi), %al
+    8428: 75 03                        	jne	0x842d <handle_reject>
+    842a: b0 57                        	movb	$0x57, %al
+    842c: c3                           	retl
+
+0000842d <handle_reject>:
+    842d: b0 52                        	movb	$0x52, %al
+    842f: c3                           	retl
+
+00008430 <run_currentness_controls>:
+    8430: e8 c0 00 a0 9b               	calll	0x9ba084f5 <lab_state_fail+0xffffffff9b9ffb53>
+    8435: 87 a2 9d 87 a0 99            	xchgl	%esp, -0x665f7863(%edx)
+    843b: 87 a2 9f 87 e8 c6            	xchgl	%esp, -0x39177861(%edx)
+    8441: 00 a0 9a 87 a2 a0            	addb	%ah, -0x5f5d7866(%eax)
+    8447: 87 a0 9b 87 a2 9e            	xchgl	%esp, -0x615d7865(%eax)
+    844d: 87 c6                        	xchgl	%esi, %eax
+    844f: 06                           	pushl	%es
+    8450: a3 87 52 80 3e               	movl	%eax, 0x3e805287
+    8455: 9d                           	popfl
+    8456: 87 00                        	xchgl	%eax, (%eax)
+    8458: 75 1c                        	jne	0x8476 <ctl_flag_done>
+    845a: 80 3e 9e                     	cmpb	$-0x62, (%esi)
+    845d: 87 00                        	xchgl	%eax, (%eax)
+    845f: 75 15                        	jne	0x8476 <ctl_flag_done>
+    8461: a0 9f 87 3a 06               	movb	0x63a879f, %al
+    8466: a0 87 74 07 c6               	movb	0xc6077487, %al
+    846b: 06                           	pushl	%es
+    846c: a3 87 53 eb 05               	movl	%eax, 0x5eb5387
+
+00008471 <ctl_flag_coherent>:
+    8471: c6 06 a3                     	movb	$-0x5d, (%esi)
+    8474: 87 43 e8                     	xchgl	%eax, -0x18(%ebx)
+
+00008476 <ctl_flag_done>:
+    8476: e8 7a 00 a0 9c               	calll	0x9ca084f5 <lab_state_fail+0xffffffff9c9ffb53>
+    847b: 87 a2 a1 87 a0 99            	xchgl	%esp, -0x665f785f(%edx)
+    8481: 87 a2 9f 87 e8 80            	xchgl	%esp, -0x7f177861(%edx)
+    8487: 00 a0 9a 87 a2 a0            	addb	%ah, -0x5f5d7866(%eax)
+    848d: 87 a0 9c 87 a2 a2            	xchgl	%esp, -0x5d5d7864(%eax)
+    8493: 87 c6                        	xchgl	%esi, %eax
+    8495: 06                           	pushl	%es
+    8496: a4                           	movsb	(%esi), %es:(%edi)
+    8497: 87 52 a0                     	xchgl	%edx, -0x60(%edx)
+    849a: a1 87 3a 06 a2               	movl	0xa2063a87, %eax
+    849f: 87 75 15                     	xchgl	%esi, 0x15(%ebp)
+    84a2: a0 9f 87 3a 06               	movb	0x63a879f, %al
+    84a7: a0 87 75 07 c6               	movb	0xc6077587, %al
+    84ac: 06                           	pushl	%es
+    84ad: a4                           	movsb	(%esi), %es:(%edi)
+    84ae: 87 43 eb                     	xchgl	%eax, -0x15(%ebx)
+    84b1: 05 c6 06 a4 87               	addl	$0x87a406c6, %eax       # imm = 0x87A406C6
+
+000084b2 <ctl_ver_stale>:
+    84b2: c6 06 a4                     	movb	$-0x5c, (%esi)
+    84b5: 87 53 a0                     	xchgl	%edx, -0x60(%ebx)
+
+000084b7 <ctl_ver_done>:
+    84b7: a0 9c 87 a2 a1               	movb	0xa1a2879c, %al
+    84bc: 87 a0 99 87 a2 9f            	xchgl	%esp, -0x605d7867(%eax)
+    84c2: 87 a0 9a 87 a2 a0            	xchgl	%esp, -0x5f5d7866(%eax)
+    84c8: 87 a0 9c 87 a2 a2            	xchgl	%esp, -0x5d5d7864(%eax)
+    84ce: 87 c6                        	xchgl	%esi, %eax
+    84d0: 06                           	pushl	%es
+    84d1: a5                           	movsl	(%esi), %es:(%edi)
+    84d2: 87 52 a0                     	xchgl	%edx, -0x60(%edx)
+    84d5: a1 87 3a 06 a2               	movl	0xa2063a87, %eax
+    84da: 87 75 15                     	xchgl	%esi, 0x15(%ebp)
+    84dd: a0 9f 87 3a 06               	movb	0x63a879f, %al
+    84e2: a0 87 75 07 c6               	movb	0xc6077587, %al
+    84e7: 06                           	pushl	%es
+    84e8: a5                           	movsl	(%esi), %es:(%edi)
+    84e9: 87 43 eb                     	xchgl	%eax, -0x15(%ebx)
+    84ec: 05 c6 06 a5 87               	addl	$0x87a506c6, %eax       # imm = 0x87A506C6
+
+000084ed <ctl_stable_stale>:
+    84ed: c6 06 a5                     	movb	$-0x5b, (%esi)
+    84f0: 87 53 c3                     	xchgl	%edx, -0x3d(%ebx)
+
+000084f2 <ctl_stable_done>:
+    84f2: c3                           	retl
+
+000084f3 <reset_relation>:
+    84f3: c6 06 99                     	movb	$-0x67, (%esi)
+    84f6: 87 41 c6                     	xchgl	%eax, -0x3a(%ecx)
+    84f9: 06                           	pushl	%es
+    84fa: 9a 87 41 c6 06 9b 87         	lcalll	$-0x7865, $0x6c64187    # imm = 0x879B
+                                                                        # imm = 0x6C64187
+    8501: 00 c6                        	addb	%al, %dh
+    8503: 06                           	pushl	%es
+    8504: 9c                           	pushfl
+    8505: 87 01                        	xchgl	%eax, (%ecx)
+    8507: c3                           	retl
+
+00008508 <mutate_complete>:
+    8508: c6 06 9b                     	movb	$-0x65, (%esi)
+    850b: 87 01                        	xchgl	%eax, (%ecx)
+    850d: c6 06 99                     	movb	$-0x67, (%esi)
+    8510: 87 42 c6                     	xchgl	%eax, -0x3a(%edx)
+    8513: 06                           	pushl	%es
+    8514: 9a 87 42 fe 06 9c 87         	lcalll	$-0x7864, $0x6fe4287    # imm = 0x879C
+                                                                        # imm = 0x6FE4287
+    851b: c6 06 9b                     	movb	$-0x65, (%esi)
+    851e: 87 00                        	xchgl	%eax, (%eax)
+    8520: c3                           	retl
+
+00008521 <bad_global_control>:
+    8521: c6 06 a6                     	movb	$-0x5a, (%esi)
+    8524: 87 00                        	xchgl	%eax, (%eax)
+    8526: b0 55                        	movb	$0x55, %al
+    8528: e8 0d 00 80 3e               	calll	0x3e80853a <lab_state_fail+0x3e7ffb98>
+    852d: a6                           	cmpsb	%es:(%edi), (%esi)
+    852e: 87 00                        	xchgl	%eax, (%eax)
+    8530: 75 03                        	jne	0x8535 <bad_global_blocked>
+    8532: b0 4f                        	movb	$0x4f, %al
+    8534: c3                           	retl
+
+00008535 <bad_global_blocked>:
+    8535: b0 58                        	movb	$0x58, %al
+    8537: c3                           	retl
+
+00008538 <bad_request_global>:
+    8538: 3c 4b                        	cmpb	$0x4b, %al
+    853a: 74 08                        	je	0x8544 <bad_request_ok>
+    853c: c6 06 a6                     	movb	$-0x5a, (%esi)
+    853f: 87 01                        	xchgl	%eax, (%ecx)
+    8541: b0 4d                        	movb	$0x4d, %al
+    8543: c3                           	retl
+
+00008544 <bad_request_ok>:
+    8544: b0 4f                        	movb	$0x4f, %al
+    8546: c3                           	retl
+
+00008547 <bad_full_control>:
+    8547: c6 06 7a                     	movb	$0x7a, (%esi)
+    854a: 87 50 c6                     	xchgl	%edx, -0x3a(%eax)
+    854d: 06                           	pushl	%es
+    854e: 7b 87                        	jnp	0x84d7 <ctl_ver_done+0x20>
+    8550: 43                           	incl	%ebx
+    8551: c6 06 7b                     	movb	$0x7b, (%esi)
+    8554: 87 42 a0                     	xchgl	%eax, -0x60(%edx)
+    8557: 7b 87                        	jnp	0x84e0 <ctl_ver_done+0x29>
+    8559: c3                           	retl
+
+0000855a <bad_restart_use>:
+    855a: a0 04 06 3c 52               	movb	0x523c0604, %al
+    855f: 75 03                        	jne	0x8564 <bad_restart_fail>
+    8561: b0 57                        	movb	$0x57, %al
+    8563: c3                           	retl
+
+00008564 <bad_restart_fail>:
+    8564: b0 52                        	movb	$0x52, %al
+    8566: c3                           	retl
+
+00008567 <rebind_boot2>:
+    8567: a0 08 06 3c ff               	movb	0xff3c0608, %al
+    856c: 74 2e                        	je	0x859c <rebind_exhausted>
+    856e: fe c0                        	incb	%al
+    8570: a2 98 87 a2 08               	movb	%al, 0x8a28798
+    8575: 06                           	pushl	%es
+    8576: bb 00 00 b0 50               	movl	$0x50b00000, %ebx       # imm = 0x50B00000
+    857b: 8a 26                        	movb	(%esi), %ah
+    857d: 98                           	cwtl
+    857e: 87 e8                        	xchgl	%eax, %ebp
+    8580: 64 fd                        	std
+    8582: 3c 57                        	cmpb	$0x57, %al
+    8584: 75 15                        	jne	0x859b <rebind_done>
+    8586: 8a 16                        	movb	(%esi), %dl
+    8588: 04 06                        	addb	$0x6, %al
+    858a: 88 16                        	movb	%dl, (%esi)
+    858c: 90                           	nop
+    858d: 87 8a 16 05 06 88            	xchgl	%ecx, -0x77f9faea(%edx)
+    8593: 16                           	pushl	%ss
+    8594: 91                           	xchgl	%ecx, %eax
+    8595: 87 c6                        	xchgl	%esi, %eax
+    8597: 06                           	pushl	%es
+    8598: 92                           	xchgl	%edx, %eax
+    8599: 87 01                        	xchgl	%eax, (%ecx)
+
+0000859b <rebind_done>:
+    859b: c3                           	retl
+
+0000859c <rebind_exhausted>:
+    859c: b0 47                        	movb	$0x47, %al
+    859e: c3                           	retl
+
+0000859f <save_irq_platform_state>:
+    859f: a1 20 00 a3 a7               	movl	0xa7a30020, %eax
+    85a4: 87 a1 22 00 a3 a9            	xchgl	%esp, -0x565cffde(%ecx)
+    85aa: 87 ba 21 00 ec a2            	xchgl	%edi, -0x5d13ffdf(%edx)
+    85b0: ab                           	stosl	%eax, %es:(%edi)
+    85b1: 87 ba a1 00 ec a2            	xchgl	%edi, -0x5d13ff5f(%edx)
+    85b7: ac                           	lodsb	(%esi), %al
+    85b8: 87 c3                        	xchgl	%ebx, %eax
+
+000085ba <restore_irq_platform_state>:
+    85ba: fa                           	cli
+    85bb: a1 a7 87 a3 20               	movl	0x20a387a7, %eax
+    85c0: 00 a1 a9 87 a3 22            	addb	%ah, 0x22a387a9(%ecx)
+    85c6: 00 ba 21 00 a0 ab            	addb	%bh, -0x545fffdf(%edx)
+    85cc: 87 ee                        	xchgl	%esi, %ebp
+    85ce: ba a1 00 a0 ac               	movl	$0xaca000a1, %edx       # imm = 0xACA000A1
+    85d3: 87 ee                        	xchgl	%esi, %ebp
+    85d5: c3                           	retl
+
+000085d6 <install_irq>:
+    85d6: c7 06 20 00 07 86            	movl	$0x86070020, (%esi)     # imm = 0x86070020
+    85dc: c7 06 22 00 00 00            	movl	$0x22, (%esi)
+    85e2: c3                           	retl
+
+000085e3 <mask_irqs>:
+    85e3: fa                           	cli
+    85e4: ba 21 00 b0 ff               	movl	$0xffb00021, %edx       # imm = 0xFFB00021
+    85e9: ee                           	outb	%al, %dx
+    85ea: ba a1 00 ee c3               	movl	$0xc3ee00a1, %edx       # imm = 0xC3EE00A1
+
+000085ef <unmask_irq0>:
+    85ef: ba 21 00 b0 fe               	movl	$0xfeb00021, %edx       # imm = 0xFEB00021
+    85f4: ee                           	outb	%al, %dx
+    85f5: c3                           	retl
+
+000085f6 <program_pit>:
+    85f6: ba 43 00 b0 30               	movl	$0x30b00043, %edx       # imm = 0x30B00043
+    85fb: ee                           	outb	%al, %dx
+    85fc: b8 00 10 ba 40               	movl	$0x40ba1000, %eax       # imm = 0x40BA1000
+    8601: 00 ee                        	addb	%ch, %dh
+    8603: 88 e0                        	movb	%ah, %al
+    8605: ee                           	outb	%al, %dx
+    8606: c3                           	retl
+
+00008607 <irq0_handler>:
+    8607: 50                           	pushl	%eax
+    8608: 52                           	pushl	%edx
+    8609: fe 06                        	incb	(%esi)
+    860b: 96                           	xchgl	%esi, %eax
+    860c: 87 c6                        	xchgl	%esi, %eax
+    860e: 06                           	pushl	%es
+    860f: 97                           	xchgl	%edi, %eax
+    8610: 87 00                        	xchgl	%eax, (%eax)
+    8612: 80 3e 8a                     	cmpb	$-0x76, (%esi)
+    8615: 87 01                        	xchgl	%eax, (%ecx)
+    8617: 75 1c                        	jne	0x8635 <irq_done_check>
+    8619: a0 7d 87 3a 06               	movb	0x63a877d, %al
+    861e: 8c 87 75 13 80 3e            	movw	%es, 0x3e801375(%edi)
+    8624: 80 87 02 75 0c 80 3e         	addb	$0x3e, -0x7ff38afe(%edi)
+    862b: 82 87 01 75 05 c6 06         	addb	$0x6, -0x39fa8aff(%edi)
+    8632: 97                           	xchgl	%edi, %eax
+    8633: 87 01                        	xchgl	%eax, (%ecx)
+
+00008635 <irq_done_check>:
+    8635: ba 20 00 b0 20               	movl	$0x20b00020, %edx       # imm = 0x20B00020
+    863a: ee                           	outb	%al, %dx
+    863b: 5a                           	popl	%edx
+    863c: 58                           	popl	%eax
+    863d: cf                           	iretl
+
+0000863e <read_durable>:
+    863e: 50                           	pushl	%eax
+    863f: 53                           	pushl	%ebx
+    8640: 51                           	pushl	%ecx
+    8641: 52                           	pushl	%edx
+    8642: bb 00 06 b4 02               	movl	$0x2b40600, %ebx        # imm = 0x2B40600
+    8647: b0 01                        	movb	$0x1, %al
+    8649: b5 00                        	movb	$0x0, %ch
+    864b: b1 0a                        	movb	$0xa, %cl
+    864d: b6 00                        	movb	$0x0, %dh
+    864f: 8a 16                        	movb	(%esi), %dl
+    8651: 00 05 cd 13 5a 59            	addb	%al, 0x595a13cd
+    8657: 5b                           	popl	%ebx
+    8658: 58                           	popl	%eax
+    8659: c3                           	retl
+
+0000865a <write_durable>:
+    865a: 50                           	pushl	%eax
+    865b: 53                           	pushl	%ebx
+    865c: 51                           	pushl	%ecx
+    865d: 52                           	pushl	%edx
+    865e: bb 00 06 b4 03               	movl	$0x3b40600, %ebx        # imm = 0x3B40600
+    8663: b0 01                        	movb	$0x1, %al
+    8665: b5 00                        	movb	$0x0, %ch
+    8667: b1 0a                        	movb	$0xa, %cl
+    8669: b6 00                        	movb	$0x0, %dh
+    866b: 8a 16                        	movb	(%esi), %dl
+    866d: 00 05 cd 13 5a 59            	addb	%al, 0x595a13cd
+    8673: 5b                           	popl	%ebx
+    8674: 58                           	popl	%eax
+    8675: c3                           	retl
+
+00008676 <durable_magic_present>:
+    8676: be 00 06 bf ad               	movl	$0xadbf0600, %esi       # imm = 0xADBF0600
+    867b: 87 b9 04 00 8a 04            	xchgl	%edi, 0x48a0004(%ecx)
+
+0000867f <magic_loop>:
+    867f: 8a 04 3a                     	movb	(%edx,%edi), %al
+    8682: 05 75 07 46 47               	addl	$0x47460775, %eax       # imm = 0x47460775
+    8687: e2 f6                        	loop	0x867f <magic_loop>
+    8689: b0 01                        	movb	$0x1, %al
+    868b: c3                           	retl
+
+0000868c <magic_absent>:
+    868c: b0 00                        	movb	$0x0, %al
+    868e: c3                           	retl
+
+0000868f <write_boot1_record>:
+    868f: 57                           	pushl	%edi
+    8690: 51                           	pushl	%ecx
+    8691: 31 c0                        	xorl	%eax, %eax
+    8693: bf 00 06 b9 00               	movl	$0xb90600, %edi         # imm = 0xB90600
+    8698: 01 f3                        	addl	%esi, %ebx
+    869a: ab                           	stosl	%eax, %es:(%edi)
+    869b: c6 06 00                     	movb	$0x0, (%esi)
+    869e: 06                           	pushl	%es
+    869f: 48                           	decl	%eax
+    86a0: c6 06 01                     	movb	$0x1, (%esi)
+    86a3: 06                           	pushl	%es
+    86a4: 34 c6                        	xorb	$-0x3a, %al
+    86a6: 06                           	pushl	%es
+    86a7: 02 06                        	addb	(%esi), %al
+    86a9: 49                           	decl	%ecx
+    86aa: c6 06 03                     	movb	$0x3, (%esi)
+    86ad: 06                           	pushl	%es
+    86ae: 31 c6                        	xorl	%eax, %esi
+    86b0: 06                           	pushl	%es
+    86b1: 04 06                        	addb	$0x6, %al
+    86b3: 52                           	pushl	%edx
+    86b4: c6 06 05                     	movb	$0x5, (%esi)
+    86b7: 06                           	pushl	%es
+    86b8: 5a                           	popl	%edx
+    86b9: c6 06 06                     	movb	$0x6, (%esi)
+    86bc: 06                           	pushl	%es
+    86bd: 34 c6                        	xorb	$-0x3a, %al
+    86bf: 06                           	pushl	%es
+    86c0: 07                           	popl	%es
+    86c1: 06                           	pushl	%es
+    86c2: 12 c6                        	adcb	%dh, %al
+    86c4: 06                           	pushl	%es
+    86c5: 08 06                        	orb	%al, (%esi)
+    86c7: 01 c6                        	addl	%eax, %esi
+    86c9: 06                           	pushl	%es
+    86ca: 09 06                        	orl	%eax, (%esi)
+    86cc: 00 c6                        	addb	%al, %dh
+    86ce: 06                           	pushl	%es
+    86cf: 0a 06                        	orb	(%esi), %al
+    86d1: 01 c6                        	addl	%eax, %esi
+    86d3: 06                           	pushl	%es
+    86d4: 0b 06                        	orl	(%esi), %eax
+    86d6: 01 59 5f                     	addl	%ebx, 0x5f(%ecx)
+    86d9: e8 7e ff c3 80               	calll	0x80c4865c <lab_state_fail+0xffffffff80c3fcba>
+
+000086dd <verify_boot1_record>:
+    86dd: 80 3e 00                     	cmpb	$0x0, (%esi)
+    86e0: 06                           	pushl	%es
+    86e1: 48                           	decl	%eax
+    86e2: 75 50                        	jne	0x8734 <verify_fail>
+    86e4: 80 3e 01                     	cmpb	$0x1, (%esi)
+    86e7: 06                           	pushl	%es
+    86e8: 34 75                        	xorb	$0x75, %al
+    86ea: 49                           	decl	%ecx
+    86eb: 80 3e 02                     	cmpb	$0x2, (%esi)
+    86ee: 06                           	pushl	%es
+    86ef: 49                           	decl	%ecx
+    86f0: 75 42                        	jne	0x8734 <verify_fail>
+    86f2: 80 3e 03                     	cmpb	$0x3, (%esi)
+    86f5: 06                           	pushl	%es
+    86f6: 31 75 3b                     	xorl	%esi, 0x3b(%ebp)
+    86f9: 80 3e 04                     	cmpb	$0x4, (%esi)
+    86fc: 06                           	pushl	%es
+    86fd: 52                           	pushl	%edx
+    86fe: 75 34                        	jne	0x8734 <verify_fail>
+    8700: 80 3e 05                     	cmpb	$0x5, (%esi)
+    8703: 06                           	pushl	%es
+    8704: 5a                           	popl	%edx
+    8705: 75 2d                        	jne	0x8734 <verify_fail>
+    8707: 80 3e 06                     	cmpb	$0x6, (%esi)
+    870a: 06                           	pushl	%es
+    870b: 34 75                        	xorb	$0x75, %al
+    870d: 26 80 3e 07                  	cmpb	$0x7, %es:(%esi)
+    8711: 06                           	pushl	%es
+    8712: 12 75 1f                     	adcb	0x1f(%ebp), %dh
+    8715: 80 3e 08                     	cmpb	$0x8, (%esi)
+    8718: 06                           	pushl	%es
+    8719: 01 75 18                     	addl	%esi, 0x18(%ebp)
+    871c: 80 3e 09                     	cmpb	$0x9, (%esi)
+    871f: 06                           	pushl	%es
+    8720: 00 75 11                     	addb	%dh, 0x11(%ebp)
+    8723: 80 3e 0a                     	cmpb	$0xa, (%esi)
+    8726: 06                           	pushl	%es
+    8727: 01 75 0a                     	addl	%esi, 0xa(%ebp)
+    872a: 80 3e 0b                     	cmpb	$0xb, (%esi)
+    872d: 06                           	pushl	%es
+    872e: 01 75 03                     	addl	%esi, 0x3(%ebp)
+    8731: b0 01                        	movb	$0x1, %al
+    8733: c3                           	retl
+
+00008734 <verify_fail>:
+    8734: b0 00                        	movb	$0x0, %al
+    8736: c3                           	retl
+
+00008737 <print_line>:
+    8737: 50                           	pushl	%eax
+    8738: e8 08 00 58 e8               	calll	0xe8588745 <lab_state_fail+0xffffffffe857fda3>
+    873d: 14 00                        	adcb	$0x0, %al
+    873f: b0 0a                        	movb	$0xa, %al
+    8741: eb 10                        	jmp	0x8753 <print_char>
+
+00008743 <print_string>:
+    8743: 50                           	pushl	%eax
+    8744: 52                           	pushl	%edx
+
+00008745 <print_loop>:
+    8745: ac                           	lodsb	(%esi), %al
+    8746: 84 c0                        	testb	%al, %al
+    8748: 74 06                        	je	0x8750 <print_done>
+    874a: ba e9 00 ee eb               	movl	$0xebee00e9, %edx       # imm = 0xEBEE00E9
+    874f: f5                           	cmc
+
+00008750 <print_done>:
+    8750: 5a                           	popl	%edx
+    8751: 58                           	popl	%eax
+    8752: c3                           	retl
+
+00008753 <print_char>:
+    8753: 52                           	pushl	%edx
+    8754: ba e9 00 ee 5a               	movl	$0x5aee00e9, %edx       # imm = 0x5AEE00E9
+    8759: c3                           	retl
+
+0000875a <success_exit>:
+    875a: ba f4 00 b0 10               	movl	$0x10b000f4, %edx       # imm = 0x10B000F4
+    875f: ee                           	outb	%al, %dx
+    8760: f4                           	hlt
+    8761: eb fd                        	jmp	0x8760 <success_exit+0x6>
+
+00008763 <fatal_io>:
+    8763: be 99 89 e8 da               	movl	$0xdae88999, %esi       # imm = 0xDAE88999
+    8768: ff eb                        	<unknown>
+    876a: 06                           	pushl	%es
+
+0000876b <fatal_state>:
+    876b: be a2 89 e8 d2               	movl	$0xd2e889a2, %esi       # imm = 0xD2E889A2
+    8770: ff ba f4 00 b0 11            	<unknown>
+
+00008771 <failure_exit>:
+    8771: ba f4 00 b0 11               	movl	$0x11b000f4, %edx       # imm = 0x11B000F4
+    8776: ee                           	outb	%al, %dx
+    8777: f4                           	hlt
+    8778: eb fd                        	jmp	0x8777 <failure_exit+0x6>
+
+0000877a <runtime_state_start>:
+    877a: 00 00                        	addb	%al, (%eax)
+
+0000877c <act_gen>:
+    877c: 00 00                        	addb	%al, (%eax)
+
+0000877e <act_progress>:
+    877e: 00 00                        	addb	%al, (%eax)
+
+00008780 <act_cont>:
+    8780: 00 00                        	addb	%al, (%eax)
+
+00008782 <act_waiting>:
+    8782: 00 00                        	addb	%al, (%eax)
+
+00008784 <act_woken>:
+    8784: 00 00                        	addb	%al, (%eax)
+
+00008786 <act_parent_slot>:
+    8786: 00 00                        	addb	%al, (%eax)
+
+00008788 <act_parent_gen>:
+    8788: 00 00                        	addb	%al, (%eax)
+
+0000878a <act_wait_slot>:
+    878a: 00 00                        	addb	%al, (%eax)
+
+0000878c <act_wait_gen>:
+    878c: 00 00                        	addb	%al, (%eax)
+
+0000878e <act_epoch>:
+    878e: 00 00                        	addb	%al, (%eax)
+
+00008790 <backing_id>:
+    8790: 00 00                        	addb	%al, (%eax)
+
+00008791 <backing_value>:
+    8791: 00 00                        	addb	%al, (%eax)
+
+00008792 <backing_live>:
+    8792: 00 00                        	addb	%al, (%eax)
+
+00008793 <completion_slot>:
+    8793: 00 00                        	addb	%al, (%eax)
+
+00008794 <completion_gen>:
+    8794: 00 00                        	addb	%al, (%eax)
+
+00008795 <completion_status>:
+    8795: 00 00                        	addb	%al, (%eax)
+
+00008796 <event_generation>:
+    8796: 00 00                        	addb	%al, (%eax)
+
+00008797 <irq_rel_ok>:
+    8797: 00 00                        	addb	%al, (%eax)
+
+00008798 <runtime_epoch>:
+    8798: 00 00                        	addb	%al, (%eax)
+
+00008799 <rel_owner>:
+    8799: 00 00                        	addb	%al, (%eax)
+
+0000879a <rel_history>:
+    879a: 00 00                        	addb	%al, (%eax)
+
+0000879b <rel_active>:
+    879b: 00 00                        	addb	%al, (%eax)
+
+0000879c <rel_version>:
+    879c: 00 00                        	addb	%al, (%eax)
+
+0000879d <ctl_pre>:
+    879d: 00 00                        	addb	%al, (%eax)
+
+0000879e <ctl_post>:
+    879e: 00 00                        	addb	%al, (%eax)
+
+0000879f <ctl_old_owner>:
+    879f: 00 00                        	addb	%al, (%eax)
+
+000087a0 <ctl_new_history>:
+    87a0: 00 00                        	addb	%al, (%eax)
+
+000087a1 <ctl_ver_pre>:
+    87a1: 00 00                        	addb	%al, (%eax)
+
+000087a2 <ctl_ver_post>:
+    87a2: 00 00                        	addb	%al, (%eax)
+
+000087a3 <ctl_flag>:
+    87a3: 00 00                        	addb	%al, (%eax)
+
+000087a4 <ctl_ver>:
+    87a4: 00 00                        	addb	%al, (%eax)
+
+000087a5 <ctl_stable>:
+    87a5: 00 00                        	addb	%al, (%eax)
+
+000087a6 <bad_global_latch>:
+    87a6: 00 00                        	addb	%al, (%eax)
+
+000087a7 <saved_irq0_off>:
+    87a7: 00 00                        	addb	%al, (%eax)
+
+000087a9 <saved_irq0_seg>:
+    87a9: 00 00                        	addb	%al, (%eax)
+
+000087ab <saved_master_mask>:
+    87ab: 00 00                        	addb	%al, (%eax)
+
+000087ac <saved_slave_mask>:
+    87ac: 00 48 34                     	addb	%cl, 0x34(%eax)
+
+000087ad <runtime_state_end>:
+    87ad: 48                           	decl	%eax
+    87ae: 34 49                        	xorb	$0x49, %al
+    87b0: 31 42 4f                     	xorl	%eax, 0x4f(%edx)
+
+000087b1 <lab_boot>:
+    87b1: 42                           	incl	%edx
+    87b2: 4f                           	decl	%edi
+    87b3: 4f                           	decl	%edi
+    87b4: 54                           	pushl	%esp
+    87b5: 3d 00 50 5f 41               	cmpl	$0x415f5000, %eax       # imm = 0x415F5000
+
+000087b7 <lab_p_acq>:
+    87b7: 50                           	pushl	%eax
+    87b8: 5f                           	popl	%edi
+    87b9: 41                           	incl	%ecx
+    87ba: 43                           	incl	%ebx
+    87bb: 51                           	pushl	%ecx
+    87bc: 3d 00 50 5f 47               	cmpl	$0x475f5000, %eax       # imm = 0x475F5000
+
+000087be <lab_p_gen>:
+    87be: 50                           	pushl	%eax
+    87bf: 5f                           	popl	%edi
+    87c0: 47                           	incl	%edi
+    87c1: 45                           	incl	%ebp
+    87c2: 4e                           	decl	%esi
+    87c3: 3d 00 43 5f 41               	cmpl	$0x415f4300, %eax       # imm = 0x415F4300
+
+000087c5 <lab_c_acq>:
+    87c5: 43                           	incl	%ebx
+    87c6: 5f                           	popl	%edi
+    87c7: 41                           	incl	%ecx
+    87c8: 43                           	incl	%ebx
+    87c9: 51                           	pushl	%ecx
+    87ca: 3d 00 43 5f 47               	cmpl	$0x475f4300, %eax       # imm = 0x475F4300
+
+000087cc <lab_c_gen>:
+    87cc: 43                           	incl	%ebx
+    87cd: 5f                           	popl	%edi
+    87ce: 47                           	incl	%edi
+    87cf: 45                           	incl	%ebp
+    87d0: 4e                           	decl	%esi
+    87d1: 3d 00 42 5f 46               	cmpl	$0x465f4200, %eax       # imm = 0x465F4200
+
+000087d3 <lab_b_full>:
+    87d3: 42                           	incl	%edx
+    87d4: 5f                           	popl	%edi
+    87d5: 46                           	incl	%esi
+    87d6: 55                           	pushl	%ebp
+    87d7: 4c                           	decl	%esp
+    87d8: 4c                           	decl	%esp
+    87d9: 3d 00 46 55 4c               	cmpl	$0x4c554600, %eax       # imm = 0x4C554600
+
+000087db <lab_full_owner>:
+    87db: 46                           	incl	%esi
+    87dc: 55                           	pushl	%ebp
+    87dd: 4c                           	decl	%esp
+    87de: 4c                           	decl	%esp
+    87df: 5f                           	popl	%edi
+    87e0: 4f                           	decl	%edi
+    87e1: 57                           	pushl	%edi
+    87e2: 4e                           	decl	%esi
+    87e3: 45                           	incl	%ebp
+    87e4: 52                           	pushl	%edx
+    87e5: 3d 00 57 41 49               	cmpl	$0x49415700, %eax       # imm = 0x49415700
+
+000087e7 <lab_wait_cont>:
+    87e7: 57                           	pushl	%edi
+    87e8: 41                           	incl	%ecx
+    87e9: 49                           	decl	%ecx
+    87ea: 54                           	pushl	%esp
+    87eb: 5f                           	popl	%edi
+    87ec: 43                           	incl	%ebx
+    87ed: 4f                           	decl	%edi
+    87ee: 4e                           	decl	%esi
+    87ef: 54                           	pushl	%esp
+    87f0: 3d 00 4d 49 53               	cmpl	$0x53494d00, %eax       # imm = 0x53494D00
+
+000087f2 <lab_miss>:
+    87f2: 4d                           	decl	%ebp
+    87f3: 49                           	decl	%ecx
+    87f4: 53                           	pushl	%ebx
+    87f5: 53                           	pushl	%ebx
+    87f6: 3d 00 4d 49 53               	cmpl	$0x53494d00, %eax       # imm = 0x53494D00
+
+000087f8 <lab_miss_prog>:
+    87f8: 4d                           	decl	%ebp
+    87f9: 49                           	decl	%ecx
+    87fa: 53                           	pushl	%ebx
+    87fb: 53                           	pushl	%ebx
+    87fc: 5f                           	popl	%edi
+    87fd: 50                           	pushl	%eax
+    87fe: 52                           	pushl	%edx
+    87ff: 4f                           	decl	%edi
+    8800: 47                           	incl	%edi
+    8801: 3d 00 4d 49 53               	cmpl	$0x53494d00, %eax       # imm = 0x53494D00
+
+00008803 <lab_miss_cont>:
+    8803: 4d                           	decl	%ebp
+    8804: 49                           	decl	%ecx
+    8805: 53                           	pushl	%ebx
+    8806: 53                           	pushl	%ebx
+    8807: 5f                           	popl	%edi
+    8808: 43                           	incl	%ebx
+    8809: 4f                           	decl	%edi
+    880a: 4e                           	decl	%esi
+    880b: 54                           	pushl	%esp
+    880c: 3d 00 49 44 4c               	cmpl	$0x4c444900, %eax       # imm = 0x4C444900
+
+0000880e <lab_idle>:
+    880e: 49                           	decl	%ecx
+    880f: 44                           	incl	%esp
+    8810: 4c                           	decl	%esp
+    8811: 45                           	incl	%ebp
+    8812: 5f                           	popl	%edi
+    8813: 45                           	incl	%ebp
+    8814: 4e                           	decl	%esi
+    8815: 54                           	pushl	%esp
+    8816: 45                           	incl	%ebp
+    8817: 52                           	pushl	%edx
+    8818: 3d 00 49 52 51               	cmpl	$0x51524900, %eax       # imm = 0x51524900
+
+0000881a <lab_irq_event>:
+    881a: 49                           	decl	%ecx
+    881b: 52                           	pushl	%edx
+    881c: 51                           	pushl	%ecx
+    881d: 5f                           	popl	%edi
+    881e: 45                           	incl	%ebp
+    881f: 56                           	pushl	%esi
+    8820: 45                           	incl	%ebp
+    8821: 4e                           	decl	%esi
+    8822: 54                           	pushl	%esp
+    8823: 3d 00 49 52 51               	cmpl	$0x51524900, %eax       # imm = 0x51524900
+
+00008825 <lab_irq_rel>:
+    8825: 49                           	decl	%ecx
+    8826: 52                           	pushl	%edx
+    8827: 51                           	pushl	%ecx
+    8828: 5f                           	popl	%edi
+    8829: 52                           	pushl	%edx
+    882a: 45                           	incl	%ebp
+    882b: 4c                           	decl	%esp
+    882c: 3d 00 57 41 4b               	cmpl	$0x4b415700, %eax       # imm = 0x4B415700
+
+0000882e <lab_wake>:
+    882e: 57                           	pushl	%edi
+    882f: 41                           	incl	%ecx
+    8830: 4b                           	decl	%ebx
+    8831: 45                           	incl	%ebp
+    8832: 3d 00 57 41 4b               	cmpl	$0x4b415700, %eax       # imm = 0x4B415700
+
+00008834 <lab_wake_prog>:
+    8834: 57                           	pushl	%edi
+    8835: 41                           	incl	%ecx
+    8836: 4b                           	decl	%ebx
+    8837: 45                           	incl	%ebp
+    8838: 5f                           	popl	%edi
+    8839: 50                           	pushl	%eax
+    883a: 52                           	pushl	%edx
+    883b: 4f                           	decl	%edi
+    883c: 47                           	incl	%edi
+    883d: 3d 00 41 50 50               	cmpl	$0x50504100, %eax       # imm = 0x50504100
+
+0000883f <lab_apply_prog>:
+    883f: 41                           	incl	%ecx
+    8840: 50                           	pushl	%eax
+    8841: 50                           	pushl	%eax
+    8842: 4c                           	decl	%esp
+    8843: 59                           	popl	%ecx
+    8844: 5f                           	popl	%edi
+    8845: 50                           	pushl	%eax
+    8846: 52                           	pushl	%edx
+    8847: 4f                           	decl	%edi
+    8848: 47                           	incl	%edi
+    8849: 3d 00 42 41 44               	cmpl	$0x44414200, %eax       # imm = 0x44414200
+
+0000884b <lab_bad_wake>:
+    884b: 42                           	incl	%edx
+    884c: 41                           	incl	%ecx
+    884d: 44                           	incl	%esp
+    884e: 5f                           	popl	%edi
+    884f: 57                           	pushl	%edi
+    8850: 41                           	incl	%ecx
+    8851: 4b                           	decl	%ebx
+    8852: 45                           	incl	%ebp
+    8853: 5f                           	popl	%edi
+    8854: 50                           	pushl	%eax
+    8855: 52                           	pushl	%edx
+    8856: 4f                           	decl	%edi
+    8857: 47                           	incl	%edi
+    8858: 3d 00 43 5f 52               	cmpl	$0x525f4300, %eax       # imm = 0x525F4300
+
+0000885a <lab_c_release>:
+    885a: 43                           	incl	%ebx
+    885b: 5f                           	popl	%edi
+    885c: 52                           	pushl	%edx
+    885d: 45                           	incl	%ebp
+    885e: 4c                           	decl	%esp
+    885f: 45                           	incl	%ebp
+    8860: 41                           	incl	%ecx
+    8861: 53                           	pushl	%ebx
+    8862: 45                           	incl	%ebp
+    8863: 3d 00 4c 49 46               	cmpl	$0x46494c00, %eax       # imm = 0x46494C00
+
+00008865 <lab_life_c_count>:
+    8865: 4c                           	decl	%esp
+    8866: 49                           	decl	%ecx
+    8867: 46                           	incl	%esi
+    8868: 45                           	incl	%ebp
+    8869: 5f                           	popl	%edi
+    886a: 43                           	incl	%ebx
+    886b: 5f                           	popl	%edi
+    886c: 43                           	incl	%ebx
+    886d: 4f                           	decl	%edi
+    886e: 55                           	pushl	%ebp
+    886f: 4e                           	decl	%esi
+    8870: 54                           	pushl	%esp
+    8871: 3d 00 4c 49 46               	cmpl	$0x46494c00, %eax       # imm = 0x46494C00
+
+00008873 <lab_life_c_value>:
+    8873: 4c                           	decl	%esp
+    8874: 49                           	decl	%ecx
+    8875: 46                           	incl	%esi
+    8876: 45                           	incl	%ebp
+    8877: 5f                           	popl	%edi
+    8878: 43                           	incl	%ebx
+    8879: 5f                           	popl	%edi
+    887a: 56                           	pushl	%esi
+    887b: 41                           	incl	%ecx
+    887c: 4c                           	decl	%esp
+    887d: 55                           	pushl	%ebp
+    887e: 45                           	incl	%ebp
+    887f: 3d 00 42 5f 41               	cmpl	$0x415f4200, %eax       # imm = 0x415F4200
+
+00008881 <lab_b_acq>:
+    8881: 42                           	incl	%edx
+    8882: 5f                           	popl	%edi
+    8883: 41                           	incl	%ecx
+    8884: 43                           	incl	%ebx
+    8885: 51                           	pushl	%ecx
+    8886: 3d 00 42 5f 47               	cmpl	$0x475f4200, %eax       # imm = 0x475F4200
+
+00008888 <lab_b_gen>:
+    8888: 42                           	incl	%edx
+    8889: 5f                           	popl	%edi
+    888a: 47                           	incl	%edi
+    888b: 45                           	incl	%ebp
+    888c: 4e                           	decl	%esi
+    888d: 3d 00 42 5f 50               	cmpl	$0x505f4200, %eax       # imm = 0x505F4200
+
+0000888f <lab_b_prog>:
+    888f: 42                           	incl	%edx
+    8890: 5f                           	popl	%edi
+    8891: 50                           	pushl	%eax
+    8892: 52                           	pushl	%edx
+    8893: 4f                           	decl	%edi
+    8894: 47                           	incl	%edi
+    8895: 3d 00 53 54 41               	cmpl	$0x41545300, %eax       # imm = 0x41545300
+
+00008897 <lab_stale_c>:
+    8897: 53                           	pushl	%ebx
+    8898: 54                           	pushl	%esp
+    8899: 41                           	incl	%ecx
+    889a: 4c                           	decl	%esp
+    889b: 45                           	incl	%ebp
+    889c: 5f                           	popl	%edi
+    889d: 43                           	incl	%ebx
+    889e: 3d 00 42 41 44               	cmpl	$0x44414200, %eax       # imm = 0x44414200
+
+000088a0 <lab_bad_stale>:
+    88a0: 42                           	incl	%edx
+    88a1: 41                           	incl	%ecx
+    88a2: 44                           	incl	%esp
+    88a3: 5f                           	popl	%edi
+    88a4: 53                           	pushl	%ebx
+    88a5: 54                           	pushl	%esp
+    88a6: 41                           	incl	%ecx
+    88a7: 4c                           	decl	%esp
+    88a8: 45                           	incl	%ebp
+    88a9: 3d 00 46 4c 41               	cmpl	$0x414c4600, %eax       # imm = 0x414C4600
+
+000088ab <lab_flag_ctl>:
+    88ab: 46                           	incl	%esi
+    88ac: 4c                           	decl	%esp
+    88ad: 41                           	incl	%ecx
+    88ae: 47                           	incl	%edi
+    88af: 5f                           	popl	%edi
+    88b0: 43                           	incl	%ebx
+    88b1: 54                           	pushl	%esp
+    88b2: 4c                           	decl	%esp
+    88b3: 3d 00 56 45 52               	cmpl	$0x52455600, %eax       # imm = 0x52455600
+
+000088b5 <lab_ver_ctl>:
+    88b5: 56                           	pushl	%esi
+    88b6: 45                           	incl	%ebp
+    88b7: 52                           	pushl	%edx
+    88b8: 5f                           	popl	%edi
+    88b9: 43                           	incl	%ebx
+    88ba: 54                           	pushl	%esp
+    88bb: 4c                           	decl	%esp
+    88bc: 3d 00 53 54 41               	cmpl	$0x41545300, %eax       # imm = 0x41545300
+
+000088be <lab_stable_ctl>:
+    88be: 53                           	pushl	%ebx
+    88bf: 54                           	pushl	%esp
+    88c0: 41                           	incl	%ecx
+    88c1: 42                           	incl	%edx
+    88c2: 4c                           	decl	%esp
+    88c3: 45                           	incl	%ebp
+    88c4: 5f                           	popl	%edi
+    88c5: 43                           	incl	%ebx
+    88c6: 54                           	pushl	%esp
+    88c7: 4c                           	decl	%esp
+    88c8: 3d 00 44 55 52               	cmpl	$0x52554400, %eax       # imm = 0x52554400
+
+000088ca <lab_durable_write>:
+    88ca: 44                           	incl	%esp
+    88cb: 55                           	pushl	%ebp
+    88cc: 52                           	pushl	%edx
+    88cd: 41                           	incl	%ecx
+    88ce: 42                           	incl	%edx
+    88cf: 4c                           	decl	%esp
+    88d0: 45                           	incl	%ebp
+    88d1: 5f                           	popl	%edi
+    88d2: 57                           	pushl	%edi
+    88d3: 52                           	pushl	%edx
+    88d4: 49                           	decl	%ecx
+    88d5: 54                           	pushl	%esp
+    88d6: 45                           	incl	%ebp
+    88d7: 3d 00 50 5f 52               	cmpl	$0x525f5000, %eax       # imm = 0x525F5000
+
+000088d9 <lab_p_release>:
+    88d9: 50                           	pushl	%eax
+    88da: 5f                           	popl	%edi
+    88db: 52                           	pushl	%edx
+    88dc: 45                           	incl	%ebp
+    88dd: 4c                           	decl	%esp
+    88de: 45                           	incl	%ebp
+    88df: 41                           	incl	%ecx
+    88e0: 53                           	pushl	%ebx
+    88e1: 45                           	incl	%ebp
+    88e2: 3d 00 4c 49 46               	cmpl	$0x46494c00, %eax       # imm = 0x46494C00
+
+000088e4 <lab_life_p_count>:
+    88e4: 4c                           	decl	%esp
+    88e5: 49                           	decl	%ecx
+    88e6: 46                           	incl	%esi
+    88e7: 45                           	incl	%ebp
+    88e8: 5f                           	popl	%edi
+    88e9: 50                           	pushl	%eax
+    88ea: 5f                           	popl	%edi
+    88eb: 43                           	incl	%ebx
+    88ec: 4f                           	decl	%edi
+    88ed: 55                           	pushl	%ebp
+    88ee: 4e                           	decl	%esi
+    88ef: 54                           	pushl	%esp
+    88f0: 3d 00 4c 49 46               	cmpl	$0x46494c00, %eax       # imm = 0x46494C00
+
+000088f2 <lab_life_p_value>:
+    88f2: 4c                           	decl	%esp
+    88f3: 49                           	decl	%ecx
+    88f4: 46                           	incl	%esi
+    88f5: 45                           	incl	%ebp
+    88f6: 5f                           	popl	%edi
+    88f7: 50                           	pushl	%eax
+    88f8: 5f                           	popl	%edi
+    88f9: 56                           	pushl	%esi
+    88fa: 41                           	incl	%ecx
+    88fb: 4c                           	decl	%esp
+    88fc: 55                           	pushl	%ebp
+    88fd: 45                           	incl	%ebp
+    88fe: 3d 00 47 45 4e               	cmpl	$0x4e454700, %eax       # imm = 0x4E454700
+
+00008900 <lab_gen_exhaust>:
+    8900: 47                           	incl	%edi
+    8901: 45                           	incl	%ebp
+    8902: 4e                           	decl	%esi
+    8903: 5f                           	popl	%edi
+    8904: 45                           	incl	%ebp
+    8905: 58                           	popl	%eax
+    8906: 48                           	decl	%eax
+    8907: 41                           	incl	%ecx
+    8908: 55                           	pushl	%ebp
+    8909: 53                           	pushl	%ebx
+    890a: 54                           	pushl	%esp
+    890b: 3d 00 47 45 4e               	cmpl	$0x4e454700, %eax       # imm = 0x4E454700
+
+0000890d <lab_gen_owner>:
+    890d: 47                           	incl	%edi
+    890e: 45                           	incl	%ebp
+    890f: 4e                           	decl	%esi
+    8910: 5f                           	popl	%edi
+    8911: 4f                           	decl	%edi
+    8912: 57                           	pushl	%edi
+    8913: 4e                           	decl	%esi
+    8914: 45                           	incl	%ebp
+    8915: 52                           	pushl	%edx
+    8916: 3d 00 42 41 44               	cmpl	$0x44414200, %eax       # imm = 0x44414200
+
+00008918 <lab_bad_global>:
+    8918: 42                           	incl	%edx
+    8919: 41                           	incl	%ecx
+    891a: 44                           	incl	%esp
+    891b: 5f                           	popl	%edi
+    891c: 47                           	incl	%edi
+    891d: 4c                           	decl	%esp
+    891e: 4f                           	decl	%edi
+    891f: 42                           	incl	%edx
+    8920: 41                           	incl	%ecx
+    8921: 4c                           	decl	%esp
+    8922: 5f                           	popl	%edi
+    8923: 42                           	incl	%edx
+    8924: 3d 00 42 41 44               	cmpl	$0x44414200, %eax       # imm = 0x44414200
+
+00008926 <lab_bad_full_owner>:
+    8926: 42                           	incl	%edx
+    8927: 41                           	incl	%ecx
+    8928: 44                           	incl	%esp
+    8929: 5f                           	popl	%edi
+    892a: 46                           	incl	%esi
+    892b: 55                           	pushl	%ebp
+    892c: 4c                           	decl	%esp
+    892d: 4c                           	decl	%esp
+    892e: 5f                           	popl	%edi
+    892f: 4f                           	decl	%edi
+    8930: 57                           	pushl	%edi
+    8931: 4e                           	decl	%esi
+    8932: 45                           	incl	%ebp
+    8933: 52                           	pushl	%edx
+    8934: 3d 00 44 55 52               	cmpl	$0x52554400, %eax       # imm = 0x52554400
+
+00008936 <lab_durable_pass>:
+    8936: 44                           	incl	%esp
+    8937: 55                           	pushl	%ebp
+    8938: 52                           	pushl	%edx
+    8939: 41                           	incl	%ecx
+    893a: 42                           	incl	%edx
+    893b: 4c                           	decl	%esp
+    893c: 45                           	incl	%ebp
+    893d: 3d 50 41 53 53               	cmpl	$0x53534150, %eax       # imm = 0x53534150
+    8942: 0a 00                        	orb	(%eax), %al
+
+00008944 <lab_prebind>:
+    8944: 50                           	pushl	%eax
+    8945: 52                           	pushl	%edx
+    8946: 45                           	incl	%ebp
+    8947: 42                           	incl	%edx
+    8948: 49                           	decl	%ecx
+    8949: 4e                           	decl	%esi
+    894a: 44                           	incl	%esp
+    894b: 3d 00 42 41 44               	cmpl	$0x44414200, %eax       # imm = 0x44414200
+
+0000894d <lab_bad_restart>:
+    894d: 42                           	incl	%edx
+    894e: 41                           	incl	%ecx
+    894f: 44                           	incl	%esp
+    8950: 5f                           	popl	%edi
+    8951: 52                           	pushl	%edx
+    8952: 45                           	incl	%ebp
+    8953: 53                           	pushl	%ebx
+    8954: 54                           	pushl	%esp
+    8955: 41                           	incl	%ecx
+    8956: 52                           	pushl	%edx
+    8957: 54                           	pushl	%esp
+    8958: 5f                           	popl	%edi
+    8959: 55                           	pushl	%ebp
+    895a: 53                           	pushl	%ebx
+    895b: 45                           	incl	%ebp
+    895c: 3d 00 52 45 42               	cmpl	$0x42455200, %eax       # imm = 0x42455200
+
+0000895e <lab_rebind>:
+    895e: 52                           	pushl	%edx
+    895f: 45                           	incl	%ebp
+    8960: 42                           	incl	%edx
+    8961: 49                           	decl	%ecx
+    8962: 4e                           	decl	%esi
+    8963: 44                           	incl	%esp
+    8964: 3d 00 50 4f 53               	cmpl	$0x534f5000, %eax       # imm = 0x534F5000
+
+00008966 <lab_postbind>:
+    8966: 50                           	pushl	%eax
+    8967: 4f                           	decl	%edi
+    8968: 53                           	pushl	%ebx
+    8969: 54                           	pushl	%esp
+    896a: 42                           	incl	%edx
+    896b: 49                           	decl	%ecx
+    896c: 4e                           	decl	%esi
+    896d: 44                           	incl	%esp
+    896e: 3d 00 4f 4c 44               	cmpl	$0x444c4f00, %eax       # imm = 0x444C4F00
+
+00008970 <lab_old_token>:
+    8970: 4f                           	decl	%edi
+    8971: 4c                           	decl	%esp
+    8972: 44                           	incl	%esp
+    8973: 5f                           	popl	%edi
+    8974: 54                           	pushl	%esp
+    8975: 4f                           	decl	%edi
+    8976: 4b                           	decl	%ebx
+    8977: 45                           	incl	%ebp
+    8978: 4e                           	decl	%esi
+    8979: 3d 00 45 50 4f               	cmpl	$0x4f504500, %eax       # imm = 0x4F504500
+
+0000897b <lab_epoch>:
+    897b: 45                           	incl	%ebp
+    897c: 50                           	pushl	%eax
+    897d: 4f                           	decl	%edi
+    897e: 43                           	incl	%ebx
+    897f: 48                           	decl	%eax
+    8980: 3d 00 44 55 52               	cmpl	$0x52554400, %eax       # imm = 0x52554400
+
+00008982 <lab_durable_rewrite>:
+    8982: 44                           	incl	%esp
+    8983: 55                           	pushl	%ebp
+    8984: 52                           	pushl	%edx
+    8985: 41                           	incl	%ecx
+    8986: 42                           	incl	%edx
+    8987: 4c                           	decl	%esp
+    8988: 45                           	incl	%ebp
+    8989: 5f                           	popl	%edi
+    898a: 52                           	pushl	%edx
+    898b: 45                           	incl	%ebp
+    898c: 57                           	pushl	%edi
+    898d: 52                           	pushl	%edx
+    898e: 49                           	decl	%ecx
+    898f: 54                           	pushl	%esp
+    8990: 45                           	incl	%ebp
+    8991: 3d 00 44 4f 4e               	cmpl	$0x4e4f4400, %eax       # imm = 0x4E4F4400
+
+00008993 <lab_done>:
+    8993: 44                           	incl	%esp
+    8994: 4f                           	decl	%edi
+    8995: 4e                           	decl	%esi
+    8996: 45                           	incl	%ebp
+    8997: 0a 00                        	orb	(%eax), %al
+
+00008999 <lab_io_fail>:
+    8999: 49                           	decl	%ecx
+    899a: 4f                           	decl	%edi
+    899b: 5f                           	popl	%edi
+    899c: 46                           	incl	%esi
+    899d: 41                           	incl	%ecx
+    899e: 49                           	decl	%ecx
+    899f: 4c                           	decl	%esp
+    89a0: 0a 00                        	orb	(%eax), %al
+
+000089a2 <lab_state_fail>:
+    89a2: 53                           	pushl	%ebx
+    89a3: 54                           	pushl	%esp
+    89a4: 41                           	incl	%ecx
+    89a5: 54                           	pushl	%esp
+    89a6: 45                           	incl	%ebp
+    89a7: 5f                           	popl	%edi
+    89a8: 46                           	incl	%esi
+    89a9: 41                           	incl	%ecx
+    89aa: 49                           	decl	%ecx
+    89ab: 4c                           	decl	%esp
+    89ac: 0a 00                        	orb	(%eax), %al

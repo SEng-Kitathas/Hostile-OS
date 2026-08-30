@@ -1,0 +1,15 @@
+HOSTILE-OS C001 CONTINUITY BOOTLOADER — 2026-08-27
+
+STATUS: C001 NARROWED_COMPLETE at P20. Hard stop honored. Scientific passes: 20.
+ARCHITECTURE PROMOTION: NONE.
+CSC: audit-only PASS; promotion authority NONE.
+
+CURRENT RESULT:
+C001 supports a relation-level decomposition of historical Process/Scheduler/File bundles. Surviving independent distinctions include identity, lineage, eligibility, bounded arbitration/tie/fallback, continuation binding/core, memory interpretation binding, wait/wake/resume transitions, resource-access binding, backing identity, per-access cursor, and mode/applicability. Linux graded service credit and priority are real capabilities but not required by P01 minimum. Common read/write names do not prove a universal File essence.
+
+IMPORTANT SCAR:
+P05 first simulator re-arbitrated every tick and was INVALID. It is preserved, excluded, and replaced by the corrected timer/block semantics model. This is a live warning against inference from a harness that does not match donor execution.
+
+NEXT FRONTIER:
+C002 DONOR-NEUTRAL RELATION COMPOSITION / WHOLE-P01 CLOSURE.
+Build the smallest explicit relation graph/state machine representing the whole P01 consequence set without primitive Process/Scheduler/File nouns; attack ontology leakage before adding an executor. Exactly 20 passes; no P21.

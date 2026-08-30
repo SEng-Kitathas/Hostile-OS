@@ -1,0 +1,21 @@
+{
+  "evaluator_version": "C003-P06-missing-operation-v1",
+  "expected_lines": [
+    "KNOWN_STATUS=O",
+    "UNKNOWN_STATUS=M",
+    "BEFORE_UNKNOWN=B",
+    "AFTER_UNKNOWN=B",
+    "DONE"
+  ],
+  "observed_lines": [
+    "KNOWN_STATUS=O",
+    "UNKNOWN_STATUS=M",
+    "BEFORE_UNKNOWN=B",
+    "AFTER_UNKNOWN=B",
+    "DONE"
+  ],
+  "debugcon_sha256": "bfca14da3369401755f8633391ae8382086a519b1bb8c16454cbb58f861556de",
+  "passed": true,
+  "interpretation": "known operation was accepted and mutated A->B; unknown operation returned explicit missing status and left B unchanged",
+  "authority_ceiling": "bounded one-byte operation/result relation only; no general syscall namespace, capability system, dynamic linking, service architecture, or architecture claim"
+}

@@ -1,0 +1,33 @@
+{
+  "checker_version": "D64-RR01-static-v1",
+  "checks": {
+    "exact_capacities_and_arrays": true,
+    "ordinary_paths_reused": true,
+    "rekey_scans_all_bindings_before_mutation": true,
+    "rekey_checks_resource_identity_livecount_before_mutation": true,
+    "relation_guard_before_mutation": true,
+    "rekey_reject_no_namespace_mutation": true,
+    "rekey_resets_resource_state_bounded": true,
+    "rekey_changes_resource_epoch_nonzero_after_reset": true,
+    "rekey_does_not_touch_activity_state": true,
+    "rekey_does_not_touch_binding_arrays": true,
+    "bad_reset_generation_only": true,
+    "resource_generation_fail_closed": true,
+    "resource_read_currentness_before_value": true,
+    "binding_read_currentness_before_value": true,
+    "input_manifest_receipt_closure": true,
+    "host_no_guest_mutation_or_trace_synthesis": true,
+    "all_checks_literal_boolean": true
+  },
+  "passed": true,
+  "stage2_sha256": "c79dc30860e7670d23d666ea8f82f42c74d6083b5cfbd6f881747bc12a5b8094",
+  "input_manifest_sha256": "363a3192b9125f85f168d925022f988a3d7e9366a5ec496de8a4e5dff6e69836",
+  "measurements": {
+    "activity_capacity": 64,
+    "bindings_per_activity": 20,
+    "binding_cell_count": 1280,
+    "resource_capacity": 64,
+    "resource_rekey_binding_scan": 1280,
+    "resource_scan_reset": 64
+  }
+}

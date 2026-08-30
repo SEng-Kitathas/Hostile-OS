@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   2177	      0	      0	   2177	    881	E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\rekey\D64_RK01\runs\20260830T045700Z_d64_rk01_rekey_01\stage2.elf

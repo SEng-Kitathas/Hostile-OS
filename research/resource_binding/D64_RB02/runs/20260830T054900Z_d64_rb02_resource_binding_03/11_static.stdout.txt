@@ -1,0 +1,38 @@
+{
+  "checker_version": "D64-RB02-static-v1",
+  "checks": {
+    "named_capacities": true,
+    "activity_arrays_64": true,
+    "binding_arrays_1280": true,
+    "resource_arrays_and_livecount_16bit": true,
+    "generic_activity_acquire": true,
+    "binding_row_math_20": true,
+    "bind_new_capacity_checks_before_mutation": true,
+    "binding_generation_fail_closed": true,
+    "resource_generation_fail_closed": true,
+    "resource_initialized_before_binding_publish": true,
+    "bind_existing_validates_resource_first": true,
+    "livecount_word_ops": true,
+    "detach_lifetime_order": true,
+    "binding_read_checks_currentness_before_value": true,
+    "resource_read_checks_currentness_before_value": true,
+    "negative_controls_omit_currentness": true,
+    "full_branches_no_protected_mutation": true,
+    "max_share_64x20_generic_path": true,
+    "snapshot_receipt_source_closure": true,
+    "host_no_guest_mutation_or_trace_synthesis": true,
+    "all_checks_literal_boolean": true
+  },
+  "passed": true,
+  "stage2_sha256": "44f655331e5aec79ec8dac7c4e7cc514907a103bc7bf55312fd62a6c753f363a",
+  "input_manifest_sha256": "be2d19842736a8af2cf381523949fbe53055ed914b16d2cdb5804f507e282d7e",
+  "measurements": {
+    "activity_capacity": 64,
+    "bindings_per_activity": 20,
+    "binding_cell_count": 1280,
+    "resource_capacity": 64,
+    "resource_live_count_bits": 16,
+    "max_binding_row_scan": 20,
+    "max_resource_scan": 64
+  }
+}

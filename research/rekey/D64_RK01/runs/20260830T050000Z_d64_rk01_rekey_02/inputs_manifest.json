@@ -1,0 +1,90 @@
+{
+  "run_id": "20260830T050000Z_d64_rk01_rekey_02",
+  "snapshot_utc": "2026-08-30T04:56:23.048494+00:00",
+  "controlling_git_head": "7ca3dce6ec8e130661823203ce9de4ad326a3d85",
+  "controlling_preregistration_commit": "7ca3dce6ec8e130661823203ce9de4ad326a3d85",
+  "declared_working_directory": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS",
+  "launcher_path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\rekey\\D64_RK01\\probe\\launch_rk01.py",
+  "launcher_sha256": "980dab213472200c296e19435b91666b4749b6acfbbd2bf53aac956e73ffa60a",
+  "tools": {
+    "clang": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+    "lld": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+    "objcopy": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+    "size": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-size.exe",
+    "nm": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-nm.exe",
+    "qemu": "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+    "python": "C:\\Users\\ancal\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe"
+  },
+  "inputs": [
+    {
+      "key": "preregistration",
+      "source_project_relative": "research/rekey/D64_RK01/D64_RK01_PREREGISTRATION.md",
+      "snapshot_path": "inputs/preregistration.md",
+      "bytes": 10448,
+      "sha256": "e162547023d0552a724541ec39a6cf033299bb8149fcd6c2befdbd97bee6035a"
+    },
+    {
+      "key": "target_profile",
+      "source_project_relative": "research/plans/HOSTILE_OS_TARGET_WORKLOAD_PROFILE_D64_2026-08-30.md",
+      "snapshot_path": "inputs/target_profile.md",
+      "bytes": 8300,
+      "sha256": "af4cd5561939f2fe794fa9e696474a8bbc2b1ec271068bb8dff90f4aa542d3b3"
+    },
+    {
+      "key": "rekey_plan",
+      "source_project_relative": "research/plans/D64_ACTIVITY_NAMESPACE_REKEY_PLAN_2026-08-30.md",
+      "snapshot_path": "inputs/rekey_plan.md",
+      "bytes": 9769,
+      "sha256": "b5e5aa1faa702ce82fb7e6e9ba55a4916380999d4210900633cb54ed4ac475e8"
+    },
+    {
+      "key": "stage1_s",
+      "source_project_relative": "research/integration/I001/probe/stage1.S",
+      "snapshot_path": "inputs/stage1.S",
+      "bytes": 761,
+      "sha256": "6213425390d4e498f65d6593b2f7f4591611ed5c2ca1a315d0e0c5fa88693edf"
+    },
+    {
+      "key": "stage1_ld",
+      "source_project_relative": "research/integration/I001/probe/stage1.ld",
+      "snapshot_path": "inputs/stage1.ld",
+      "bytes": 189,
+      "sha256": "2fbb3c273a06fa4fddfe9d4400fc42e6d102cb977b92cabd2866b258f1ba7d86"
+    },
+    {
+      "key": "stage2_s",
+      "source_project_relative": "research/rekey/D64_RK01/probe/stage2.S",
+      "snapshot_path": "inputs/stage2.S",
+      "bytes": 11502,
+      "sha256": "445050a2be84c4f4482fbc42b0e8e12f3d192b524ce51d8d5cba2fde50cbb68f"
+    },
+    {
+      "key": "stage2_ld",
+      "source_project_relative": "research/rekey/D64_RK01/probe/stage2.ld",
+      "snapshot_path": "inputs/stage2.ld",
+      "bytes": 174,
+      "sha256": "45c8cddaf8219e3eaa85c285e73104657cfdadb3127227a501f7b5ed1dc3eabb"
+    },
+    {
+      "key": "launcher",
+      "source_project_relative": "research/rekey/D64_RK01/probe/launch_rk01.py",
+      "snapshot_path": "inputs/launch_rk01.py",
+      "bytes": 9257,
+      "sha256": "980dab213472200c296e19435b91666b4749b6acfbbd2bf53aac956e73ffa60a"
+    },
+    {
+      "key": "evaluator",
+      "source_project_relative": "research/rekey/D64_RK01/probe/evaluate_rk01.py",
+      "snapshot_path": "inputs/evaluate_rk01.py",
+      "bytes": 1332,
+      "sha256": "8dc34e4576d9681a90d05b255ff740404801466979a64bbc89429e36a0b78ba4"
+    },
+    {
+      "key": "static_checker",
+      "source_project_relative": "research/rekey/D64_RK01/probe/static_check_rk01.py",
+      "snapshot_path": "inputs/static_check_rk01.py",
+      "bytes": 5456,
+      "sha256": "08ddcb94b8cd31144b13726f73c0933ffe85f64790a9b95529cac740c8d7755d"
+    }
+  ]
+}

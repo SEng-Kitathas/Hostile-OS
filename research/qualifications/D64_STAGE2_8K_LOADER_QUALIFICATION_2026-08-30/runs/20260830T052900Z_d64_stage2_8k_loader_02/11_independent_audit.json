@@ -1,0 +1,23 @@
+{
+  "audit_version": "D64-8K-loader-independent-closure-v1",
+  "checks": {
+    "manifest_hash_receipt": true,
+    "snapshots_exact": true,
+    "receipt_sources_equal_manifest": true,
+    "prereg_lineage": true,
+    "snapshot_precedes_qemu": true,
+    "stage1_contract": true,
+    "stage2_tail_exact": true,
+    "stage2_padded_8192": true,
+    "disk_layout": true,
+    "sector18_zero": true,
+    "qemu_pass": true,
+    "eval_pass": true,
+    "static_all_true": true,
+    "first_attempt_no_snapshot_or_science": true
+  },
+  "passed": true,
+  "stage2_raw_sha256": "7ff9ebe7ac73ea4f88e259690d6a630d9d8333bc6a8089a86e08aee364975680",
+  "disk_sha256": "5641f085bb29bc2d92bf54a4f2425f8235651a68f607879744f630258eb8dd5e",
+  "note": "Attempt 1 failed before snapshot/build/QEMU because launcher selected the project parent rather than HOSTILE_OS as Git cwd. Attempt 2 changed only launcher repo-root calculation and is the first qualified run."
+}

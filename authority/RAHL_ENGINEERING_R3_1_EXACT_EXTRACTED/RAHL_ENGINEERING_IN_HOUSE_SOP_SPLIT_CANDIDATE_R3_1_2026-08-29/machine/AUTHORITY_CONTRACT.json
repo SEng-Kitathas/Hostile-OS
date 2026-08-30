@@ -1,0 +1,15 @@
+{
+  "assurance_ceiling": "STRUCTURE_SOURCE_CLASS_BODY_COVERAGE_AND_INTEGRITY_ONLY",
+  "candidate_authority": "COMPRESSION_ONLY_INHERITS_NO_NEW_AUTHORITY",
+  "candidate_id": "RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29",
+  "churn_falsification_sha256": "c65d7e6fa00ae846d6138fffbf26478caa40006b09859ecc4a7fc31ff75bbb02",
+  "foundation_promotion": false,
+  "parent_authority": "R6",
+  "parent_sha256": "69721b7b6c4b8c04d5377f1b7c0afa044530a6352496c7cb564f4cb4ef2df257",
+  "r2_rejected_sha256": "8229439e3b5a6feba4b4d9cd5dccbd5ed049e29c24875b1aa9b69b37c7acf063",
+  "replacement_blockers": [
+    "FRESH_REAL_PROJECT_SHADOW_USE"
+  ],
+  "replacement_ready": false,
+  "status": "SHADOW_USE_CANDIDATE"
+}

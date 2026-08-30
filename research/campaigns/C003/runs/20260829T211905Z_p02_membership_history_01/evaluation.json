@@ -1,0 +1,22 @@
+{
+  "evaluator_version": "C003-P02-membership-history-v1",
+  "debugcon_path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T211905Z_p02_membership_history_01\\debugcon.txt",
+  "debugcon_sha256": "d4f6d69258ba7f31695551d7324ee1fa67c5602dfd9b0a1c53dac7aaeac81c6b",
+  "expected_lines": [
+    "PRE_ID=C",
+    "PRE_IDX=C",
+    "POST_ID=C",
+    "POST_IDX=B",
+    "DONE"
+  ],
+  "observed_lines": [
+    "PRE_ID=C",
+    "PRE_IDX=C",
+    "POST_ID=C",
+    "POST_IDX=B",
+    "DONE"
+  ],
+  "passed": true,
+  "interpretation": "pre-mutation identity/index controls agree; post-mutation identity history preserves C while stale numeric history drifts to B",
+  "authority_ceiling": "bounded fixed-capacity membership/history discriminator only; no exact C002 source-reliance claim, general scheduler/fairness claim, multicore atomicity claim, or architecture promotion"
+}

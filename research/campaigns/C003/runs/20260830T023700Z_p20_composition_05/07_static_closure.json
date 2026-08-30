@@ -1,0 +1,28 @@
+{
+  "inspection": "C003-P20-static-source-closure-v1",
+  "source": "research\\campaigns\\C003\\P20_composition_probe\\mechanism.S",
+  "run_id": "20260830T023700Z_p20_composition_05",
+  "checks": {
+    "one_slot_storage": true,
+    "progress_contiguous_with_continuation": true,
+    "acquire_checks_before_mutation": true,
+    "acquire_increments_generation": true,
+    "acquire_initializes_runtime": true,
+    "continuation_stored_before_missing": true,
+    "middle_checks_status_before_apply": true,
+    "full_branch_no_slot_overwrite": true,
+    "release_clears_owner_only": true,
+    "same_acquire_routine_reused": true,
+    "checked_read_generation_first": true,
+    "stale_reject_no_value_read": true,
+    "address_only_no_generation_compare_reads_value": true,
+    "receipt_source_hash_matches": true,
+    "receipt_run_hashes_match": true,
+    "boot_contract": true,
+    "qemu_completed_33": true,
+    "evaluator_passed": true
+  },
+  "passed": true,
+  "mechanism_sha256": "d56fbf90e412a57f11c2120fcd2a4b77d08367712446565c075a2bf77bb5e106",
+  "receipt_sha256": "a09cde454cdb91555a24d9dc6e523e4b42bcd1ec7ecbb5b861b066f99ff43abf"
+}

@@ -1,0 +1,97 @@
+{
+  "run_id": "20260829T214920Z_p10_continuation_binding_01",
+  "run_class": "C003_P10_EXPLICIT_CONTINUATION_BINDING_DISCRIMINATOR",
+  "scientific_status": "COMPLETED",
+  "authority_ceiling": "bounded explicit activity continuation identity only",
+  "cwd": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS",
+  "qemu": {
+    "pid": 2952,
+    "argv": [
+      "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "-accel",
+      "tcg",
+      "-display",
+      "none",
+      "-monitor",
+      "none",
+      "-serial",
+      "none",
+      "-no-reboot",
+      "-drive",
+      "file=E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/campaigns/C003/runs/20260829T214920Z_p10_continuation_binding_01/probe.bin,format=raw,if=floppy",
+      "-device",
+      "isa-debug-exit,iobase=0xf4,iosize=0x04",
+      "-debugcon",
+      "file:E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/campaigns/C003/runs/20260829T214920Z_p10_continuation_binding_01/debugcon.txt",
+      "-global",
+      "isa-debugcon.iobase=0xe9"
+    ],
+    "started_utc": "2026-08-29T21:49:06.870406+00:00",
+    "ended_utc": "2026-08-29T21:49:07.072146+00:00",
+    "status": "COMPLETED",
+    "exit_code": 33,
+    "timeout_seconds": 5
+  },
+  "tools": {
+    "clang": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "sha256": "f2e1b93d9dd27b847773e7de61b00f1b49ae27eb20ba434297cc020f768a1dfb"
+    },
+    "lld": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+      "sha256": "1260f9d6e0522bd476d040203998fa03406607971c13a9aa74f3f66f1e6d1c5d"
+    },
+    "objcopy": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+      "sha256": "4a7559a17dba5f35eb8d209e4765516b548e83b664278c8640f484c3be70e901"
+    },
+    "qemu": {
+      "path": "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "sha256": "dbbf7242e5b0d295e54336c69034a266ee1cc117d7ac6e3060e38bb61651200b"
+    },
+    "python": {
+      "path": "C:\\Users\\ancal\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "sha256": "03168c01b7b7491423350e82c26fee71f35b43694d1319d3c668bda6903a0c38"
+    }
+  },
+  "source_sha256": {
+    "mechanism": "028d4fc6ab3eb027392992645693d69706c6ac0643b8a153d901550ef4502717",
+    "fixture": "e35046cf41a2eefa71181bae368df00a4fadf9ddbee544fd0eb74012a52f725f",
+    "linker": "1c124d0b1bb05fea1fc140ad8da7856727ae6cabb578b36ec2540fe5194c9f87",
+    "evaluator": "4dbf5b1f62d4f1f58ca825f3a5e5867f17ca89f22a57320f45d2b3793b7d1883",
+    "launcher": "bf2fffe2cf5af9ab59552bdcddadc9e1a2ebaffc9003568bd88f210ceef784d9"
+  },
+  "artifacts": {
+    "probe_bin": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T214920Z_p10_continuation_binding_01\\probe.bin",
+      "bytes": 512,
+      "sha256": "cdf99dba44759fc07d6e988d5163c5135227d86c3c582d3855118a3687d0f1d7",
+      "boot_signature": "55aa"
+    },
+    "debugcon": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T214920Z_p10_continuation_binding_01\\debugcon.txt",
+      "sha256": "98b0384dd3c2a1a4d4dcd70a0d317cd5bbc09b929e3920d61711abac1db466af"
+    },
+    "evaluation": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T214920Z_p10_continuation_binding_01\\evaluation.json",
+      "sha256": "84f1d3ed655ce818962dfca86e44e2f5df31ea145e52c5dafdbba09eccdb8025",
+      "evaluator_exit": 0
+    },
+    "qemu_stdout": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T214920Z_p10_continuation_binding_01\\05_qemu.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "qemu_stderr": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T214920Z_p10_continuation_binding_01\\05_qemu.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evaluator_stdout": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T214920Z_p10_continuation_binding_01\\06_evaluator.stdout.txt",
+      "sha256": "b064f58db225bae6eaf15305046012312645fdcd1e0bbf812b6d207a3d2bc2ee"
+    },
+    "evaluator_stderr": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T214920Z_p10_continuation_binding_01\\06_evaluator.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

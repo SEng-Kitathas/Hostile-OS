@@ -1,0 +1,21 @@
+{
+  "evaluator_version": "C003-P05-async-irq-idle-v1",
+  "expected_lines": [
+    "PRE_EVENT=0",
+    "IDLE_ENTER=PASS",
+    "IRQ_EVENT=PASS",
+    "IDLE_WAKE=PASS",
+    "DONE"
+  ],
+  "observed_lines": [
+    "PRE_EVENT=0",
+    "IDLE_ENTER=PASS",
+    "IRQ_EVENT=PASS",
+    "IDLE_WAKE=PASS",
+    "DONE"
+  ],
+  "debugcon_sha256": "2fa966d8fb3407a4681ed337ec09286593cd030ea12fe6860117585a20992524",
+  "passed": true,
+  "interpretation": "guest reached idle with zero event generation; a QEMU virtual PIT/PIC IRQ created event state and released the waiting activity",
+  "authority_ceiling": "QEMU virtual PIT/PIC real-mode evidence only; no physical timing, scheduler architecture, multicore routing, real-time, or architecture claim"
+}

@@ -1,0 +1,25 @@
+{
+  "evaluator_version": "C003-P07-failure-locality-v1",
+  "expected_lines": [
+    "LOCAL_MISS=M",
+    "LOCAL_LATER=O",
+    "LOCAL_STATE=B",
+    "GLOBAL_MISS=M",
+    "GLOBAL_LATER=X",
+    "GLOBAL_STATE=A",
+    "DONE"
+  ],
+  "observed_lines": [
+    "LOCAL_MISS=M",
+    "LOCAL_LATER=O",
+    "LOCAL_STATE=B",
+    "GLOBAL_MISS=M",
+    "GLOBAL_LATER=X",
+    "GLOBAL_STATE=A",
+    "DONE"
+  ],
+  "debugcon_sha256": "37e3bdd7800e0a2b723729c10cef60ffd19ca4d10e9dc6e3b298b18694736dc1",
+  "passed": true,
+  "interpretation": "local missing result leaves distinct later present operation free to advance state; deliberately global poison control blocks the same later progress",
+  "authority_ceiling": "bounded two-activity failure-locality consequence only; no general fault containment, scheduler, process, API namespace, or architecture claim"
+}

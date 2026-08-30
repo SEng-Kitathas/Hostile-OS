@@ -1,0 +1,104 @@
+{
+  "run_id": "20260830T054900Z_d64_rb02_resource_binding_03",
+  "snapshot_utc": "2026-08-30T05:39:56.995332+00:00",
+  "controlling_git_head": "0d0305ebde56d7a9eb70a3db84b00fcf96b33c17",
+  "controlling_preregistration_commit": "0d0305ebde56d7a9eb70a3db84b00fcf96b33c17",
+  "declared_working_directory": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS",
+  "launcher_path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\resource_binding\\D64_RB02\\probe\\launch_rb02.py",
+  "launcher_sha256": "3b7e096dfbdb63d6ed1b2505d1e6c8193d20562934f9b220f89c909072312b84",
+  "tools": {
+    "clang": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+    "lld": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+    "objcopy": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+    "size": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-size.exe",
+    "nm": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-nm.exe",
+    "qemu": "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+    "python": "C:\\Users\\ancal\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe"
+  },
+  "inputs": [
+    {
+      "key": "preregistration",
+      "source_project_relative": "research/resource_binding/D64_RB02/D64_RB02_PREREGISTRATION.md",
+      "snapshot_path": "inputs/preregistration.md",
+      "bytes": 14281,
+      "sha256": "fa9e018e941229a15675b343a2d60bfed59639bc4f05e71e788daf66ad86a979"
+    },
+    {
+      "key": "target_profile",
+      "source_project_relative": "research/plans/HOSTILE_OS_TARGET_WORKLOAD_PROFILE_D64_2026-08-30.md",
+      "snapshot_path": "inputs/target_profile.md",
+      "bytes": 8300,
+      "sha256": "af4cd5561939f2fe794fa9e696474a8bbc2b1ec271068bb8dff90f4aa542d3b3"
+    },
+    {
+      "key": "resource_plan",
+      "source_project_relative": "research/plans/D64_RESOURCE_BINDING_SCALE_PLAN_2026-08-30.md",
+      "snapshot_path": "inputs/resource_plan.md",
+      "bytes": 11481,
+      "sha256": "2775f5c4c9e4191f3c002fa44d7fdca24fb34a456733c336734906da7b76c02b"
+    },
+    {
+      "key": "width_correction",
+      "source_project_relative": "research/plans/D64_RESOURCE_BINDING_LIVE_COUNT_WIDTH_CORRECTION_2026-08-30.md",
+      "snapshot_path": "inputs/width_correction.md",
+      "bytes": 4128,
+      "sha256": "6713cc99df9646471cd89c6588270f32e70faed6b3023817f111b133adaedd12"
+    },
+    {
+      "key": "loader_qualification_result",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/QUALIFICATION_RESULT.md",
+      "snapshot_path": "inputs/loader_qualification_result.md",
+      "bytes": 7338,
+      "sha256": "cdd1b3bd083868067b6d8be2346aa413332f3d8888fcaa1e809cc48bc36610f6"
+    },
+    {
+      "key": "stage1_s",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/stage1.S",
+      "snapshot_path": "inputs/stage1.S",
+      "bytes": 751,
+      "sha256": "6cacc1e2fb397cb09321459b7d930718546288fce1a68a619adf76b795c00276"
+    },
+    {
+      "key": "stage1_ld",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/stage1.ld",
+      "snapshot_path": "inputs/stage1.ld",
+      "bytes": 184,
+      "sha256": "e5da57aefb8ff22b1c858e7372bab49c29d8cd45d83650b53664e44c51a6a3fa"
+    },
+    {
+      "key": "stage2_s",
+      "source_project_relative": "research/resource_binding/D64_RB02/probe/stage2.S",
+      "snapshot_path": "inputs/stage2.S",
+      "bytes": 26110,
+      "sha256": "44f655331e5aec79ec8dac7c4e7cc514907a103bc7bf55312fd62a6c753f363a"
+    },
+    {
+      "key": "stage2_ld",
+      "source_project_relative": "research/resource_binding/D64_RB02/probe/stage2.ld",
+      "snapshot_path": "inputs/stage2.ld",
+      "bytes": 167,
+      "sha256": "6865f7f83dd72a4a11247fa1d792405653fbe1e83baed1e80abd3e7f1f517875"
+    },
+    {
+      "key": "launcher",
+      "source_project_relative": "research/resource_binding/D64_RB02/probe/launch_rb02.py",
+      "snapshot_path": "inputs/launch_rb02.py",
+      "bytes": 9581,
+      "sha256": "3b7e096dfbdb63d6ed1b2505d1e6c8193d20562934f9b220f89c909072312b84"
+    },
+    {
+      "key": "evaluator",
+      "source_project_relative": "research/resource_binding/D64_RB02/probe/evaluate_rb02.py",
+      "snapshot_path": "inputs/evaluate_rb02.py",
+      "bytes": 1484,
+      "sha256": "9135c8e476d096435d87cb25123976ed35295db03479a27ffda3c2055cecdff2"
+    },
+    {
+      "key": "static_checker",
+      "source_project_relative": "research/resource_binding/D64_RB02/probe/static_check_rb02.py",
+      "snapshot_path": "inputs/static_check_rb02.py",
+      "bytes": 7103,
+      "sha256": "7df60b8016090459d327a350fa478b24777c0bed60c48d0d9cb4227520bcc6dc"
+    }
+  ]
+}

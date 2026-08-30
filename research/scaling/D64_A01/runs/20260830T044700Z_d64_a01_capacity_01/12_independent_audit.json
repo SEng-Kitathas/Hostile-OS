@@ -1,0 +1,19 @@
+{
+  "audit_version": "D64-A01-independent-closure-v1",
+  "checks": {
+    "manifest_hash_matches_receipt": true,
+    "manifest_all_snapshots_hash": true,
+    "receipt_source_hashes_equal_manifest": true,
+    "prereg_lineage": true,
+    "build_from_snapshot_stage2": true,
+    "qemu_pass": true,
+    "evaluator_pass": true,
+    "static_semantic_pass": true,
+    "stage2_within_extent": true,
+    "runtime_state_719": true,
+    "manifest_precedes_build": true,
+    "static_manifest_value_type_scar": true
+  },
+  "passed_core": true,
+  "scar": "static checker emits controlling preregistration commit string for input_manifest_snapshots_verify instead of JSON boolean; predicate remains truthy and independently verified"
+}

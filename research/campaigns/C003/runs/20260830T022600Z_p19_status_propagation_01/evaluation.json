@@ -1,0 +1,30 @@
+{
+  "evaluator_version": "C003-P19-status-propagation-v1",
+  "expected_lines": [
+    "GOOD_MISS_STATUS=M",
+    "GOOD_MISS_PROGRESS=0",
+    "GOOD_OK_STATUS=O",
+    "GOOD_OK_PROGRESS=1",
+    "BAD_MISS_STATUS=O",
+    "BAD_MISS_PROGRESS=1",
+    "DONE"
+  ],
+  "observed_lines": [
+    "GOOD_MISS_STATUS=M",
+    "GOOD_MISS_PROGRESS=0",
+    "GOOD_OK_STATUS=O",
+    "GOOD_OK_PROGRESS=1",
+    "BAD_MISS_STATUS=O",
+    "BAD_MISS_PROGRESS=1",
+    "DONE"
+  ],
+  "checks": {
+    "exact_lines": true,
+    "good_missing": true,
+    "good_success": true,
+    "bad_hidden_failure": true
+  },
+  "debugcon_sha256": "392a253620f207fba69fb664c4a9b7edaae31c2f692450ac360c3e4f533f9cb1",
+  "passed": true,
+  "authority_ceiling": "one leaf plus one middle explicit status-propagation discriminator only; no exception/error-runtime architecture claim"
+}

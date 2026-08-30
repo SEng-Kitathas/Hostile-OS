@@ -1,0 +1,427 @@
+[
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "ADMISSIBILITY_CONSTRAINT",
+      "QUALIFICATION_RULE"
+    ],
+    "rule_id": "C01",
+    "source_name": "Reality precedence + measurement humility",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Intent/requirements define the desired direction; reality outranks narrative, while observations remain mediated evidence rather than reality itself.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Reality precedence + measurement humility"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "DEFAULT",
+      "HEURISTIC"
+    ],
+    "rule_id": "C02",
+    "source_name": "Composition before invention without legacy worship",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Search live owners, ancestry, and lawful compositions before adding primitives. Incumbency does not create permanent entitlement when an explicit transfer or replacement is the smaller causal correction.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Composition before invention, without legacy worship"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "DEFAULT",
+      "HEURISTIC",
+      "RESEARCH_CANDIDATE"
+    ],
+    "rule_id": "C03",
+    "source_name": "Minimum Sufficient Embodiment",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Among designs that satisfy active obligations, minimize incidental causal and maintenance burden while preserving the credible trajectory. Several incomparable minima can be lawful.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Minimum Sufficient Embodiment"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "DEFAULT",
+      "TRIGGER",
+      "RESEARCH_CANDIDATE"
+    ],
+    "rule_id": "C04",
+    "source_name": "Operating envelope + typed reserve",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Do not design normal operation at the failure edge. Treat ~20% as a default planning challenge only where a scalar percentage model is meaningful; qualify actual headroom with evidence and keep reserve classes/correlation explicit.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Operating envelope + typed reserve"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "HEURISTIC",
+      "RESEARCH_CANDIDATE"
+    ],
+    "rule_id": "C05",
+    "source_name": "Price option value against carrying and lock-in costs",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Preserve future seams only when their expected value\u2014including later migration/irreversibility cost\u2014pays their current complexity cost.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Price option value against carrying and lock-in costs"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "QUALIFICATION_RULE",
+      "DEFAULT"
+    ],
+    "rule_id": "C06",
+    "source_name": "Explicit authority topology",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Prefer singular logical ownership where one owner suffices; replicated/partitioned/migration authority must expose reconciliation, currentness, and cutover or conflict semantics.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Explicit authority topology"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "DEFAULT",
+      "QUALIFICATION_RULE",
+      "RESEARCH_CANDIDATE"
+    ],
+    "rule_id": "C07",
+    "source_name": "Narrow discriminative witnesses",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "For consequential guarantees, use witnesses that answer the assurance question without gratuitously rebuilding the whole operation. Independence, coverage, false-positive/negative costs, placement, and authority must be argued.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Narrow discriminative witnesses"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "QUALIFICATION_RULE",
+      "RESEARCH_CANDIDATE"
+    ],
+    "rule_id": "C08",
+    "source_name": "Witness placement/authority explicit",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Descriptive, verification, selection, veto, monitoring, and audit roles are not interchangeable.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Witness placement and authority are part of the guarantee"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "RESEARCH_CANDIDATE"
+    ],
+    "rule_id": "C09",
+    "source_name": "Authorship is an engineering plane",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Semantic honesty, information scent, ownership/effect/ lifecycle legibility, host/domain fluency, change behavior, and expert craft matter separately from executable correctness. Professional appearance alone has no authority.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Authorship is an engineering plane"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "DEFAULT",
+      "RESEARCH_CANDIDATE"
+    ],
+    "rule_id": "C10",
+    "source_name": "Coherent authorship preserves novelty escape",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Continue the project's engineering grammar, not every incumbent abstraction. Concentrate authorial novelty where semantics are genuinely novel.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Coherent authorship preserves novelty escape"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "QUALIFICATION_RULE",
+      "RESEARCH_CANDIDATE"
+    ],
+    "rule_id": "C11",
+    "source_name": "Generative quality carries currentness",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Human/AI descendant quality is relative to model/tool version, context, task population, expertise population, repository state, and time.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Generative quality carries evaluator currentness"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "QUALIFICATION_RULE",
+      "DEFAULT"
+    ],
+    "rule_id": "C12",
+    "source_name": "Source signals carry semantic burden",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Names, types, comments, reports, and tests should not imply a stronger current guarantee than the artifact establishes.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Source signals carry semantic burden"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "ADMISSIBILITY_CONSTRAINT",
+      "HEURISTIC"
+    ],
+    "rule_id": "C13",
+    "source_name": "Quality is consequence- and obligation-relative",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "The immediate request selects emphasis but does not erase standing safety, security, durability, compatibility, custody, contractual, or other active obligations.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Quality is consequence- and obligation-relative"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "HEURISTIC",
+      "QUALIFICATION_RULE"
+    ],
+    "rule_id": "C14",
+    "source_name": "Diversity of failure axes/evidence sources",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Reviewer count, axis diversity, and evidence independence are distinct; none substitutes automatically for the others.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Diversity of failure axes and evidence sources"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "ADMISSIBILITY_CONSTRAINT",
+      "HEURISTIC"
+    ],
+    "rule_id": "C15",
+    "source_name": "Procedure serves explicit obligations",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Procedure must have a live causal job\u2014epistemic, safety, attribution, reproducibility, auditability, custody, compliance/fairness, reviewability, or continuity\u2014not ceremonial existence.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Procedure serves explicit obligations"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "QUALIFICATION_RULE"
+    ],
+    "rule_id": "C16",
+    "source_name": "Exact proof vs probabilistic evidence",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Exact inheritance requires logical sufficiency; bounded probabilistic claims may rely on calibrated evidence with an explicit error model.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Exact proof and probabilistic evidence are different claim classes"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "QUALIFICATION_RULE"
+    ],
+    "rule_id": "C17",
+    "source_name": "Verifier preserves evidentiary conditions/completeness",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "A verifier should not silently contaminate its specimen and must test required membership/completeness where the claim depends on a selected set.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Verification preserves evidentiary conditions and completeness"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "QUALIFICATION_RULE"
+    ],
+    "rule_id": "C18",
+    "source_name": "Continuity replay classes/checkpoint scope",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Read occurrence, locator, retained bytes, replayability, and as-of-checkpoint freshness are different strengths.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Continuity has replay classes and checkpoint scope"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "QUALIFICATION_RULE",
+      "SCAR"
+    ],
+    "rule_id": "C19",
+    "source_name": "Hostile survival is bounded evidence",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Passing known scars and mutations does not establish unknown-failure robustness; renew attack axes when broader claims are made.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Hostile survival is bounded evidence"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "DEFAULT",
+      "TRIGGER"
+    ],
+    "rule_id": "C20",
+    "source_name": "Research roughness requires quarantine/requalification",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Disposable spikes may trade polish for learning speed, but persistence, dependents, example/training use, or promotion trigger the relevant authorship and engineering gates.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Research roughness requires quarantine or requalification"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "DEFAULT",
+      "HEURISTIC",
+      "RESEARCH_CANDIDATE"
+    ],
+    "rule_id": "C21",
+    "source_name": "Bounded action under uncertainty",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Keep uncertainty explicit while permitting authorized, reversible, observable, bounded-consequence actions that buy information. Irreversibility raises the qualification burden.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "UNKNOWN does not require paralysis"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "ADMISSIBILITY_CONSTRAINT",
+      "DEFAULT"
+    ],
+    "rule_id": "C22",
+    "source_name": "Boundary contract constrains host-native lowering",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Use host-native representations internally; do not let local idiom silently change wire, ABI, schema, persistence, or interchange semantics.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "External contracts constrain host-native lowering"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "DEFAULT",
+      "SCAR"
+    ],
+    "rule_id": "C23",
+    "source_name": "Preserve scar evidence, not dead machinery",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Keep the discriminator, regression, provenance, or rationale needed to prevent recurrence; obsolete implementation needs a current job to remain.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Preserve scar evidence, not dead machinery by default"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "QUALIFICATION_RULE",
+      "SCAR"
+    ],
+    "rule_id": "C24",
+    "source_name": "Time as cause distinct from time as epistemic proxy",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Time may be a real causal/contractual variable; elapsed time alone does not establish truth or staleness.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Time as cause is distinct from time as epistemic proxy"
+  },
+  {
+    "authority_effect": "NONE_COMPRESSION_ONLY",
+    "inherited_classes": [
+      "ADMISSIBILITY_CONSTRAINT",
+      "HEURISTIC"
+    ],
+    "rule_id": "C25",
+    "source_name": "Optimize within the admissible set; doctrine is not a scalarizer",
+    "source_paths": [
+      "ancestry/V5/18_CURRENT_WHOLE_ENGINEERING_DOCTRINE_CANDIDATES.md",
+      "ancestry/V5/DOCTRINE_AUTHORITY_REGISTRY.json",
+      "ancestry/V5/27_DOCTRINE_AUTHORITY_CLASSES_AND_CONFLICT_RESOLUTION.md"
+    ],
+    "statement": "Admissibility constraints and standing obligations define admissibility. Defaults and optimization pressures operate inside that region. When lawful choices remain Pareto-incomparable, expose the tradeoff rather than fabricating a total order.",
+    "surface": "CLASSIFIED_ENGINEERING_AUTHORITY",
+    "title": "Optimize within the admissible set"
+  }
+]

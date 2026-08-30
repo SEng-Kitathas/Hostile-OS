@@ -1,0 +1,54 @@
+{
+  "checker_version": "I001-static-source-v1",
+  "passed": true,
+  "checks": {
+    "stage1_exact_8_sector_load": true,
+    "two_activity_slots": true,
+    "acquire_checks_before_mutation": true,
+    "acquire_initializes_all_runtime_fields": true,
+    "same_checked_acquire_reused": true,
+    "lineage_bound_to_current_parent": true,
+    "wait_target_includes_slot_generation": true,
+    "named_critical_region_present_and_measured": true,
+    "irq_does_not_apply_progress": true,
+    "completion_wake_apply_separate": true,
+    "missing_status_checked_before_b_application": true,
+    "global_poison_only_in_bad_control": true,
+    "lifetime_release_preserves_until_zero": true,
+    "checked_handle_generation_epoch_before_success": true,
+    "address_only_control_reads_reused_identity": true,
+    "r01_controls_version_and_flag_split": true,
+    "durable_bytes_written_by_guest": true,
+    "boot2_prebind_before_rebind": true,
+    "rebind_fail_closed_before_epoch_increment": true,
+    "acquire_fail_closed_before_generation_increment": true,
+    "old_token_epoch_is_compared": true,
+    "negative_controls_in_same_payload": true,
+    "runtime_state_symbols": true,
+    "launcher_no_guest_debug_synthesis": true,
+    "launcher_no_between_boot_sector_mutation": true
+  },
+  "critical_wait_instruction_count": 6,
+  "critical_wait_instructions": [
+    "movb $1,act_wait_slot",
+    "movb act_gen+1,%al",
+    "movb %al,act_wait_gen",
+    "movb $2,act_cont",
+    "movb $1,act_waiting",
+    "movb $0,act_woken"
+  ],
+  "state_block_species": [
+    "activity_slots",
+    "shared_backing",
+    "completion_record",
+    "irq_event",
+    "runtime_epoch",
+    "coherence_control"
+  ],
+  "state_block_species_count": 6,
+  "source_sha256": {
+    "stage1": "6213425390d4e498f65d6593b2f7f4591611ed5c2ca1a315d0e0c5fa88693edf",
+    "stage2": "532eed8ea608bf2b407ff46b328530cd1e698a6fc004c1f27122acaa49294e71",
+    "launcher": "bf4be387c0cd29d662283caa960a7a29619ad9764090c8f05fcfb19a4c25a6a0"
+  }
+}

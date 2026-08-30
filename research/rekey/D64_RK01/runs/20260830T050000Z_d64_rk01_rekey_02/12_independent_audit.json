@@ -1,0 +1,28 @@
+{
+  "audit_version": "D64-RK01-independent-closure-v1",
+  "checks": {
+    "manifest_hash_matches_receipt": true,
+    "all_snapshot_bytes_hashes_match": true,
+    "receipt_sources_match_manifest": true,
+    "pre_receipt_sources_match_final": true,
+    "prereg_lineage_exact": true,
+    "snapshot_before_qemu": true,
+    "qemu_completed_exit33": true,
+    "evaluator_exact_pass": true,
+    "static_pass": true,
+    "all_static_checks_literal_bool_true": true,
+    "stage2_inside_extent": true,
+    "runtime_state_738": true,
+    "scan_reset_measurements_64": true,
+    "attempt1_and_attempt2_same_guest_source": true,
+    "attempt1_and_attempt2_checker_differs": true,
+    "attempt1_runtime_matrix_also_passed": true,
+    "attempt1_static_failed_only": true
+  },
+  "passed": true,
+  "attempt1_stage2_sha256": "445050a2be84c4f4482fbc42b0e8e12f3d192b524ce51d8d5cba2fde50cbb68f",
+  "attempt2_stage2_sha256": "445050a2be84c4f4482fbc42b0e8e12f3d192b524ce51d8d5cba2fde50cbb68f",
+  "attempt1_checker_sha256": "7c67b558787880364d5dce0df4338a57502ccbe80e178de5e6fd4ea664e8c65e",
+  "attempt2_checker_sha256": "08ddcb94b8cd31144b13726f73c0933ffe85f64790a9b95529cac740c8d7755d",
+  "note": "Attempt 1 guest/evaluator matrix passed but static parser demanded exact reject-block text and was tripped by a comment. Attempt 2 changed only the checker parser for that semantic predicate; guest source remained identical."
+}

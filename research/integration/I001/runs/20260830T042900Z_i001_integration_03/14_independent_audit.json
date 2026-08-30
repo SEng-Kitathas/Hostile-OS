@@ -1,0 +1,24 @@
+{
+  "audit_version": "I001-independent-crosscheck-v1",
+  "passed": true,
+  "checks": {
+    "distinct_qemu_pids": true,
+    "boot1_ended_before_boot2_started": true,
+    "both_completed_exit33": true,
+    "evaluator_pass": true,
+    "static_pass": true,
+    "all_source_hashes_match": true,
+    "boot_artifact_hashes_match": true,
+    "trace_hashes_match": true,
+    "durable_hashes_match": true,
+    "durable_exact_boot1": true,
+    "durable_exact_boot2": true,
+    "between_boots_host_segment_read_only": true,
+    "launcher_explicit_no_mutation_marker": true,
+    "stage2_firmware_state_restored_before_durable_write": true,
+    "pareto_values_consistent": true
+  },
+  "controlling_run": "20260830T042900Z_i001_integration_03",
+  "receipt_sha256": "be4d30941f2c0eac0620a9ab9eae35a9fbc69ba3e6d70d49c7618a876b3ad775",
+  "source_stage2_sha256": "1bcfb7dde2e0af6835799b8dab5a47c6511f591696f6bb77d11cd1aad7a7dd5f"
+}

@@ -1,0 +1,21 @@
+{
+  "metrics": {
+    "classification_category_counts": {
+      "ENGINEERING_KERNEL": 318,
+      "INTERNAL_RESEARCH_GOVERNANCE": 150,
+      "MIXED": 42,
+      "PROJECT_OR_CONTRACT_OBLIGATION": 97
+    },
+    "classification_total_units": 607,
+    "constitution_sections_1_34_exact": 31,
+    "constitution_sections_1_34_mean_similarity": 0.992481,
+    "constitution_sections_1_34_similarity_ge_0_95": 33,
+    "constitution_sections_1_34_total": 34,
+    "hot_or_mixed_or_unresolved_units": 42,
+    "pure_substrate_compensation_units": 0,
+    "unresolved_units": 0,
+    "v3_v4_v5_executable_compression_same_sha256": true
+  },
+  "result": "MODEL_RELEASE_CHURN_IS_THE_PRIMARY_SOP_CHURN_DRIVER -> NOT_EARNED",
+  "source_sha256": "c65d7e6fa00ae846d6138fffbf26478caa40006b09859ecc4a7fc31ff75bbb02"
+}

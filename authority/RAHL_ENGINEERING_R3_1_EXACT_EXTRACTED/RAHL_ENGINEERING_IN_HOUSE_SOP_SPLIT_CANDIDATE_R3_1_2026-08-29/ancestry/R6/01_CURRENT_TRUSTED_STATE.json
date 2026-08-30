@@ -1,0 +1,25 @@
+{
+  "current_frontier": "real integration-unknown change that can fairly test walking-skeleton-first against owner-first assembly",
+  "date": "2026-08-29",
+  "foundation_promotion": "NONE",
+  "new_build_forward_evidence": [
+    {
+      "archive": "NEW_BUILD_FORWARD_EVIDENCE/RAHL_ENGINEERING_BUILD_FORWARD_RELEASE_MSE_20_PASS_R1_2026-08-29.zip",
+      "promotion": "RESEARCH_ONLY",
+      "result": "20/20; two local release removals survived current consequence; three unowned extras rejected",
+      "sha256": "d1f3e5c5ccb9f164aea146e61348dd6f20474fcb0b2d89cf7c9f00b060d3a988"
+    },
+    {
+      "archive": "NEW_BUILD_FORWARD_EVIDENCE/RAHL_ENGINEERING_BUILD_FORWARD_CODE_ASSEMBLY_ORDER_20_PASS_R1_2026-08-29.zip",
+      "promotion": "RESEARCH_ONLY",
+      "result": "20/20; owner-first strengthened for two authority-heavy risk classes; walking skeleton retained as probe",
+      "sha256": "62211bb2a403d9efb748116a54303a351981c477ee2b806c79e82a9e914570e2"
+    }
+  ],
+  "parent_checkpoint": {
+    "archive": "PARENT_TRUSTED_CHECKPOINT/RAHL_ENGINEERING_CURRENT_TRUSTED_WHOLE_PACKAGE_2026-08-29_R5.zip",
+    "sha256": "fcfcf05d4c1d201641ce1fc38f063647f7897d90e0587fd3dfbb7073d3e6deea"
+  },
+  "schema": "rahl-engineering.current-trusted-whole-package.v1.5",
+  "trust_rule": "R5 parent + exact new research descendants; no silent foundation rewrite"
+}

@@ -1,0 +1,83 @@
+{
+  "run_id": "20260830T044700Z_d64_a01_capacity_01",
+  "snapshot_utc": "2026-08-30T04:45:48.356829+00:00",
+  "controlling_git_head": "eca4069643d81a5415d677c494c4b5ef8c305c3e",
+  "controlling_preregistration_commit": "eca4069643d81a5415d677c494c4b5ef8c305c3e",
+  "declared_working_directory": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS",
+  "launcher_path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\scaling\\D64_A01\\probe\\launch_a01.py",
+  "launcher_sha256": "da5c4122a721f4b60382d31602c1ce52af7ded90d701803f8abb76646f56e6f9",
+  "tools": {
+    "clang": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+    "lld": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+    "objcopy": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+    "size": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-size.exe",
+    "nm": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-nm.exe",
+    "qemu": "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+    "python": "C:\\Users\\ancal\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe"
+  },
+  "inputs": [
+    {
+      "key": "preregistration",
+      "source_project_relative": "research/scaling/D64_A01/D64_A01_PREREGISTRATION.md",
+      "snapshot_path": "inputs/preregistration.md",
+      "bytes": 7007,
+      "sha256": "038ace14435f809136e871054d933abea687700f27f9f757fce36fb4d339a5b3"
+    },
+    {
+      "key": "target_profile",
+      "source_project_relative": "research/plans/HOSTILE_OS_TARGET_WORKLOAD_PROFILE_D64_2026-08-30.md",
+      "snapshot_path": "inputs/target_profile.md",
+      "bytes": 8300,
+      "sha256": "af4cd5561939f2fe794fa9e696474a8bbc2b1ec271068bb8dff90f4aa542d3b3"
+    },
+    {
+      "key": "stage1_s",
+      "source_project_relative": "research/integration/I001/probe/stage1.S",
+      "snapshot_path": "inputs/stage1.S",
+      "bytes": 761,
+      "sha256": "6213425390d4e498f65d6593b2f7f4591611ed5c2ca1a315d0e0c5fa88693edf"
+    },
+    {
+      "key": "stage1_ld",
+      "source_project_relative": "research/integration/I001/probe/stage1.ld",
+      "snapshot_path": "inputs/stage1.ld",
+      "bytes": 189,
+      "sha256": "2fbb3c273a06fa4fddfe9d4400fc42e6d102cb977b92cabd2866b258f1ba7d86"
+    },
+    {
+      "key": "stage2_s",
+      "source_project_relative": "research/scaling/D64_A01/probe/stage2.S",
+      "snapshot_path": "inputs/stage2.S",
+      "bytes": 6421,
+      "sha256": "57bee427faf9330059a6e8e181b01721f5c37cf335a353ff2985db306c2f7936"
+    },
+    {
+      "key": "stage2_ld",
+      "source_project_relative": "research/scaling/D64_A01/probe/stage2.ld",
+      "snapshot_path": "inputs/stage2.ld",
+      "bytes": 173,
+      "sha256": "1b1434feaa61ff7761ee3c74e5aa1b190241ba9c2d271dc65089be13659d7548"
+    },
+    {
+      "key": "launcher",
+      "source_project_relative": "research/scaling/D64_A01/probe/launch_a01.py",
+      "snapshot_path": "inputs/launch_a01.py",
+      "bytes": 8926,
+      "sha256": "da5c4122a721f4b60382d31602c1ce52af7ded90d701803f8abb76646f56e6f9"
+    },
+    {
+      "key": "evaluator",
+      "source_project_relative": "research/scaling/D64_A01/probe/evaluate_a01.py",
+      "snapshot_path": "inputs/evaluate_a01.py",
+      "bytes": 1083,
+      "sha256": "bc47f4a3136c4cf29549f43012fa1a86f96b866afb3dfd10f51ae5dd25925258"
+    },
+    {
+      "key": "static_checker",
+      "source_project_relative": "research/scaling/D64_A01/probe/static_check_a01.py",
+      "snapshot_path": "inputs/static_check_a01.py",
+      "bytes": 3576,
+      "sha256": "e2f3d768252233e051ac4e95ec7a9ccbfa70cf3c5df3e297bf6c7366d26bac9e"
+    }
+  ]
+}

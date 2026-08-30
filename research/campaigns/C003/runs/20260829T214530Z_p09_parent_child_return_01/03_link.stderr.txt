@@ -1,0 +1,9 @@
+ld.lld: error: P09 probe exceeds one boot sector
+ld.lld: error: P09 probe exceeds one boot sector
+ld.lld: error: section .payload virtual address range overlaps with .sig
+>>> .payload range is [0x7C00, 0x7E41]
+>>> .sig range is [0x7DFE, 0x7DFF]
+
+ld.lld: error: section .payload load address range overlaps with .sig
+>>> .payload range is [0x7C00, 0x7E41]
+>>> .sig range is [0x7DFE, 0x7DFF]

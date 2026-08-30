@@ -1,0 +1,23 @@
+# PCMMAD/local execution scratch — never project evidence by default
+.pcmmad_sync_runs/
+.github_publish_mirror/
+__pycache__/
+*.pyc
+
+# Downloaded/staged external toolchains and rebuildable local qualification outputs
+infra/ia16_toolchain_stage/
+infra/qualification/build/
+infra/qualification/x86_boot/
+
+# Host-wide rescue/dependency scans: local acquisition evidence, not portable project state
+logs/C002_*_RESCUE_*.txt
+logs/C002_STRONG_CANDIDATES_*.txt
+logs/DRIVE_DEPENDENCY_SCAN_*.txt
+logs/all_7z_archives_*.txt
+logs/archive_7z_*.txt
+logs/archive_content_*.txt
+logs/archive_scan_*.txt
+
+# OS/editor noise
+.DS_Store
+Thumbs.db

@@ -1,0 +1,180 @@
+[
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "01_ENGINEERING_AUTHORITY_SURFACE.md",
+      "05_ACTIVE_SCAR_INDEX.md"
+    ],
+    "legacy_topic": "High-priority engineering memory laws",
+    "legacy_topic_id": "L01",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "01_ENGINEERING_AUTHORITY_SURFACE.md",
+      "04_EXECUTION_AND_RELEASE_DISCIPLINE.md"
+    ],
+    "legacy_topic": "Authority and continuity",
+    "legacy_topic_id": "L02",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "01_ENGINEERING_AUTHORITY_SURFACE.md"
+    ],
+    "legacy_topic": "Governing engineering law",
+    "legacy_topic_id": "L03",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "03_INTERNAL_RESEARCH_GOVERNANCE.md"
+    ],
+    "legacy_topic": "Challenge engineering cycle",
+    "legacy_topic_id": "L04",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "03_INTERNAL_RESEARCH_GOVERNANCE.md"
+    ],
+    "legacy_topic": "Donor doctrine",
+    "legacy_topic_id": "L05",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "01_ENGINEERING_AUTHORITY_SURFACE.md",
+      "04_EXECUTION_AND_RELEASE_DISCIPLINE.md"
+    ],
+    "legacy_topic": "Evidence / authority discipline",
+    "legacy_topic_id": "L06",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "03A_RESEARCH_MACHINERY_AND_MODES.md"
+    ],
+    "legacy_topic": "Method stack",
+    "legacy_topic_id": "L07",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "04_EXECUTION_AND_RELEASE_DISCIPLINE.md",
+      "03_INTERNAL_RESEARCH_GOVERNANCE.md"
+    ],
+    "legacy_topic": "Experiment rules",
+    "legacy_topic_id": "L08",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "04_EXECUTION_AND_RELEASE_DISCIPLINE.md"
+    ],
+    "legacy_topic": "Artifact and release rules",
+    "legacy_topic_id": "L09",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "01_ENGINEERING_AUTHORITY_SURFACE.md"
+    ],
+    "legacy_topic": "Coding and authorship",
+    "legacy_topic_id": "L10",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "03_INTERNAL_RESEARCH_GOVERNANCE.md"
+    ],
+    "legacy_topic": "Collaboration",
+    "legacy_topic_id": "L11",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "04_EXECUTION_AND_RELEASE_DISCIPLINE.md",
+      "03_INTERNAL_RESEARCH_GOVERNANCE.md"
+    ],
+    "legacy_topic": "Continuity output",
+    "legacy_topic_id": "L12",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "03A_RESEARCH_MACHINERY_AND_MODES.md"
+    ],
+    "legacy_topic": "Operating modes and roles",
+    "legacy_topic_id": "L13",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "03_INTERNAL_RESEARCH_GOVERNANCE.md"
+    ],
+    "legacy_topic": "Live state / forensic chronology",
+    "legacy_topic_id": "L14",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "03_INTERNAL_RESEARCH_GOVERNANCE.md"
+    ],
+    "legacy_topic": "Research sandbox",
+    "legacy_topic_id": "L15",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "04_EXECUTION_AND_RELEASE_DISCIPLINE.md"
+    ],
+    "legacy_topic": "Action and execution discipline",
+    "legacy_topic_id": "L16",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "06_SUBSTRATE_PROFILE_ACTIVATION.md",
+      "03_INTERNAL_RESEARCH_GOVERNANCE.md"
+    ],
+    "legacy_topic": "Era/substrate requalification",
+    "legacy_topic_id": "L17",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "03_INTERNAL_RESEARCH_GOVERNANCE.md"
+    ],
+    "legacy_topic": "Current AI capability use",
+    "legacy_topic_id": "L18",
+    "status": "DIRECT"
+  },
+  {
+    "blocks_replacement": false,
+    "destinations": [
+      "01_ENGINEERING_AUTHORITY_SURFACE.md",
+      "03_INTERNAL_RESEARCH_GOVERNANCE.md"
+    ],
+    "legacy_topic": "WHY / HOW / WHAT craft",
+    "legacy_topic_id": "L19",
+    "status": "DIRECT"
+  }
+]

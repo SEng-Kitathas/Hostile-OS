@@ -1,0 +1,20 @@
+from __future__ import annotations
+import hashlib, json, sys
+from pathlib import Path
+VERSION='D64-RR01-resource-rekey-v1'
+EXPECTED=[
+'S1_8K_OK','ACT_CAP=40','BIND_PER_ACT=14','RES_CAP=40',
+'LIVE_REKEY=R','LIVE_REPOCH=01','LIVE_RID=51','LIVE_RCOUNT=0001','LIVE_BIND=01',
+'DETACH=W','AFTER_RCOUNT=0000','AFTER_RID=00','AFTER_RGEN=01','A_ID=41','A_GEN=01','A_EPOCH=01','BGEN_BEFORE=01',
+'GOOD_REKEY=W','NEW_REPOCH=02','RGEN_AFTER_REKEY=00','A_EPOCH_AFTER=01','A_ID_AFTER=41','A_GEN_AFTER=01','BGEN_AFTER_REKEY=01',
+'Y_CREATE=W','Y_BGEN=02','Y_RGEN=01','OLD_RES=R','NEW_RES=W','NEW_RES_VAL=EE','OLD_BIND=R','NEW_BIND=W','NEW_BIND_VAL=EE',
+'BAD_RESET=W','BAD_OLD_RES=W','BAD_OLD_VAL=EE',
+'WRAP_REKEY=W','WRAP_REPOCH=01','WRAP_RGEN=00','WRAP_OLD=R','WRAP_NEW=W','WRAP_VAL=EE','DONE']
+def sha(p:Path):
+ h=hashlib.sha256(); h.update(p.read_bytes()); return h.hexdigest()
+def main():
+ if len(sys.argv)!=3: return 64
+ dbg=Path(sys.argv[1]); out=Path(sys.argv[2]); obs=dbg.read_text(encoding='ascii').splitlines(); passed=obs==EXPECTED
+ r={'evaluator_version':VERSION,'debugcon_sha256':sha(dbg),'expected_lines':EXPECTED,'observed_lines':obs,'passed':bool(passed),'authority_ceiling':'bounded cooperative D64 resource namespace rekey only; activity/binding namespace remains current'}
+ out.write_text(json.dumps(r,indent=2)+'\n',encoding='utf-8'); print('EVAL_PASS' if passed else 'EVAL_FAIL'); return 0 if passed else 1
+if __name__=='__main__': raise SystemExit(main())

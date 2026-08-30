@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   6432	      0	      0	   6432	   1920	E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\resource_binding\D64_RB02\runs\20260830T054500Z_d64_rb02_resource_binding_02\stage2.elf

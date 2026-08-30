@@ -1,0 +1,62 @@
+[
+  {
+    "authority": "R6_OPERATIONAL_QUALIFICATION_RULE",
+    "id": "E01",
+    "source": "V7:Experiment rules",
+    "statement": "Before a consequential run, name the discriminator; tool work must advance it or preserve evidence."
+  },
+  {
+    "authority": "R6_OPERATIONAL_QUALIFICATION_RULE",
+    "id": "E02",
+    "source": "V7:Experiment rules + V5:Execution discipline",
+    "statement": "Consequential or durable runs name cwd/interpreter/environment, retain stdout/stderr/exit/completion evidence, and use stable artifact paths."
+  },
+  {
+    "authority": "R6_OPERATIONAL_QUALIFICATION_RULE",
+    "id": "E03",
+    "source": "V5:Execution discipline",
+    "statement": "Inspect final artifact or state rather than treating command success as the consequence."
+  },
+  {
+    "authority": "R6_OPERATIONAL_ADMISSIBILITY_BOUNDARY",
+    "id": "E04",
+    "source": "V5:Execution discipline",
+    "statement": "Timeout or ambiguous process state remains UNKNOWN until evidence resolves the result or effects."
+  },
+  {
+    "authority": "R6_OPERATIONAL_ADMISSIBILITY_BOUNDARY",
+    "id": "E05",
+    "source": "V7:Action and mutation discipline",
+    "statement": "Do not claim saved, written, executed, committed, tested, verified, uploaded, extracted, or promoted without tool/runtime readback."
+  },
+  {
+    "authority": "R6_RELEASE_QUALIFICATION_RULE",
+    "id": "E06",
+    "source": "V7:Artifact rules",
+    "statement": "Sealed/release artifacts require exact membership/manifest, hashes, clean extraction replay, explicit lineage and assurance ceiling, and exclusion of accidental runtime state."
+  },
+  {
+    "authority": "R6_VERIFIER_QUALIFICATION_RULE",
+    "id": "E07",
+    "source": "V5:Verifier purity and replay",
+    "statement": "Verification must not silently contaminate the specimen; isolate generated state when needed."
+  },
+  {
+    "authority": "R6_VERIFIER_QUALIFICATION_RULE",
+    "id": "E08",
+    "source": "V5:Verifier purity and replay",
+    "statement": "Membership completeness and identity of present members are separate checks."
+  },
+  {
+    "authority": "R6_VERIFIER_QUALIFICATION_RULE",
+    "id": "E09",
+    "source": "V5:Verifier purity and replay",
+    "statement": "Shared mutable declarations between verifier and specification are a common-mode trust boundary unless a distinct witness is added."
+  },
+  {
+    "authority": "R6_CONTINUITY_QUALIFICATION_RULE",
+    "id": "E10",
+    "source": "V5:Continuity",
+    "statement": "Continuity is as-of a checkpoint and must preserve current state, intent, authority boundaries, evidence, scars, rejected/deferred branches, lineage, known errata, and next discriminator."
+  }
+]

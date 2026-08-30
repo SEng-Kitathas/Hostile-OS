@@ -1,0 +1,24 @@
+{
+  "activation_rule": "An obligation becomes active only from the actual project/system/user/contract authority within a named scope.",
+  "active_by_default": false,
+  "fields": [
+    "obligation_id",
+    "scope",
+    "authority_source",
+    "statement",
+    "consequence_if_violated",
+    "qualification_required",
+    "currentness_trigger",
+    "evidence",
+    "status"
+  ],
+  "nonclaim": "Examples are not defaults and do not become standing obligations by inclusion here.",
+  "status_values": [
+    "ACTIVE",
+    "SATISFIED",
+    "UNRESOLVED",
+    "SUPERSEDED",
+    "NOT_APPLICABLE"
+  ],
+  "surface": "PROJECT_OR_CONTRACT_OBLIGATION_INTERFACE"
+}

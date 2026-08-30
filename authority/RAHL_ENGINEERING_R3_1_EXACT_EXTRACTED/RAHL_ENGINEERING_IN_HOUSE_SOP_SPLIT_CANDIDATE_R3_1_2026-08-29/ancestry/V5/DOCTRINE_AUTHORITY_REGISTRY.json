@@ -1,0 +1,216 @@
+{
+  "schema": "rahl-engineering.doctrine-authority-registry.v1",
+  "date": "2026-08-28",
+  "classes": {
+    "STANDING_OBLIGATION": "Inherited requirement from actual system context or governing authority.",
+    "QUALIFICATION_RULE": "Evidence/authority requirement before a named claim, promotion, or operation.",
+    "DEFAULT": "Normal starting choice with lawful evidence-based exceptions.",
+    "HEURISTIC": "Search pressure/question; no acceptance authority by itself.",
+    "TRIGGER": "Condition that increases required rigor or analysis.",
+    "SCAR": "Historical non-equivalence/failure warning; not automatically a permanent ban.",
+    "RESEARCH_CANDIDATE": "Bounded hypothesis/mechanism with no silent promotion authority.",
+    "ADMISSIBILITY_CONSTRAINT": "Defines admissibility within a named declared objective/contract."
+  },
+  "current_candidates": [
+    {
+      "id": "C01",
+      "name": "Reality precedence + measurement humility",
+      "classes": [
+        "ADMISSIBILITY_CONSTRAINT",
+        "QUALIFICATION_RULE"
+      ]
+    },
+    {
+      "id": "C02",
+      "name": "Composition before invention without legacy worship",
+      "classes": [
+        "DEFAULT",
+        "HEURISTIC"
+      ]
+    },
+    {
+      "id": "C03",
+      "name": "Minimum Sufficient Embodiment",
+      "classes": [
+        "DEFAULT",
+        "HEURISTIC",
+        "RESEARCH_CANDIDATE"
+      ]
+    },
+    {
+      "id": "C04",
+      "name": "Operating envelope + typed reserve",
+      "classes": [
+        "DEFAULT",
+        "TRIGGER",
+        "RESEARCH_CANDIDATE"
+      ]
+    },
+    {
+      "id": "C05",
+      "name": "Price option value against carrying and lock-in costs",
+      "classes": [
+        "HEURISTIC",
+        "RESEARCH_CANDIDATE"
+      ]
+    },
+    {
+      "id": "C06",
+      "name": "Explicit authority topology",
+      "classes": [
+        "QUALIFICATION_RULE",
+        "DEFAULT"
+      ]
+    },
+    {
+      "id": "C07",
+      "name": "Narrow discriminative witnesses",
+      "classes": [
+        "DEFAULT",
+        "QUALIFICATION_RULE",
+        "RESEARCH_CANDIDATE"
+      ]
+    },
+    {
+      "id": "C08",
+      "name": "Witness placement/authority explicit",
+      "classes": [
+        "QUALIFICATION_RULE",
+        "RESEARCH_CANDIDATE"
+      ]
+    },
+    {
+      "id": "C09",
+      "name": "Authorship is an engineering plane",
+      "classes": [
+        "RESEARCH_CANDIDATE"
+      ]
+    },
+    {
+      "id": "C10",
+      "name": "Coherent authorship preserves novelty escape",
+      "classes": [
+        "DEFAULT",
+        "RESEARCH_CANDIDATE"
+      ]
+    },
+    {
+      "id": "C11",
+      "name": "Generative quality carries currentness",
+      "classes": [
+        "QUALIFICATION_RULE",
+        "RESEARCH_CANDIDATE"
+      ]
+    },
+    {
+      "id": "C12",
+      "name": "Source signals carry semantic burden",
+      "classes": [
+        "QUALIFICATION_RULE",
+        "DEFAULT"
+      ]
+    },
+    {
+      "id": "C13",
+      "name": "Quality is consequence- and obligation-relative",
+      "classes": [
+        "ADMISSIBILITY_CONSTRAINT",
+        "HEURISTIC"
+      ]
+    },
+    {
+      "id": "C14",
+      "name": "Diversity of failure axes/evidence sources",
+      "classes": [
+        "HEURISTIC",
+        "QUALIFICATION_RULE"
+      ]
+    },
+    {
+      "id": "C15",
+      "name": "Procedure serves explicit obligations",
+      "classes": [
+        "ADMISSIBILITY_CONSTRAINT",
+        "HEURISTIC"
+      ]
+    },
+    {
+      "id": "C16",
+      "name": "Exact proof vs probabilistic evidence",
+      "classes": [
+        "QUALIFICATION_RULE"
+      ]
+    },
+    {
+      "id": "C17",
+      "name": "Verifier preserves evidentiary conditions/completeness",
+      "classes": [
+        "QUALIFICATION_RULE"
+      ]
+    },
+    {
+      "id": "C18",
+      "name": "Continuity replay classes/checkpoint scope",
+      "classes": [
+        "QUALIFICATION_RULE"
+      ]
+    },
+    {
+      "id": "C19",
+      "name": "Hostile survival is bounded evidence",
+      "classes": [
+        "QUALIFICATION_RULE",
+        "SCAR"
+      ]
+    },
+    {
+      "id": "C20",
+      "name": "Research roughness requires quarantine/requalification",
+      "classes": [
+        "DEFAULT",
+        "TRIGGER"
+      ]
+    },
+    {
+      "id": "C21",
+      "name": "Bounded action under uncertainty",
+      "classes": [
+        "DEFAULT",
+        "HEURISTIC",
+        "RESEARCH_CANDIDATE"
+      ]
+    },
+    {
+      "id": "C22",
+      "name": "Boundary contract constrains host-native lowering",
+      "classes": [
+        "ADMISSIBILITY_CONSTRAINT",
+        "DEFAULT"
+      ]
+    },
+    {
+      "id": "C23",
+      "name": "Preserve scar evidence, not dead machinery",
+      "classes": [
+        "DEFAULT",
+        "SCAR"
+      ]
+    },
+    {
+      "id": "C24",
+      "name": "Time as cause distinct from time as epistemic proxy",
+      "classes": [
+        "QUALIFICATION_RULE",
+        "SCAR"
+      ]
+    },
+    {
+      "id": "C25",
+      "name": "Optimize within the admissible set; doctrine is not a scalarizer",
+      "classes": [
+        "ADMISSIBILITY_CONSTRAINT",
+        "HEURISTIC"
+      ]
+    }
+  ]
+}

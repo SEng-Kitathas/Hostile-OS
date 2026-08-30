@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   6591	      0	      0	   6591	   19bf	E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\composition\D64_ARB01\runs\20260830T055300Z_d64_arb01_composition_02\stage2.elf

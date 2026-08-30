@@ -1,0 +1,39 @@
+{
+  "evaluator_version": "C003-P16-shared-lifetime-v1",
+  "expected_lines": [
+    "GOOD_START=2",
+    "GOOD_AFTER_A=1",
+    "GOOD_B_OWNER=B",
+    "GOOD_B_READ=X",
+    "GOOD_AFTER_B=0",
+    "GOOD_BACKING=0",
+    "BAD_START=2",
+    "BAD_AFTER_A=1",
+    "BAD_B_OWNER=B",
+    "BAD_B_READ=0",
+    "DONE"
+  ],
+  "observed_lines": [
+    "GOOD_START=2",
+    "GOOD_AFTER_A=1",
+    "GOOD_B_OWNER=B",
+    "GOOD_B_READ=X",
+    "GOOD_AFTER_B=0",
+    "GOOD_BACKING=0",
+    "BAD_START=2",
+    "BAD_AFTER_A=1",
+    "BAD_B_OWNER=B",
+    "BAD_B_READ=0",
+    "DONE"
+  ],
+  "checks": {
+    "exact_lines": true,
+    "good_shared": true,
+    "good_final": true,
+    "bad_still_live": true,
+    "bad_backing_lost": true
+  },
+  "debugcon_sha256": "d2cd7d4a0deaa3778a71351c6d8880de2e586fb29df3150a91065fb15ea2a668",
+  "passed": true,
+  "authority_ceiling": "one backing shared by two bindings only; no general GC/reference/lifetime architecture claim"
+}

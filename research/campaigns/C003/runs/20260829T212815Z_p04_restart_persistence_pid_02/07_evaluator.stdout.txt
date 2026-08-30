@@ -1,0 +1,3 @@
+EVAL_PASS
+disk_sha256=43fd2620dbddc07c0bada42a692a2f7b04971e08013bb74c8283dcba33d76a1c
+sector_prefix_hex=484f5334525a

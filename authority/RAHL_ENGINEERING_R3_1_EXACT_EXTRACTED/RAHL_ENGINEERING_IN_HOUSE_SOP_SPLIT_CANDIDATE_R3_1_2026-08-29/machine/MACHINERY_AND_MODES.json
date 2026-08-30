@@ -1,0 +1,172 @@
+{
+  "automatic_resume": false,
+  "machinery": [
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "HSP",
+      "status": "Measurement/prediction-elicitation discipline survives; advisory/no selection authority."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "Semantic Helix",
+      "status": "Material persistence improvement; broader value qualification remains open."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "OARR",
+      "status": "Rival-prediction semantic blind spot exposed/narrowed; not comprehensively finished."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "Loop+",
+      "status": "No major new mechanism earned; retain pending behavioral A/B value evidence."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "CSC / Genome",
+      "status": "Useful bounded obligation/provider evidence; audit-only, no silent promotion/veto."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "Attention Reservoir",
+      "status": "Selection/persistence defects attacked; generic storage does not own selection authority."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "Engineering Memory Mesh",
+      "status": "V2 persistence path plus retry/generated-time intent scar; current broad value remains bounded."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "Double Helix",
+      "status": "V2 persistence path earned; stale compatibility ownership retirement-eligible only in active descendant."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "Evidence Bus",
+      "status": "Shared persistence ownership consolidated; domain semantics remain separate."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "PDVER",
+      "status": "Ambient-CWD provider identity defect exposed; full campaign not completed."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "Isomorphic Predator",
+      "status": "Better relational/intervention/failure comparison; automatic profile extraction unqualified."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "Distillation",
+      "status": "Structured fixture promising; free-text reconstruction unqualified."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "Campaign Gate",
+      "status": "Hard-stop/no-successor reachability defect fixed in bounded candidate."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "Mode/Role",
+      "status": "Demotion pressure: static contract reproduced much behavior."
+    },
+    {
+      "authority": "BOUNDED_PROCESS_INSTRUMENT_STATUS",
+      "name": "Ontology/Semantics",
+      "status": "Narrow assertion-lineage distinction survived; no universal ontology earned."
+    }
+  ],
+  "modes": [
+    {
+      "authority": "DISCOURSE_SEPARATION_LABEL_ONLY",
+      "meaning": "concept work; no mutation implied",
+      "name": "DISCUSSION"
+    },
+    {
+      "authority": "DISCOURSE_SEPARATION_LABEL_ONLY",
+      "meaning": "verify, attack, reconcile evidence",
+      "name": "AUDIT"
+    },
+    {
+      "authority": "DISCOURSE_SEPARATION_LABEL_ONLY",
+      "meaning": "design a change without performing it",
+      "name": "BUILD-PLAN"
+    },
+    {
+      "authority": "DISCOURSE_SEPARATION_LABEL_ONLY",
+      "meaning": "perform explicitly requested mutation/execution and read back results",
+      "name": "BUILD-COMMIT"
+    },
+    {
+      "authority": "DISCOURSE_SEPARATION_LABEL_ONLY",
+      "meaning": "reconstruct authoritative state rather than bluff through missing context",
+      "name": "RECOVERY"
+    },
+    {
+      "authority": "DISCOURSE_SEPARATION_LABEL_ONLY",
+      "meaning": "write durable restart state",
+      "name": "CHECKPOINT"
+    },
+    {
+      "authority": "DISCOURSE_SEPARATION_LABEL_ONLY",
+      "meaning": "reconcile branches/artifacts/findings without silent promotion",
+      "name": "MERGE"
+    },
+    {
+      "authority": "DISCOURSE_SEPARATION_LABEL_ONLY",
+      "meaning": "elevate a candidate only after qualification",
+      "name": "PROMOTION"
+    }
+  ],
+  "nonclaims": [
+    "METHOD_STACK_REFERENCE != MANDATORY_PIPELINE",
+    "ROLE_LABEL != AUTHORITY",
+    "MODE_LABEL != MUTATION_PERMISSION"
+  ],
+  "roles": [
+    {
+      "authority": "ATTACK_POSTURE_ONLY",
+      "meaning": "attack overclaim, authority leaks, and false completion",
+      "name": "R1 Conservative Auditor"
+    },
+    {
+      "authority": "ATTACK_POSTURE_ONLY",
+      "meaning": "widen candidate space without promotion authority",
+      "name": "R2 Divergent Imagination Engine"
+    },
+    {
+      "authority": "ATTACK_POSTURE_ONLY",
+      "meaning": "reconcile evidence, provenance, contradictions, and scope",
+      "name": "R3 Evidence Synthesizer"
+    },
+    {
+      "authority": "ATTACK_POSTURE_ONLY",
+      "meaning": "compress surviving mechanisms and remove unnecessary distinctions",
+      "name": "R4 Convergence Refiner"
+    },
+    {
+      "authority": "ATTACK_POSTURE_ONLY",
+      "meaning": "force executable/empirical consequence and attack the survivor",
+      "name": "R5 Reality Pressure Engine"
+    }
+  ],
+  "source_paths": [
+    "ancestry/V5/14_MACHINERY_STATUS_SNAPSHOT.md",
+    "ancestry/V7/01_CUSTOM_GPT_INSTRUCTIONS.md"
+  ],
+  "topology_authority": "HISTORICAL_COORDINATION_REFERENCE_NOT_MANDATORY_PIPELINE",
+  "topology_reference": [
+    "HSP",
+    "Loop+/Research",
+    "problem-space expansion",
+    "OARR adversarial culling",
+    "PDVER",
+    "Research Arm + Embodiment Arm",
+    "shared evidence / scars",
+    "Semantic Helix",
+    "Attention Reservoir",
+    "canonical integration authority",
+    "recurse"
+  ]
+}

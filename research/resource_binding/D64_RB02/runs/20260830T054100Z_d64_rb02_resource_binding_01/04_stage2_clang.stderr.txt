@@ -1,0 +1,6 @@
+E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\resource_binding\\D64_RB02\\runs\\20260830T054100Z_d64_rb02_resource_binding_01\\inputs\\stage2.S:720:7: error: invalid operand for instruction
+ xorw %bh,%bh
+      ^~~
+E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\resource_binding\\D64_RB02\\runs\\20260830T054100Z_d64_rb02_resource_binding_01\\inputs\\stage2.S:792:7: error: invalid operand for instruction
+ xorw %bh,%bh
+      ^~~

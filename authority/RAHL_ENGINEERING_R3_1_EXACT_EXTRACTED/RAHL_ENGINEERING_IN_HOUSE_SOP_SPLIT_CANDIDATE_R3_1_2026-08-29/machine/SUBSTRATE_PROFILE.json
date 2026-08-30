@@ -1,0 +1,31 @@
+{
+  "activation_rule": "Instantiate a profile only after a concrete version-bound model/tool/runtime behavior or deficiency is observed with named substrate, environment, epoch/currentness, evidence ancestry, engineering consequence, compensation, burden, and retest trigger.",
+  "nonclaims": [
+    "PROFILE_SCHEMA != ACTIVE_PROFILE_INSTANCE",
+    "PROFILE_EMPTY != SUBSTRATE_RISK_ABSENT",
+    "PROFILE_EMPTY != PROFILE_JUSTIFIED_AS_PERMANENT_ACTIVE_SURFACE"
+  ],
+  "profile_instance": null,
+  "required_entry_fields": [
+    "behavior_id",
+    "substrate",
+    "environment",
+    "epoch",
+    "evidence_paths",
+    "scope",
+    "engineering_consequence",
+    "compensation",
+    "burden",
+    "retest_trigger",
+    "status"
+  ],
+  "status": "DORMANT_NO_QUALIFIED_INSTANCE",
+  "status_values": [
+    "ACTIVE",
+    "RETEST_DUE",
+    "DORMANT",
+    "RETIRED",
+    "UNKNOWN"
+  ],
+  "surface": "SUBSTRATE_PROFILE_ACTIVATION_SCHEMA"
+}

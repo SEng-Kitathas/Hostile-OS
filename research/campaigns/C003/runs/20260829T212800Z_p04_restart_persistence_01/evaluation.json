@@ -1,0 +1,33 @@
+{
+  "evaluator_version": "C003-P04-restart-persistence-v1",
+  "boot1_expected_lines": [
+    "BOOT1_INIT=PASS"
+  ],
+  "boot1_observed_lines": [
+    "BOOT1_INIT=PASS"
+  ],
+  "boot2_expected_lines": [
+    "BOOT2_DURABLE=PASS",
+    "BOOT2_STALE=EXPIRED",
+    "BOOT2_REBIND=PASS"
+  ],
+  "boot2_observed_lines": [
+    "BOOT2_DURABLE=PASS",
+    "BOOT2_STALE=EXPIRED",
+    "BOOT2_REBIND=PASS"
+  ],
+  "checks": {
+    "boot1_exact": true,
+    "boot2_exact": true,
+    "disk_large_enough": true,
+    "sector_extract_exact": true,
+    "durable_prefix_exact": true,
+    "durable_tail_zero": true
+  },
+  "disk_sha256": "43fd2620dbddc07c0bada42a692a2f7b04971e08013bb74c8283dcba33d76a1c",
+  "sector_extract_sha256": "2905e5de392fe14550ae6c79d82f521f17e97552f9e280b171c79a0361cbd669",
+  "sector_prefix_hex": "484f5334525a",
+  "passed": true,
+  "interpretation": "durable record survived a complete QEMU process restart; volatile runtime access began expired and became current only after explicit fresh rebind",
+  "authority_ceiling": "bounded clean-restart QEMU/raw-floppy/BIOS transport only; no crash consistency, filesystem, physical-device timing, storage-subsystem, or architecture claim"
+}

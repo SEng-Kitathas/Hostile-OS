@@ -1,0 +1,20 @@
+{
+  "audit_version": "D64-RB02-independent-closure-v2",
+  "checks": {
+    "manifest_hash_matches_receipt": true,
+    "snapshots_match_manifest": true,
+    "receipt_sources_match_manifest": true,
+    "prereg_lineage": true,
+    "qemu_exit33": true,
+    "evaluator_pass": true,
+    "static_pass": true,
+    "all_static_checks_bool_true": true,
+    "stage2_fit": true,
+    "runtime_state": true,
+    "max_live_count": true,
+    "capacity_measurements": true
+  },
+  "passed": true,
+  "supersedes_local_audit": "12_independent_audit.json",
+  "correction": "v1 used nonexistent max_observed_live_count key; receipt uses max_observed_resource_live_count"
+}

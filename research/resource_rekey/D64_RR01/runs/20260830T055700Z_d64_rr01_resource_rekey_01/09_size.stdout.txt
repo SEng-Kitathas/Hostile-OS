@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   6655	      0	      0	   6655	   19ff	E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\resource_rekey\D64_RR01\runs\20260830T055700Z_d64_rr01_resource_rekey_01\stage2.elf

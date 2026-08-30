@@ -1,0 +1,21 @@
+{
+  "evaluator_version": "C003-P03-mutation-coherence-v1",
+  "debugcon_sha256": "9b549725a58ebadf7ece6761309a34967acf0217fdbe77ba7ce1a5c6b6f9b3c9",
+  "expected_lines": [
+    "RAW_CUT=S",
+    "RAW_POST=C",
+    "GUARD_CUT=R",
+    "GUARD_POST=C",
+    "DONE"
+  ],
+  "observed_lines": [
+    "RAW_CUT=S",
+    "RAW_POST=C",
+    "GUARD_CUT=R",
+    "GUARD_POST=C",
+    "DONE"
+  ],
+  "passed": true,
+  "interpretation": "unguarded cut exposes stale history; guarded cut rejects intermediate state and post-commit state is coherent",
+  "authority_ceiling": "single-core bounded explicit-cut model only; no general linearizability, lock-freedom, interrupt, SMP, memory-ordering, or architecture claim"
+}

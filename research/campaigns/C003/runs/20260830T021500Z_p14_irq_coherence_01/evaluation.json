@@ -1,0 +1,36 @@
+{
+  "evaluator_version": "C003-P14-irq-coherence-v1",
+  "expected_lines": [
+    "GOOD_IRQ_OWNER=B",
+    "GOOD_IRQ_CONT=2",
+    "GOOD_POST_OWNER=B",
+    "GOOD_POST_CONT=2",
+    "BAD_IRQ_OWNER=B",
+    "BAD_IRQ_CONT=1",
+    "BAD_POST_OWNER=B",
+    "BAD_POST_CONT=2",
+    "DONE"
+  ],
+  "observed_lines": [
+    "GOOD_IRQ_OWNER=B",
+    "GOOD_IRQ_CONT=2",
+    "GOOD_POST_OWNER=B",
+    "GOOD_POST_CONT=2",
+    "BAD_IRQ_OWNER=B",
+    "BAD_IRQ_CONT=1",
+    "BAD_POST_OWNER=B",
+    "BAD_POST_CONT=2",
+    "DONE"
+  ],
+  "checks": {
+    "exact_lines": true,
+    "good_irq_coherent": true,
+    "good_post_coherent": true,
+    "bad_irq_torn": true,
+    "bad_post_complete": true
+  },
+  "debugcon_sha256": "64f12511b8bae5f9052e9ed9c666832009834c31779560aba2d64ff69334996e",
+  "passed": true,
+  "interpretation": "IRQ masking across both relation writes kept the observer snapshot coherent while enabling IRQ after the first write exposed B/1 torn state",
+  "authority_ceiling": "two-byte relation coherence against one real QEMU IRQ0 observer only; no general atomicity or locking claim"
+}

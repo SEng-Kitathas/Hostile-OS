@@ -1,0 +1,31 @@
+{
+  "evaluator_version": "C003-P07-failure-locality-v1",
+  "expected_lines": [
+    "LOCAL_MISS=M",
+    "LOCAL_LATER=O",
+    "LOCAL_STATE=B",
+    "GLOBAL_MISS=M",
+    "GLOBAL_LATER=X",
+    "GLOBAL_STATE=A",
+    "DONE"
+  ],
+  "observed_lines": [
+    "LOCAL_MISS=M",
+    "LOCAL_LATER=O",
+    "LOCAL_STATE=B",
+    "GLOBAL_MISS=M",
+    "GLOBAL_LATER=X",
+    "GLOBAL_STATE=A",
+    "DONE"
+  ],
+  "checks": {
+    "exact_lines": true,
+    "same_missing_status": true,
+    "local_later_progress": true,
+    "global_control_blocks_later": true
+  },
+  "debugcon_sha256": "37e3bdd7800e0a2b723729c10cef60ffd19ca4d10e9dc6e3b298b18694736dc1",
+  "passed": true,
+  "interpretation": "local missing-operation result preserved distinct later progress while deliberately global poison blocked the same later present operation",
+  "authority_ceiling": "bounded fixed-capacity local-vs-global failure control only; no general isolation, process, scheduler, ErrorManager, syscall, or architecture claim"
+}

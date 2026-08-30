@@ -1,0 +1,111 @@
+{
+  "run_id": "20260830T031800Z_post_c003_r01_p03_aba_02",
+  "run_class": "POST_C003_R01_P03_ABA_REVISIT",
+  "scientific_status": "COMPLETED",
+  "authority_ceiling": "bounded spanning-reader ABA/currentness revisit only",
+  "cwd": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS",
+  "qemu": {
+    "pid": 14232,
+    "argv": [
+      "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "-accel",
+      "tcg",
+      "-display",
+      "none",
+      "-monitor",
+      "none",
+      "-serial",
+      "none",
+      "-no-reboot",
+      "-drive",
+      "file=E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/revisits/runs/20260830T031800Z_post_c003_r01_p03_aba_02/probe.bin,format=raw,if=floppy",
+      "-device",
+      "isa-debug-exit,iobase=0xf4,iosize=0x04",
+      "-debugcon",
+      "file:E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/revisits/runs/20260830T031800Z_post_c003_r01_p03_aba_02/debugcon.txt",
+      "-global",
+      "isa-debugcon.iobase=0xe9"
+    ],
+    "started_utc": "2026-08-30T03:16:04.934188+00:00",
+    "ended_utc": "2026-08-30T03:16:05.225736+00:00",
+    "status": "COMPLETED",
+    "exit_code": 33,
+    "timeout_seconds": 5
+  },
+  "tools": {
+    "clang": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "sha256": "f2e1b93d9dd27b847773e7de61b00f1b49ae27eb20ba434297cc020f768a1dfb"
+    },
+    "lld": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+      "sha256": "1260f9d6e0522bd476d040203998fa03406607971c13a9aa74f3f66f1e6d1c5d"
+    },
+    "objcopy": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+      "sha256": "4a7559a17dba5f35eb8d209e4765516b548e83b664278c8640f484c3be70e901"
+    },
+    "qemu": {
+      "path": "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "sha256": "dbbf7242e5b0d295e54336c69034a266ee1cc117d7ac6e3060e38bb61651200b"
+    },
+    "python": {
+      "path": "C:\\Users\\ancal\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "sha256": "03168c01b7b7491423350e82c26fee71f35b43694d1319d3c668bda6903a0c38"
+    }
+  },
+  "source_sha256": {
+    "mechanism": "6810a0e5fe7b427b8b8a1337810b2df6c5e056663f9f207551875c72ca0be7b8",
+    "fixture": "67701b37c65a0773416eacf0ff7f75148570fbbb57d5f0ffd6a4ac65c9d0a0f1",
+    "linker": "1a723b1ce73cec7bdac582dcea27533901dcc1782d30428c6655c866bb396902",
+    "evaluator": "94305fc3ce67ea55c2f01c81847d8423bf740fbfc7609e7a47e7ef86829e51e9",
+    "static_checker": "62c61e2d14bfd1ddbb8a6e6c83443528cb8d6310ecf5981fa496f6b5fdcc451a",
+    "launcher": "4e7b3d51380def1796ee08db03f0bcf2f2c50d991b6d95ae550f3e44f038270b"
+  },
+  "artifacts": {
+    "probe_bin": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\revisits\\runs\\20260830T031800Z_post_c003_r01_p03_aba_02\\probe.bin",
+      "bytes": 512,
+      "sha256": "75fd27d88095980d1f6b3bab642fb23c2690819d82d4740ff7020abb8f3f3b3c",
+      "boot_signature": "55aa"
+    },
+    "debugcon": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\revisits\\runs\\20260830T031800Z_post_c003_r01_p03_aba_02\\debugcon.txt",
+      "sha256": "552862e9a7893f015ea71010cbba25c4ad9d8b97decdf81327642e1c92260e2f"
+    },
+    "evaluation": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\revisits\\runs\\20260830T031800Z_post_c003_r01_p03_aba_02\\evaluation.json",
+      "sha256": "3b5975a38a547d1dd5975d3af8a87d0c9201a8434d7a983432145a6ca0b79e65",
+      "evaluator_exit": 0
+    },
+    "static_closure": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\revisits\\runs\\20260830T031800Z_post_c003_r01_p03_aba_02\\07_static_closure.json",
+      "sha256": "33601a41c32ffa7d70606aa8669617e95f2125a033004f16c2e79c5243288fb8",
+      "checker_exit": 0
+    },
+    "qemu_stdout": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\revisits\\runs\\20260830T031800Z_post_c003_r01_p03_aba_02\\05_qemu.stdout.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "qemu_stderr": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\revisits\\runs\\20260830T031800Z_post_c003_r01_p03_aba_02\\05_qemu.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "evaluator_stdout": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\revisits\\runs\\20260830T031800Z_post_c003_r01_p03_aba_02\\06_evaluator.stdout.txt",
+      "sha256": "5fc0e9a6d7f987e1115c0949504a10377376fc2557e471ab35b002507f72c82b"
+    },
+    "evaluator_stderr": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\revisits\\runs\\20260830T031800Z_post_c003_r01_p03_aba_02\\06_evaluator.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    "static_stdout": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\revisits\\runs\\20260830T031800Z_post_c003_r01_p03_aba_02\\07_static.stdout.txt",
+      "sha256": "33601a41c32ffa7d70606aa8669617e95f2125a033004f16c2e79c5243288fb8"
+    },
+    "static_stderr": {
+      "path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\revisits\\runs\\20260830T031800Z_post_c003_r01_p03_aba_02\\07_static.stderr.txt",
+      "sha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    }
+  }
+}

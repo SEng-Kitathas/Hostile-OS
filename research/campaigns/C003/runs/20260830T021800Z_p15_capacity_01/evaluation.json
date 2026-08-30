@@ -1,0 +1,39 @@
+{
+  "evaluator_version": "C003-P15-fixed-capacity-v1",
+  "expected_lines": [
+    "GOOD_A=W",
+    "GOOD_B=W",
+    "GOOD_C=F",
+    "GOOD_SLOT0=A",
+    "GOOD_SLOT1=B",
+    "BAD_A=W",
+    "BAD_B=W",
+    "BAD_C=W",
+    "BAD_SLOT0=C",
+    "BAD_SLOT1=B",
+    "DONE"
+  ],
+  "observed_lines": [
+    "GOOD_A=W",
+    "GOOD_B=W",
+    "GOOD_C=F",
+    "GOOD_SLOT0=A",
+    "GOOD_SLOT1=B",
+    "BAD_A=W",
+    "BAD_B=W",
+    "BAD_C=W",
+    "BAD_SLOT0=C",
+    "BAD_SLOT1=B",
+    "DONE"
+  ],
+  "checks": {
+    "exact_lines": true,
+    "good_fill": true,
+    "good_full": true,
+    "bad_fill": true,
+    "bad_overwrite": true
+  },
+  "debugcon_sha256": "49cdd4be7fc889d6eab18e22acf9c5a9968c1b42261b73a0bd268593e66c09b5",
+  "passed": true,
+  "authority_ceiling": "two-slot explicit capacity/full behavior only; no allocator or dynamic-growth architecture claim"
+}

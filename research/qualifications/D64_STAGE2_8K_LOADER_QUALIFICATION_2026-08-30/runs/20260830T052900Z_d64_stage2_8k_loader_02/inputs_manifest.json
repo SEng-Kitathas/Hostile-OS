@@ -1,0 +1,82 @@
+{
+  "run_id": "20260830T052900Z_d64_stage2_8k_loader_02",
+  "snapshot_utc": "2026-08-30T05:26:51.508440+00:00",
+  "controlling_git_head": "b8912647a5a1fb1fc62cfa8fbe125d3f64b7bc5f",
+  "controlling_preregistration_commit": "ca21370643b8526ce2d66b4de1f2aec2c78a008d",
+  "declared_working_directory": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS",
+  "launcher_path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\qualifications\\D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30\\launch_8k_loader.py",
+  "launcher_sha256": "457229dcf43248836e822d8eada88c0d75ca01fa2fb9b19d0c53f32c7963450e",
+  "tools": {
+    "clang": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+    "lld": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+    "objcopy": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+    "size": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-size.exe",
+    "qemu": "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+    "python": "C:\\Users\\ancal\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe"
+  },
+  "inputs": [
+    {
+      "key": "qualification_spec",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/QUALIFICATION_SPEC.md",
+      "snapshot_path": "inputs/qualification_spec.md",
+      "bytes": 4153,
+      "sha256": "467383ba72152e744b7310781bb93214d9a5382cf282eef7b7f9e8accab4a40d"
+    },
+    {
+      "key": "resource_plan",
+      "source_project_relative": "research/plans/D64_RESOURCE_BINDING_SCALE_PLAN_2026-08-30.md",
+      "snapshot_path": "inputs/resource_plan.md",
+      "bytes": 11481,
+      "sha256": "2775f5c4c9e4191f3c002fa44d7fdca24fb34a456733c336734906da7b76c02b"
+    },
+    {
+      "key": "stage1_s",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/stage1.S",
+      "snapshot_path": "inputs/stage1.S",
+      "bytes": 751,
+      "sha256": "6cacc1e2fb397cb09321459b7d930718546288fce1a68a619adf76b795c00276"
+    },
+    {
+      "key": "stage1_ld",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/stage1.ld",
+      "snapshot_path": "inputs/stage1.ld",
+      "bytes": 184,
+      "sha256": "e5da57aefb8ff22b1c858e7372bab49c29d8cd45d83650b53664e44c51a6a3fa"
+    },
+    {
+      "key": "stage2_s",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/stage2.S",
+      "snapshot_path": "inputs/stage2.S",
+      "bytes": 627,
+      "sha256": "fdef8cb5f69d1ef699ae369a31083d42a948d976367ccb83ce8946e8e2c2dfd1"
+    },
+    {
+      "key": "stage2_ld",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/stage2.ld",
+      "snapshot_path": "inputs/stage2.ld",
+      "bytes": 187,
+      "sha256": "04a4141c295bf71c4086d147acd55b57ef745ba77e4e318275140f6c2bc1f64d"
+    },
+    {
+      "key": "launcher",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/launch_8k_loader.py",
+      "snapshot_path": "inputs/launch_8k_loader.py",
+      "bytes": 12093,
+      "sha256": "457229dcf43248836e822d8eada88c0d75ca01fa2fb9b19d0c53f32c7963450e"
+    },
+    {
+      "key": "evaluator",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/evaluate_8k_loader.py",
+      "snapshot_path": "inputs/evaluate_8k_loader.py",
+      "bytes": 1129,
+      "sha256": "ba6d962a7290780113d5fe9e1c0881b6dd37528d128bb4e6f54b03a19a1d4f4b"
+    },
+    {
+      "key": "static_checker",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/static_check_8k_loader.py",
+      "snapshot_path": "inputs/static_check_8k_loader.py",
+      "bytes": 3391,
+      "sha256": "aac6757ba1ea8e66f89210fe1a3b165945625b9074a0fa768daf22c4fbfb8df4"
+    }
+  ]
+}

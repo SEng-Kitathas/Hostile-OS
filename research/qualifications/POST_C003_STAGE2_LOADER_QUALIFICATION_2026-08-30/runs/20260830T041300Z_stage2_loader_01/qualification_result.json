@@ -1,0 +1,72 @@
+{
+  "qualification": "POST_C003_STAGE2_LOADER_8_SECTOR_V1",
+  "run_id": "20260830T041300Z_stage2_loader_01",
+  "passed": true,
+  "checks": {
+    "qemu_completed": true,
+    "qemu_exit_33": true,
+    "exact_trace": true,
+    "stage1_512": true,
+    "stage1_signature_55aa": true,
+    "stage2_raw_within_4096": true,
+    "stage2_disk_extent_4096": true,
+    "durable_sector_zero_after": true,
+    "disk_size_1474560": true,
+    "llvm_size_exit_0": true
+  },
+  "layout": {
+    "image_bytes": 1474560,
+    "sector_bytes": 512,
+    "stage1_zero_based_sector": 0,
+    "stage2_zero_based_start_sector": 1,
+    "stage2_sector_count": 8,
+    "stage2_load_address": "0x8000",
+    "durable_zero_based_sector": 9,
+    "bios_stage2_chs": {
+      "cylinder": 0,
+      "head": 0,
+      "start_sector_1_based": 2,
+      "count": 8
+    }
+  },
+  "qemu": {
+    "pid": 26032,
+    "status": "COMPLETED",
+    "exit_code": 33,
+    "started_utc": "2026-08-30T04:12:37.298453+00:00",
+    "ended_utc": "2026-08-30T04:12:37.992189+00:00",
+    "timeout_seconds": 5
+  },
+  "observed_lines": [
+    "S1_OK",
+    "S2_OK"
+  ],
+  "expected_lines": [
+    "S1_OK",
+    "S2_OK"
+  ],
+  "sizes": {
+    "stage1_bytes": 512,
+    "stage2_raw_bytes": 34,
+    "stage2_padded_bytes": 4096,
+    "disk_bytes": 1474560
+  },
+  "source_sha256": {
+    "stage1_s": "56b655c6fcf5c4910699fc080f268ebaca442cf92299d192cf9d197195d8e9e3",
+    "stage1_ld": "e5da57aefb8ff22b1c858e7372bab49c29d8cd45d83650b53664e44c51a6a3fa",
+    "stage2_s": "f529c6f252feee338eee3e594cf914077fa622f8df85f5fb4cd3a88ddc0a5b87",
+    "stage2_ld": "8612b6e066d9db58d50b5051765887717e03c230bc0a862621ecfe50f6ab96a9",
+    "launcher": "a753e00e2cf02ddd63afad8cf30f5905390057f0b97cbc286cd26136b81e8b8f"
+  },
+  "artifact_sha256": {
+    "stage1_bin": "f31804d49960ba1256f2a073193d38b1b65adea5f70cccc565a3dfad5284bd33",
+    "stage2_raw_bin": "83970875c85a0b5883d5ff991e4c58c49309de7c8ec45f19211ffd0867133d59",
+    "stage2_padded_bin": "30eb88d9e9f4916f4ba688f41102af12a13ad317aefe0a6c42e9a9fa6d7bff15",
+    "disk_img": "4d0e3cfde7b9f1873cc83c98f4fe90b90fbf1f63f4b95937728e88e89ed3d3f5",
+    "debugcon": "561079a4eb5adf4e956a8035384e44968023dd09f5e03dcd4a6a2ff6613251a8",
+    "qemu_stdout": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "qemu_stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+    "size_stdout": "35fe7d66a718f68ec73e2c51826bc011ec527239da3389abf1877918d4a458a0",
+    "size_stderr": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+  }
+}

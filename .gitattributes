@@ -1,0 +1,2 @@
+# GitHub publication mirror LFS rules
+payload_history/lab_tooling/HOSTILE_OS_BACKDOOR_004_IA16_TOOLCHAIN.zip filter=lfs diff=lfs merge=lfs -text

@@ -1,0 +1,146 @@
+[
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G01",
+    "statement": "Inspect available project memory, exact artifacts, lineage, current state, scars, rejected/deferred branches, and frontier before inventing a clean slate.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Recover continuity before widening"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G02",
+    "statement": "Use remembered state to find evidence and preserve intent; reverify current facts when the decision depends on them.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Memory is continuity, not proof"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G03",
+    "statement": "Import mechanisms, constraints, scars, counterexamples, and experiment designs; donor identity or prestige does not transfer authority.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Strip donors for parts"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G04",
+    "statement": "Research branches, donors, prototypes, and candidate mechanisms do not self-promote into canonical or product authority.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Separate exploration from promotion"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G05",
+    "statement": "Each pass must answer the discriminator exposed by the prior result; stop at the declared boundary and perform breadth checks.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Run bounded discriminator-led campaigns"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G06",
+    "statement": "Test the strongest claim and plausible rivals. Preserve useful failures as scars after repair.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Use challenge cases, counterexamples, removals, and altered variants"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G07",
+    "statement": "Use a compact current operational surface plus append-preferred history when durable continuity machinery exists.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Keep live state separate from forensic chronology"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G08",
+    "statement": "Checkpoint intent, authority, lineage, evidence, unknowns, scars, and exact next action when work materially changes state.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Significant work must survive a fresh instance"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G09",
+    "statement": "A process tool can work correctly and still be unnecessary. Measure whether it improves the research job it exists to serve.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Process instruments must earn existence and residency"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G10",
+    "statement": "Do not ship campaign cadence, reviewer choreography, role labels, or other in-house process rules as engineering-product requirements unless the product itself requires them.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Internal research governance is not product content"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G11",
+    "statement": "Keep model, prompt/context, tools, persistent state, harness, environment, validators, and operator effects separable when attribution matters.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "AI-assisted work is a system, not a single model"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G12",
+    "statement": "Role/context changes can improve search but do not acquire independent evidence authority by naming.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Same-model self-critique is search, not an independent vote"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G13",
+    "statement": "Models are useful for search, synthesis, code production, translation, and test generation; promotion-bearing claims still need evidence suited to the consequence.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Use current AI capability aggressively but verify externally where consequence matters"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G14",
+    "statement": "When a process guard exists because of a specific substrate behavior, preserve the historical failure and retest current enforcement after meaningful substrate change.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Requalify era-conditioned process burden instead of fossilizing it"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G15",
+    "statement": "Plans may bound the search, but the result of Pass N earns Pass N+1.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Do not prewrite the path through an experiment"
+  },
+  {
+    "authority": "IN_HOUSE_PROCESS_RULE_ONLY",
+    "foundation_authority": false,
+    "product_authority": false,
+    "rule_id": "G16",
+    "statement": "Spend vocabulary budget on engineering distinctions, not ornamental phrasing.",
+    "surface": "INTERNAL_RESEARCH_GOVERNANCE",
+    "title": "Use plain language without simplifying mechanisms"
+  }
+]

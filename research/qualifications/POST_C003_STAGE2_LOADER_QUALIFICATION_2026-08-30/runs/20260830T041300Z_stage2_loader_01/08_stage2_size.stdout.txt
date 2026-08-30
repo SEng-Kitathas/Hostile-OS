@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+     34	      0	      0	     34	     22	E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\qualifications\POST_C003_STAGE2_LOADER_QUALIFICATION_2026-08-30\runs\20260830T041300Z_stage2_loader_01\stage2.elf

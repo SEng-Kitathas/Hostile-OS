@@ -1,0 +1,41 @@
+{
+  "evaluator_version": "C003-P12-generation-wrap-v1",
+  "expected_lines": [
+    "COUNT_HI=1",
+    "COUNT_LO=0",
+    "STALE_TOKEN=0",
+    "NARROW_GEN=0",
+    "NARROW_STALE=A",
+    "WIDE_HI=1",
+    "WIDE_LO=0",
+    "WIDE_FRESH=A",
+    "WIDE_STALE=R",
+    "DONE"
+  ],
+  "observed_lines": [
+    "COUNT_HI=1",
+    "COUNT_LO=0",
+    "STALE_TOKEN=0",
+    "NARROW_GEN=0",
+    "NARROW_STALE=A",
+    "WIDE_HI=1",
+    "WIDE_LO=0",
+    "WIDE_FRESH=A",
+    "WIDE_STALE=R",
+    "DONE"
+  ],
+  "checks": {
+    "exact_lines": true,
+    "count_is_256": true,
+    "stale_token_zero": true,
+    "narrow_wraps_zero": true,
+    "narrow_false_accept": true,
+    "wide_reaches_0100": true,
+    "wide_accepts_fresh": true,
+    "wide_rejects_stale": true
+  },
+  "debugcon_sha256": "f462f058c2880a1e555d9ccf22da1f57b214a16714028ad12a0bfca3c30ac836",
+  "passed": true,
+  "interpretation": "8-bit generation aliased stale zero after 256 increments while 16-bit generation reached 0x0100, accepted fresh token, and rejected stale zero",
+  "authority_ceiling": "exact 256-increment 8-bit versus 16-bit generation alias only; no universal width or general ABA-freedom claim"
+}

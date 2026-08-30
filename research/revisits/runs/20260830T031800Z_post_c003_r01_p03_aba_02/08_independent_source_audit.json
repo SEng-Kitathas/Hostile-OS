@@ -1,0 +1,20 @@
+{
+  "audit_version": "POST-C003-R01-independent-source-audit-v1",
+  "checks": {
+    "fixture_only_five_input_bytes": true,
+    "fixture_no_expected_result_tokens": true,
+    "launcher_does_not_write_debugcon": true,
+    "launcher_does_not_mutate_guest_state": true,
+    "evaluator_reads_only_debug_for_observation": true,
+    "two_calls_same_mutation": true,
+    "mutation_order": true,
+    "flag_accept_clear_clear_no_version": true,
+    "version_rejects_changed_snapshot": true,
+    "stable_can_accept": true,
+    "boot_contract": true,
+    "runtime_qualified": true,
+    "evaluators_passed": true,
+    "receipt_source_hashes_match": true
+  },
+  "passed": true
+}

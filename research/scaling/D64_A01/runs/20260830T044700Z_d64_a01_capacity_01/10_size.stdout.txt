@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   1528	      0	      0	   1528	    5f8	E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\scaling\D64_A01\runs\20260830T044700Z_d64_a01_capacity_01\stage2.elf

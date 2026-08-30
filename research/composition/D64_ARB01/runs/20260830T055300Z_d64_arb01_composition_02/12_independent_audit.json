@@ -1,0 +1,33 @@
+{
+  "audit_version": "D64-ARB01-independent-closure-v1",
+  "checks": {
+    "manifest_hash_matches_receipt": true,
+    "all_snapshots_match_manifest": true,
+    "receipt_sources_match_manifest": true,
+    "prereg_lineage_exact": true,
+    "snapshot_before_qemu": true,
+    "qemu_exit33": true,
+    "evaluator_exact_pass": true,
+    "static_all_bool_true": true,
+    "stage2_fit": true,
+    "runtime_state_3665": true,
+    "declared_scan_bounds": true,
+    "epoch_namespace_observations": true,
+    "attempt1_runtime_eval_pass_static_fail": true,
+    "attempt1_false_predicate_exact": true,
+    "attempt1_2_same_guest_source": true,
+    "attempt1_2_same_runtime_trace": true,
+    "only_checker_changed_among_mechanism_harness_inputs": true,
+    "unsafe_inheritance_observed": true,
+    "good_composition_observed": true
+  },
+  "passed": true,
+  "attempt1_stage2_sha256": "8b9479e08372d89f0adbc9dc4024d8f147ecf28b5e33aa365ad9c4208dba807a",
+  "attempt2_stage2_sha256": "8b9479e08372d89f0adbc9dc4024d8f147ecf28b5e33aa365ad9c4208dba807a",
+  "attempt1_checker_sha256": "8507b331b865573dca6a50bc8556f73a9582550e9afbab785a720b50f73a5340",
+  "attempt2_checker_sha256": "0561cbf7fae68d6693ae83a08b5fd0ce577d3b720f8db5d23d0b0dd741ac7b65",
+  "notes": [
+    "Attempt 1 guest/evaluator passed but one static checker label-count predicate falsely counted bad_resource_read/bad_binding_read substrings.",
+    "Attempt 2 changed only the static checker among mechanism/harness controlling inputs; guest source and trace remained identical."
+  ]
+}

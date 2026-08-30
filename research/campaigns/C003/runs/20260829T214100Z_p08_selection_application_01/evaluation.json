@@ -1,0 +1,29 @@
+{
+  "evaluator_version": "C003-P08-selection-application-v1",
+  "expected_lines": [
+    "SEP_SELECTED=B",
+    "SEP_SELECT_A=0",
+    "SEP_SELECT_B=0",
+    "SEP_APPLY_A=0",
+    "SEP_APPLY_B=1",
+    "BAD_SELECTED=B",
+    "BAD_SELECT_A=0",
+    "BAD_SELECT_B=1",
+    "DONE"
+  ],
+  "observed_lines": [
+    "SEP_SELECTED=B",
+    "SEP_SELECT_A=0",
+    "SEP_SELECT_B=0",
+    "SEP_APPLY_A=0",
+    "SEP_APPLY_B=1",
+    "BAD_SELECTED=B",
+    "BAD_SELECT_A=0",
+    "BAD_SELECT_B=1",
+    "DONE"
+  ],
+  "debugcon_sha256": "61a83c4f6b51a50dda381a9623c7fd5403826ffad38e49591e6fc147d847fbca",
+  "passed": true,
+  "interpretation": "separated selector chooses B without mutating activity progress; separate application advances only B; conflated control mutates B during selection",
+  "authority_ceiling": "bounded two-eligible selection/application separation only; no general scheduler, fairness, preemption, continuation switch, multicore, or architecture claim"
+}

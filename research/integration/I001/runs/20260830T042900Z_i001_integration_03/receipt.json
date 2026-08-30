@@ -1,0 +1,201 @@
+{
+  "run_id": "20260830T042900Z_i001_integration_03",
+  "run_class": "I001_WHOLE_WORKLOAD_INTEGRATION",
+  "scientific_status": "COMPLETED",
+  "authority_ceiling": "bounded two-boot integrated descendant only; no architecture/authority promotion",
+  "layout": {
+    "image_bytes": 1474560,
+    "sector_bytes": 512,
+    "stage1_sector_1_based": 1,
+    "stage2_start_sector_1_based": 2,
+    "stage2_sector_count": 8,
+    "stage2_load_address": "0x8000",
+    "durable_sector_1_based": 10
+  },
+  "qemu": {
+    "boot1": {
+      "pid": 10408,
+      "argv": [
+        "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+        "-accel",
+        "tcg",
+        "-display",
+        "none",
+        "-monitor",
+        "none",
+        "-serial",
+        "none",
+        "-no-reboot",
+        "-boot",
+        "a",
+        "-drive",
+        "file=E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/integration/I001/runs/20260830T042900Z_i001_integration_03/disk.img,format=raw,if=floppy",
+        "-device",
+        "isa-debug-exit,iobase=0xf4,iosize=0x04",
+        "-debugcon",
+        "file:E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/integration/I001/runs/20260830T042900Z_i001_integration_03/boot1.debugcon.txt",
+        "-global",
+        "isa-debugcon.iobase=0xe9"
+      ],
+      "started_utc": "2026-08-30T04:23:03.077072+00:00",
+      "ended_utc": "2026-08-30T04:23:03.291861+00:00",
+      "wall_ms": 214.76719999918714,
+      "status": "COMPLETED",
+      "exit_code": 33,
+      "timeout_seconds": 8
+    },
+    "boot2": {
+      "pid": 30608,
+      "argv": [
+        "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+        "-accel",
+        "tcg",
+        "-display",
+        "none",
+        "-monitor",
+        "none",
+        "-serial",
+        "none",
+        "-no-reboot",
+        "-boot",
+        "a",
+        "-drive",
+        "file=E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/integration/I001/runs/20260830T042900Z_i001_integration_03/disk.img,format=raw,if=floppy",
+        "-device",
+        "isa-debug-exit,iobase=0xf4,iosize=0x04",
+        "-debugcon",
+        "file:E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/integration/I001/runs/20260830T042900Z_i001_integration_03/boot2.debugcon.txt",
+        "-global",
+        "isa-debugcon.iobase=0xe9"
+      ],
+      "started_utc": "2026-08-30T04:23:03.300933+00:00",
+      "ended_utc": "2026-08-30T04:23:03.502495+00:00",
+      "wall_ms": 201.5493999933824,
+      "status": "COMPLETED",
+      "exit_code": 33,
+      "timeout_seconds": 8
+    }
+  },
+  "tools": {
+    "clang": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "sha256": "f2e1b93d9dd27b847773e7de61b00f1b49ae27eb20ba434297cc020f768a1dfb"
+    },
+    "lld": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+      "sha256": "1260f9d6e0522bd476d040203998fa03406607971c13a9aa74f3f66f1e6d1c5d"
+    },
+    "objcopy": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+      "sha256": "4a7559a17dba5f35eb8d209e4765516b548e83b664278c8640f484c3be70e901"
+    },
+    "size": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-size.exe",
+      "sha256": "aea68b227c9d842bbe8b5ee1c373deddc36efc0160f21e27ce74b37416f45119"
+    },
+    "nm": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-nm.exe",
+      "sha256": "682d479f37f1b0aea7f0c5b400dc6ac46b309f040dfe0935b12e902dee3244fc"
+    },
+    "objdump": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objdump.exe",
+      "sha256": "41c9c160bbe6d04bb0af4cdc32f8f78bf1c7f53bcedf755d7ff87b6c682ee7cd"
+    },
+    "qemu": {
+      "path": "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "sha256": "dbbf7242e5b0d295e54336c69034a266ee1cc117d7ac6e3060e38bb61651200b"
+    },
+    "python": {
+      "path": "C:\\Users\\ancal\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "sha256": "03168c01b7b7491423350e82c26fee71f35b43694d1319d3c668bda6903a0c38"
+    }
+  },
+  "source_sha256": {
+    "stage1_s": "6213425390d4e498f65d6593b2f7f4591611ed5c2ca1a315d0e0c5fa88693edf",
+    "stage1_ld": "2fbb3c273a06fa4fddfe9d4400fc42e6d102cb977b92cabd2866b258f1ba7d86",
+    "stage2_s": "1bcfb7dde2e0af6835799b8dab5a47c6511f591696f6bb77d11cd1aad7a7dd5f",
+    "stage2_ld": "88e361a072059eef80dc009093e95ff415eb107ff09e2991421bf824a8a0fe08",
+    "evaluator": "c213e2bf35f92d34c56069ccc7be014530ba0855036d99f6251eab9069e77c6c",
+    "static_checker": "9ae80c0c7ba243374e524ca6632441ef29899fce38262c841fed69a02b09e74f",
+    "launcher": "bf4be387c0cd29d662283caa960a7a29619ad9764090c8f05fcfb19a4c25a6a0"
+  },
+  "artifacts": {
+    "stage1_bin": {
+      "bytes": 512,
+      "sha256": "bd13612a1a1db38dd2c847fce1f19ca5305a8febc06f99090d6d1ae882334eb8",
+      "signature": "55aa"
+    },
+    "stage2_raw": {
+      "bytes": 2478,
+      "sha256": "2e428e4ef6226dd91fd23ee8dffbdf55887188fbfb84cd745dfc94c4301d02be"
+    },
+    "stage2_padded": {
+      "bytes": 4096,
+      "sha256": "4ffea35b376e3213aff118cc5d904a9a18f73c2aa473bdbb4b388be99205856b"
+    },
+    "disk": {
+      "bytes": 1474560,
+      "initial_sha256": "b9c79c821d0be352132e940201f23d1e2bcd0456d994a1a142fd01a183bc4218",
+      "after_boot1_sha256": "99c334b8a21334c0cd68ca41f16eb5bf9e0ef78ac866169ca0d058987a35f1b6",
+      "after_boot2_sha256": "6daeefdaf115b1520b6bfc0edd4f535d52e29f236c671d92fc063edb4b54b499"
+    },
+    "boot1_debug": {
+      "sha256": "1ba2238b939d4bdd7402319f25a4d77ba43217621aa8249b6f83f2cc3193514d"
+    },
+    "boot2_debug": {
+      "sha256": "0ca75e946913a08d6ef65b74f0e17d8ec633a7366fe468cf25f0f486837d4a6f"
+    },
+    "durable_after_boot1": {
+      "sha256": "ca8bf03a22f505e0d2048fd2e4f55f7003a9fc44cd24bfdd7aaaae5e10eecbee"
+    },
+    "durable_after_boot2": {
+      "sha256": "17ef271c1b31ef810bf342d6cb7a709741e365f373fe4f1dd4c9c48ca4d009e4"
+    },
+    "evaluation": {
+      "sha256": "679d7d4fa6b18f9c5d39a3bca4a3f36dc4eb38f03489bbd37633de57badd400b",
+      "exit": 0
+    },
+    "static_closure": {
+      "sha256": "94f83df59302a1549e226efe756b255fb341c4dba2c8695cd64c1fdb62a247ea",
+      "exit": 0
+    },
+    "stage2_size": {
+      "sha256": "3064eee0e9fac9ad3d2dadd375a3b05801f1a13ad589e0dfaf4fbbebb494c311",
+      "exit": 0
+    },
+    "stage2_nm": {
+      "sha256": "fa3199a31052a51e46b295ecc964cd228ceb19dbd8a93184a54deacdeb74e2c8",
+      "exit": 0
+    },
+    "stage2_objdump": {
+      "sha256": "5bf90275d00875374366bcaa4935bde5463feb29ea1705b516496c7ba59b9ef1",
+      "exit": 0
+    }
+  },
+  "pareto": {
+    "runtime_state_bytes": 51,
+    "activity_capacity": 2,
+    "activity_generation_bits": 8,
+    "runtime_epoch_bits": 8,
+    "main_path_max_slot_generation": 2,
+    "formal_valid_generation_values": "1..255; fail closed before zero-wrap",
+    "critical_wait_instruction_count": 6,
+    "explicit_result_codes": [
+      "W",
+      "F",
+      "M",
+      "O",
+      "R",
+      "G",
+      "X"
+    ],
+    "state_block_species": [
+      "activity_slots",
+      "shared_backing",
+      "completion_record",
+      "irq_event",
+      "runtime_epoch",
+      "coherence_control"
+    ]
+  }
+}

@@ -1,0 +1,20 @@
+{
+  "evaluator_version": "C003-P01-reconstruction-evaluator-v1",
+  "debugcon_path": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T205125Z_p01_reconstruction_01\\debugcon.txt",
+  "debugcon_sha256": "68f6cbeb3e444ccf2b56f1c87ee84ae039c17dd2323bc3acf6956c2587fdc1af",
+  "expected_lines": [
+    "R_WC=PASS",
+    "R_CW=PASS",
+    "B_CW=FAIL",
+    "DONE"
+  ],
+  "observed_lines": [
+    "R_WC=PASS",
+    "R_CW=PASS",
+    "B_CW=FAIL",
+    "DONE"
+  ],
+  "passed": true,
+  "interpretation": "repaired wait->complete and complete->wait both converge; broken one-shot complete->wait remains discriminated",
+  "authority_ceiling": "non-source-equivalent reconstruction probe only; does not complete the source-grounded C003/P01 Python-host subsidy inventory"
+}

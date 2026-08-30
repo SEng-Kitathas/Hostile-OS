@@ -1,0 +1,26 @@
+{
+  "evaluator_version": "C003-P18-serialization-v1",
+  "expected_lines": [
+    "ENC0=34",
+    "ENC1=12",
+    "GOOD=1234",
+    "BAD=3412",
+    "DONE"
+  ],
+  "observed_lines": [
+    "ENC0=34",
+    "ENC1=12",
+    "GOOD=1234",
+    "BAD=3412",
+    "DONE"
+  ],
+  "checks": {
+    "exact_lines": true,
+    "encoded": true,
+    "good": true,
+    "bad": true
+  },
+  "debugcon_sha256": "3973640611b318292c85d721abbcea3e199e7736374251dd208469a7dbce04cb",
+  "passed": true,
+  "authority_ceiling": "one explicit 16-bit/two-byte serialization convention only; no general serializer/ABI/format claim"
+}

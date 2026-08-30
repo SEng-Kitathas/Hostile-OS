@@ -1,0 +1,73 @@
+﻿{
+    "run_id":  "20260829T212310Z_p03_mutation_coherence_03",
+    "run_class":  "C003_P03_MUTATION_COHERENCE_DISCRIMINATOR",
+    "scientific_p03_completion":  true,
+    "authority_ceiling":  "single-core bounded explicit-cut model only",
+    "cwd":  "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS",
+    "started_utc":  "2026-08-29T21:23:06.4329504Z",
+    "ended_utc":  "2026-08-29T21:23:09.6015055Z",
+    "tools":  {
+                  "clang":  {
+                                "path":  "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+                                "sha256":  "f2e1b93d9dd27b847773e7de61b00f1b49ae27eb20ba434297cc020f768a1dfb"
+                            },
+                  "lld":  {
+                              "path":  "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+                              "sha256":  "1260f9d6e0522bd476d040203998fa03406607971c13a9aa74f3f66f1e6d1c5d"
+                          },
+                  "objcopy":  {
+                                  "path":  "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+                                  "sha256":  "4a7559a17dba5f35eb8d209e4765516b548e83b664278c8640f484c3be70e901"
+                              },
+                  "qemu":  {
+                               "path":  "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+                               "sha256":  "dbbf7242e5b0d295e54336c69034a266ee1cc117d7ac6e3060e38bb61651200b",
+                               "expected_exit":  33,
+                               "observed_exit":  33
+                           },
+                  "python":  {
+                                 "path":  "C:\\Users\\ancal\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+                                 "sha256":  "03168c01b7b7491423350e82c26fee71f35b43694d1319d3c668bda6903a0c38",
+                                 "observed_eval_exit":  0
+                             }
+              },
+    "source_sha256":  {
+                          "mechanism":  "6a062701d501ea56ef1448403b5367691b57bb6bd4642807ab790d4b94c78165",
+                          "fixture":  "025cd8dd99dcb0e3388f7aa7e48994d63c57a23d06e9e0a6d3a10065a087b994",
+                          "linker":  "0cc3c39c53eaf895dbf66a4077d4b3438c5246af0427d658911fab7d38b5ee3d",
+                          "evaluator":  "dbd061dfc58a9dec5ebe1c490e2bc0b640d966b0884c972a1a2c3c4f06b6e4d2",
+                          "launcher":  "4894aa3b2ca897869c0a05a09b7e93dc84d8ae2529f8110c2be2f929b71f1519"
+                      },
+    "artifacts":  {
+                      "probe_bin":  {
+                                        "path":  "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T212310Z_p03_mutation_coherence_03\\probe.bin",
+                                        "bytes":  512,
+                                        "sha256":  "4dc5141879c7bdf6902051dccd391df1429d3593e2cfc9ba0b216160d9b47637",
+                                        "boot_signature":  "55aa"
+                                    },
+                      "debugcon":  {
+                                       "path":  "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T212310Z_p03_mutation_coherence_03\\debugcon.txt",
+                                       "sha256":  "9b549725a58ebadf7ece6761309a34967acf0217fdbe77ba7ce1a5c6b6f9b3c9"
+                                   },
+                      "evaluation":  {
+                                         "path":  "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T212310Z_p03_mutation_coherence_03\\evaluation.json",
+                                         "sha256":  "63f40d587bcb11532e1dc29edbbbb4a021430bc833677101ab6430f191d20229"
+                                     },
+                      "qemu_stdout":  {
+                                          "path":  "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T212310Z_p03_mutation_coherence_03\\05_qemu.stdout.txt",
+                                          "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                                      },
+                      "qemu_stderr":  {
+                                          "path":  "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T212310Z_p03_mutation_coherence_03\\05_qemu.stderr.txt",
+                                          "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                                      },
+                      "evaluator_stdout":  {
+                                               "path":  "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T212310Z_p03_mutation_coherence_03\\06_evaluator.stdout.txt",
+                                               "sha256":  "0d4cc08cb2f1ab2d5460e1fdc552ea692a7a269aa9a90b3c905351bc3bb317f5"
+                                           },
+                      "evaluator_stderr":  {
+                                               "path":  "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\campaigns\\C003\\runs\\20260829T212310Z_p03_mutation_coherence_03\\06_evaluator.stderr.txt",
+                                               "sha256":  "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+                                           }
+                  }
+}

@@ -1,0 +1,18 @@
+{
+  "checker_version": "D64-STAGE2-8K-LOADER-STATIC-v1",
+  "checks": {
+    "stage1_chs_16_sector_contract": true,
+    "stage1_signature_linker": true,
+    "stage2_tail_linker": true,
+    "stage2_tail_checked_before_success": true,
+    "stage2_raw_tail_marker": true,
+    "stage2_padded_exact_8192": true,
+    "sector18_untouched_zero": true,
+    "manifest_receipt_sources_match": true,
+    "host_no_guest_trace_or_memory_synthesis": true
+  },
+  "passed": true,
+  "stage1_sha256": "6cacc1e2fb397cb09321459b7d930718546288fce1a68a619adf76b795c00276",
+  "stage2_sha256": "fdef8cb5f69d1ef699ae369a31083d42a948d976367ccb83ce8946e8e2c2dfd1",
+  "input_manifest_sha256": "54524105a9aab6d6bda31249c9f234a93120fb38b4a50070426c430d8114155f"
+}

@@ -1,0 +1,133 @@
+{
+  "run_id": "20260830T054500Z_d64_rb02_resource_binding_02",
+  "run_class": "D64_RB02_RESOURCE_BINDING_SCALE",
+  "scientific_status": "COMPLETED",
+  "authority_ceiling": "bounded 64x20 binding / 64-resource relation scale only",
+  "input_manifest_sha256": "923151035dcba3fd29d29638e237cb6ee377a6fc55e9e840ceedb177411ab353",
+  "controlling_git_head": "0d0305ebde56d7a9eb70a3db84b00fcf96b33c17",
+  "controlling_preregistration_commit": "0d0305ebde56d7a9eb70a3db84b00fcf96b33c17",
+  "qemu": {
+    "pid": 34536,
+    "argv": [
+      "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "-accel",
+      "tcg",
+      "-display",
+      "none",
+      "-monitor",
+      "none",
+      "-serial",
+      "none",
+      "-no-reboot",
+      "-boot",
+      "a",
+      "-drive",
+      "file=E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/resource_binding/D64_RB02/runs/20260830T054500Z_d64_rb02_resource_binding_02/disk.img,format=raw,if=floppy",
+      "-device",
+      "isa-debug-exit,iobase=0xf4,iosize=0x04",
+      "-debugcon",
+      "file:E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/resource_binding/D64_RB02/runs/20260830T054500Z_d64_rb02_resource_binding_02/debugcon.txt",
+      "-global",
+      "isa-debugcon.iobase=0xe9"
+    ],
+    "started_utc": "2026-08-30T05:39:18.667335+00:00",
+    "ended_utc": "2026-08-30T05:39:18.968452+00:00",
+    "wall_ms": 301.0993000061717,
+    "status": "COMPLETED",
+    "exit_code": 33,
+    "timeout_seconds": 12
+  },
+  "source_sha256": {
+    "preregistration": "fa9e018e941229a15675b343a2d60bfed59639bc4f05e71e788daf66ad86a979",
+    "target_profile": "af4cd5561939f2fe794fa9e696474a8bbc2b1ec271068bb8dff90f4aa542d3b3",
+    "resource_plan": "2775f5c4c9e4191f3c002fa44d7fdca24fb34a456733c336734906da7b76c02b",
+    "width_correction": "6713cc99df9646471cd89c6588270f32e70faed6b3023817f111b133adaedd12",
+    "loader_qualification_result": "cdd1b3bd083868067b6d8be2346aa413332f3d8888fcaa1e809cc48bc36610f6",
+    "stage1_s": "6cacc1e2fb397cb09321459b7d930718546288fce1a68a619adf76b795c00276",
+    "stage1_ld": "e5da57aefb8ff22b1c858e7372bab49c29d8cd45d83650b53664e44c51a6a3fa",
+    "stage2_s": "44f655331e5aec79ec8dac7c4e7cc514907a103bc7bf55312fd62a6c753f363a",
+    "stage2_ld": "6865f7f83dd72a4a11247fa1d792405653fbe1e83baed1e80abd3e7f1f517875",
+    "launcher": "3b7e096dfbdb63d6ed1b2505d1e6c8193d20562934f9b220f89c909072312b84",
+    "evaluator": "9135c8e476d096435d87cb25123976ed35295db03479a27ffda3c2055cecdff2",
+    "static_checker": "5e030c7060d67b9cef416f3e479df9e9393d3597ba2ff73398792ce9aeee855f"
+  },
+  "tools": {
+    "clang": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "sha256": "f2e1b93d9dd27b847773e7de61b00f1b49ae27eb20ba434297cc020f768a1dfb"
+    },
+    "lld": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+      "sha256": "1260f9d6e0522bd476d040203998fa03406607971c13a9aa74f3f66f1e6d1c5d"
+    },
+    "objcopy": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+      "sha256": "4a7559a17dba5f35eb8d209e4765516b548e83b664278c8640f484c3be70e901"
+    },
+    "size": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-size.exe",
+      "sha256": "aea68b227c9d842bbe8b5ee1c373deddc36efc0160f21e27ce74b37416f45119"
+    },
+    "nm": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-nm.exe",
+      "sha256": "682d479f37f1b0aea7f0c5b400dc6ac46b309f040dfe0935b12e902dee3244fc"
+    },
+    "qemu": {
+      "path": "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "sha256": "dbbf7242e5b0d295e54336c69034a266ee1cc117d7ac6e3060e38bb61651200b"
+    },
+    "python": {
+      "path": "C:\\Users\\ancal\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "sha256": "03168c01b7b7491423350e82c26fee71f35b43694d1319d3c668bda6903a0c38"
+    }
+  },
+  "artifacts": {
+    "stage1_bin": {
+      "bytes": 512,
+      "sha256": "feecbbfdea750fc26f401c0e8eeeabcdd70953036bd60e287368e987ac1ed97d",
+      "boot_signature": "55aa"
+    },
+    "stage2_raw": {
+      "bytes": 6432,
+      "sha256": "501773e4afe2d12221f6d6ce8cb89ea73739c40ba389f226be58e10e6a8e3760"
+    },
+    "stage2_padded": {
+      "bytes": 8192,
+      "sha256": "4deac5202c3bf50d9863a276d013029f5a0a277b5b63210dc3d3072b54e391ef"
+    },
+    "disk": {
+      "bytes": 1474560,
+      "sha256": "67aa0a09afbced714e9aacb3895a210ab8452ea5b6a9d613cfcdfe182151f9ef"
+    },
+    "debugcon": {
+      "sha256": "c11c392ec2c82ae8cab934697afc129b5610fe78346cd1a2c4468e5f582d4cfe"
+    },
+    "evaluation": {
+      "sha256": "eb42163a2ba9e68f60735bbe70248db396f1de25eb3cd108811e997f2d8d4645",
+      "exit": 0
+    },
+    "size": {
+      "sha256": "56696d0b8fd7574fc0518fd94c06cee3d58da1d85bf3967946c50b55e5bd6d7c",
+      "exit": 0
+    },
+    "nm": {
+      "sha256": "c6577593c0a1659309b09040e06bd5ae4a99b0fd834b76b75df2600423a26c4d",
+      "exit": 0
+    }
+  },
+  "pareto": {
+    "stage2_raw_bytes": 6432,
+    "stage2_extent_bytes": 8192,
+    "runtime_state_bytes": 3658,
+    "activity_capacity": 64,
+    "bindings_per_activity": 20,
+    "binding_cell_count": 1280,
+    "resource_capacity": 64,
+    "resource_live_count_bits": 16,
+    "max_observed_resource_live_count": 1280,
+    "binding_generation_bits": 8,
+    "resource_generation_bits": 8,
+    "max_binding_row_scan": 20,
+    "max_resource_scan": 64
+  }
+}

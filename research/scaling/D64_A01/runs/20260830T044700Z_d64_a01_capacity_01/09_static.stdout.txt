@@ -1,0 +1,20 @@
+{
+  "checker_version": "D64-A01-static-v1",
+  "checks": {
+    "cap_named_64": true,
+    "eleven_arrays_cap": true,
+    "one_generic_acquire": true,
+    "acquire_bounded_before_mutation": true,
+    "full_branch_no_array_write": true,
+    "generic_release_bounds_first": true,
+    "slot31_uses_generic_calls": true,
+    "generation_fail_closed": true,
+    "handle_checks_bounds_gen_epoch_before_identity_expose": true,
+    "no_two_slot_capacity_compare": true,
+    "input_manifest_snapshots_verify": "eca4069643d81a5415d677c494c4b5ef8c305c3e",
+    "host_no_guest_mutation_or_debug_synthesis": true
+  },
+  "passed": true,
+  "stage2_sha256": "57bee427faf9330059a6e8e181b01721f5c37cf335a353ff2985db306c2f7936",
+  "input_manifest_sha256": "bb2ebdaec97d6a8111867608801282c6a8f38726f7ca960d076fac95b8f1f075"
+}

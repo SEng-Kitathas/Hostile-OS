@@ -1,0 +1,162 @@
+{
+  "authority": "SHADOW_AUDIT_ONLY",
+  "promotion_authority": "NONE",
+  "rows": [
+    {
+      "pass": 1,
+      "dir": "C001_P01_responsibility_inventory_durable",
+      "marker": "COMPLETE",
+      "count_after": 1,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 2,
+      "dir": "C001_P02_identity_lineage_eligibility_independence_durable",
+      "marker": "COMPLETE",
+      "count_after": 2,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 3,
+      "dir": "C001_P03_arbitration_information_hidden_position_durable",
+      "marker": "COMPLETE",
+      "count_after": 3,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 4,
+      "dir": "C001_P04_tie_policy_semantic_coupling_durable",
+      "marker": "COMPLETE",
+      "count_after": 4,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 5,
+      "dir": "C001_P05_counter_priority_capability_durable",
+      "marker": "COMPLETE",
+      "count_after": 5,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 6,
+      "dir": "C001_P06_split_budget_wake_credit_durable",
+      "marker": "COMPLETE",
+      "count_after": 6,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 7,
+      "dir": "C001_P07_bounded_service_credit_durable",
+      "marker": "COMPLETE",
+      "count_after": 7,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 8,
+      "dir": "C001_P08_decay_bound_memory_shape_durable",
+      "marker": "COMPLETE",
+      "count_after": 8,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 9,
+      "dir": "C001_P09_counter_predictive_state_durable",
+      "marker": "COMPLETE",
+      "count_after": 9,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 10,
+      "dir": "C001_P10_history_provenance_merge_durable",
+      "marker": "COMPLETE",
+      "count_after": 10,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 11,
+      "dir": "C001_P11_priority_independence_durable",
+      "marker": "COMPLETE",
+      "count_after": 11,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 12,
+      "dir": "C001_P12_priority_requirement_scope_durable",
+      "marker": "COMPLETE",
+      "count_after": 12,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 13,
+      "dir": "C001_P13_p01_arbitration_minimum_durable",
+      "marker": "COMPLETE",
+      "count_after": 13,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 14,
+      "dir": "C001_P14_continuation_state_minimum_durable",
+      "marker": "COMPLETE",
+      "count_after": 14,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 15,
+      "dir": "C001_P15_continuation_binding_vs_embedding_durable",
+      "marker": "COMPLETE",
+      "count_after": 15,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 16,
+      "dir": "C001_P16_memory_binding_independence_durable",
+      "marker": "COMPLETE",
+      "count_after": 16,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 17,
+      "dir": "C001_P17_resource_access_vs_continuation_durable",
+      "marker": "COMPLETE",
+      "count_after": 17,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 18,
+      "dir": "C001_P18_backing_vs_access_state_durable",
+      "marker": "COMPLETE",
+      "count_after": 18,
+      "hash_ok": true,
+      "has_next": true
+    },
+    {
+      "pass": 19,
+      "dir": "C001_P19_read_write_operation_family_durable",
+      "marker": "COMPLETE",
+      "count_after": 19,
+      "hash_ok": true,
+      "has_next": true
+    }
+  ],
+  "errors": [],
+  "warnings": [],
+  "p05_scar_preserved": true,
+  "pass": true
+}

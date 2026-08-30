@@ -1,0 +1,14 @@
+{
+  "evaluator_version": "D64-STAGE2-8K-LOADER-EVAL-v1",
+  "debugcon_sha256": "9d31529e2364385c629bcdb6ce8938aea1cce9ed5eeaf0d8350d5ab007fc67d4",
+  "expected_lines": [
+    "S1_8K_OK",
+    "S2_8K_OK"
+  ],
+  "observed_lines": [
+    "S1_8K_OK",
+    "S2_8K_OK"
+  ],
+  "passed": true,
+  "authority_ceiling": "fixed 16-sector/8192-byte first-track stage2 loader qualification only"
+}

@@ -1,0 +1,25 @@
+{
+  "audit_version": "D64-RB02-independent-closure-v1",
+  "checks": {
+    "manifest_hash_matches_receipt": true,
+    "snapshots_match_manifest": true,
+    "receipt_sources_match_manifest": true,
+    "prereg_lineage": true,
+    "qemu_exit33": true,
+    "evaluator_pass": true,
+    "static_pass": true,
+    "all_static_checks_bool_true": true,
+    "stage2_fit": true,
+    "runtime_state": true,
+    "max_live_count": false,
+    "same_guest_source_attempt2_3": true,
+    "checker_changed_attempt2_3": true,
+    "attempt2_runtime_passed": true,
+    "attempt2_static_failed": true
+  },
+  "passed": false,
+  "attempt2_stage2_sha256": "44f655331e5aec79ec8dac7c4e7cc514907a103bc7bf55312fd62a6c753f363a",
+  "attempt3_stage2_sha256": "44f655331e5aec79ec8dac7c4e7cc514907a103bc7bf55312fd62a6c753f363a",
+  "attempt2_checker_sha256": "5e030c7060d67b9cef416f3e479df9e9393d3597ba2ff73398792ce9aeee855f",
+  "attempt3_checker_sha256": "7df60b8016090459d327a350fa478b24777c0bed60c48d0d9cb4227520bcc6dc"
+}

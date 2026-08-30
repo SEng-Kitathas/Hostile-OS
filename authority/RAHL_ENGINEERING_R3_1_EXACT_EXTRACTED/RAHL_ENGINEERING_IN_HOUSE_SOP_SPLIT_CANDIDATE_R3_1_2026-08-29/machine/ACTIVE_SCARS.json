@@ -1,0 +1,510 @@
+{
+  "count": 84,
+  "nonclaim": "Scar retention preserves attack pressure; it does not make every scar a prohibition.",
+  "scars": [
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "SCHEMA_VALID != SEMANTICALLY_BOUND",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "VERIFIER_NAMED_X != VERIFIER_CHECKS_X",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "IDENTITY_REPLAY != PROPERTY_REPLAY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "CAPTURED_STDERR != RESULT",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "NONZERO_EXIT != EXPECTED_MUTATION_DETECTION",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "PORTABLE_GATE != WEAKER_GATE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "WITNESS_SUBJECT_RESOLUTION_IS_PART_OF_WITNESS_CORRECTNESS",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "FULL_RECOMPUTATION_CAN_BECOME_SHADOW_DECISION_AUTHORITY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "DIFFERENT_IMPLEMENTATION != DIFFERENT_FAILURE_INFORMATION",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "CONSTANT_PASS_STATUS != DISCRIMINATIVE_EVIDENCE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "WRITE_ATTEMPT != DURABLE_FREEZE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "NORMALIZED_REPRESENTATION_EQUALITY != UNIVERSAL_SEMANTIC_EQUALITY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "IDENTITY_SCAR != IDENTITY_MACHINERY_REQUIRED_EVERYWHERE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "CURRENT_WORLD_INERT != POLICY_EQUIVALENT",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "DETERMINISTIC_TIE_BREAK != SEMANTIC_PREFERENCE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "DIFFERENT_OBSERVATION_PATH != INDEPENDENT_TRUTH",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "DIRECT_PROPERTY_RECOVERY != DIAGNOSTIC_LABEL_AUTHORIZATION",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "CORRECT_UNDER_WRONG_MODEL != EARNED_CORRECT",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "WRONG_MODEL_OUTPUT != MISSING_MODEL_CLASS",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "SELECTOR_CANNOT_OUTRUN_MODEL_QUALITY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "SELECTOR_DIVERGENCE != SELECTOR_SUPERIORITY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "MODEL_RESOLVED != TRUTH_AUTHORIZED",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "CLOSED_SET_MODEL_RESOLUTION != OPEN_WORLD_TRUTH",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "EXACT_ARTIFACT_FITNESS != PROCESS_FITNESS",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "DIAGNOSTIC_LABEL != ARTIFACT_FITNESS",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "GRANT_FOR_ARTIFACT_A != GRANT_FOR_ARTIFACT_B",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "PROCESS_QUALIFIED != FUTURE_OUTPUT_PROVEN",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "PROCESS_AUTOMATION_AUTHORITY != ARTIFACT_RELEASE_AUTHORITY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "FINITE_QUALIFICATION != PROOF_OF_FUTURE_BEHAVIOR",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "CURRENTNESS_MATCH != FUTURE_BEHAVIOR_PROVEN",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "KNOWN_FAULT_COVERAGE != LATENT_FAULT_COVERAGE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "QUALIFICATION_TESTS_BEHAVIOR != AUTHORIZED_USE_EXERCISES_BEHAVIOR",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "QUALIFICATION_BREADTH != VETO_AUTHORITY_BREADTH",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "OUT_OF_ENVELOPE_FAILURE != IN_ENVELOPE_UNSAFE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "REDUNDANT_PRECHECK != UNIQUE_SAFETY_VALUE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "FIELD_PRESENT_IN_AUTHORITY_FINGERPRINT != FIELD_GOVERNS_BEHAVIOR",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "INTERNAL_CONSISTENCY != REQUEST_FIDELITY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "VALID_PACKAGE != REQUESTED_PACKAGE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "GRANT_FOR_REQUEST_A != GRANT_FOR_REQUEST_B",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "MUTABLE_CALLER_MAPPING != FROZEN_REQUEST",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "REQUEST_IDENTITY_IS_PART_OF_CONSEQUENCE_AUTHORITY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "ARTIFACT_FITNESS_IS_CONSEQUENCE_RELATIVE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "STRONGER_CONSEQUENCE_CONTRACT_BUILDS_ON_LOWER_INTEGRITY_CONTRACT",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "DIAGNOSTIC_PROPERTY != STANDING_OBLIGATION",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "DESIRABLE_ENGINEERING_TRAIT != CONSEQUENCE_REQUIREMENT",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "NO_CONSUMER_OBLIGATION != NO_DIAGNOSTIC_VALUE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "UNUSED_AUTHORITY_SURFACE != SAFETY_MARGIN",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "STATE_RESET != OPTIONAL_HYGIENE_WHEN_REQUEST_IDENTITY_CHANGES",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "ARTIFACT_DENIAL != PROCESS_QUARANTINE_AUTHORITY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "FAILURE_CLASS != FAILURE_PERSISTENCE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "ONE_BAD_OUTPUT != PROCESS_WIDE_BAD_STATE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "PROCESS_WIDE_FAULT != REQUEST_SPECIFIC_FAULT",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "QUARANTINE_CAN_SAVE_FAILED_WORK_AND_DESTROY_FUTURE_AVAILABILITY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "DECISION_RECORD != UNFORGEABLE_AUTHORITY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "CALLER_CONSTRUCTIBLE_GRANT != CAPABILITY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "CALLER_SUBJECT != ARTIFACT_SUBJECT_UNLESS_BOUND",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "FACTORY_VALIDATION != TYPE_INVARIANT",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "FINGERPRINT_INPUT != SEMANTIC_PAYLOAD_IF_DUPLICATES_COLLAPSE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "CANONICAL_FINGERPRINT_REQUIRES_CANONICAL_REPRESENTATION",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "PARSER_ACCEPTANCE != CONTRACT_UNAMBIGUITY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "REPRESENTATION_INVALID != CONTENT_MISMATCH",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "STRING_VALUE != SAFE_ARCHIVE_MEMBER_IDENTITY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "RELEASE_EFFECT != DESTRUCTIVE_UPDATE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "PRECHECK_NO_DESTINATION != ATOMIC_NO_OVERWRITE",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "FAILED_RELEASE != BAD_BYTES_LEFT_AT_CONSEQUENCE_PATH",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "PROTOCOL_ANNOTATION != RUNTIME_BOUNDARY",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "RELEASE_VERIFIED_AT_T1 != DESTINATION_IMMUTABLE_AFTER_T1",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "VALIDATION_CORRECTNESS != DURABILITY_OR_RESOURCE_BOUNDEDNESS",
+      "source": "R5_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "MINIMUM_SUFFICIENT_EMBODIMENT != FEWEST_LINES",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "DIAGNOSTIC_PRECHECK != CONSEQUENCE_OWNER",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "INCIDENTAL_STATE != REQUIRED_STATE",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "REQUEST_FIDELITY != PACKAGE_INTEGRITY",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "CANONICAL_IDENTITY_REQUIRES_CANONICAL_REPRESENTATION",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "UNVERIFIED_TEMP_BYTES_CAN_REACH_PUBLICATION_BOUNDARY",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "TEMP_VERIFIED != PUBLISHED_BYTES_VERIFIED",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "UNOWNED_EXTRA_GUARD_CAN_BECOME_FALSE_VETO",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "WALKING_SKELETON_CAN_BUY_EARLY_END_TO_END_SIGNAL",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "ENTRYPOINT_VALIDATION != TYPE_INVARIANT",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "TOP_LEVEL_GUARD != REPRESENTATION_OWNER",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "FAST_FIRST_PATCH_CAN_CREATE_LATER_RELOCATION_WORK",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "PRECHECK_CAN_BE_USEFUL_DIAGNOSTIC",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "NEAR_A_GUARANTEE != OWNS_THE_GUARANTEE",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "SMALL_INITIAL_EDIT != SMALL_FINAL_CAUSAL_SURFACE",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    },
+    {
+      "authority": "SCAR_NON_EQUIVALENCE",
+      "implementation_authority": false,
+      "scar": "ASSEMBLY_ORDER_IS_RISK_SENSITIVE",
+      "source": "R6_ADDITIVE_ACTIVE_SCARS"
+    }
+  ]
+}

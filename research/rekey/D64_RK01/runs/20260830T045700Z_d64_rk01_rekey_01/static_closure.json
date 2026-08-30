@@ -1,0 +1,29 @@
+{
+  "checker_version": "D64-RK01-static-v1",
+  "checks": {
+    "cap_64_and_eleven_arrays": true,
+    "generic_acquire_and_release": true,
+    "rekey_scans_all_identities_before_mutation": true,
+    "other_quiescence_guards_before_mutation": true,
+    "reject_branch_no_namespace_mutation": false,
+    "successful_rekey_resets_all_fields_bounded": true,
+    "successful_rekey_publishes_nonzero_epoch": true,
+    "epoch_255_to_1_only_explicit_no_ordinary_epoch_wrap": true,
+    "ordinary_generation_fail_closed": true,
+    "handle_checks_before_identity_exposure": true,
+    "bad_reset_generation_only_and_separate": true,
+    "good_and_bad_share_same_arrays_and_handle_checker": true,
+    "run_input_manifest_and_receipt_sources_match": true,
+    "host_does_not_mutate_or_synthesize_guest_state": true,
+    "all_checks_are_json_booleans": true
+  },
+  "passed": false,
+  "stage2_sha256": "445050a2be84c4f4482fbc42b0e8e12f3d192b524ce51d8d5cba2fde50cbb68f",
+  "input_manifest_sha256": "0b6c6f3dd1d8715cac4c5fd4a82771a76e6bd0406c22cd032ec02bb5c35cb833",
+  "measurements": {
+    "successful_identity_scan_iterations": 64,
+    "successful_activity_reset_iterations": 64,
+    "activity_capacity": 64,
+    "activity_field_species": 11
+  }
+}
