@@ -91,4 +91,14 @@ The research-only verifier checks stable semantic markers and permits the now-te
 
 ## Contributor rule
 
-Do not edit this tree and then imply the historical I001 result changed. Changes here create a new research-only embodiment revision. If a change is intended to earn architecture authority, it needs its own preregistered research/verification path and explicit adoption decision.
+Do not edit this tree and then imply the historical I001 result changed. Changes here create a new research-only embodiment revision. If a change is intended to earn architecture authority, it needs its own preregistered research/verification path and explicit adoption decision.## Portability notes after independent-host reproduction
+
+An outside-host report reproduced the I001 machine bytes and two-boot run using different Clang/LLD/QEMU versions, but exposed three transplant defects that are now repaired:
+
+- tool invocation path is preserved; resolved binary identity is recorded separately in manifests;
+- QEMU module discovery can use `HOSTILE_QEMU_MODULE_DIR` / existing `QEMU_MODULE_DIR` or infer a sibling transplanted `modules/` directory;
+- the I001 runner passes `-nic none` because networking is outside this workload and must not introduce unrelated option-ROM dependencies.
+
+The durable Linux QEMU transplant wrapper is superseded by `payload_history/lab_tooling/HOSTILE_OS_SMUGGLE_PATCH_003.zip`, which exports the module directory and defaults networking off.
+
+Run `python tools/check_i001_reproduction_portability.py` from the repository root to verify these repository-side portability contracts.

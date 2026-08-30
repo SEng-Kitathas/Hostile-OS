@@ -24,4 +24,11 @@ There are two different claims:
 1. **machine-byte reproduction** — stage1/stage2 hashes match the controlling I001 binaries;
 2. **scientific rerun** — the rebuilt image boots through the required two-process runtime behavior.
 
-A different modern LLVM version may still produce identical bytes. If it does not, that is a reproduction difference to inspect, not automatic evidence that either toolchain is wrong.
+A different modern LLVM version may still produce identical bytes. If it does not, that is a reproduction difference to inspect, not automatic evidence that either toolchain is wrong.## Invocation path versus binary identity
+
+On POSIX, LLVM tool names can be symlinks into multi-call binaries. The basename used as `argv[0]` may select tool behavior. Therefore the portable build now records two different things:
+
+- `invocation_path` — the path/name actually passed to the operating system for execution; never symlink-resolved by `find_tool()`;
+- `identity_path` — a separately resolved path used for binary hashing/provenance.
+
+`TOOL_PATH != TOOL_IDENTITY` is therefore an explicit infrastructure rule. A manifest may resolve identity; execution must preserve dispatch spelling.

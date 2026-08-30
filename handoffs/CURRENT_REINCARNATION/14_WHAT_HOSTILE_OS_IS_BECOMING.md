@@ -141,3 +141,9 @@ That embodiment is deliberately a **reference body**, not the final body. Later 
 I001/IRQCOUNT01 sharpened an important design rule: a measured counter value can be useful telemetry without being the meaning of the operation. At tested real IRQ0 counts 1 and 2, the same valid wait relation produced the same wake/progress consequence; a stale relation rejected even with two events. So the meaningful condition is not “the timer fired exactly once.” It is that an event occurred within the tested count range **and** the relation authorizing the wake remained current.
 
 That distinction fits the broader HOSTILE-OS direction: state relationships carry authority; incidental timing observations should not become architecture law unless a discriminator earns them.
+
+## Outside reproduction echoed the identity rule in tooling
+
+The first reported independent-host I001 reproduction exposed a useful infrastructure echo of the OS research. A path named `ld.lld` carried dispatch meaning that was lost when tooling resolved it to a generic multi-call binary before execution. Likewise a transplanted QEMU executable was not enough without the module/runtime environment that made the binary usable.
+
+Those observations support two engineering rules for the laboratory: `TOOL_PATH != TOOL_IDENTITY` and `TRANSPLANTED_BINARY != TRANSPLANTED_ENVIRONMENT`. They are not new HOSTILE-OS mechanism proof, but they are a concrete reminder of the same broader discipline already earned inside the OS: location/name alone does not carry all of a thing's current meaning or usable state.

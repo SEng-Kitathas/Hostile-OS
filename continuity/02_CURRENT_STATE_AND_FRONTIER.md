@@ -303,3 +303,25 @@ The living research-only verifier now accepts only the tested event-count set `{
 The previous I001 IRQ-count seam is therefore closed at tested count-1/count-2 scope. Counts >2, loss/coalescing, event-counter wrap, stronger concurrency, and physical hardware remain open.
 
 The next P0 research candidate is faulted-restart durable-record integrity: distinguish newest complete durable meaning from torn/corrupt updates before attempting physical power-cut claims. See `research/plans/D64_FAULTED_RESTART_DURABLE_RECORD_PLAN_2026-08-30.md`.
+
+## 2026-08-30 external-host reproduction and transplant portability delta
+
+An operator-supplied Opus report states that I001 was independently reproduced from a clean clone on a different host/OS using Clang 18.1.3, different LLD, and QEMU 6.2.0. The outside report says the controlling stage1/stage2 machine bytes reproduced exactly and the two-boot workload completed in two distinct QEMU processes exit33 with no host disk write between boots. It observed `historical_exact_irq_event_one=true` in that one run.
+
+Foreign raw build/run artifacts were not supplied in this thread, so the claim is recorded as **external full-rerun report**, not locally hash-verified foreign evidence. The raw supplied text and adjudication are preserved under `research/external_review/`; a compact external reproduction record is under `research/reproduction/external/OPUS_I001_2026-08-30/`.
+
+The report exposed three portability defects. Two were independently verified directly in current repository code/archive state, and the third is a verified hermeticity dependency:
+- `find_tool()` resolved tool paths before exec, which can destroy LLVM multi-call argv[0] identity on POSIX symlinks;
+- the historical QEMU transplant wrapper omitted `QEMU_MODULE_DIR` even though PATCH_002 contains `accel-tcg-i386.so`;
+- I001 `run.py` allowed QEMU's unrelated default NIC, adding option-ROM dependency to a workload with no networking responsibility.
+
+Repairs are now implemented:
+- invocation path preserved; separately resolved identity path/hash recorded;
+- `run.py` supports/infer QEMU module directory and passes `-nic none`;
+- deterministic `HOSTILE_OS_SMUGGLE_PATCH_003.zip` supersedes wrapper behavior without rewriting old packages;
+- portability gate passes all seven repository checks;
+- local exact-byte + two-boot I001 regression remains PASS.
+
+Root LF `.gitattributes` was already present before this external report, so that donor recommendation was stale relative to current HEAD.
+
+This strengthens reproduction maturity and infrastructure discipline but does not change sealed I001 science or architecture authority. The post-IRQCOUNT01 science frontier remains faulted-restart durable-record integrity.

@@ -1,0 +1,2 @@
+44a4d6dc6b9d8499f8dcdb1675070040aa79dafa41d2fdf5a1f76425c4f6a75a  runtime/qemu/run-qemu-i386.sh
+e362e8cbf9aa57f17d2fcfc7bce968ef3c9411f4d4b0b73a9f78aed21589c965  README_PATCH_003.md

@@ -29,17 +29,40 @@ def find_qemu() -> Path:
     if explicit:
         p = Path(explicit).expanduser()
         if p.is_file():
-            return p.resolve()
+            return p
         raise SystemExit(f"HOSTILE_QEMU points to missing file: {p}")
     for name in ["qemu-system-i386", "qemu-system-i386.exe"]:
         found = shutil.which(name)
         if found:
-            return Path(found).resolve()
+            return Path(found)
     if os.name == "nt":
         common = Path(r"C:\Program Files\qemu\qemu-system-i386.exe")
         if common.is_file():
             return common
     raise SystemExit("qemu-system-i386 not found; set HOSTILE_QEMU or put it on PATH")
+
+
+def resolved_identity_path(path: Path) -> Path:
+    try:
+        return path.resolve(strict=True)
+    except (OSError, RuntimeError):
+        return path.absolute()
+
+
+def qemu_environment(qemu: Path) -> tuple[dict[str, str], str | None]:
+    env = os.environ.copy()
+    explicit = os.environ.get("HOSTILE_QEMU_MODULE_DIR") or os.environ.get("QEMU_MODULE_DIR")
+    if explicit:
+        env["QEMU_MODULE_DIR"] = explicit
+        return env, explicit
+    # Transplanted layouts supported:
+    #   runtime/qemu/bin/qemu-system-i386 -> ../modules
+    #   runtime/qemu/run-qemu-i386.sh    -> ./modules
+    for candidate in (qemu.parent / "modules", qemu.parent.parent / "modules"):
+        if candidate.is_dir():
+            env["QEMU_MODULE_DIR"] = str(candidate)
+            return env, str(candidate)
+    return env, None
 
 
 def first_line(argv: list[str]) -> str:
@@ -49,16 +72,17 @@ def first_line(argv: list[str]) -> str:
 
 
 def boot(qemu: Path, disk: Path, debug: Path, timeout: int) -> dict:
+    env, module_dir = qemu_environment(qemu)
     argv = [
         str(qemu), "-accel", "tcg", "-display", "none", "-monitor", "none", "-serial", "none",
-        "-no-reboot", "-boot", "a",
+        "-nic", "none", "-no-reboot", "-boot", "a",
         "-drive", f"file={disk.as_posix()},format=raw,if=floppy",
         "-device", "isa-debug-exit,iobase=0xf4,iosize=0x04",
         "-debugcon", f"file:{debug.as_posix()}",
         "-global", "isa-debugcon.iobase=0xe9",
     ]
     started = utc_now(); t0 = time.perf_counter()
-    proc = subprocess.Popen(argv, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE)
+    proc = subprocess.Popen(argv, stdout=subprocess.DEVNULL, stderr=subprocess.PIPE, env=env)
     try:
         _, stderr = proc.communicate(timeout=timeout)
         status = "COMPLETED"; exit_code = proc.returncode
@@ -68,6 +92,7 @@ def boot(qemu: Path, disk: Path, debug: Path, timeout: int) -> dict:
         "pid": proc.pid, "argv": argv, "started_utc": started, "ended_utc": utc_now(),
         "wall_ms": (time.perf_counter() - t0) * 1000.0, "status": status, "exit_code": exit_code,
         "stderr": stderr.decode("utf-8", errors="replace") if stderr else "", "timeout_seconds": timeout,
+        "qemu_module_dir": module_dir,
     }
 
 
@@ -100,7 +125,7 @@ def main() -> int:
     receipt = {
         "format": "HOSTILE_OS_RESEARCH_ONLY_RUN_V1",
         "warning": "RESEARCH PURPOSES ONLY; this is not the sealed historical I001 science run",
-        "qemu": {"path": str(qemu), "version": first_line([str(qemu), "--version"]), "sha256": sha256(qemu)},
+        "qemu": {"invocation_path": str(qemu), "identity_path": str(resolved_identity_path(qemu)), "version": first_line([str(qemu), "--version"]), "sha256": sha256(resolved_identity_path(qemu))},
         "boot1": b1, "boot2": b2,
         "boot1_trace": boot1_debug.read_text(encoding="ascii", errors="replace").splitlines() if boot1_debug.exists() else [],
         "boot2_trace": boot2_debug.read_text(encoding="ascii", errors="replace").splitlines() if boot2_debug.exists() else [],

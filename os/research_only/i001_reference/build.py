@@ -39,20 +39,28 @@ def find_tool(env_name: str, names: list[str], llvm_bin: Path | None = None) -> 
     if explicit:
         p = Path(explicit).expanduser()
         if p.is_file():
-            return p.resolve()
+            return p
         raise SystemExit(f"{env_name} points to missing file: {p}")
     if llvm_bin is not None:
         for name in names:
             p = llvm_bin / name
             if p.is_file():
-                return p.resolve()
+                return p
     for name in names:
         found = shutil.which(name)
         if found:
-            return Path(found).resolve()
+            return Path(found)
     raise SystemExit(
         f"missing tool for {env_name}; set {env_name}, set HOSTILE_LLVM_BIN, or put one of {names} on PATH"
     )
+
+
+def resolved_identity_path(path: Path) -> Path:
+    """Resolve only for manifest identity; never use this path as argv[0]."""
+    try:
+        return path.resolve(strict=True)
+    except (OSError, RuntimeError):
+        return path.absolute()
 
 
 def run(argv: list[str], cwd: Path) -> None:
@@ -75,7 +83,7 @@ def main() -> int:
     out.mkdir(parents=True, exist_ok=True)
 
     llvm_bin_env = os.environ.get("HOSTILE_LLVM_BIN")
-    llvm_bin = Path(llvm_bin_env).expanduser().resolve() if llvm_bin_env else None
+    llvm_bin = Path(llvm_bin_env).expanduser() if llvm_bin_env else None
     clang = find_tool("HOSTILE_CLANG", ["clang", "clang.exe"], llvm_bin)
     lld = find_tool("HOSTILE_LLD", ["ld.lld", "ld.lld.exe"], llvm_bin)
     objcopy = find_tool("HOSTILE_OBJCOPY", ["llvm-objcopy", "llvm-objcopy.exe"], llvm_bin)
@@ -113,9 +121,9 @@ def main() -> int:
         "format": "HOSTILE_OS_RESEARCH_ONLY_BUILD_V1",
         "warning": "RESEARCH PURPOSES ONLY; NOT A RELEASE OR ARCHITECTURE PROMOTION",
         "tools": {
-            "clang": {"path": str(clang), "version": first_line([str(clang), "--version"]), "sha256": sha256(clang)},
-            "lld": {"path": str(lld), "version": first_line([str(lld), "--version"]), "sha256": sha256(lld)},
-            "objcopy": {"path": str(objcopy), "version": first_line([str(objcopy), "--version"]), "sha256": sha256(objcopy)},
+            "clang": {"invocation_path": str(clang), "identity_path": str(resolved_identity_path(clang)), "version": first_line([str(clang), "--version"]), "sha256": sha256(resolved_identity_path(clang))},
+            "lld": {"invocation_path": str(lld), "identity_path": str(resolved_identity_path(lld)), "version": first_line([str(lld), "--version"]), "sha256": sha256(resolved_identity_path(lld))},
+            "objcopy": {"invocation_path": str(objcopy), "identity_path": str(resolved_identity_path(objcopy)), "version": first_line([str(objcopy), "--version"]), "sha256": sha256(resolved_identity_path(objcopy))},
             "python": {"path": sys.executable, "version": sys.version.splitlines()[0], "sha256": sha256(Path(sys.executable))},
         },
         "source_sha256": {p.name: sha256(p) for p in sorted(src.iterdir()) if p.is_file()},

@@ -1,0 +1,16 @@
+{
+  "files": [
+    {
+      "bytes": 2723,
+      "path": "REPORT.md",
+      "sha256": "1901ea87bd451c0e71c3c7cfd2523d21792f5e921729eb5eb2e522169ea8bb5a"
+    },
+    {
+      "bytes": 119,
+      "path": "SOURCE.md",
+      "sha256": "a2303d4b7b029ad1183df588cf3b8e88ea29497fe42b757602c64fbd997e48d0"
+    }
+  ],
+  "raw_foreign_artifacts_supplied": false,
+  "schema": "hostile_os.external_reproduction_report.v1"
+}

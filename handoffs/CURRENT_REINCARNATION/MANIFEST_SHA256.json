@@ -1,9 +1,9 @@
 {
   "files": [
     {
-      "bytes": 1507,
+      "bytes": 1516,
       "path": "00_READ_FIRST.md",
-      "sha256": "97883f94b2bb10418519748825f608970fc29cc5954586b7e471ef730c2abc28"
+      "sha256": "70aa4c737ee6163a6d453ff7b2cd33c0b549bcb1eb7a69653761b803e75a4721"
     },
     {
       "bytes": 1847,
@@ -11,9 +11,9 @@
       "sha256": "139c3abb0d70fc3119c6ba107409a71a01e7a5187023329c9dc50bb209c82bf6"
     },
     {
-      "bytes": 32851,
+      "bytes": 35051,
       "path": "02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "80c9f5780ff5a76879ee3f4638e4e78af932b159af05f23e1801e8c1127b3cb2"
+      "sha256": "3372e33b1537b0e6dbdf4d7bcf9a18e12809af6abe7c34265d52edf8c7ef8a5c"
     },
     {
       "bytes": 16352,
@@ -21,9 +21,9 @@
       "sha256": "f2f29ace540321507d5e1c8e29d7c8fbeb61bdbf1924356e83aecc53c6c45667"
     },
     {
-      "bytes": 9011,
+      "bytes": 10561,
       "path": "04_ENGINEERING_DECISION_LEDGER.md",
-      "sha256": "8ee14146bd2d77569c78d103a78d02dc4e39abe7f9419ed3e7201222686b5b64"
+      "sha256": "edc94ffc203929f244fee325bd0f6523b0444b6b5f6b511ac032785de7ae3148"
     },
     {
       "bytes": 6944,
@@ -36,9 +36,9 @@
       "sha256": "747aac249c7aaac4c8e3933c724cc4629ea919e2f9f028a29974d96677a477d4"
     },
     {
-      "bytes": 4042,
+      "bytes": 4480,
       "path": "07_LIVE_SHADOW.md",
-      "sha256": "ebdc9600e3ccc3eefb92dbab00862ab505136a859b4ba383cb4549c551ab9335"
+      "sha256": "805da43d2056adf21f58642890758b6f8b862fd94de78ae4d919a453307cdc5f"
     },
     {
       "bytes": 1977,
@@ -61,9 +61,9 @@
       "sha256": "4a295343ca93eecfa00619d8b090408ddbb21cd1747b6a51e8b38abca9d2a525"
     },
     {
-      "bytes": 132597,
+      "bytes": 133698,
       "path": "12_THIS_CONVERSATION.md",
-      "sha256": "243fb84c047c91cd3d0bdb42f282dda026ad444dd85ff6d9f296e2ae21c2b0d5"
+      "sha256": "7515631876336031fceb161e7807d652f5a1783abf6020a1352b084afaf6178b"
     },
     {
       "bytes": 2247,
@@ -71,9 +71,9 @@
       "sha256": "dd97d1656d75ab96225993aa0f27245fa2b03ab85ac090fc90a58dde227e8cff"
     },
     {
-      "bytes": 11297,
+      "bytes": 12106,
       "path": "14_WHAT_HOSTILE_OS_IS_BECOMING.md",
-      "sha256": "4e0eb395080265edaaee5d469d701b5a3f3f45e0eee54e86028f5305acbbe836"
+      "sha256": "ca1ca6894c8ed3f277c7c8f180a3212c686e2f54892da37efbed4a2ef809ee28"
     },
     {
       "bytes": 2839,
@@ -134,7 +134,22 @@
       "bytes": 3736,
       "path": "25_NEXT_P0_FAULTED_RESTART_PLAN.md",
       "sha256": "76a27ca48c8f5c0597048f6f66f3f088d3c0cedfc2ebde87149cd35efe4d6c0e"
+    },
+    {
+      "bytes": 2723,
+      "path": "26_OPUS_EXTERNAL_I001_REPORT.md",
+      "sha256": "1901ea87bd451c0e71c3c7cfd2523d21792f5e921729eb5eb2e522169ea8bb5a"
+    },
+    {
+      "bytes": 5428,
+      "path": "27_OPUS_EXTERNAL_I001_ADJUDICATION.md",
+      "sha256": "619594e8a724ac8854f15affc16c4809baf08624770c86959a28051f1d80a738"
+    },
+    {
+      "bytes": 4631,
+      "path": "28_REPRODUCTION_PORTABILITY_SCAR.md",
+      "sha256": "67f66044d94fb3019926bb16cc75f7e34b91159de595d3ddb949c7927e1dabce"
     }
   ],
-  "schema": "pcmmad.current_reincarnation.v3"
+  "schema": "pcmmad.current_reincarnation.v4"
 }

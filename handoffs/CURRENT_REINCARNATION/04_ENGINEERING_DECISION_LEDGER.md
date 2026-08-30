@@ -50,3 +50,14 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | Living verifier accepts `{1,2}`, not arbitrary positive counts | Implements actual earned scope instead of overgeneralizing prereg predicate | Reviewer/reproduction gate only | New experiment earns larger count set |
 | Historical I001 evaluator remains unchanged | Preserve preregistered historical evidence and 660 red records | Historical evidence | Never rewrite; add superseding interpretation only |
 | Next P0 = deterministic faulted-restart durable-record integrity | Clean restart is closed; faulted media recovery is the next direct durability pressure without pretending physical power-cut proof | BUILD-PLAN candidate only | Another seam outranks it under new evidence |
+
+## 2026-08-30 external reproduction portability decisions
+
+| Decision | Why it exists | Authority ceiling | Reopen / demote when |
+|---|---|---|---|
+| Tool invocation path and binary identity are distinct | POSIX LLVM multi-call symlinks can change behavior based on argv[0]; resolving before exec destroys dispatch identity | Build/reproduction infrastructure | Toolchain proves basename-independent execution or stronger explicit driver invocation replaces it |
+| Resolve tool path only for identity/hash metadata | We still need content identity without mutating invocation semantics | Provenance tooling | Replace with stronger content-addressed tool packaging |
+| Transplanted binary != transplanted environment | QEMU executable alone did not carry module search path/ROM/default-device environment | Reproduction infrastructure | Fully hermetic launcher/package supersedes it |
+| Disable unrelated default devices in scientific runner | Default NIC introduced irrelevant option-ROM failure into non-network workload | I001 research embodiment | A future workload explicitly requires networking |
+| Historical smuggle archives are immutable; PATCH_003 supersedes behavior | Preserve exact payload lineage while fixing transplant environment | Tooling lineage | Newer append-only patch supersedes PATCH_003 |
+| External full-rerun report is distinct from locally hash-verified foreign packet | User supplied report but not foreign raw files/manifests | Evidence classification | Upgrade only when raw external packet is supplied and verified |
