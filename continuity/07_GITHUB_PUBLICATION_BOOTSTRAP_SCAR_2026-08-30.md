@@ -117,3 +117,57 @@ Repair before attempt 4:
 4. push remains `GIT_TERMINAL_PROMPT=0` + `GCM_INTERACTIVE=Never` and uses direct GCM.
 
 Scientific / architecture consequence remains NONE.
+
+## Attempt 4 — transient mirror indexing race
+
+Publication attempt 4 used the corrected credential-helper reset and reached mirror indexing. Git then failed during `git add -A` with:
+
+`error: open("research/integration/I001/probe/launch_i001.py"): No such file or directory`
+
+`fatal: updating files failed`
+
+Readback after the publisher exited established:
+
+- canonical HEAD remained `1ac99c83e5eaf99435a0d65601f2df931d4d36db`;
+- canonical tracked worktree had no tracked modifications;
+- canonical `research/integration/I001/probe/launch_i001.py` existed and remained tracked;
+- mirror copy of the same file also existed after failure;
+- canonical and mirror file SHA-256 matched exactly: `bf4be387c0cd29d662283caa960a7a29619ad9764090c8f05fcfb19a4c25a6a0`;
+- the public GitHub remote still had no `main` ref.
+
+The exact transient cause is not proven. The failure is consistent with a shared mutable publication mirror being touched concurrently while indexing, which is plausible in this project because multiple PCMMAD threads/writers can overlap.
+
+Repair removes the shared-workspace assumption entirely:
+
+- every publication process now uses a unique ignored workspace under `.pcmmad_sync_runs/github_publish_mirrors/<canonical-head-prefix>_<pid>`;
+- if GitHub `main` already exists, the isolated workspace clones that remote branch before replacing its snapshot, preserving publication history;
+- if the remote is empty, the isolated workspace initializes a fresh `main`;
+- no two publication processes are expected to mutate the same mirror worktree.
+
+This is a publication-concurrency hardening change. Scientific / architecture consequence remains NONE.
+
+## Bootstrap closure — first verified GitHub publication
+
+After the helper-chain reset and isolated publication-workspace repairs, authentication was separately checked with a bounded `git push --dry-run --no-verify`. That command succeeded for the stored `SEng-Kitathas` Git Credential Manager account. `--no-verify` was used only for the auth diagnostic so the 115.8 MB LFS pre-push transfer would not disguise authentication latency.
+
+A real publication was then launched as a detached bounded process and polled through separate status/readback calls.
+
+Final publisher stdout reported:
+
+- `ok: true`
+- canonical local HEAD: `1ac99c83e5eaf99435a0d65601f2df931d4d36db`
+- publication HEAD: `d10c6e398ed815b3042ff0f4beee960c2f16f458`
+- remote HEAD: `d10c6e398ed815b3042ff0f4beee960c2f16f458`
+- publication UTC: `2026-08-30T06:20:17.578219+00:00`
+- tracked files: `1532`
+- tracked bytes before LFS: `185412381`
+- research included: `true`
+- LFS path: `payload_history/lab_tooling/HOSTILE_OS_BACKDOOR_004_IA16_TOOLCHAIN.zip`
+
+Independent public remote readback then returned:
+
+`d10c6e398ed815b3042ff0f4beee960c2f16f458 refs/heads/main`
+
+This closes the GitHub publication bootstrap. Future substantive-pass publication remains governed by `continuity/05_GITHUB_PUBLICATION_POLICY.md` and must still require exact remote-head readback before success is claimed.
+
+Scientific / architecture consequence: NONE. This closes publication infrastructure only.

@@ -1,0 +1,34 @@
+{
+  "checker_version": "D64-IRQ01-static-v1",
+  "checks": {
+    "exact_d64_arrays": true,
+    "real_irq0_plumbing": true,
+    "single_read_only_irq_observer": true,
+    "bad_bind_cut_order": true,
+    "good_bind_region_exact_6_6": true,
+    "good_bind_irq_after_region": true,
+    "bad_detach_cut_order": true,
+    "good_detach_region_exact_6_4": true,
+    "good_detach_irq_after_region": true,
+    "snapshot_storage_separate": true,
+    "same_arrays_all_paths": true,
+    "bad_paths_complete_post_state": true,
+    "protected_measurements_exact": true,
+    "input_manifest_receipt_closure": true,
+    "host_no_guest_mutation_or_trace_synthesis": true,
+    "all_checks_literal_boolean": true
+  },
+  "passed": true,
+  "stage2_sha256": "659915c89959f1eaa6bb8dd921b03bd28c5d0e35906cef0dcd28ba3cfac6fc37",
+  "input_manifest_sha256": "f27bea6f07c8a4c9a2374df795b0db04cf2cdf3ad180c8740a80fa31e8665cb9",
+  "measurements": {
+    "protected_bind_instruction_count": 6,
+    "protected_bind_memory_write_count": 6,
+    "protected_detach_instruction_count": 6,
+    "protected_detach_memory_write_count": 4,
+    "pit_divisor": 4096,
+    "activity_capacity": 64,
+    "binding_cell_count": 1280,
+    "resource_capacity": 64
+  }
+}

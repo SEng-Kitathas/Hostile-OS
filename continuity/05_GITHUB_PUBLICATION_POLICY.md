@@ -65,3 +65,17 @@ The publication mirror may use Git LFS for oversized historical payloads. LFS us
 ## Failure rule
 
 Do not rewrite canonical scientific Git history, squash experiment lineage, delete scars, or silently drop admitted research solely because GitHub rejects a transport detail. Adapt the publication surface instead and preserve the canonical hashes.
+
+## Publication workspace isolation rule
+
+Publication mirror worktrees are per-run scratch, not shared mutable project state.
+
+Each publication SHALL use an isolated ignored workspace under:
+
+`.pcmmad_sync_runs/github_publish_mirrors/<canonical-head-prefix>_<pid>/`
+
+If remote `main` exists, the isolated workspace clones it first so the GitHub publication ledger remains chronological. If remote `main` does not exist, the isolated workspace initializes a fresh `main`.
+
+Separate PCMMAD threads/processes SHALL NOT reuse one mutable publication worktree. This prevents mirror cleanup/copy/index races from one publication corrupting another publication attempt.
+
+The isolated workspace itself is never project content and SHALL NOT be staged into canonical Git or the GitHub publication snapshot.

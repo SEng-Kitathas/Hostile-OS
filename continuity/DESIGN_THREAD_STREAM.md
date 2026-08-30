@@ -1084,3 +1084,35 @@ Timestamp: 2026-08-30T06:12Z
 Tags: BUILD-COMMIT, CONTINUITY, EXECUTION, NO-SCIENCE-PROMOTION
 
 Adopted the bounded-execution rule as `continuity/06_BOUNDED_EXECUTION_DOCTRINE_2026-08-30.md`. The doctrine changes control/execution behavior only, not HOSTILE-OS architecture or prior science. Standing rules now include bounded actions, short synchronous waits, persisted intent before expensive work, UNKNOWN on missing/incomplete returns, re-inspection before retry, and submitted server jobs plus separate status/output readback for long whole-suite work. GitHub publication remains required at the end of each substantive pass with full tracked research included and `os/` kept install-independent. In-progress IRQ01 untracked probe/run artifacts remain outside the publication/bootstrap commit until their pass is closed.
+
+---
+
+## Turn 076 — USER
+Timestamp: 2026-08-30
+Tags: GITHUB-PUBLISH, STANDING-RULE, RESEARCH, INSTALL-SEPARATION, CONTINUE
+
+User instructed the lab to push the project to GitHub, publish again at the end of every substantive pass, include the research tree so GitHub serves as a dated record of the project as a whole, keep future OS installation independent from the research checkout, and then continue the project. User confirmed execution with `Please do so`.
+
+---
+
+## Turn 077 — ASSISTANT / GITHUB PUBLICATION BOOTSTRAP CLOSED
+Timestamp: 2026-08-30T06:20Z
+Tags: BUILD-COMMIT, GITHUB, LFS, REMOTE-READBACK
+
+Implemented full-project publication policy, `os/` install surface, sparse/partial checkout instructions, research archive README, ignored local scratch policy, and a GitHub publication snapshot tool. Preserved canonical local Git history because an old 115,808,623-byte IA-16 toolchain blob exceeds GitHub's ordinary 100 MB Git-blob limit and canonical experiment artifacts cite local commit IDs. GitHub publication therefore uses a separate chronological snapshot history, binds every snapshot to exact canonical local HEAD, and uses Git LFS for oversized payloads.
+
+Publication bootstrap exposed and preserved several control-plane scars before success: Windows mirror scratch lock, Git for Windows helper-selector stall, inherited credential-helper accumulation, and a shared-mirror indexing race. Repairs reset inherited credential helpers, use the stored `SEng-Kitathas` GCM account noninteractively, and isolate each publication workspace under ignored `.pcmmad_sync_runs/github_publish_mirrors/<head>_<pid>`.
+
+First verified publication succeeded. Canonical local HEAD `1ac99c83e5eaf99435a0d65601f2df931d4d36db` published as GitHub `main` `d10c6e398ed815b3042ff0f4beee960c2f16f458`; remote readback matched exactly. 1,532 tracked files / 185,412,381 pre-LFS bytes were snapshotted; research included=true; the historical IA-16 toolchain ZIP was transported through LFS.
+
+---
+
+## Turn 078 — ASSISTANT / IRQ01 SCIENCE CLOSE AND ADOPTION REVIEW
+Timestamp: 2026-08-30T06:24Z
+Tags: IRQ0, COHERENCE, SCIENCE-CLOSE, ADOPTION, FRONTIER-SHIFT
+
+Audited D64/IRQ01 controlling run `20260830T060500Z_d64_irq01_coherence_01`: QEMU exit33, evaluator PASS, 16 static checks literal true, 14 independent checks PASS, stage2 4,773/8,192 bytes, runtime state 3,615 bytes. Unprotected bind publication and final detach each admitted real IRQ0 at the preregistered intermediate cut and the observer saw `binding=0 / resource_identity=0x51 / live_count=1`. Protected paths masked IRQ0 across the coupled transition and exposed coherent states only. Current protected witness cost is six instructions for bind publication and six for final detach.
+
+Science was closed at `c5c3fff717f49f35f6a5eaf6e1f41b75d8841e83`. Separate adoption review adopts the coherence requirement at current one-core maskable-IRQ D64 scope: coupled binding-reference visibility and resource lifetime state must be one IRQ-coherent mutation region. Six instructions is measured witness cost, not universal law. No SMP/NMI/DMA/weak-memory, persistence, or higher architecture promotion follows.
+
+The immediate architecture frontier moves to expanded D64 clean-restart persistence. I001 proved restart/rebind for a smaller record; the adopted 64x20 binding/resource/currentness state has not yet been reconstructed across two fresh runtime namespaces.

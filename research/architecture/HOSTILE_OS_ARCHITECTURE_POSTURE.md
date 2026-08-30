@@ -161,13 +161,19 @@ The required negative control resets resource generation without changing resour
 
 The adoption review at `5126bae647f9d2832262ada8d17ae4ee03e6b5f4` makes checked quiescent resource-namespace rekey the incumbent D64 shadow rule. This is not live rekey and does not cover externally persistent resource handles across namespace retirement.
 
+## D64 binding/resource IRQ-coherence result and adopted rule
+
+D64/IRQ01 is science-closed at `c5c3fff717f49f35f6a5eaf6e1f41b75d8841e83`. Its controlling real-IRQ0 run directly observed the preregistered orphan/mixed binding/resource state when IRQ0 was admitted inside unprotected bind publication and final detach. The protected variants exposed only coherent post-state.
+
+The adoption review `research/architecture/D64_IRQ01_COHERENCE_ADOPTION_REVIEW_2026-08-30.md` adopts, at the current single-core maskable-IRQ D64 scope, the rule that coupled binding-reference visibility and resource lifetime state must form one IRQ-coherent mutation region. The current witness uses six instructions for bind publication and six instructions for final detach; those counts are current implementation cost, not universal architecture constants.
+
+No SMP/NMI/DMA/weak-memory, physical latency, general transaction, persistence, or higher architecture claim follows.
+
 ## Open architecture seams
 
-### P0 — asynchronous observation of binding/resource publication and detach
+### Resolved at bounded scope — maskable-IRQ observation of binding/resource publication and detach
 
-RB02, ARB01, and RR01 run their coupled binding/resource publication and detach paths with maskable interrupts disabled. Earlier C003/P14 evidence showed that coupled multi-field state can require an explicit coherence boundary under IRQ observation, but the full D64 binding/resource relation has not yet been replayed under a real asynchronous observer.
-
-The next discriminator should use real QEMU IRQ0 and compare an intentionally unprotected publication/detach path against the smallest protected region that prevents an observer from accepting mixed binding/resource state. Interrupt-off cost must be measured or instruction-counted.
+IRQ01 directly replayed the full D64 binding/resource relation under real QEMU IRQ0 and exposed the mixed-state failure in the unprotected paths. The adopted current rule requires one maskable-IRQ-coherent mutation region for bind publication and final detach. Stronger observer classes remain outside scope.
 
 ### P0 — quiescent rekey availability ceiling
 
@@ -212,6 +218,6 @@ Adoption commit: `b8912647a5a1fb1fc62cfa8fbe125d3f64b7bc5f`. The sealed R3.1 pac
 
 ## Next posture gate
 
-The next lawful pressure is a **D64 asynchronous binding/resource coherence discriminator**. It should observe the coupled bind-publication and detach transitions with a real IRQ0 observer, demonstrate the failure shape of an unprotected transition, and qualify the smallest interrupt-masked region that prevents mixed-state acceptance.
+The next lawful pressure is **expanded D64 binding/resource clean-restart persistence**. I001 earned clean-restart persistence/rebind for a smaller durable record; the adopted 64x20 binding/resource relation, separate activity/resource epochs, and their currentness rules have not yet been reconstructed across restart.
 
-Do not bundle persistence, resource rekey, filesystem semantics, or native storage transport into that discriminator. Any protected region must report its instruction/interrupt-off cost.
+Keep the first persistence discriminator narrow: distinguish durable identity/value from volatile runtime bindings/currentness, preserve explicit fresh-runtime namespace semantics, and do not bundle crash/partial-write durability, filesystem semantics, native storage transport, or stronger concurrency into the same pass.

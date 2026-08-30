@@ -210,13 +210,15 @@ The activity/binding namespace and resource namespace are therefore separate inc
 
 ## Current frontier
 
-HOSTILE-OS remains `INTEGRATED_SHADOW_CANDIDATE`. D64 activity capacity, activity/binding lifecycle composition, resource-binding scale, activity/binding namespace renewal, resource namespace renewal, and the 8 KiB evidence envelope are earned at their stated bounded scopes.
+HOSTILE-OS remains `INTEGRATED_SHADOW_CANDIDATE`. D64 activity capacity, activity/binding lifecycle composition, resource-binding scale, activity/binding namespace renewal, resource namespace renewal, maskable-IRQ coherence for bind/final-detach, and the 8 KiB evidence envelope are earned at their stated bounded scopes.
 
-The leading P0 seam is now **asynchronous observation of coupled binding/resource publication and detach**. RB02, ARB01, and RR01 run those coupled transitions with maskable interrupts disabled. C003/P14 established the general need for coherence pressure under IRQ observation, but the full D64 binding/resource transition has not yet been replayed with a real asynchronous observer.
+D64/IRQ01 science is CLOSED PASS at `c5c3fff717f49f35f6a5eaf6e1f41b75d8841e83`. A real IRQ0 observer saw the preregistered orphan/mixed resource-lifetime state when admitted inside unprotected bind publication and final detach. Masking IRQ0 across each current six-instruction coupled region prevented that observer from accepting the mixed state. The separate adoption review makes the coherence requirement incumbent at the current one-core maskable-IRQ scope; six instructions is current witness cost, not a universal constant.
 
-The next discriminator should use real QEMU IRQ0, expose the mixed-state failure under an intentionally unprotected bind/detach transition, and qualify the smallest interrupt-masked region that blocks mixed-state acceptance. Interrupt-off cost must be measured or instruction-counted.
+The next P0 pressure is **clean-restart persistence for the expanded D64 relation**. I001 earned persistence/rebind for a smaller durable record, but the 64x20 binding/resource relation plus separate activity/resource namespace currentness has not been reconstructed across restart. The first persistence discriminator must keep durable identity/value separate from volatile bindings and fresh-runtime epochs, and must not bundle crash/partial-write durability, filesystem semantics, stronger concurrency, or native storage transport.
 
-Quiescent rekey availability remains open: permanently live activity/binding/resource state can starve renewal. Resource/binding persistence across clean restart is P1. Native storage transport remains scope-dependent while firmware borrowing is allowed.
+Quiescent rekey availability remains open: permanently live activity/binding/resource state can starve renewal. Native storage transport remains scope-dependent while firmware borrowing is allowed.
+
+GitHub publication is now operational: the first verified publication bound canonical local HEAD `1ac99c83e5eaf99435a0d65601f2df931d4d36db` to remote publication HEAD `d10c6e398ed815b3042ff0f4beee960c2f16f458`, with research included and the oversized historical toolchain payload carried by LFS. Publication remains mandatory at substantive-pass end.
 
 R3.1 remains the adopted in-house SOP surface with R6 parent lineage/fallback; SOP authority and HOSTILE-OS architecture authority remain separate.
 

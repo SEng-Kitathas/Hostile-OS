@@ -11,7 +11,7 @@ from pathlib import Path
 
 REMOTE_URL = "https://github.com/SEng-Kitathas/Hostile-OS.git"
 REMOTE_BRANCH = "main"
-MIRROR_DIRNAME = ".github_publish_mirror"
+MIRROR_ROOT_RELATIVE = Path(".pcmmad_sync_runs") / "github_publish_mirrors"
 LFS_THRESHOLD_BYTES = 95_000_000
 
 
@@ -136,9 +136,9 @@ def configure_lfs(mirror: Path, copied: list[dict[str, object]]) -> list[str]:
 
 def main() -> int:
     source = Path(__file__).resolve().parents[1]
-    mirror = source / MIRROR_DIRNAME
 
     canonical_head = run(["git", "rev-parse", "HEAD"], source).stdout.strip()
+    mirror = source / MIRROR_ROOT_RELATIVE / f"{canonical_head[:12]}_{os.getpid()}"
     branch = run(["git", "branch", "--show-current"], source).stdout.strip()
     if branch != "main":
         raise RuntimeError(f"publication requires canonical branch main, observed {branch!r}")
@@ -210,6 +210,7 @@ def main() -> int:
         "tracked_bytes_before_lfs": sum(int(x["bytes"]) for x in copied),
         "lfs_paths": lfs_paths,
         "research_included": metadata["research_included"],
+        "mirror_workspace": str(mirror),
     }
     print(json.dumps(result, indent=2))
     return 0

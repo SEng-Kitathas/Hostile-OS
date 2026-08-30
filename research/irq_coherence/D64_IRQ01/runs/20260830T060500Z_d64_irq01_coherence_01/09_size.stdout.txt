@@ -1,0 +1,2 @@
+   text	   data	    bss	    dec	    hex	filename
+   4773	      0	      0	   4773	   12a5	E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\irq_coherence\D64_IRQ01\runs\20260830T060500Z_d64_irq01_coherence_01\stage2.elf
