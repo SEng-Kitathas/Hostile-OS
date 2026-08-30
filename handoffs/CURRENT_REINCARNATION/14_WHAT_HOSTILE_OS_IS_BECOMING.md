@@ -125,3 +125,13 @@ The project is past “interesting idea” and past isolated toy mechanisms. It 
 It is not yet at the point where those mechanisms should simply be copied into `os/` and called the operating system. The next architecture work is deciding which tested relationships deserve promotion, what still needs harder pressure, and which missing responsibilities require new mechanisms rather than familiar historical subsystem names.
 
 The strongest current posture remains `INTEGRATED_SHADOW_CANDIDATE`.
+
+## Embodiment update — research OS now exists
+
+The project now has a concrete reviewer/contributor embodiment under `os/research_only/i001_reference/`. This changes the practical maturity of the project but not its architecture authority. A reviewer can clone only `os/`, rebuild the controlling I001 machine bytes, boot the result twice, and run a reproduction verifier without checking out the multi-gigabyte R&D ledger.
+
+That embodiment is deliberately a **reference body**, not the final body. Later D64/PR01 mechanisms remain separate research until a future embodied revision integrates them deliberately. The project therefore now has three clearly separated layers:
+
+1. sealed historical science under `research/`;
+2. a living research-only embodied OS under `os/research_only/` for inspection and contribution;
+3. no promoted user release yet.

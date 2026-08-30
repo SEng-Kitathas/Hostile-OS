@@ -1205,3 +1205,21 @@ Resumed from the second ngrok outage. Verified the broad-chain copy process had 
 
 ### ASSISTANT — synthesis summary
 Explained the distinction between the tested integrated substrate candidate and an installable OS; summarized C001/C002/C003/I001/D64/PR01 results; described the emerging relation model (activity -> checked binding -> resource), explicit currentness and lifetime, finite observable capacity, wake/progress separation, minimal protected mutation regions, reconstructive clean restart, and the unearned gaps. Preserved the synthesis as `continuity/12_WHAT_HOSTILE_OS_IS_BECOMING_2026-08-30.md`.
+
+### USER — full durability, embodied research OS, and Opus donor review
+User clarified that all unique project data must be pushed to GitHub in a proper folder tree; a real “research purposes only” OS must live under `os/` for reviewers/contributors; and supplied an Opus donor review. The complete donor review is preserved verbatim at `research/external_review/OPUS_REPRODUCIBILITY_REVIEW_RAW_2026-08-30.md`.
+
+### ASSISTANT — verified/embodied response
+Verified the donor's RB02 audit/provenance facts and independently reproduced the 12/12 CRLF normalization explanation. Qualified the “no build script” claim: historical launchers exist but hard-code original Windows tool paths, so outside clone-and-run reproduction was indeed missing. Added canonical LF `.gitattributes`, durable-tree policy, normalization-aware historical verifier, raw/adjudicated donor evidence, and a self-contained `os/research_only/i001_reference/` embodiment. Rebuilt exact controlling I001 machine bytes, booted two distinct QEMU processes exit33, passed the new reproduction verifier, and stored a durable reproduction packet under `research/reproduction/`.
+
+### ASSISTANT — post-commit LF manifest repair
+After committing the durable-repository/research-OS turn, Git-object verification found one portability mismatch in the frozen reincarnation manifest: `10_AUTHORITY_ADOPTION_STATE.md` had been hashed from CRLF working bytes but committed as LF. The authority source was not changed. The frozen copy was replaced from the canonical Git blob and the handoff manifest regenerated; the repair was preserved as a scar rather than hidden.
+
+### ASSISTANT — clean reproduction packet 02 admitted
+A concurrent second reproduction packet was discovered before final publication. It was not discarded as a duplicate because it adds unique pressure: a fresh output directory and an intentional missing-tool discovery failure. The no-PATH attempt failed closed as designed; `HOSTILE_LLVM_BIN` then reproduced exact I001 machine bytes, two QEMU boots exit33, and verifier PASS. Packet 02 was admitted alongside packet 01 and designated the preferred reviewer-facing reproduction record.
+
+### USER — durable repository + embodied research-only OS clarification
+User required absolute clarity that all unique project data is durably published to GitHub in a proper tree, required an embodied `RESEARCH PURPOSES ONLY` OS for reviewer/contributor inspection, and supplied an Opus donor review highlighting reproducibility and line-ending pressure.
+
+### ASSISTANT — implementation/audit outcome
+The repository gained a durable project-tree policy, LF `.gitattributes`, external-review raw/adjudication records, reproducibility scars and tools, and `os/research_only/i001_reference/`. A clean second reproduction from the checked-in package rebuilt stage1/stage2/initial disk to exact historical hashes, completed two distinct QEMU boots exit33, passed semantic/package verification, reproduced all 12 RB02 historical source-hash differences as CRLF normalization, and confirmed the PowerShell wrapper builds identical bytes. The fresh evidence was promoted into the canonical research reproduction tree before turn closure.

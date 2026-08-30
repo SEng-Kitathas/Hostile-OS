@@ -103,3 +103,11 @@ Operator instruction supersedes the older “end of every substantive pass” ca
 Every meaningful turn that changes load-bearing intent/state/evidence/decisions/scars/authority/next actions must update the Live Shadow, Design Thread Stream, recoverable conversation/handoff surfaces, commit the exact admitted delta, publish the captured canonical commit, and verify remote GitHub `main` readback before that turn is durably closed. Tiny turns with genuinely no state change need not manufacture an engineering commit.
 
 This amendment does not weaken the exact-commit snapshot, isolated-workspace, non-force-push, LFS transport, or OS-install-independence rules above.
+
+## Whole-project durability clarification — 2026-08-30
+
+Operator clarified “full project snapshot” as **all unique project data**, not only selected research/code surfaces. See `continuity/13_DURABLE_REPOSITORY_AND_RESEARCH_OS_POLICY_2026-08-30.md` and `PROJECT_TREE.md`.
+
+At each meaningful turn, unique new project data from execution scratch, donor review, recovery scans, failed runs, or reproduction work must be admitted into the canonical folder tree or losslessly archived with hashes before publication. `.pcmmad_sync_runs/` is execution scratch, never the sole durable home of unique evidence.
+
+Exact duplicates/caches/process breadcrumbs are not required as redundant Git copies, but a load-bearing failure/disposition must be recorded before cleanup.

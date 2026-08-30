@@ -262,3 +262,23 @@ D64/PR01 is now CLOSED PASS at bounded clean-restart scope. Controlling run `202
 A separate 3304-cycle earned-chain overnight regression campaign produced 22463 passes and 660 failures, all in I001. Retained I001 failures completed both boots exit33 and passed static closure but observed `IRQ_EVENT=2` where the historical exact evaluator expects `IRQ_EVENT=1`. This is an open evaluator/timer-count semantic seam, not yet an architecture demotion.
 
 The next P0 scientific pressure must be selected from the **current** open-seam set: I001 IRQ-count discriminator, quiescent-rekey availability, production epoch/generation exhaustion policy, crash/power-loss persistence, stronger concurrency, native transport, physical hardware, arbitrary workload scaling, or another newly justified pressure. Do not resume from the stale pre-PR01 frontier.
+
+## 2026-08-30 superseding embodiment/reproducibility delta
+
+`os/` is no longer intentionally empty. A bootable **RESEARCH PURPOSES ONLY** embodiment now exists at `os/research_only/i001_reference/`.
+
+This embodiment is seeded from the whole-workload I001 integrated witness and is explicitly not final architecture/release promotion. Its repo-contained LF source rebuilds the controlling I001 machine bytes exactly on the qualifying local toolchain:
+
+- stage1 512 bytes, SHA-256 `bd13612a1a1db38dd2c847fce1f19ca5305a8febc06f99090d6d1ae882334eb8`
+- stage2 raw 2478 bytes, SHA-256 `2e428e4ef6226dd91fd23ee8dffbdf55887188fbfb84cd745dfc94c4301d02be`
+- initial disk SHA-256 `b9c79c821d0be352132e940201f23d1e2bcd0456d994a1a142fd01a183bc4218`
+
+The new runner booted two distinct QEMU processes (PIDs 27432 and 27240), both completed exit33, with no host disk write between boots. `VERIFY_PACKAGE.py` / `verify.py` passed all required reproduction checks. The durable reproduction packet is under `research/reproduction/I001_RESEARCH_ONLY/20260830T195250Z_i001_reference_reproduction_01/`.
+
+The historical I001 exact evaluator is unchanged. The research-only verifier reports `historical_exact_irq_event_one` but does not require exact-one; the 3304-cycle I001 `IRQ_EVENT=2` seam remains open science.
+
+Root `.gitattributes` now establishes LF canonical text and binary `-text` rules. Historical RB02 source receipts were independently checked: all 12 snapshots still match sealed hashes, and all 12 canonical Git blobs are classified `CRLF_NORMALIZED` relative to those historical Windows receipt hashes.
+
+GitHub durability is now explicitly whole-project: every unique project datum must be admitted into the canonical folder tree or losslessly archived/manifested before a meaningful turn closes. `os/` remains independently sparse-checkout/buildable and may not depend implicitly on R&D trees.
+
+- The captured embodied reproduction also matched the historical I001 executable SHA-256 values for Clang, LLD, llvm-objcopy, QEMU, and Python exactly.- A clean fresh-output reproduction packet 02 is now the preferred reviewer record: ambient missing-tool discovery failed closed as designed; `HOSTILE_LLVM_BIN` then rebuilt exact historical machine bytes; QEMU PIDs 3596/13712 both exited33; verifier PASS. Packet 01 remains retained as the first reproduction capture.

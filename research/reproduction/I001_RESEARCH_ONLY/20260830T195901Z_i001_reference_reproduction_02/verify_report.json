@@ -1,0 +1,19 @@
+{
+  "format": "HOSTILE_OS_RESEARCH_ONLY_VERIFY_V1",
+  "passed": true,
+  "checks": {
+    "stage1_hash_matches_i001": true,
+    "stage2_hash_matches_i001": true,
+    "stage1_size_512": true,
+    "stage1_signature_55aa": true,
+    "stage2_within_4096": true,
+    "distinct_qemu_pids": true,
+    "boot1_exit33": true,
+    "boot2_exit33": true,
+    "no_host_write_between_boots": true,
+    "irq_event_positive": true,
+    "historical_exact_irq_event_one": true
+  },
+  "failures": [],
+  "note": "historical_exact_irq_event_one is informational; the historical I001 evaluator remains unchanged and its IRQ_EVENT count seam remains open"
+}

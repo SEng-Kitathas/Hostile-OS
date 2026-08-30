@@ -57,3 +57,7 @@ The full publication may be very large. That must never make the R&D dump an ins
 The release/install surface is `os/`. Research/continuity/authority/handoffs/history are prohibited build/install dependencies unless an explicit future operator decision changes the repository contract.
 
 OS-only retrieval must support partial/blobless + sparse checkout with LFS smudge disabled before `os/` is materialized. `INSTALL_FROM_GIT.md` is the operator-facing procedure.
+
+## Full-delta clarification — 2026-08-30
+
+“Per-turn continuity publication” means publication of the **complete admitted project delta** for that meaningful turn, not merely Live Shadow/DTS text. If the turn creates unique source, evidence, review material, logs, raw outputs, reproduction records, or scars, those must be promoted into the canonical tree (or losslessly packaged with hashes) before the turn is durably closed.

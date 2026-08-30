@@ -1,0 +1,27 @@
+{
+  "format": "HOSTILE_OS_I001_HISTORICAL_TOOLCHAIN_LOCK_V1",
+  "note": "Exact executable hashes are historical provenance. Portable reproduction may use other tool versions, but receipts must report the difference.",
+  "source_receipt": "research/integration/I001/runs/20260830T042900Z_i001_integration_03/receipt.json",
+  "tools": {
+    "clang": {
+      "historical_version": "Android NDK r29 clang 21.0.0 (r563880c)",
+      "sha256": "f2e1b93d9dd27b847773e7de61b00f1b49ae27eb20ba434297cc020f768a1dfb"
+    },
+    "lld": {
+      "historical_version": "LLD 21.0.0 (r563880c)",
+      "sha256": "1260f9d6e0522bd476d040203998fa03406607971c13a9aa74f3f66f1e6d1c5d"
+    },
+    "objcopy": {
+      "historical_version": "llvm-objcopy from Android NDK r29 LLVM",
+      "sha256": "4a7559a17dba5f35eb8d209e4765516b548e83b664278c8640f484c3be70e901"
+    },
+    "python": {
+      "historical_version": "Python 3.14.6",
+      "sha256": "03168c01b7b7491423350e82c26fee71f35b43694d1319d3c668bda6903a0c38"
+    },
+    "qemu": {
+      "historical_version": "QEMU 11.1.0 (v11.1.0-12130-ge470268ff4)",
+      "sha256": "dbbf7242e5b0d295e54336c69034a266ee1cc117d7ac6e3060e38bb61651200b"
+    }
+  }
+}

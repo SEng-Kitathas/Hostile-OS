@@ -1,65 +1,70 @@
 # HOSTILE-OS
 
-HOSTILE-OS is an experimental operating-system research project built under the PCMMAD method. The repository intentionally preserves both the evolving OS work and the research/evidence that produced it.
+HOSTILE-OS is an experimental operating-system research project built under the PCMMAD method. The repository is the durable project ledger: OS code, research, evidence, failures, decisions, continuity, SOP packages, transcripts, reviews, and project history are intentionally preserved together.
 
 ## Current status
 
-HOSTILE-OS is **not yet a user-installable operating system**. The current architecture posture is a bounded integrated research candidate, not a production or canonical release.
+HOSTILE-OS is **not yet a user-installable release**. The current architecture posture is `INTEGRATED_SHADOW_CANDIDATE`, not production/final/canonical architecture.
 
-The installable OS tree will live under:
+There is now a real bootable **research-purpose-only embodied OS** under:
 
-`os/`
+`os/research_only/i001_reference/`
 
-The scientific record lives under:
-
-`research/`
-
-Research is part of the project history, but it is not required in a code-only checkout.
+It can rebuild the controlling I001 stage1/stage2 machine bytes exactly, produce the same initial raw disk image, boot twice in QEMU, and emit a reproduction-specific verification report. It exists so reviewers/contributors can inspect and run the substrate while later D64 refinements continue to be researched.
 
 ## Repository layout
 
-- `os/` — install/build surface for the OS as it becomes installable.
-- `research/` — preregistrations, experiments, run receipts, traces, audits, architecture reviews, and research plans.
-- `continuity/` — current state, Live Shadow, Design Thread Stream, and recovery surfaces.
-- `authority/` — adopted engineering/research SOP and authority lineage.
-- `lineage/` — donor/source and contamination ledgers.
-- `scars/` — preserved engineering/research scars.
-- `infra/` — qualified infrastructure source and portable tooling.
-- `payload_history/` — historical payloads retained for project provenance.
-- `tools/` — project maintenance and publication tooling.
+See `PROJECT_TREE.md` for the normative folder responsibilities.
 
-## Code-only checkout
+High-level:
+- `os/` — embodied OS surfaces; only this subtree may become an OS build/install dependency.
+- `research/` — preregistrations, experiments, raw/packaged evidence, receipts, traces, audits, reviews, reproduction records, plans, and failures.
+- `continuity/` — commander's intent, current state, decisions, project policy, Live Shadow, Design Thread Stream, and recovery surfaces.
+- `handoffs/` — recoverable conversation and frozen reincarnation package.
+- `authority/` — adopted SOP/authority packages and exact source archives.
+- `scars/` — failures, never-reintroduce rules, portability/provenance scars.
+- `lineage/`, `infra/`, `payload_history/`, `tools/` — lineage, qualified infrastructure, admitted historical payloads, and repository tooling.
 
-You do not need to pull the research tree to obtain the future installable OS surface.
+## Build the research-only OS
 
-See `INSTALL_FROM_GIT.md` for the sparse/partial-clone command. It uses Git's partial clone plus sparse checkout so research blobs are not downloaded unless requested.
+From the full repo or an `os/` sparse checkout:
+
+```text
+cd os/research_only/i001_reference
+python build.py
+python run.py
+python verify.py
+```
+
+Set `HOSTILE_LLVM_BIN` or individual `HOSTILE_CLANG` / `HOSTILE_LLD` / `HOSTILE_OBJCOPY` variables if LLVM is not on `PATH`. Set `HOSTILE_QEMU` if QEMU is not on `PATH` or in the common Windows install location.
+
+`VERIFY_PACKAGE.py` is provided as a reviewer-friendly verification entry point.
+
+## OS-only checkout
+
+The full project is intentionally large. You do **not** need the R&D dump to inspect/build the embodied `os/` tree.
+
+See `INSTALL_FROM_GIT.md` for partial/blobless sparse checkout with LFS smudge disabled.
 
 ## Full project checkout
 
-A normal clone intentionally retrieves the whole published project record:
+A normal clone is the complete published engineering/science/reincarnation ledger:
 
 ```text
 git clone https://github.com/SEng-Kitathas/Hostile-OS.git
 ```
 
-That is the archival/research view.
+## GitHub durability model
 
-## GitHub publication model
+Every meaningful turn publishes the complete admitted project delta, not merely code or continuity prose. Unique data created in execution scratch must be promoted into the canonical folder tree or losslessly archived with hashes before the turn closes.
 
-The canonical local engineering repository preserves exact experiment commit lineage. An old historical toolchain payload in that history exceeds GitHub's normal 100 MB Git-blob limit, so the canonical history is not rewritten merely to satisfy hosting policy.
+Canonical local Git remains the exact science lineage. GitHub is an immutable-commit publication snapshot history; oversized payloads use LFS without rewriting canonical science history. Publication is not claimed until remote `main` is read back.
 
-Instead, GitHub is maintained as a chronological **publication snapshot history**. At the end of each substantive pass:
-
-1. canonical local work is committed first;
-2. all tracked project files are copied into the publication mirror;
-3. oversized payloads are represented through Git LFS;
-4. a publication metadata file records the exact canonical local HEAD and UTC timestamp;
-5. the publication commit is pushed and remote HEAD is read back.
-
-This preserves the project's exact local scientific lineage while still making GitHub a dated project-wide record.
-
-The policy is recorded in `continuity/05_GITHUB_PUBLICATION_POLICY.md`.
+Policies:
+- `continuity/05_GITHUB_PUBLICATION_POLICY.md`
+- `continuity/11_PER_TURN_GITHUB_CONTINUITY_POLICY.md`
+- `continuity/13_DURABLE_REPOSITORY_AND_RESEARCH_OS_POLICY_2026-08-30.md`
 
 ## Research authority
 
-Research files are evidence, not automatic architecture authority. Experiment results, adoption reviews, current state, and explicit promotion decisions determine what is load-bearing.
+Research and the research-only OS are evidence/embodiment, not automatic architecture authority. Experiment results, adoption reviews, current state, and explicit promotion decisions determine what becomes load-bearing release architecture.

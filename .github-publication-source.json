@@ -1,11 +1,11 @@
 {
   "format": "HOSTILE_OS_GITHUB_PUBLICATION_SNAPSHOT_V1",
-  "canonical_local_head": "b9eb550067afa7f906cf6364e1b64b674a753b54",
+  "canonical_local_head": "2654a8399eaa53ff2f9259a3fa1396e1142bef28",
   "canonical_branch": "main",
-  "publication_utc": "2026-08-30T19:31:55.007721+00:00",
+  "publication_utc": "2026-08-30T20:08:22.835763+00:00",
   "remote": "https://github.com/SEng-Kitathas/Hostile-OS.git",
-  "published_tracked_file_count": 1978,
-  "published_tracked_bytes_before_lfs": 2762312784,
+  "published_tracked_file_count": 2053,
+  "published_tracked_bytes_before_lfs": 2768254547,
   "lfs_paths": [
     "payload_history/lab_tooling/HOSTILE_OS_BACKDOOR_004_IA16_TOOLCHAIN.zip",
     "research/campaigns/EARNED_CHAIN_OVERNIGHT_ARCHIVE_2026-08-30/EARNED_CHAIN_OVERNIGHT_20260830T063648Z.tar",
@@ -14,7 +14,7 @@
   "research_included": true,
   "install_surface": "os/",
   "research_required_for_install": false,
-  "canonical_head_after_snapshot": "b9eb550067afa7f906cf6364e1b64b674a753b54",
+  "canonical_head_after_snapshot": "2654a8399eaa53ff2f9259a3fa1396e1142bef28",
   "canonical_advanced_during_publication": false,
   "snapshot_source": "git archive <captured canonical commit>"
 }

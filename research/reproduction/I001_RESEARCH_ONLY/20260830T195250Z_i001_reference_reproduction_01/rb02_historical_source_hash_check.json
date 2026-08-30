@@ -1,0 +1,105 @@
+{
+  "format": "HOSTILE_OS_HISTORICAL_INPUT_HASH_CHECK_V1",
+  "run_dir": "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\resource_binding\\D64_RB02\\runs\\20260830T054900Z_d64_rb02_resource_binding_03",
+  "passed": true,
+  "failures": [],
+  "inputs": [
+    {
+      "key": "preregistration",
+      "path": "research/resource_binding/D64_RB02/D64_RB02_PREREGISTRATION.md",
+      "expected": "fa9e018e941229a15675b343a2d60bfed59639bc4f05e71e788daf66ad86a979",
+      "snapshot_matches": true,
+      "git_blob_status": "CRLF_NORMALIZED",
+      "git_blob_sha256": "79964775ebb1b78da66535983a5fa1956fa6f393dda1537a2571ceff5a501f44"
+    },
+    {
+      "key": "target_profile",
+      "path": "research/plans/HOSTILE_OS_TARGET_WORKLOAD_PROFILE_D64_2026-08-30.md",
+      "expected": "af4cd5561939f2fe794fa9e696474a8bbc2b1ec271068bb8dff90f4aa542d3b3",
+      "snapshot_matches": true,
+      "git_blob_status": "CRLF_NORMALIZED",
+      "git_blob_sha256": "0e64a436baf63e0c6d352aaec29b878d17d314944598f6d63810bb58c22fb1f5"
+    },
+    {
+      "key": "resource_plan",
+      "path": "research/plans/D64_RESOURCE_BINDING_SCALE_PLAN_2026-08-30.md",
+      "expected": "2775f5c4c9e4191f3c002fa44d7fdca24fb34a456733c336734906da7b76c02b",
+      "snapshot_matches": true,
+      "git_blob_status": "CRLF_NORMALIZED",
+      "git_blob_sha256": "53b46754bc237aed32f7947a12adf596bf7f0feaa0797065417273c48905496f"
+    },
+    {
+      "key": "width_correction",
+      "path": "research/plans/D64_RESOURCE_BINDING_LIVE_COUNT_WIDTH_CORRECTION_2026-08-30.md",
+      "expected": "6713cc99df9646471cd89c6588270f32e70faed6b3023817f111b133adaedd12",
+      "snapshot_matches": true,
+      "git_blob_status": "CRLF_NORMALIZED",
+      "git_blob_sha256": "e58600759c8f689823e21df6be8b19c4583763aa6fe04dec1e4e5414526908d0"
+    },
+    {
+      "key": "loader_qualification_result",
+      "path": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/QUALIFICATION_RESULT.md",
+      "expected": "cdd1b3bd083868067b6d8be2346aa413332f3d8888fcaa1e809cc48bc36610f6",
+      "snapshot_matches": true,
+      "git_blob_status": "CRLF_NORMALIZED",
+      "git_blob_sha256": "3c31aa4ad6f840cfd6bc1c61a09a74c76159a89c05916cd5626480fb68e417b4"
+    },
+    {
+      "key": "stage1_s",
+      "path": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/stage1.S",
+      "expected": "6cacc1e2fb397cb09321459b7d930718546288fce1a68a619adf76b795c00276",
+      "snapshot_matches": true,
+      "git_blob_status": "CRLF_NORMALIZED",
+      "git_blob_sha256": "24e3976a6c248fb4250e3ef79cb112dd9a97c5ef7d7c12a7245fa4ac66c6859c"
+    },
+    {
+      "key": "stage1_ld",
+      "path": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/stage1.ld",
+      "expected": "e5da57aefb8ff22b1c858e7372bab49c29d8cd45d83650b53664e44c51a6a3fa",
+      "snapshot_matches": true,
+      "git_blob_status": "CRLF_NORMALIZED",
+      "git_blob_sha256": "df82423232fc19b14d7a221c4dab4b3764a3651442b2890339d3f4fa91e29cf1"
+    },
+    {
+      "key": "stage2_s",
+      "path": "research/resource_binding/D64_RB02/probe/stage2.S",
+      "expected": "44f655331e5aec79ec8dac7c4e7cc514907a103bc7bf55312fd62a6c753f363a",
+      "snapshot_matches": true,
+      "git_blob_status": "CRLF_NORMALIZED",
+      "git_blob_sha256": "c33997a1a6f0b3841c88684ae67c61ddf1af6a3ee1e82fda92706af26f90929f"
+    },
+    {
+      "key": "stage2_ld",
+      "path": "research/resource_binding/D64_RB02/probe/stage2.ld",
+      "expected": "6865f7f83dd72a4a11247fa1d792405653fbe1e83baed1e80abd3e7f1f517875",
+      "snapshot_matches": true,
+      "git_blob_status": "CRLF_NORMALIZED",
+      "git_blob_sha256": "0bb1bdfc69e0376cf2d66f981cc7948db5efe57dd0c9d27236fe4a5c80270ed2"
+    },
+    {
+      "key": "launcher",
+      "path": "research/resource_binding/D64_RB02/probe/launch_rb02.py",
+      "expected": "3b7e096dfbdb63d6ed1b2505d1e6c8193d20562934f9b220f89c909072312b84",
+      "snapshot_matches": true,
+      "git_blob_status": "CRLF_NORMALIZED",
+      "git_blob_sha256": "0b7388f31e8b152fa6b8c3943e1ca3be0b48749dfd890f1a2eb1c5cd54a8c190"
+    },
+    {
+      "key": "evaluator",
+      "path": "research/resource_binding/D64_RB02/probe/evaluate_rb02.py",
+      "expected": "9135c8e476d096435d87cb25123976ed35295db03479a27ffda3c2055cecdff2",
+      "snapshot_matches": true,
+      "git_blob_status": "CRLF_NORMALIZED",
+      "git_blob_sha256": "3b30a1984cbc19604ab6dbacbac9c847345dcfb878b6df600d0112021fa4cc29"
+    },
+    {
+      "key": "static_checker",
+      "path": "research/resource_binding/D64_RB02/probe/static_check_rb02.py",
+      "expected": "7df60b8016090459d327a350fa478b24777c0bed60c48d0d9cb4227520bcc6dc",
+      "snapshot_matches": true,
+      "git_blob_status": "CRLF_NORMALIZED",
+      "git_blob_sha256": "6da4bf97ad2e9cc3fe82ab96cbb31c678a4e3e088c461d5ebb599b93fb57bb5d"
+    }
+  ],
+  "note": "normalization classifications explain historical checkout hashes; sealed receipt hashes are not rewritten"
+}

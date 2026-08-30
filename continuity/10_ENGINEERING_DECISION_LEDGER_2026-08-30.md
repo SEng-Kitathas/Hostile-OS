@@ -26,3 +26,17 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | GitHub snapshots use immutable captured commit + isolated mirror + LFS for oversized payloads | Shared/moving mirrors caused races; GitHub rejects >100MB ordinary blobs | Publication transport | Only replace after verified race-free equivalent |
 | Continuity is persisted every meaningful turn | Repeated thread loss caused backward motion/re-explanation | Operating policy | Only replace with a stronger automatic continuity surface |
 | `os/` must remain independently obtainable | Full R&D ledger can be huge; installation must not require research/history | Repository contract | Never relax without explicit operator decision |
+
+## 2026-08-30 embodiment/reproducibility decisions
+
+| Decision | Why it exists | Authority ceiling | Reopen / demote when |
+|---|---|---|---|
+| GitHub carries all unique project data | Operator requires GitHub to be the durable continuity/project repository, not a selective source mirror | Repository policy | Only explicit operator policy change |
+| Scratch cannot be sole home of unique evidence | Prevent tool/process data from disappearing across thread/server failure | Operating policy | Replace only with stronger automatic durable capture |
+| Bulk evidence may be losslessly archived + hashed | Millions of expanded Git blobs add transport burden without adding evidence | Transport only | If reviewer access requires a browsable expansion, add a derived expansion without deleting archive |
+| `os/research_only/` is required | Reviewers/contributors need a real OS they can build/boot while architecture remains research candidate | Research embodiment only | Superseded by a newer verified embodied revision or eventual release tree |
+| I001 is initial research-only seed | First whole-workload integrated freestanding witness with exact controlling binary targets | Does not silently include later D64 refinements | New embodied revision deliberately integrates later earned mechanisms |
+| Rebuild must check machine bytes | Turns recorded command lines into executable reproduction evidence | Reproduction claim only | Different toolchain output requires explicit adjudication |
+| Root canonical text is LF | Prevent clone-specific source hash confusion and cross-platform review failures | Repository text transport | Only if a stronger content-addressed source packaging policy replaces it |
+| Historical CRLF receipts remain sealed | Old hashes describe actual original Windows snapshots; rewriting would destroy provenance | Historical evidence | Never rewrite; use normalization-aware verifier |
+| Research-only semantic verifier does not replace historical evaluator | Long replay showed exact IRQ count may be timing-sensitive | Reproduction convenience, not science closure | Dedicated I001 IRQ-count discriminator resolves semantic requirement |

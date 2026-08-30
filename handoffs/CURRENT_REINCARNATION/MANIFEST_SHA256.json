@@ -1,9 +1,9 @@
 {
   "files": [
     {
-      "bytes": 1344,
+      "bytes": 1440,
       "path": "00_READ_FIRST.md",
-      "sha256": "9c1fa2dfb612db1ffc9c338b9b99f7470a4d6b8291f2eec7dc53994d75dca17f"
+      "sha256": "2dd9f9bef44622398ad3b60d423eb7b6e1a3df0b853de9a0466a445ffcde543c"
     },
     {
       "bytes": 1847,
@@ -11,34 +11,34 @@
       "sha256": "139c3abb0d70fc3119c6ba107409a71a01e7a5187023329c9dc50bb209c82bf6"
     },
     {
-      "bytes": 28980,
+      "bytes": 31088,
       "path": "02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "addc66ac5f93e33a2d9fb6c86e1b6cf2e707abab16b4a2f18978038d892e7ead"
+      "sha256": "7c8b93e8553321f2358249afe6c0efb59841995fd45d8ba21a0c6e40b7ed01e4"
     },
     {
-      "bytes": 15369,
+      "bytes": 16352,
       "path": "03_MAXIMUM_REINCARNATION_HANDOFF.md",
-      "sha256": "2d16c2e8d51d30a28309ead5e935389a5024baae93911655d178c972e4f0d2d6"
+      "sha256": "f2f29ace540321507d5e1c8e29d7c8fbeb61bdbf1924356e83aecc53c6c45667"
     },
     {
-      "bytes": 5434,
+      "bytes": 7603,
       "path": "04_ENGINEERING_DECISION_LEDGER.md",
-      "sha256": "fb1be03ca49b2fe485f43215abca5fb5ca3123d198816cbf187a724e5fbb6278"
+      "sha256": "555353224e1b332a9eaf6847c1a9fa3133c72305330bef3022963cdfa8b2e249"
     },
     {
-      "bytes": 6271,
+      "bytes": 6944,
       "path": "05_GITHUB_PUBLICATION_POLICY.md",
-      "sha256": "99d1b5432343377a74c4a5cf9e3945572a587029894f2e9bf689521330268c9c"
+      "sha256": "6b19b56d115a2ceb21d8a75243f7c7da2530ce60295db857b962f8fd2ed213cd"
     },
     {
-      "bytes": 3558,
+      "bytes": 3993,
       "path": "06_PER_TURN_GITHUB_CONTINUITY_POLICY.md",
-      "sha256": "750dfd4aad6e6e14a4033620b15b1d8d2935e45ffd2b072bbf2759c02f30b954"
+      "sha256": "747aac249c7aaac4c8e3933c724cc4629ea919e2f9f028a29974d96677a477d4"
     },
     {
-      "bytes": 4224,
+      "bytes": 6502,
       "path": "07_LIVE_SHADOW.md",
-      "sha256": "d410db0aae0f0b560e5ff31a6b1ea5b55b3280fdfdab03059c082410db97eea7"
+      "sha256": "650d70d143b9b2844347fb7f6dedc4eee93681da078cab8bea54b11501cbce22"
     },
     {
       "bytes": 1977,
@@ -51,9 +51,9 @@
       "sha256": "621d3d15f6b0358ffd14f7484214ffb91c0bcaea602b6dd802c437d11ae4ac03"
     },
     {
-      "bytes": 2817,
+      "bytes": 2781,
       "path": "10_AUTHORITY_ADOPTION_STATE.md",
-      "sha256": "a6796e5fe83c68314e5c0903dae2722dda158504ad7c2998230a03ea2365deb7"
+      "sha256": "0d8bd610316c676c84567dcc4e0d0613e44a69d072073983ae79c47549db1ba4"
     },
     {
       "bytes": 1514,
@@ -61,20 +61,60 @@
       "sha256": "4a295343ca93eecfa00619d8b090408ddbb21cd1747b6a51e8b38abca9d2a525"
     },
     {
-      "bytes": 128478,
+      "bytes": 131693,
       "path": "12_THIS_CONVERSATION.md",
-      "sha256": "6efec4a8f40a32cc3343e7036cb7be57a0ea03d8c4a3492bca01cfe317c28b6e"
+      "sha256": "9f705690df3ccd343d8634efa1de81392c09ddf9ac2f39fda0db7cf7eef416d5"
     },
     {
-      "bytes": 1871,
+      "bytes": 2247,
       "path": "13_INSTALL_FROM_GIT.md",
-      "sha256": "7d2d20646105ab03479907c32d83eb6d1fab3b75316b510573dfb7d07ded8e1a"
+      "sha256": "dd97d1656d75ab96225993aa0f27245fa2b03ab85ac090fc90a58dde227e8cff"
     },
     {
-      "bytes": 9829,
+      "bytes": 10558,
       "path": "14_WHAT_HOSTILE_OS_IS_BECOMING.md",
-      "sha256": "19a5b59a25f7c2193aa630f7ec80bc1fe0c083f71879464240ffae6b818cf9c9"
+      "sha256": "c0eb59bc4a505b8379f5ef0c2a0d987f5e69b5b4f0f17fc275b629a077f26a7f"
+    },
+    {
+      "bytes": 2839,
+      "path": "15_DURABLE_REPOSITORY_AND_RESEARCH_OS_POLICY.md",
+      "sha256": "63c6614c6437454155d9b1ee943aa364c6d9fc419062fcc5e1701d7e6b9c5adc"
+    },
+    {
+      "bytes": 2956,
+      "path": "16_PROJECT_TREE.md",
+      "sha256": "9d4bda328822f5a33f74ed27959b4a336a7aaec6399c3d4ddd4061206fd07d49"
+    },
+    {
+      "bytes": 5033,
+      "path": "17_OPUS_REPRODUCIBILITY_ADJUDICATION.md",
+      "sha256": "c296a2f5f2e0a703becc3ef0d29a18c588235bdc16fc5972d8f57b9df5b57903"
+    },
+    {
+      "bytes": 3609,
+      "path": "18_RESEARCH_OS_README.md",
+      "sha256": "023bd671b660e17c367999fd68578b3f015579972f66e571fa156e2a6b6eb46c"
+    },
+    {
+      "bytes": 1850,
+      "path": "19_REPRODUCTION_RESULT.md",
+      "sha256": "c767158ed0f5622aa4a1af30b4184c9f8bc4ded81b289e80b584834b739bf620"
+    },
+    {
+      "bytes": 3361,
+      "path": "20_REPRODUCIBILITY_SCRATCH_SCAR.md",
+      "sha256": "c73e50c61375349b0d2c420cd09b7652350532288cdeb4b000bd9bde9f16329c"
+    },
+    {
+      "bytes": 1423,
+      "path": "21_REPRODUCTION_INDEX.md",
+      "sha256": "07a3f05a757ea9929caa2da5027042b992f9c21126f26b8943f0fb7e944604a7"
+    },
+    {
+      "bytes": 1850,
+      "path": "21_REPRODUCTION_RESULT_02.md",
+      "sha256": "c767158ed0f5622aa4a1af30b4184c9f8bc4ded81b289e80b584834b739bf620"
     }
   ],
-  "schema": "pcmmad.current_reincarnation.v1"
+  "schema": "pcmmad.current_reincarnation.v2"
 }

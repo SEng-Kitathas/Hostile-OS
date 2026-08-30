@@ -1,0 +1,43 @@
+{
+  "format": "HOSTILE_OS_RESEARCH_ONLY_I001_REFERENCE_V1",
+  "historical_note": "Original I001 receipts hashed CRLF working-tree source bytes. This embodied research-only copy uses canonical LF Git blob bytes. Machine-code reproducibility is checked against the historical binary hashes.",
+  "historical_reference": {
+    "activity_capacity": 2,
+    "critical_wait_instruction_count": 6,
+    "initial_disk_sha256": "b9c79c821d0be352132e940201f23d1e2bcd0456d994a1a142fd01a183bc4218",
+    "runtime_state_bytes": 51,
+    "stage1_bin_bytes": 512,
+    "stage1_bin_sha256": "bd13612a1a1db38dd2c847fce1f19ca5305a8febc06f99090d6d1ae882334eb8",
+    "stage2_padded_sha256": "4ffea35b376e3213aff118cc5d904a9a18f73c2aa473bdbb4b388be99205856b",
+    "stage2_raw_bytes": 2478,
+    "stage2_raw_sha256": "2e428e4ef6226dd91fd23ee8dffbdf55887188fbfb84cd745dfc94c4301d02be"
+  },
+  "source_files": {
+    "stage1.S": {
+      "bytes": 716,
+      "origin": "research/integration/I001/probe/stage1.S",
+      "sha256_lf": "efa4445cebe3823d900efc26417884a1c833ffb125c2651dd857e939ab01b1cc"
+    },
+    "stage1.ld": {
+      "bytes": 181,
+      "origin": "research/integration/I001/probe/stage1.ld",
+      "sha256_lf": "e698413555822fbe8434ccb11e06750a1682105a58e6ab091899b5ff1aa42d72"
+    },
+    "stage2.S": {
+      "bytes": 16304,
+      "origin": "research/integration/I001/probe/stage2.S",
+      "sha256_lf": "dafc80f22069d0a070c535550be6d445a6d7108f07feff44aba2999045890b34"
+    },
+    "stage2.ld": {
+      "bytes": 163,
+      "origin": "research/integration/I001/probe/stage2.ld",
+      "sha256_lf": "97b6a9796fbe65e6bb5a0a9699cccba4951f6b78ccfdddc4fb517a99eac283cd"
+    }
+  },
+  "source_origin": {
+    "controlling_result": "research/integration/I001/I001_RESULT.md",
+    "controlling_run": "research/integration/I001/runs/20260830T042900Z_i001_integration_03",
+    "science_scope": "bounded two-boot integrated descendant only; no architecture/authority promotion"
+  },
+  "warning": "RESEARCH PURPOSES ONLY. NOT A RELEASE. NOT ARCHITECTURE PROMOTION."
+}

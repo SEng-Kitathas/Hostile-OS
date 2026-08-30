@@ -45,3 +45,16 @@ Anything required to build, install, boot, or operate a released HOSTILE-OS vers
 2. be fetched by explicit versioned logic under `os/`.
 
 The install/build path MUST NOT silently require `research/`, `authority/`, `continuity/`, `handoffs/`, transcripts, or historical R&D archives. Research may explain or verify an OS mechanism; it is not an installation dependency.
+
+## Research-only embodied OS
+
+There is not yet a release installer, but the `os/` sparse checkout now contains a bootable research-only embodiment:
+
+```text
+cd os/research_only/i001_reference
+python build.py
+python run.py
+python verify.py
+```
+
+This path is intentionally self-contained under `os/`; it does not require the research/continuity/history trees to build or boot.

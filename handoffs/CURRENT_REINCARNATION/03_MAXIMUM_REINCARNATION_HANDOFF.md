@@ -169,3 +169,19 @@ The install/build surface is `os/` and MUST NOT require `research/`, `authority/
 9. Read `handoffs/THIS_CONVERSATION.md` backward from the tail if chronology/nuance is needed.
 10. Inspect canonical Git HEAD/status and GitHub publication metadata/readback before mutation.
 11. Resume from the newest open seam; do not ask the operator to restate history already present here.
+
+## 12. Post-handoff embodiment/repository delta
+
+Operator clarified that GitHub must carry **all unique project data**, properly separated in the canonical folder tree, and that HOSTILE-OS needs a real embodied research-only OS for reviewers/contributors even before release promotion.
+
+Implemented:
+- `PROJECT_TREE.md` durable folder contract;
+- `continuity/13_DURABLE_REPOSITORY_AND_RESEARCH_OS_POLICY_2026-08-30.md`;
+- root `.gitattributes` LF/binary policy;
+- raw + adjudicated Opus reproducibility donor review;
+- normalization-aware historical receipt verifier;
+- bootable `os/research_only/i001_reference/` with build/run/verify wrappers;
+- exact I001 machine-byte reproduction and two-QEMU-boot reproduction packet;
+- explicit scratch/partial-archive disposition scar.
+
+Do not regress either direction: do not empty `os/` back to README-only merely because release promotion is not finished, and do not mistake `os/research_only/` for a promoted release/final architecture.

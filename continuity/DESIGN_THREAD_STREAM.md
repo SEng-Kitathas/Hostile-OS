@@ -1171,3 +1171,37 @@ User asked for a plain-language, vocabulary-disciplined explanation of where HOS
 
 ## 2026-08-30 — ASSISTANT — SYNTHESIS / NO ARCHITECTURE PROMOTION
 Re-grounded on canonical commit `58310d2def327b2fd77d7707364ed8348629940e`, verified the prior full-project publication completed as GitHub main `9b2d876abac0ef3bddb3f49d6dda332a0658a49a`, and wrote `continuity/12_WHAT_HOSTILE_OS_IS_BECOMING_2026-08-30.md`. The synthesis states that the project has a tested integrated operating-substrate candidate, not an installable/final OS; describes the emerging activity -> checked binding -> resource relation model, explicit currentness/lifetime/capacity, reconstructive restart, small IRQ protection regions, and the remaining unearned areas.
+
+## 2026-08-30 — USER — FULL-DATA DURABILITY + RESEARCH-ONLY OS + OPUS DONOR REVIEW
+User clarified three load-bearing requirements: (1) everything unique in the project, properly separated in the folder tree, must be pushed to GitHub as the durable continuity/project repository; (2) `os/` must contain an embodied “research purposes only” OS so external reviewers/contributors can inspect and follow the work; (3) supplied a detailed Opus donor review identifying real bare-metal evidence, the retained RB02 failed-audit/provenance-correction scar, a portability/source-hash line-ending issue, and a lack of stranger-runnable reproduction despite recorded build commands.
+
+The full donor text is preserved verbatim at `research/external_review/OPUS_REPRODUCIBILITY_REVIEW_RAW_2026-08-30.md`.
+
+## 2026-08-30 — ASSISTANT — BUILD-COMMIT / VERIFIED DONOR PRESSURE
+Verified the RB02 audit12/audit13/provenance-correction lineage. Verified all 12 historical source hashes exactly: sealed snapshots match; canonical Git LF blobs require CRLF normalization to reproduce the Windows receipt hashes. Determined the “no runnable build” wording was literally too strong because historical launchers exist, but substantively correct for outside reproduction because I001 hard-codes original-host LLVM/QEMU/Python paths.
+
+Implemented root LF `.gitattributes`, whole-project durable tree policy, historical hash verifier, raw/adjudicated donor review, and `os/research_only/i001_reference/` with repo-contained canonical source, portable build/run/verify entry points, wrappers, contributor docs, and source/toolchain provenance. Rebuild produced byte-identical controlling I001 stage1/stage2/padded image/initial disk. Two fresh QEMU processes booted the rebuilt image and exited33. `VERIFY_PACKAGE.py` passed. Durable reproduction evidence was copied under `research/reproduction/I001_RESEARCH_ONLY/20260830T195250Z_i001_reference_reproduction_01/`.
+
+## 2026-08-30 — MAINTENANCE — REINCARNATION MANIFEST LF REPAIR
+Post-commit Git-object verification found one mismatch in `handoffs/CURRENT_REINCARNATION/MANIFEST_SHA256.json`: frozen `10_AUTHORITY_ADOPTION_STATE.md` had been hashed from CRLF working bytes while Git stored LF under the new `.gitattributes` policy. Canonical `authority/ADOPTION_STATE.md` was unchanged. The frozen copy was replaced from the canonical Git blob, the manifest regenerated, and the repair recorded in the portability scar. The reproduction packet's Git-object manifest verification passed without defect.
+
+## 2026-08-30 — CONCURRENT EVIDENCE — CLEAN REPRODUCTION PACKET 02
+A second complete I001 research-only reproduction packet appeared during closure. It was inspected rather than ignored. Packet 02 used a fresh output directory, intentionally demonstrated fail-closed tool discovery with no suitable Clang on PATH, then rebuilt unchanged source via documented `HOSTILE_LLVM_BIN`. It reproduced exact historical machine bytes, booted two distinct QEMU processes (3596/13712) exit33, passed semantic verification, and passed its packet manifest. It is admitted as the preferred outside-review record; packet 01 remains retained as first reproduction evidence.
+
+## 2026-08-30 — USER — DURABLE REPO + EMBODIED RESEARCH OS CLARIFICATION
+User clarified three requirements: (1) all unique project data, properly separated in the folder tree, belongs in GitHub as the durable continuity/project repository; (2) an embodied `RESEARCH PURPOSES ONLY` OS must exist for outside inspection/review/contribution; (3) an Opus donor review should be treated as pressure, especially its reproducibility and line-ending observations.
+
+## 2026-08-30 — ASSISTANT — BUILD / AUDIT STATE
+A local implementation set appeared and canonical Git subsequently advanced to `bde5d01c7af7e99453273f4022173b5100d49a8c` (`Add durable full-project policy and research-only OS reproduction`). Audit confirmed it adds the durable repository policy/tree, LF `.gitattributes`, external-review adjudication, portability scars, portable I001 research-only embodiment, reproduction tooling, and reproduction 01. GitHub remained one publication behind at the prior `22936401...` readback.
+
+## 2026-08-30 — USER — STATUS CHECK
+User asked `how we looking?`.
+
+## 2026-08-30 — ASSISTANT — VERIFIED/PROVISIONAL SPLIT
+Reported that the research-only embodiment and policy implementation existed locally but required clean reproduction, final adjudication, commit/publish closure.
+
+## 2026-08-30 — USER — PROCEED
+User said `proceed as is most intelligent`.
+
+## 2026-08-30 — ASSISTANT — CLEAN REPRODUCTION 02
+Rebuilt the checked-in research-only I001 source into a fresh scratch output. First ambient-PATH attempt failed closed because Clang was not discoverable; rerun through the documented `HOSTILE_LLVM_BIN` interface succeeded unchanged. Rebuilt stage1 (512 bytes) SHA `bd13612a...`, stage2 (2478 bytes) SHA `2e428e4e...`, and initial image SHA `b9c79c82...`, all exact historical I001 matches. Two distinct QEMU processes (PIDs 3596 and 13712) completed exit33; semantic verifier and `VERIFY_PACKAGE.py` passed. The run happened to observe historical exact `IRQ_EVENT=1`, retained as informational only. RB02 historical source checker independently reproduced all 12/12 source-hash differences as CRLF normalization with sealed snapshots matching. PowerShell build wrapper also reproduced exact machine bytes. Fresh reproduction evidence was promoted to `research/reproduction/I001_RESEARCH_ONLY/20260830T195901Z_i001_reference_reproduction_02/` rather than left only in scratch.

@@ -21,3 +21,6 @@ logs/archive_scan_*.txt
 # OS/editor noise
 .DS_Store
 Thumbs.db
+
+# Research-only embodied OS mutable build outputs
+os/research_only/**/build/
