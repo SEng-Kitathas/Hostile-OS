@@ -84,3 +84,36 @@ Before attempt 3, code review found that the first noninteractive-GCM repair con
 This was caught before another push attempt. No additional failed publication occurred.
 
 Repair: the existing-mirror branch now also sets local `credential.helper=manager` on Windows before returning.
+
+## Attempt 3 — inherited helper-chain accumulation
+
+Publication attempt 3 built a complete local publication mirror commit and entered push, but effective Git config readback showed:
+
+- system helper: `helper-selector`
+- mirror-local helper: `manager`
+
+Git credential helpers accumulate across config scopes. Adding local `manager` did not suppress the system selector; the helper-selector could still be invoked ahead of GCM.
+
+Attempt 3 was therefore terminated explicitly with its child process tree before any publication success was claimed.
+
+Useful completed local mirror state from attempt 3:
+
+- publication mirror HEAD: `e1ffbc36363ccae52509bdea4ac4de5dfbb7741e`
+- canonical local HEAD bound in metadata: `58919fdef1360df50ab878b5159a796aada252f2`
+- tracked files snapshotted: `1532`
+- tracked bytes before LFS: `185410577`
+- research included: `true`
+- research required for install: `false`
+- LFS path: `payload_history/lab_tooling/HOSTILE_OS_BACKDOOR_004_IA16_TOOLCHAIN.zip`
+- LFS object bytes: `115808623`
+
+The public GitHub remote still had no `main` ref at termination.
+
+Repair before attempt 4:
+
+1. mirror-local config now writes an empty `credential.helper` value to reset inherited helper lists;
+2. mirror-local config then adds `credential.helper=manager`;
+3. public remote probes/clones/readback explicitly run with `-c credential.helper=` so they never invoke authentication helpers;
+4. push remains `GIT_TERMINAL_PROMPT=0` + `GCM_INTERACTIVE=Never` and uses direct GCM.
+
+Scientific / architecture consequence remains NONE.

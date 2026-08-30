@@ -83,17 +83,18 @@ def ensure_mirror(source: Path, mirror: Path) -> None:
         elif current.stdout.strip() != REMOTE_URL:
             run(["git", "remote", "set-url", "origin", REMOTE_URL], mirror)
         if os.name == "nt":
-            run(["git", "config", "credential.helper", "manager"], mirror)
+            run(["git", "config", "--local", "--replace-all", "credential.helper", ""], mirror)
+            run(["git", "config", "--local", "--add", "credential.helper", "manager"], mirror)
         return
 
     if mirror.exists():
         shutil.rmtree(mirror)
 
-    probe = run(["git", "ls-remote", "--heads", REMOTE_URL, f"refs/heads/{REMOTE_BRANCH}"], source, check=False)
+    probe = run(["git", "-c", "credential.helper=", "ls-remote", "--heads", REMOTE_URL, f"refs/heads/{REMOTE_BRANCH}"], source, check=False)
     if probe.returncode == 0 and probe.stdout.strip():
         env = os.environ.copy()
         env["GIT_LFS_SKIP_SMUDGE"] = "1"
-        cp = run(["git", "clone", "--branch", REMOTE_BRANCH, "--single-branch", REMOTE_URL, str(mirror)], source, check=False, env=env)
+        cp = run(["git", "-c", "credential.helper=", "clone", "--branch", REMOTE_BRANCH, "--single-branch", REMOTE_URL, str(mirror)], source, check=False, env=env)
         if cp.returncode != 0:
             raise RuntimeError(f"could not clone publication mirror\nstdout:\n{cp.stdout}\nstderr:\n{cp.stderr}")
     else:
@@ -106,10 +107,10 @@ def ensure_mirror(source: Path, mirror: Path) -> None:
     run(["git", "config", "user.name", name], mirror)
     run(["git", "config", "user.email", email], mirror)
     if os.name == "nt":
-        # Avoid Git for Windows' interactive helper-selector in unattended runs.
-        # GCM account presence is checked operationally; if credentials are not
-        # available, push must fail fast rather than opening a selector window.
-        run(["git", "config", "credential.helper", "manager"], mirror)
+        # Empty helper resets inherited helper lists before adding GCM directly.
+        # This suppresses Git for Windows' interactive helper-selector.
+        run(["git", "config", "--local", "--replace-all", "credential.helper", ""], mirror)
+        run(["git", "config", "--local", "--add", "credential.helper", "manager"], mirror)
 
 
 def configure_lfs(mirror: Path, copied: list[dict[str, object]]) -> list[str]:
@@ -192,7 +193,7 @@ def main() -> int:
     if push.returncode != 0:
         raise RuntimeError(f"GitHub push failed\nstdout:\n{push.stdout}\nstderr:\n{push.stderr}")
 
-    remote = run(["git", "ls-remote", "origin", f"refs/heads/{REMOTE_BRANCH}"], mirror)
+    remote = run(["git", "-c", "credential.helper=", "ls-remote", "origin", f"refs/heads/{REMOTE_BRANCH}"], mirror)
     fields = remote.stdout.strip().split()
     remote_head = fields[0] if fields else ""
     if remote_head != publication_head:
