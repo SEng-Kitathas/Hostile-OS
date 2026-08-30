@@ -36,9 +36,9 @@
       "sha256": "750dfd4aad6e6e14a4033620b15b1d8d2935e45ffd2b072bbf2759c02f30b954"
     },
     {
-      "bytes": 4180,
+      "bytes": 4224,
       "path": "07_LIVE_SHADOW.md",
-      "sha256": "f64cb1074683156983e79e0018e6274b25556baf2db43207d8a03b2682b7e010"
+      "sha256": "d410db0aae0f0b560e5ff31a6b1ea5b55b3280fdfdab03059c082410db97eea7"
     },
     {
       "bytes": 1977,
@@ -61,14 +61,19 @@
       "sha256": "4a295343ca93eecfa00619d8b090408ddbb21cd1747b6a51e8b38abca9d2a525"
     },
     {
-      "bytes": 127703,
+      "bytes": 128478,
       "path": "12_THIS_CONVERSATION.md",
-      "sha256": "7de2246fa3bca09847459ad029c286d3796690f3b5ca82c7bf0b6702c4f1faea"
+      "sha256": "6efec4a8f40a32cc3343e7036cb7be57a0ea03d8c4a3492bca01cfe317c28b6e"
     },
     {
       "bytes": 1871,
       "path": "13_INSTALL_FROM_GIT.md",
       "sha256": "7d2d20646105ab03479907c32d83eb6d1fab3b75316b510573dfb7d07ded8e1a"
+    },
+    {
+      "bytes": 9829,
+      "path": "14_WHAT_HOSTILE_OS_IS_BECOMING.md",
+      "sha256": "19a5b59a25f7c2193aa630f7ec80bc1fe0c083f71879464240ffae6b818cf9c9"
     }
   ],
   "schema": "pcmmad.current_reincarnation.v1"

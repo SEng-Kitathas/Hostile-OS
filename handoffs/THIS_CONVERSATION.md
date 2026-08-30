@@ -1199,3 +1199,9 @@ Server health returned. Canonical HEAD remained `11dc1bd4fa0d138024b7c61a2fc0a17
 
 ### ASSISTANT — current completion summary
 Resumed from the second ngrok outage. Verified the broad-chain copy process had ended and the copied campaign retained terminal COMPLETED status. Abandoned expensive expanded-tree hash/copy as an inefficient evidence transport, then created a streaming lossless TAR directly from the original campaign scratch source. The closed TAR passed structural listing verification and is 2,143,104,512 bytes with SHA-256 `eef7a2fd43a1c4819927c3a0d8afb976470171af8f3cd55d0237d1e2b8f2cc0e`. Proceeded to refresh the reincarnation snapshot, explicitly stage admitted paths, verify, commit, and publish.
+
+### USER — OS state and emerging shape
+`So talk to me about our OS (remember the vocabulary usage rule set) where are we at what are our end results to date what’s the research showing and what’s our OS is shaping up to look like and be`
+
+### ASSISTANT — synthesis summary
+Explained the distinction between the tested integrated substrate candidate and an installable OS; summarized C001/C002/C003/I001/D64/PR01 results; described the emerging relation model (activity -> checked binding -> resource), explicit currentness and lifetime, finite observable capacity, wake/progress separation, minimal protected mutation regions, reconstructive clean restart, and the unearned gaps. Preserved the synthesis as `continuity/12_WHAT_HOSTILE_OS_IS_BECOMING_2026-08-30.md`.
