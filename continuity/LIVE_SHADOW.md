@@ -2,9 +2,9 @@
 
 ## Thread Identity
 - Thread: HOSTILE-OS PCMMAD reincarnation
-- Last Updated: 2026-08-30T06:26Z
-- Mode: BUILD-COMMIT — IRQ01 adoption/frontier reconciliation, then BUILD-PLAN persistence
-- Dominant Objective: adopt the earned one-core IRQ coherence rule, publish the closed pass to GitHub, then derive the smallest expanded-relation clean-restart persistence discriminator
+- Last Updated: 2026-08-30T06:38Z
+- Mode: BUILD-COMMIT — PR01 persistence implementation plus overnight regression campaign
+- Dominant Objective: implement and close D64/PR01 clean-restart persistence while running an isolated long-duration regression campaign over earned D64 mechanisms
 
 ## Active User Intent
 - Continue HOSTILE-OS continuously from verified persisted state.
@@ -29,6 +29,8 @@
 - Publication workspaces are isolated under ignored `.pcmmad_sync_runs/github_publish_mirrors/<head>_<pid>` to avoid concurrent mirror races.
 - Publication snapshot source is now an immutable captured Git commit exported with `git archive <canonical_local_head>`; concurrent local HEAD advancement does not invalidate that captured publication and instead creates a later publication obligation.
 - `os/` is the future install/build tree. `INSTALL_FROM_GIT.md` defines partial clone + sparse checkout so `research/` is not an install dependency.
+- Verified GitHub publication at 2026-08-30T06:35:24Z: canonical `0f1146f5782b729f77cfa8d4292e956f5c5f28a8` -> remote publication `5f1bb224b5e32bbe93df52d313dd0bc3115dbf3f`; 1,594 tracked files; research included; install surface remains `os/`.
+- Overnight isolated regression campaign started at 2026-08-30T06:36:48Z under `.pcmmad_sync_runs/overnight/campaign_20260830T063648Z`, PID 24520, eight-hour deadline; detached worktree at canonical `0f1146f...`; first observed A01/RK01/RB02 iterations returned QEMU exit33 with evaluator/static PASS.
 - Exact final C002 Python source remains unrecovered; source-dependent historical subsidy details remain UNKNOWN.
 
 ## Active Constraints
@@ -61,7 +63,7 @@
 - P1 process scar: sealed R3.1 Windows path-separator verifier portability issue.
 
 ## Immediate Next Step
-- Commit the exact-commit GitHub publication hardening and publish the resulting canonical HEAD with remote SHA readback. Then enter BUILD-PLAN for the smallest expanded D64 clean-restart persistence discriminator: durable identity/value survives across two fresh QEMU processes; boot-1 volatile activity/binding/resource handles must be invalid under fresh boot-2 namespaces; explicit rebind reconstructs the current relation without persisting volatile currentness arrays.
+- Complete PR01 launcher/independent closure from the preregistered two-QEMU clean-restart discriminator, review provisional probe files before tracking them, and promote only exact passing evidence. Keep the isolated overnight regression campaign outside canonical science unless reviewed.
 
 ## Last 10 Turn Reinforcement Window
 1. User established GitHub as project-wide timestamp repository and ordered publication after each substantive pass; research included, installation independent.

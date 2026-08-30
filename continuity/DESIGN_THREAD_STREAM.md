@@ -1126,3 +1126,12 @@ Tags: GITHUB, CONCURRENCY, PROVENANCE, PUBLICATION-HARDENING
 Post-IRQ01 publication reconciliation found the publication wrapper could see canonical HEAD advance while it copied the live worktree. The first GitHub snapshot remained independently verified and its metadata correctly bound canonical `1ac99c83...` to remote publication `d10c6e39...`, but the moving-worktree snapshot model was too brittle for this multi-writer project.
 
 Hardened `tools/publish_github_snapshot.py` so publication content comes from an immutable captured canonical commit through `git archive <canonical_local_head>` into an isolated per-run mirror. A later concurrent HEAD no longer invalidates the captured pass; metadata records the later observed HEAD and `canonical_advanced_during_publication`, while the newer canonical commit becomes a separate publication obligation. Standing publication policy and bootstrap scar were updated accordingly. Immediate next action: commit this hardening, publish the current canonical HEAD with remote SHA readback, then move into expanded D64 clean-restart persistence BUILD-PLAN.
+
+## Turn 070 — USER / GITHUB PUBLICATION + OVERNIGHT CAMPAIGN
+- User ordered full-project GitHub publication after every substantive pass, with research included but OS install not forced to fetch research.
+- User then ordered useful long-duration overnight testing/campaign work instead of idle time.
+
+## Turn 071 — ASSISTANT / VERIFIED PUBLICATION + CAMPAIGN START
+- Verified publication: canonical local `0f1146f5782b729f77cfa8d4292e956f5c5f28a8` -> GitHub `main` publication `5f1bb224b5e32bbe93df52d313dd0bc3115dbf3f`; remote readback matched. Research included; `os/` remains sparse install surface.
+- Started isolated eight-hour regression campaign PID 24520 under `.pcmmad_sync_runs/overnight/campaign_20260830T063648Z` from detached canonical worktree. Passing runs are compacted; failing runs are retained fully. Initial observed A01/RK01/RB02 iterations passed QEMU/evaluator/static gates.
+- Canonical science frontier remains D64/PR01 clean-restart persistence. Existing untracked PR01 probe files remain provisional and were not silently promoted.
