@@ -82,6 +82,8 @@ def ensure_mirror(source: Path, mirror: Path) -> None:
             run(["git", "remote", "add", "origin", REMOTE_URL], mirror)
         elif current.stdout.strip() != REMOTE_URL:
             run(["git", "remote", "set-url", "origin", REMOTE_URL], mirror)
+        if os.name == "nt":
+            run(["git", "config", "credential.helper", "manager"], mirror)
         return
 
     if mirror.exists():
@@ -103,6 +105,11 @@ def ensure_mirror(source: Path, mirror: Path) -> None:
     email = run(["git", "config", "user.email"], source, check=False).stdout.strip() or "hostile-os@local.invalid"
     run(["git", "config", "user.name", name], mirror)
     run(["git", "config", "user.email", email], mirror)
+    if os.name == "nt":
+        # Avoid Git for Windows' interactive helper-selector in unattended runs.
+        # GCM account presence is checked operationally; if credentials are not
+        # available, push must fail fast rather than opening a selector window.
+        run(["git", "config", "credential.helper", "manager"], mirror)
 
 
 def configure_lfs(mirror: Path, copied: list[dict[str, object]]) -> list[str]:
@@ -178,7 +185,10 @@ def main() -> int:
         run(["git", "commit", "-m", message], mirror)
 
     publication_head = run(["git", "rev-parse", "HEAD"], mirror).stdout.strip()
-    push = run(["git", "push", "-u", "origin", REMOTE_BRANCH], mirror, check=False)
+    push_env = os.environ.copy()
+    push_env["GIT_TERMINAL_PROMPT"] = "0"
+    push_env["GCM_INTERACTIVE"] = "Never"
+    push = run(["git", "push", "-u", "origin", REMOTE_BRANCH], mirror, check=False, env=push_env)
     if push.returncode != 0:
         raise RuntimeError(f"GitHub push failed\nstdout:\n{push.stdout}\nstderr:\n{push.stderr}")
 

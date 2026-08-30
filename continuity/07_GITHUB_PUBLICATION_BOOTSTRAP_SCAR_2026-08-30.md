@@ -51,3 +51,36 @@ The scratch directory remains ignored and SHALL NOT be staged or published. Cano
 NONE.
 
 This scar affects publication infrastructure only.
+
+## Attempt 2 — authentication selector stall
+
+After the mirror-cleanup repair, publication attempt 2 started as detached PID `4136`.
+
+Readback showed the process remained responsive but spawned a fresh Git for Windows `git-credential-helper-selector` chain during push. `gh auth status` reported no GitHub CLI login. A bounded `git credential fill` probe then timed out with no trustworthy return and was treated as `UNKNOWN` under the bounded-execution doctrine.
+
+The publication PID and its current credential-helper child chain were terminated explicitly before further mutation. No GitHub publication success was claimed.
+
+Direct Git Credential Manager account listing then established:
+
+- GCM version: `2.9.0+194ba290ce533465310d50f811684ab180536ae7`
+- stored GitHub account: `SEng-Kitathas`
+
+Root cause for attempt 2 was therefore the interactive `helper-selector` path in unattended execution, not absence of a stored GitHub account.
+
+Repair:
+
+- publication mirror local Git config uses `credential.helper=manager` on Windows;
+- push environment sets `GIT_TERMINAL_PROMPT=0`;
+- push environment sets `GCM_INTERACTIVE=Never`.
+
+This makes authentication deterministic: use the stored GCM account or fail fast without opening an interactive selector.
+
+Scientific / architecture consequence remains NONE.
+
+## Pre-retry audit — existing mirror path
+
+Before attempt 3, code review found that the first noninteractive-GCM repair configured `credential.helper=manager` only when creating a new mirror. An already-existing `.github_publish_mirror/.git` returned early from `ensure_mirror()` before that configuration.
+
+This was caught before another push attempt. No additional failed publication occurred.
+
+Repair: the existing-mirror branch now also sets local `credential.helper=manager` on Windows before returning.
