@@ -61,3 +61,15 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | Disable unrelated default devices in scientific runner | Default NIC introduced irrelevant option-ROM failure into non-network workload | I001 research embodiment | A future workload explicitly requires networking |
 | Historical smuggle archives are immutable; PATCH_003 supersedes behavior | Preserve exact payload lineage while fixing transplant environment | Tooling lineage | Newer append-only patch supersedes PATCH_003 |
 | External full-rerun report is distinct from locally hash-verified foreign packet | User supplied report but not foreign raw files/manifests | Evidence classification | Upgrade only when raw external packet is supplied and verified |
+
+## 2026-08-30 FR01 durable-record decisions
+
+| Decision | Why it exists | Authority ceiling | Reopen / demote when |
+|---|---|---|---|
+| Two independent durable sectors | Older complete meaning must survive when newer candidate is invalid/torn in deterministic media state | Tested two-candidate sector layout only | Real interruption/hardware shows coupled failure or different atomicity |
+| CRC16/CCITT-FALSE + explicit `CMIT` | Same 30-byte cost as additive16 but rejects tested balanced corruption; smaller than complement duplicate | Error detection, not authenticity | Stronger corruption/authenticity or hardware evidence requires more |
+| Validity before sequence | F03 showed naive highest-sequence logic chooses corrupt newer B | Tested bounded sequences1..3 | Sequence wrap/order model is expanded |
+| Equal-sequence conflicting valid records fail closed | Two independently valid meanings with same ordering key are ambiguous | Two-record tested format | A stronger conflict-resolution identity/order mechanism is earned |
+| Epoch255 blocks recovery before reconstruction | Restart currentness must not silently wrap | Existing one-byte epoch shadow width | Wider/rekeyed durable epoch mechanism is earned |
+| Durable storage persists meaning/currentness, not runtime topology | FR01 successful cases rebuild fresh D64 relation and stale handles reject | Tested scalar durable record/D64 relation | Durable graph requirements demonstrate additional necessary state |
+| Next P0 pressures actual writer interruption, not reader redesign | Reader/selector now survives deterministic corrupt/torn states | BUILD-PLAN only | Feasibility inspection shows QEMU/BIOS cannot expose meaningful interruption window |

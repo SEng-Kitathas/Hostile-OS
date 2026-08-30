@@ -1,0 +1,40 @@
+{
+  "case_id": "F10",
+  "relative_dir": "fixtures/F10",
+  "disk_path": "fixtures/F10/fr01.img",
+  "disk_sha256_before": "a9e55b8aa27365cb29e608535e64f8cf693d0ebf0925111d7944c2038eee8007",
+  "disk_sha256_after": "a9e55b8aa27365cb29e608535e64f8cf693d0ebf0925111d7944c2038eee8007",
+  "qemu": {
+    "pid": 28636,
+    "started_utc": "2026-08-30T21:21:49.249576+00:00",
+    "ended_utc": "2026-08-30T21:21:49.430001+00:00",
+    "status": "COMPLETED",
+    "exit_code": 33,
+    "wall_ms": 180.42520000017248,
+    "argv": [
+      "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "-accel",
+      "tcg",
+      "-display",
+      "none",
+      "-monitor",
+      "none",
+      "-serial",
+      "none",
+      "-nic",
+      "none",
+      "-no-reboot",
+      "-boot",
+      "a",
+      "-drive",
+      "file=E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/persistence/D64_FR01/runs/20260830T212145Z_d64_fr01_01/fixtures/F10/fr01.img,format=raw,if=floppy,readonly=on",
+      "-device",
+      "isa-debug-exit,iobase=0xf4,iosize=0x04",
+      "-debugcon",
+      "file:E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/persistence/D64_FR01/runs/20260830T212145Z_d64_fr01_01/fixtures/F10/debugcon.txt",
+      "-global",
+      "isa-debugcon.iobase=0xe9"
+    ]
+  },
+  "trace_sha256": "ff93c04331a78b098d6b20ece5c1a9d7a781b919f5f60abce985f7650fee4a9b"
+}

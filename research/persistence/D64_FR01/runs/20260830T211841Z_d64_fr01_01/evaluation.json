@@ -1,0 +1,1083 @@
+{
+  "version": "D64-FR01-evaluator-v1",
+  "passed": false,
+  "checks": {
+    "all_fixture_traces_exact": false,
+    "failed_closed_cases_expose_no_value": true,
+    "successful_cases_reject_old_accept_fresh": true,
+    "f03_naive_discriminator": false,
+    "f06_additive_sum_collision": true,
+    "f12_full_tear_coverage": true,
+    "all_qemu_exit33": false,
+    "all_disk_hashes_stable": true
+  },
+  "case_count": 41,
+  "cases": {
+    "F01": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F01",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F02": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F02",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=1",
+        "B_SEQ=00000002",
+        "SELECT=B",
+        "NAIVE=B",
+        "DUR_VAL=72",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=72",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=72",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F03": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F03",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000003",
+        "SELECT=A",
+        "NAIVE=B",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F04": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F04",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000002",
+        "SELECT=A",
+        "NAIVE=B",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F05": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F05",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000002",
+        "SELECT=A",
+        "NAIVE=B",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F06": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F06",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000002",
+        "SELECT=A",
+        "NAIVE=B",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F07": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F07",
+        "A_VALID=0",
+        "A_SEQ=00000001",
+        "B_VALID=1",
+        "B_SEQ=00000002",
+        "SELECT=B",
+        "NAIVE=B",
+        "DUR_VAL=72",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=72",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=72",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F08": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F08",
+        "A_VALID=0",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000002",
+        "SELECT=N",
+        "NAIVE=B",
+        "DUR_VAL=00",
+        "OLD_BIND=-",
+        "OLD_RES=-",
+        "FRESH_BIND=-",
+        "FRESH_BIND_VAL=00",
+        "FRESH_RES=-",
+        "FRESH_RES_VAL=00",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F09": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F09",
+        "A_VALID=1",
+        "A_SEQ=00000002",
+        "B_VALID=1",
+        "B_SEQ=00000002",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=72",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=72",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=72",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F10": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F10",
+        "A_VALID=1",
+        "A_SEQ=00000002",
+        "B_VALID=1",
+        "B_SEQ=00000002",
+        "SELECT=X",
+        "NAIVE=A",
+        "DUR_VAL=00",
+        "OLD_BIND=-",
+        "OLD_RES=-",
+        "FRESH_BIND=-",
+        "FRESH_BIND_VAL=00",
+        "FRESH_RES=-",
+        "FRESH_RES_VAL=00",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F11": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F11",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=G",
+        "NAIVE=A",
+        "DUR_VAL=00",
+        "OLD_BIND=-",
+        "OLD_RES=-",
+        "FRESH_BIND=-",
+        "FRESH_BIND_VAL=00",
+        "FRESH_RES=-",
+        "FRESH_RES_VAL=00",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_00": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_00",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_01": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_01",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_02": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_02",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_03": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_03",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_04": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_04",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_05": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_05",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_06": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_06",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_07": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_07",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_08": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_08",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_09": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_09",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_10": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_10",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_11": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_11",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_12": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_12",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_13": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_13",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_14": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_14",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_15": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_15",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_16": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_16",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_17": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_17",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_18": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_18",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_19": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_19",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_20": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_20",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000000",
+        "SELECT=A",
+        "NAIVE=A",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_21": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_21",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000002",
+        "SELECT=A",
+        "NAIVE=B",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_22": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_22",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000002",
+        "SELECT=A",
+        "NAIVE=B",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_23": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_23",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000002",
+        "SELECT=A",
+        "NAIVE=B",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_24": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_24",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000002",
+        "SELECT=A",
+        "NAIVE=B",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_25": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_25",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000002",
+        "SELECT=A",
+        "NAIVE=B",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_26": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_26",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000002",
+        "SELECT=A",
+        "NAIVE=B",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_27": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_27",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000002",
+        "SELECT=A",
+        "NAIVE=B",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_28": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_28",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000002",
+        "SELECT=A",
+        "NAIVE=B",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    },
+    "F12_tear_29": {
+      "exact": false,
+      "expected": [
+        "S1_8K_OK",
+        "TEST=D64_FR01",
+        "CASE=F12_tear_29",
+        "A_VALID=1",
+        "A_SEQ=00000001",
+        "B_VALID=0",
+        "B_SEQ=00000002",
+        "SELECT=A",
+        "NAIVE=B",
+        "DUR_VAL=71",
+        "OLD_BIND=R",
+        "OLD_RES=R",
+        "FRESH_BIND=W",
+        "FRESH_BIND_VAL=71",
+        "FRESH_RES=W",
+        "FRESH_RES_VAL=71",
+        "DONE"
+      ],
+      "observed": [
+        "S1_8K_OK",
+        "IO_FAIL"
+      ]
+    }
+  }
+}

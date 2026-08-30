@@ -147,3 +147,19 @@ That distinction fits the broader HOSTILE-OS direction: state relationships carr
 The first reported independent-host I001 reproduction exposed a useful infrastructure echo of the OS research. A path named `ld.lld` carried dispatch meaning that was lost when tooling resolved it to a generic multi-call binary before execution. Likewise a transplanted QEMU executable was not enough without the module/runtime environment that made the binary usable.
 
 Those observations support two engineering rules for the laboratory: `TOOL_PATH != TOOL_IDENTITY` and `TRANSPLANTED_BINARY != TRANSPLANTED_ENVIRONMENT`. They are not new HOSTILE-OS mechanism proof, but they are a concrete reminder of the same broader discipline already earned inside the OS: location/name alone does not carry all of a thing's current meaning or usable state.
+
+## Durable meaning now has a tested fault-recovery shape
+
+FR01 adds a stronger form to the earlier “remember meaning; rebuild where it lives” result. HOSTILE-OS now has a tested shadow record in which two small durable candidates are judged independently for completeness/integrity before sequence order matters. A newer number does not grant authority to corrupt bytes.
+
+At the tested deterministic scope, recovery prefers the newest **valid complete** meaning, falls back to an older valid meaning, or refuses to invent a state when the records are ambiguous/invalid. Only after that decision does the machine rebuild fresh runtime relationships under fresh epochs.
+
+This makes the emerging pattern more concrete:
+
+`durable meaning -> validate/currentness -> select -> reconstruct fresh relations`
+
+rather than:
+
+`persist live runtime graph -> reload it and hope old authority still means what it used to mean`.
+
+The next pressure is whether actual interrupted guest writes produce media states this reader can safely classify.

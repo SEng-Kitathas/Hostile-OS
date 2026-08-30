@@ -325,3 +325,49 @@ Repairs are now implemented:
 Root LF `.gitattributes` was already present before this external report, so that donor recommendation was stale relative to current HEAD.
 
 This strengthens reproduction maturity and infrastructure discipline but does not change sealed I001 science or architecture authority. The post-IRQCOUNT01 science frontier remains faulted-restart durable-record integrity.
+
+## 2026-08-30 superseding FR01 faulted-recovery closure
+
+D64/FR01 deterministic faulted durable-record recovery is CLOSED PASS. Science close commit: `78efb0e29f94b374c129f0e0ed936e4b84e6ed84`.
+
+Controlling campaign:
+`research/persistence/D64_FR01/runs/20260830T212145Z_d64_fr01_01`
+
+Closure:
+- 41 preregistered fixtures / 41 fresh QEMU processes;
+- all QEMU `COMPLETED` exit33;
+- evaluator PASS 8/8;
+- static/source closure PASS 21/21;
+- independent audit PASS 16/16;
+- 16/16 run-local controlling inputs hash-clean, including Amendments A/B/C;
+- stage1 512 bytes + `55 aa`;
+- stage2 raw 1454 bytes inside 8192-byte envelope;
+- every read-only fixture disk hash unchanged through guest execution.
+
+Adopted tested shadow rule:
+- two independent durable sector candidates;
+- 24-byte durable payload + CRC-16/CCITT-FALSE + `CMIT`, 30 logical bytes total;
+- validate structure/CRC/commit **before** sequence ordering;
+- newest unambiguous valid record wins;
+- invalid newer record falls back to older valid record;
+- equal-sequence conflicting valid records fail closed `X`;
+- no-valid fails `N`;
+- selected prior epoch255 fails `G` before namespace wrap/reconstruction;
+- successful recovery reconstructs fresh D64 runtime relation under fresh epochs and rejects historical handles.
+
+Critical discriminators passed:
+- F03: corrupt seq3 B -> checked `SELECT=A`, naive `NAIVE=B`;
+- F06: balanced corruption kept simple additive sum 522 == 522 while CRC changed 13932 -> 6841; checked selector rejected B;
+- F08: both invalid -> `N`, no value exposure;
+- F10: equal-sequence conflicting valid records -> `X`, no value exposure;
+- F11: epoch255 -> `G`, no runtime reconstruction;
+- F12: every logical tear boundary0..29 rejected torn B and fell back to A/value71.
+
+Three non-science/transport scars remain preserved:
+- pre-QEMU launcher function-shadow failure;
+- all-41 IO_FAIL campaign from invalid floppy CHS mapping;
+- all-41 IO_FAIL campaign from trusting clobbered incoming DL rather than qualified stage1 saved boot drive at physical0x7c4b.
+
+Authority ceiling remains deterministic preconstructed media-state recovery only. No real power-cut, sector atomicity, cache ordering, or physical-device claim is earned.
+
+Next P0 candidate: controlled interruption of **actual guest durable writes**, using the FR01 reader/selector unchanged to classify resulting disk states. Build plan: `research/plans/D64_INTERRUPTED_DURABLE_WRITE_PLAN_2026-08-30.md`. It is not preregistered yet.

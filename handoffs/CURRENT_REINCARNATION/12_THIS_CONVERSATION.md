@@ -1235,3 +1235,9 @@ User supplied a detailed Opus report of a clean-clone outside-host I001 reproduc
 
 ### ASSISTANT — adjudication and repair
 Preserved the external report with a strict evidence ceiling because foreign raw artifacts were not supplied. Verified repository-side defects, noted root LF policy was already fixed, separated invocation path from resolved binary identity, added QEMU module-directory discovery and `-nic none`, created deterministic append-only smuggle PATCH_003 with inspectable source, reran local exact-byte/two-boot I001 successfully, and added a portability regression gate that passes7/7. Science authority remains unchanged; next P0 remains faulted-restart durable-record integrity.
+
+### USER — proceed as makes sense
+`proceed as makes sense`
+
+### ASSISTANT — D64/FR01 faulted durable-record research
+Advanced from clean restart to deterministic faulted media recovery. Selected CRC16/CCITT-FALSE + explicit commit after Pareto pressure, preregistered two-sector recovery before implementation, retained a pre-QEMU harness failure and two 41-run transport-only IO_FAIL campaigns (CHS geometry, then qualified boot-drive handoff), then closed a controlling 41-QEMU campaign. All fixtures passed evaluator/static/audit: corrupt/torn newer records fall back to older valid meaning; equal-sequence conflict/no-valid/epoch255 fail closed; successful recovery reconstructs fresh D64 runtime state and rejects historical handles. Science close `78efb0e`. Next candidate is controlled interruption of actual guest writes, pending transport-feasibility inspection.

@@ -1,0 +1,11 @@
+{
+  "format": "D64_FR01_LAUNCH_FAILURE_V1",
+  "status": "FAILED_BEFORE_FIXTURE_CREATION_OR_QEMU",
+  "stage": "post_build_fixture_generator_call",
+  "error": "UnboundLocalError: local boolean assignment shadowed build_fixtures() function name",
+  "build_completed": true,
+  "fixtures_created": false,
+  "qemu_started": false,
+  "science_consequence": "NONE; recovery mechanism was never executed",
+  "disposition": "retained as harness scar; launcher v2 removes the shadowing assignment before fresh rerun"
+}

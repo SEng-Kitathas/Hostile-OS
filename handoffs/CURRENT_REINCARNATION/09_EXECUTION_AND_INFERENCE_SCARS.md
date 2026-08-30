@@ -57,3 +57,15 @@ Two new execution scars remain visible:
 2. the first QEMU attempt assumed PIT command `0x30` would generate repeated interrupts, but mode 0 is one-shot. ONE passed, MULTI timed out. Amendment A added guest-side PIT rearm and preserved the timeout as `FAILED_FIXTURE / NO_SCIENCE_CONCLUSION`.
 
 A later semantic PASS was also deliberately marked non-controlling because Amendment A had not been included in its run-local input snapshot. Launcher v2 fixed that provenance defect; only the final rerun is controlling.
+
+## D64/FR01 deterministic recovery scars — 2026-08-30
+
+FR01 CLOSED PASS only after preserving three implementation/transport failures:
+
+1. Launcher v1 built successfully but failed before fixture creation/QEMU because a local boolean shadowed `build_fixtures()`.
+2. First 41-QEMU campaign: every trace `S1_8K_OK / IO_FAIL`, exit35. Cause: attempted CHS sectors19/20 on head0 despite 18-sector floppy track geometry. Amendment B corrected LBA18=C0/H1/S1 and LBA19=C0/H1/S2.
+3. Second 41-QEMU campaign: same `IO_FAIL` signature after CHS correction. Cause: stage2 trusted incoming DL even though qualified stage1 debug output clobbers DX. Amendment C bound transport to the qualified saved boot-drive byte at physical0x7c4b, independently confirmed by symbol readback.
+
+Neither IO_FAIL campaign reached record validation/selection/reconstruction, so neither was promoted into mechanism evidence. The final campaign is controlling.
+
+Rule reinforced: transport/fixture failure is not mechanism failure, and a qualified loader's handoff contract must be used exactly rather than guessed from register convention.

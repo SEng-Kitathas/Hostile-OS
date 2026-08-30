@@ -1,0 +1,27 @@
+{
+  "version": "D64-FR01-static-v1",
+  "passed": true,
+  "checks": {
+    "stage1_loads_16_stage2_sectors": true,
+    "stage2_reads_lba17_18_19_via_correct_chs": true,
+    "separate_record_buffers": true,
+    "validator_checks_magic_marker_version_reserved_commit_crc": true,
+    "crc16_poly_init_24": true,
+    "checked_selector_validity_before_sequence": true,
+    "equal_identical_selects_a": true,
+    "equal_conflict_ambiguous_x": true,
+    "neither_valid_n": true,
+    "epoch255_g_before_reconstruction": true,
+    "naive_selector_separate": true,
+    "full_d64_runtime_arrays_present": true,
+    "runtime_zeroed_before_reconstruction": true,
+    "historical_handles_checked_before_fresh": true,
+    "fresh_relation_explicit": true,
+    "durable_records_not_runtime_array_serialization": true,
+    "fixture_label_references_isolated": true,
+    "launcher_has_30_tear_cases": true,
+    "launcher_fixtures_before_qemu": true,
+    "launcher_snapshots_amendment": true
+  },
+  "check_count": 20
+}

@@ -1,0 +1,119 @@
+{
+  "format": "D64_FR01_INPUTS_V1",
+  "created_utc": "2026-08-30T21:21:45.483983+00:00",
+  "git_head": "53c19cfaa6bdc7055a721633ec621cf0a0c1af5d",
+  "inputs": [
+    {
+      "key": "qualified_stage1.S",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/stage1.S",
+      "snapshot_path": "inputs/stage1.S",
+      "sha256": "6cacc1e2fb397cb09321459b7d930718546288fce1a68a619adf76b795c00276",
+      "bytes": 751
+    },
+    {
+      "key": "qualified_stage1.ld",
+      "source_project_relative": "research/qualifications/D64_STAGE2_8K_LOADER_QUALIFICATION_2026-08-30/stage1.ld",
+      "snapshot_path": "inputs/stage1.ld",
+      "sha256": "e5da57aefb8ff22b1c858e7372bab49c29d8cd45d83650b53664e44c51a6a3fa",
+      "bytes": 184
+    },
+    {
+      "key": "stage2.S",
+      "source_project_relative": "research/persistence/D64_FR01/probe/stage2.S",
+      "snapshot_path": "inputs/stage2.S",
+      "sha256": "23a9eeb564d695bf7f306f39882bdfe78a59014ffc271f8f6e0d70ae0b42e463",
+      "bytes": 12159
+    },
+    {
+      "key": "stage2.ld",
+      "source_project_relative": "research/persistence/D64_FR01/probe/stage2.ld",
+      "snapshot_path": "inputs/stage2.ld",
+      "sha256": "e7b72863e161b53b5b32fdd3ab60def4189d03733cd50c692e03b1b11b4b9090",
+      "bytes": 215
+    },
+    {
+      "key": "launcher",
+      "source_project_relative": "research/persistence/D64_FR01/probe/launch_fr01.py",
+      "snapshot_path": "inputs/launch_fr01.py",
+      "sha256": "2b05fc5554adf872d1cf2bb742fc87cb6d4fe2ac0d505d573373bd52a16d70ab",
+      "bytes": 10845
+    },
+    {
+      "key": "evaluator",
+      "source_project_relative": "research/persistence/D64_FR01/probe/evaluate_fr01.py",
+      "snapshot_path": "inputs/evaluate_fr01.py",
+      "sha256": "0f6d157a10896b2305fb7dd2880b025021371f5b3b078ca24ba1df20de669f60",
+      "bytes": 4078
+    },
+    {
+      "key": "static",
+      "source_project_relative": "research/persistence/D64_FR01/probe/static_check_fr01.py",
+      "snapshot_path": "inputs/static_check_fr01.py",
+      "sha256": "e89736c0e0613efd918df3cca1d88ec838c25b5a5025ee7d120c7fc40e8435f1",
+      "bytes": 3596
+    },
+    {
+      "key": "audit",
+      "source_project_relative": "research/persistence/D64_FR01/probe/audit_fr01.py",
+      "snapshot_path": "inputs/audit_fr01.py",
+      "sha256": "484e4f50f3fa25d22d0c329f4a5ffbef27c18495b53780322dd2aad0e04155e2",
+      "bytes": 3143
+    },
+    {
+      "key": "prereg",
+      "source_project_relative": "research/persistence/D64_FR01/D64_FR01_PREREGISTRATION.md",
+      "snapshot_path": "inputs/D64_FR01_PREREGISTRATION.md",
+      "sha256": "93a796993621b0999c98284fe663c01dee1bfbafa26c50911554557a94e7c64b",
+      "bytes": 13520
+    },
+    {
+      "key": "amendment_a",
+      "source_project_relative": "research/persistence/D64_FR01/D64_FR01_PREREGISTRATION_AMENDMENT_A.md",
+      "snapshot_path": "inputs/D64_FR01_PREREGISTRATION_AMENDMENT_A.md",
+      "sha256": "01bdc280975bb6a4a6ba5e2a3fe9d449f0d74479739869b2864d36ef30dd3fb7",
+      "bytes": 2226
+    },
+    {
+      "key": "amendment_b",
+      "source_project_relative": "research/persistence/D64_FR01/D64_FR01_PREREGISTRATION_AMENDMENT_B.md",
+      "snapshot_path": "inputs/D64_FR01_PREREGISTRATION_AMENDMENT_B.md",
+      "sha256": "257a93eab132fd317657360d1970ebbbd2514719045fbb4130a28ece011cfc73",
+      "bytes": 2702
+    },
+    {
+      "key": "amendment_c",
+      "source_project_relative": "research/persistence/D64_FR01/D64_FR01_PREREGISTRATION_AMENDMENT_C.md",
+      "snapshot_path": "inputs/D64_FR01_PREREGISTRATION_AMENDMENT_C.md",
+      "sha256": "794bd15807f87f878665528607554e7df832560153cceffd8fecec2d502b877a",
+      "bytes": 2293
+    },
+    {
+      "key": "mechanism_selection",
+      "source_project_relative": "research/persistence/D64_FR01/D64_FR01_INTEGRITY_MECHANISM_SELECTION.md",
+      "snapshot_path": "inputs/D64_FR01_INTEGRITY_MECHANISM_SELECTION.md",
+      "sha256": "61956eed4a7d72b7527dd702f2edb05441131bd425801a1f815c0b68d7ee9937",
+      "bytes": 4190
+    },
+    {
+      "key": "parent_plan",
+      "source_project_relative": "research/plans/D64_FAULTED_RESTART_DURABLE_RECORD_PLAN_2026-08-30.md",
+      "snapshot_path": "inputs/D64_FAULTED_RESTART_DURABLE_RECORD_PLAN_2026-08-30.md",
+      "sha256": "76a27ca48c8f5c0597048f6f66f3f088d3c0cedfc2ebde87149cd35efe4d6c0e",
+      "bytes": 3736
+    },
+    {
+      "key": "pr01_prereg",
+      "source_project_relative": "research/persistence/D64_PR01/D64_PR01_PREREGISTRATION.md",
+      "snapshot_path": "inputs/D64_PR01_PREREGISTRATION.md",
+      "sha256": "e3bfdd89f53f66390ac9e82db61c59c317736aad94105e6d0d95fdfc477c98ff",
+      "bytes": 12910
+    },
+    {
+      "key": "pr01_result",
+      "source_project_relative": "research/persistence/D64_PR01/D64_PR01_RESULT_2026-08-30.md",
+      "snapshot_path": "inputs/D64_PR01_RESULT_2026-08-30.md",
+      "sha256": "3c5466778fddbc92db668be554006cfa98f5039f300b639c410a9a8796a14983",
+      "bytes": 2897
+    }
+  ]
+}

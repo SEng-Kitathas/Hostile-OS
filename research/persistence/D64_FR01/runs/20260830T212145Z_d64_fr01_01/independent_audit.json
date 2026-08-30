@@ -1,0 +1,29 @@
+{
+  "version": "D64-FR01-independent-audit-v1",
+  "passed": true,
+  "checks": {
+    "input_manifest_hashes": true,
+    "stage1_512": true,
+    "stage1_55aa": true,
+    "stage2_within_8192": true,
+    "fixture_count_41": true,
+    "all_qemu_terminal_exit33": true,
+    "fresh_disk_per_fixture": true,
+    "no_guest_disk_mutation": true,
+    "evaluation_passed": true,
+    "static_passed": true,
+    "f03_discriminator": true,
+    "f06_collision_control": true,
+    "f12_full_coverage": true,
+    "all_traces_have_select": true,
+    "failed_closed_no_value": true,
+    "successful_old_reject_fresh_accept": true
+  },
+  "check_count": 16,
+  "hashes": {
+    "evaluation": "72728c4f0a6a309c091416337503619818e90650b1ee5c5e168e0f24fd741b94",
+    "static": "726ec0d339619017c881c424b5f7f044042b016482cdd5ddc02f18802b8f8111",
+    "campaign_receipt": "f631e6a455a1e2e35102de54aab4cf387368c1c5f9bda288da8bec658e7dc3a6",
+    "stage2": "7d162a43006d23b88c900b793f0bd965d4943fbc20721b79eae64e876e0dd53b"
+  }
+}

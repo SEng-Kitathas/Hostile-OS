@@ -1,0 +1,19 @@
+{
+  "format": "D64_FR01_ATTEMPT_ADJUDICATION_V2",
+  "status": "FAILED_FIXTURE_TRANSPORT / NO_RECOVERY_MECHANISM_EXECUTION",
+  "fixture_count": 41,
+  "qemu_population": {
+    "completed_exit35": 41
+  },
+  "trace_signature": [
+    "S1_8K_OK",
+    "IO_FAIL"
+  ],
+  "root_cause": "stage2 incorrectly trusted incoming DL after qualified stage1 debug print clobbered DX; qualified stage1 saves boot drive at physical0x7c4b",
+  "qualified_symbol_confirmation": "00007c4b t boot_drive",
+  "evaluation_passed": false,
+  "static_closure_passed": true,
+  "audit_passed": false,
+  "science_consequence": "NONE; record validation/selection/reconstruction never executed",
+  "repair": "Amendment C + read boot drive from qualified stage1 memory0x7c4b before INT13 reads"
+}

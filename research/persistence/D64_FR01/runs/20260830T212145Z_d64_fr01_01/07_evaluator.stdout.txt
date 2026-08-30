@@ -1,0 +1,14 @@
+{
+  "passed": true,
+  "checks": {
+    "all_fixture_traces_exact": true,
+    "failed_closed_cases_expose_no_value": true,
+    "successful_cases_reject_old_accept_fresh": true,
+    "f03_naive_discriminator": true,
+    "f06_additive_sum_collision": true,
+    "f12_full_tear_coverage": true,
+    "all_qemu_exit33": true,
+    "all_disk_hashes_stable": true
+  },
+  "case_count": 41
+}

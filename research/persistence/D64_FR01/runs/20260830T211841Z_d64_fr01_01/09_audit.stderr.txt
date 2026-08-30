@@ -1,0 +1,8 @@
+Traceback (most recent call last):
+  File "E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\persistence\D64_FR01\runs\20260830T211841Z_d64_fr01_01\inputs\audit_fr01.py", line 38, in <module>
+    if __name__=='__main__': raise SystemExit(main())
+                                              ~~~~^^
+  File "E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\persistence\D64_FR01\runs\20260830T211841Z_d64_fr01_01\inputs\audit_fr01.py", line 16, in main
+    lines=(r/x['relative_dir']/'debugcon.txt').read_text(encoding='ascii',errors='replace').splitlines(); sel=next(v.split('=',1)[1] for v in lines if v.startswith('SELECT='))
+                                                                                                              ~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+StopIteration

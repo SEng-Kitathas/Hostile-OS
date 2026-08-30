@@ -1,0 +1,14 @@
+{
+  "run_id": "20260830T212018Z_d64_fr01_01",
+  "git_head": "f814e67599ff5b722568d8d1592e26c631569251",
+  "fixture_count": 41,
+  "evaluator_exit": 1,
+  "static_exit": 0,
+  "audit_exit": 1,
+  "all_pass": false,
+  "stage2_bytes": 1452,
+  "campaign_receipt_sha256": "ea98580f33bc85b1f1582c40d3de17b808adbe8652e2b2f790ec1734376cd6c2",
+  "evaluation_sha256": "d2046425cf6732324a571fe03aa8bd41d8a89cfe57bcf19e21777005425aa51b",
+  "static_sha256": "da081f2a29385ade8978551c01827e9910a12077dd5d1a3f6352ac128e46816e",
+  "audit_sha256": "6d8f332dfa55275f1282d585cfe7487c6cf880e1a13c5f9ed8093dd5e74e97c9"
+}

@@ -1,0 +1,40 @@
+{
+  "case_id": "F12_tear_09",
+  "relative_dir": "fixtures/F12_tear_09",
+  "disk_path": "fixtures/F12_tear_09/fr01.img",
+  "disk_sha256_before": "82c232f389d9511f95121a3902364c67831c519f093c130294fb0b0ee553feed",
+  "disk_sha256_after": "82c232f389d9511f95121a3902364c67831c519f093c130294fb0b0ee553feed",
+  "qemu": {
+    "pid": 2868,
+    "started_utc": "2026-08-30T21:21:51.449227+00:00",
+    "ended_utc": "2026-08-30T21:21:51.632198+00:00",
+    "status": "COMPLETED",
+    "exit_code": 33,
+    "wall_ms": 182.96990000089863,
+    "argv": [
+      "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "-accel",
+      "tcg",
+      "-display",
+      "none",
+      "-monitor",
+      "none",
+      "-serial",
+      "none",
+      "-nic",
+      "none",
+      "-no-reboot",
+      "-boot",
+      "a",
+      "-drive",
+      "file=E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/persistence/D64_FR01/runs/20260830T212145Z_d64_fr01_01/fixtures/F12_tear_09/fr01.img,format=raw,if=floppy,readonly=on",
+      "-device",
+      "isa-debug-exit,iobase=0xf4,iosize=0x04",
+      "-debugcon",
+      "file:E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/persistence/D64_FR01/runs/20260830T212145Z_d64_fr01_01/fixtures/F12_tear_09/debugcon.txt",
+      "-global",
+      "isa-debugcon.iobase=0xe9"
+    ]
+  },
+  "trace_sha256": "89f1e9f51542584789a2eeff9bcbf491daf6670f78cf5ee989ac5efa7bf1f98e"
+}

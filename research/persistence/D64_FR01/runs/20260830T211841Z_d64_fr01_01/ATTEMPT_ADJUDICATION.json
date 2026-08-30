@@ -1,0 +1,19 @@
+{
+  "format": "D64_FR01_ATTEMPT_ADJUDICATION_V1",
+  "status": "FAILED_FIXTURE_TRANSPORT / NO_RECOVERY_MECHANISM_EXECUTION",
+  "fixture_count": 41,
+  "qemu_population": {
+    "completed_exit35": 41
+  },
+  "trace_signature": [
+    "S1_8K_OK",
+    "IO_FAIL"
+  ],
+  "root_cause": "guest attempted invalid CHS sectors19/20 on head0; 1.44MiB floppy has18 sectors/track. Correct LBA18=C0/H1/S1 and LBA19=C0/H1/S2",
+  "static_closure_passed": true,
+  "evaluation_passed": false,
+  "audit_status": "HARNESS_EXCEPTION_StopIteration_due_missing_SELECT",
+  "launcher_summary_status": "HARNESS_EXCEPTION_FileNotFound_due_missing_audit_json",
+  "science_consequence": "NONE; durable records were not successfully read, so validator/selector/reconstruction never executed",
+  "repair": "Amendment B + corrected CHS + robust audit/summary before rerun"
+}

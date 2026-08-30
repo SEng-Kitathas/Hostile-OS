@@ -1,0 +1,8 @@
+{
+  "original_sum": 522,
+  "corrupted_sum": 522,
+  "stored_crc": 13932,
+  "corrupted_crc": 6841,
+  "base_b_sha256": "34daecb79d1fdff1b95748032898e999ed8d54e854ec8eb06451ad0343668e28",
+  "corrupt_b_sha256": "5bf4f25264f744951a88e17e4107e3005ebcf19eb1fae5a3fef307cc78326402"
+}
