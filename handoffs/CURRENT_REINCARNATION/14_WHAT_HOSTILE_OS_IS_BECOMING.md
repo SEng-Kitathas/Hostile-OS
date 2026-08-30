@@ -163,3 +163,15 @@ rather than:
 `persist live runtime graph -> reload it and hope old authority still means what it used to mean`.
 
 The next pressure is whether actual interrupted guest writes produce media states this reader can safely classify.
+
+## Original-thesis audit — the successful vocabulary is now under hostile watch
+
+A frozen original Commander’s-Intent audit found the current project still strongly aligned with the initial thesis, but it also exposed a predictable new danger: `activity`, `binding`, and `resource` are becoming convenient enough that repetition itself could make them feel fundamental.
+
+They are therefore explicitly demoted from any implicit constitutional reading. The current shorthand
+
+`activity -> checked binding -> resource`
+
+remains the best working compression of the tested relation family, but every one of those words can still be split, merged, or replaced when future-relevant behavior proves a cheaper grammar.
+
+The audit also makes the embodiment boundary explicit: the runnable I001 research body is a reference body, not the full current shadow architecture, because D64/FR01 science has advanced beyond it.

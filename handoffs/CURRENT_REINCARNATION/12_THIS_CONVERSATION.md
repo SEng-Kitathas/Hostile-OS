@@ -1241,3 +1241,9 @@ Preserved the external report with a strict evidence ceiling because foreign raw
 
 ### ASSISTANT — D64/FR01 faulted durable-record research
 Advanced from clean restart to deterministic faulted media recovery. Selected CRC16/CCITT-FALSE + explicit commit after Pareto pressure, preregistered two-sector recovery before implementation, retained a pre-QEMU harness failure and two 41-run transport-only IO_FAIL campaigns (CHS geometry, then qualified boot-drive handoff), then closed a controlling 41-QEMU campaign. All fixtures passed evaluator/static/audit: corrupt/torn newer records fall back to older valid meaning; equal-sequence conflict/no-valid/epoch255 fail closed; successful recovery reconstructs fresh D64 runtime state and rejects historical handles. Science close `78efb0e`. Next candidate is controlled interruption of actual guest writes, pending transport-feasibility inspection.
+
+### USER — supplied frozen thesis/audited thread and said proceed as makes the most sense
+Two frozen historical/intent artifacts were supplied: the HOSTILE-OS thesis/Commander’s-Intent monograph and audited original thread capture. User authorized continuation.
+
+### ASSISTANT — original-thesis continuity audit
+Audited the current C002/C003/I001/D64/PR01/FR01/WT01 lineage against the frozen original mission. Result: strong continuity; no architecture demotion. Recorded three guard seams—new working nouns can become cathedral nouns, research-only I001 embodiment can become an accidental authority anchor, and post-C003 targeted experiments represent a real process-cadence change from literal 20-pass campaigns. Adopted noun/embodiment guards now, deferred method-cadence doctrine decision until after WT01, and explicitly kept the current WT01 probe implementation provisional/unsealed.

@@ -73,3 +73,13 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | Epoch255 blocks recovery before reconstruction | Restart currentness must not silently wrap | Existing one-byte epoch shadow width | Wider/rekeyed durable epoch mechanism is earned |
 | Durable storage persists meaning/currentness, not runtime topology | FR01 successful cases rebuild fresh D64 relation and stale handles reject | Tested scalar durable record/D64 relation | Durable graph requirements demonstrate additional necessary state |
 | Next P0 pressures actual writer interruption, not reader redesign | Reader/selector now survives deterministic corrupt/torn states | BUILD-PLAN only | Feasibility inspection shows QEMU/BIOS cannot expose meaningful interruption window |
+
+## 2026-08-30 original-thesis audit guards
+
+| Decision | Why it exists | Authority ceiling | Reopen / demote when |
+|---|---|---|---|
+| `activity`, `binding`, `resource` are working nouns, not primitives | Prevent the successful relation vocabulary from becoming the next inherited ontology | Continuity/architecture guard | A later promotion explicitly earns one as constitutional primitive |
+| Research-only I001 embodiment may lag current science but may not outrank it | Runnable convenience can otherwise become accidental architecture authority | Reviewer/contributor embodiment policy | Deliberate integration gate refreshes the body |
+| Do not alter WT01 method mid-preregistration because of the thesis audit | Preserve experiment question/order and avoid audit-induced HARKing | WT01 only | WT01 closes or is explicitly aborted |
+| 20-pass versus targeted-descendant cadence requires explicit post-WT01 adjudication | Original doctrine and current practice genuinely differ | Process doctrine revisit, not science | Formal method decision is made and recorded |
+| Pareto claims remain bounded to measured dimensions | Current work measures bytes/state/capacity/critical windows better than energy/latency/maintenance/proof burden | Interpretive guard | New measurements expand the justified vector |

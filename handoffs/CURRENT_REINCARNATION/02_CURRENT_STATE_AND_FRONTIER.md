@@ -371,3 +371,25 @@ Three non-science/transport scars remain preserved:
 Authority ceiling remains deterministic preconstructed media-state recovery only. No real power-cut, sector atomicity, cache ordering, or physical-device claim is earned.
 
 Next P0 candidate: controlled interruption of **actual guest durable writes**, using the FR01 reader/selector unchanged to classify resulting disk states. Build plan: `research/plans/D64_INTERRUPTED_DURABLE_WRITE_PLAN_2026-08-30.md`. It is not preregistered yet.
+
+## 2026-08-30 original-thesis continuity audit
+
+A frozen original-thesis/Commander’s-Intent monograph supplied by the operator was audited against the current C002/C003/I001/D64/PR01/FR01/WT01 lineage.
+
+Audit artifact:
+`research/audits/ORIGINAL_THESIS_TO_CURRENT_STATE_AUDIT_2026-08-30.md`
+
+Verdict:
+- `ORIGINAL_THESIS_CONTINUITY = STRONG`;
+- `PROJECT_DRIFTED_INTO_DIFFERENT_MISSION = false`;
+- `ARCHITECTURE_DEMOTION_REQUIRED = false`;
+- `PROCESS_DOCTRINE_DRIFT_EXISTS = true` because post-C003 localized experiments no longer literally use a new 20-pass campaign for each seam;
+- `NEW_ONTOLOGY_LOCK_IN_RISK = true` for repeated `activity/binding/resource` terminology;
+- `EMBODIMENT_LAG_RISK = true` because the runnable I001 research body lags later D64/FR01 shadow science.
+
+The strongest continuity evidence is that later pressure repeatedly **re-earned extra state** when simpler compositions failed: completion state, service history, bounds, generation/epoch, explicit initialization, shared lifetime, IRQ coherence, CRC/commit integrity, and validation-before-sequence. This is evidence against a one-way minimalist ideology.
+
+New continuity guard:
+`continuity/13_ORIGINAL_THESIS_GUARDS_AND_METHOD_REVISIT_2026-08-30.md`.
+
+WT01 preregistration remains unchanged. Its currently untracked probe implementation is provisional/unsealed and has not been smoke-qualified or executed.
