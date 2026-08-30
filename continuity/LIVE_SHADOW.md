@@ -2,7 +2,7 @@
 
 ## Thread Identity
 - Thread: HOSTILE-OS PCMMAD reincarnation
-- Last Updated: 2026-08-30T06:24Z
+- Last Updated: 2026-08-30T06:26Z
 - Mode: BUILD-COMMIT — IRQ01 adoption/frontier reconciliation, then BUILD-PLAN persistence
 - Dominant Objective: adopt the earned one-core IRQ coherence rule, publish the closed pass to GitHub, then derive the smallest expanded-relation clean-restart persistence discriminator
 
@@ -27,6 +27,7 @@
 - IRQ01 adoption review: coherence requirement is incumbent for current single-core maskable-IRQ D64 scope; literal six-instruction count is witness cost, not universal architecture law.
 - GitHub publication bootstrap CLOSED. First verified publication: canonical local `1ac99c83e5eaf99435a0d65601f2df931d4d36db` -> GitHub `main` `d10c6e398ed815b3042ff0f4beee960c2f16f458`; research included=true; oversized 115,808,623-byte IA-16 toolchain payload carried through Git LFS.
 - Publication workspaces are isolated under ignored `.pcmmad_sync_runs/github_publish_mirrors/<head>_<pid>` to avoid concurrent mirror races.
+- Publication snapshot source is now an immutable captured Git commit exported with `git archive <canonical_local_head>`; concurrent local HEAD advancement does not invalidate that captured publication and instead creates a later publication obligation.
 - `os/` is the future install/build tree. `INSTALL_FROM_GIT.md` defines partial clone + sparse checkout so `research/` is not an install dependency.
 - Exact final C002 Python source remains unrecovered; source-dependent historical subsidy details remain UNKNOWN.
 
@@ -60,7 +61,7 @@
 - P1 process scar: sealed R3.1 Windows path-separator verifier portability issue.
 
 ## Immediate Next Step
-- Seal IRQ01 adoption + continuity/frontier reconciliation. Publish that canonical HEAD to GitHub and verify remote readback. Then enter BUILD-PLAN for the smallest D64 clean-restart persistence discriminator: durable identity/value survives across two fresh QEMU processes; volatile activity/binding/resource handles from boot 1 must be invalid under fresh boot-2 namespaces; explicit rebind reconstructs current runtime relation without persisting volatile binding/currentness arrays.
+- Commit the exact-commit GitHub publication hardening and publish the resulting canonical HEAD with remote SHA readback. Then enter BUILD-PLAN for the smallest expanded D64 clean-restart persistence discriminator: durable identity/value survives across two fresh QEMU processes; boot-1 volatile activity/binding/resource handles must be invalid under fresh boot-2 namespaces; explicit rebind reconstructs the current relation without persisting volatile currentness arrays.
 
 ## Last 10 Turn Reinforcement Window
 1. User established GitHub as project-wide timestamp repository and ordered publication after each substantive pass; research included, installation independent.
@@ -75,7 +76,6 @@
 10. Current action adopts the bounded IRQ-coherence rule and moves the next frontier to expanded clean-restart persistence.
 
 ## Delta Since Previous Shadow
-- GitHub bootstrap is now verified closed rather than pending.
-- IRQ01 moved from planned/in-progress to science-closed and adoption-ready.
-- Single-core maskable-IRQ coherence rule is now the incumbent candidate under adoption review.
-- Next frontier moved to expanded D64 clean-restart persistence.
+- Hardened GitHub publication from moving-worktree copy to exact captured-commit export via `git archive`.
+- First verified GitHub publication remains canonical `1ac99c8...` -> remote `d10c6e...`; current adopted IRQ01 frontier still requires its own end-of-pass publication.
+- Next science frontier remains expanded D64 clean-restart persistence after publication closes.

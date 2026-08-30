@@ -1116,3 +1116,13 @@ Audited D64/IRQ01 controlling run `20260830T060500Z_d64_irq01_coherence_01`: QEM
 Science was closed at `c5c3fff717f49f35f6a5eaf6e1f41b75d8841e83`. Separate adoption review adopts the coherence requirement at current one-core maskable-IRQ D64 scope: coupled binding-reference visibility and resource lifetime state must be one IRQ-coherent mutation region. Six instructions is measured witness cost, not universal law. No SMP/NMI/DMA/weak-memory, persistence, or higher architecture promotion follows.
 
 The immediate architecture frontier moves to expanded D64 clean-restart persistence. I001 proved restart/rebind for a smaller record; the adopted 64x20 binding/resource/currentness state has not yet been reconstructed across two fresh runtime namespaces.
+
+---
+
+## Turn 079 — ASSISTANT / EXACT-COMMIT PUBLICATION HARDENING
+Timestamp: 2026-08-30T06:26Z
+Tags: GITHUB, CONCURRENCY, PROVENANCE, PUBLICATION-HARDENING
+
+Post-IRQ01 publication reconciliation found the publication wrapper could see canonical HEAD advance while it copied the live worktree. The first GitHub snapshot remained independently verified and its metadata correctly bound canonical `1ac99c83...` to remote publication `d10c6e39...`, but the moving-worktree snapshot model was too brittle for this multi-writer project.
+
+Hardened `tools/publish_github_snapshot.py` so publication content comes from an immutable captured canonical commit through `git archive <canonical_local_head>` into an isolated per-run mirror. A later concurrent HEAD no longer invalidates the captured pass; metadata records the later observed HEAD and `canonical_advanced_during_publication`, while the newer canonical commit becomes a separate publication obligation. Standing publication policy and bootstrap scar were updated accordingly. Immediate next action: commit this hardening, publish the current canonical HEAD with remote SHA readback, then move into expanded D64 clean-restart persistence BUILD-PLAN.

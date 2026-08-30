@@ -7,6 +7,7 @@ import os
 import shutil
 import subprocess
 import sys
+import tarfile
 from pathlib import Path
 
 REMOTE_URL = "https://github.com/SEng-Kitathas/Hostile-OS.git"
@@ -50,28 +51,27 @@ def clear_worktree(root: Path) -> None:
             child.unlink()
 
 
-def tracked_paths(source: Path) -> list[str]:
-    cp = run(["git", "ls-files", "-z"], source)
-    return [p for p in cp.stdout.split("\0") if p]
+def export_commit_snapshot(source: Path, mirror: Path, canonical_head: str) -> list[dict[str, object]]:
+    """Export one immutable Git commit, never the moving canonical worktree."""
+    scratch = source / ".pcmmad_sync_runs" / "github_publication_archives"
+    scratch.mkdir(parents=True, exist_ok=True)
+    archive = scratch / f"{canonical_head}_{os.getpid()}.tar"
+    try:
+        run(["git", "archive", "--format=tar", "-o", str(archive), canonical_head], source)
+        with tarfile.open(archive, "r:") as tf:
+            tf.extractall(mirror, filter="fully_trusted")
+    finally:
+        archive.unlink(missing_ok=True)
 
-
-def copy_tracked(source: Path, mirror: Path, paths: list[str]) -> list[dict[str, object]]:
     copied: list[dict[str, object]] = []
-    for rel in paths:
-        src = source / rel
-        if not src.exists():
-            raise RuntimeError(f"tracked path missing from worktree: {rel}")
-        dst = mirror / rel
-        dst.parent.mkdir(parents=True, exist_ok=True)
-        if src.is_symlink():
-            target = os.readlink(src)
-            try:
-                dst.symlink_to(target, target_is_directory=src.is_dir())
-            except OSError:
-                dst.write_text(target, encoding="utf-8")
-        else:
-            shutil.copy2(src, dst)
-        copied.append({"path": rel, "bytes": src.stat().st_size, "sha256": sha256(src)})
+    for path in sorted(mirror.rglob("*")):
+        if not path.is_file():
+            continue
+        relative = path.relative_to(mirror)
+        if ".git" in relative.parts or ".pcmmad_sync_runs" in relative.parts:
+            continue
+        rel = relative.as_posix()
+        copied.append({"path": rel, "bytes": path.stat().st_size, "sha256": sha256(path)})
     return copied
 
 
@@ -151,17 +151,11 @@ def main() -> int:
     ensure_mirror(source, mirror)
     clear_worktree(mirror)
 
-    paths = tracked_paths(source)
-    copied = copy_tracked(source, mirror, paths)
+    copied = export_commit_snapshot(source, mirror, canonical_head)
     lfs_paths = configure_lfs(mirror, copied)
 
-    head_after_copy = run(["git", "rev-parse", "HEAD"], source).stdout.strip()
-    if head_after_copy != canonical_head:
-        raise RuntimeError(
-            f"canonical HEAD changed during publication snapshot: before {canonical_head}, after {head_after_copy}"
-        )
-    if run(["git", "diff", "--quiet"], source, check=False).returncode != 0:
-        raise RuntimeError("canonical tracked worktree changed during publication snapshot")
+    head_after_snapshot = run(["git", "rev-parse", "HEAD"], source).stdout.strip()
+    canonical_advanced_during_publication = head_after_snapshot != canonical_head
 
     publication_time = utc_now()
     metadata = {
@@ -176,6 +170,9 @@ def main() -> int:
         "research_included": any(str(x["path"]).startswith("research/") for x in copied),
         "install_surface": "os/",
         "research_required_for_install": False,
+        "canonical_head_after_snapshot": head_after_snapshot,
+        "canonical_advanced_during_publication": canonical_advanced_during_publication,
+        "snapshot_source": "git archive <captured canonical commit>",
     }
     (mirror / ".github-publication-source.json").write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
 
@@ -210,6 +207,8 @@ def main() -> int:
         "tracked_bytes_before_lfs": sum(int(x["bytes"]) for x in copied),
         "lfs_paths": lfs_paths,
         "research_included": metadata["research_included"],
+        "canonical_head_after_snapshot": head_after_snapshot,
+        "canonical_advanced_during_publication": canonical_advanced_during_publication,
         "mirror_workspace": str(mirror),
     }
     print(json.dumps(result, indent=2))

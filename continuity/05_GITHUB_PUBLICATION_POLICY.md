@@ -79,3 +79,19 @@ If remote `main` exists, the isolated workspace clones it first so the GitHub pu
 Separate PCMMAD threads/processes SHALL NOT reuse one mutable publication worktree. This prevents mirror cleanup/copy/index races from one publication corrupting another publication attempt.
 
 The isolated workspace itself is never project content and SHALL NOT be staged into canonical Git or the GitHub publication snapshot.
+
+## Exact-commit snapshot rule
+
+The publication unit is an immutable canonical Git commit, not the moving canonical worktree.
+
+At publication start:
+
+1. capture canonical `HEAD` as `canonical_local_head`;
+2. require the tracked index/worktree to be clean for that pass;
+3. export exactly that captured commit from the Git object database with `git archive <canonical_local_head>` into an isolated publication workspace;
+4. build the publication snapshot/LFS commit from that exported tree;
+5. record both the captured canonical commit and the canonical HEAD observed after export;
+6. if canonical `main` advances concurrently, do **not** invalidate the already-captured publication. Mark `canonical_advanced_during_publication=true`; the later canonical commit becomes a separate publication obligation;
+7. publication success still requires publication-mirror HEAD == GitHub remote `main` readback.
+
+This rule prevents concurrent writers from changing the files underneath a publication snapshot while preserving exact canonical lineage.

@@ -171,3 +171,51 @@ Independent public remote readback then returned:
 This closes the GitHub publication bootstrap. Future substantive-pass publication remains governed by `continuity/05_GITHUB_PUBLICATION_POLICY.md` and must still require exact remote-head readback before success is claimed.
 
 Scientific / architecture consequence: NONE. This closes publication infrastructure only.
+
+## First verified GitHub publication and exact-commit hardening
+
+Despite the later wrapper failure caused by canonical HEAD movement, the first public GitHub publication itself is verified and traceable:
+
+- GitHub `main`: `d10c6e398ed815b3042ff0f4beee960c2f16f458`;
+- publication metadata binds canonical local commit `1ac99c83e5eaf99435a0d65601f2df931d4d36db`;
+- tracked files: `1532`;
+- tracked bytes before LFS: `185412381`;
+- `research_included=true`;
+- `install_surface=os/`;
+- `research_required_for_install=false`;
+- oversized LFS path: `payload_history/lab_tooling/HOSTILE_OS_BACKDOOR_004_IA16_TOOLCHAIN.zip`.
+
+Independent readback established publication mirror HEAD == GitHub remote `main` for that snapshot.
+
+The same publication process later detected that canonical HEAD had advanced while it was working. Under the old worktree-copy rule that caused the wrapper to report failure even though the earlier captured publication was valid. This revealed a deeper multi-writer design defect: publication content must not be read from a moving checkout.
+
+Final hardening changes the snapshot source to the Git object database:
+
+`git archive <captured canonical commit>`
+
+A publication now remains valid for its captured canonical commit even if local `main` advances concurrently. The later commit is a separate publication obligation. Metadata records both the captured canonical commit and whether canonical HEAD advanced during publication.
+
+This closes the publication-bootstrap design seam at the control level. End-of-pass remote publication still requires an actual push/readback for each substantive canonical pass.
+
+## Exact-commit export LFS regression — relative-path filter defect
+
+The first publication attempt after switching snapshot source to `git archive <captured canonical commit>` was rejected by GitHub because the historical IA-16 toolchain ZIP entered the publication commit as an ordinary 115,808,623-byte Git blob rather than an LFS pointer.
+
+Failed publication commit in isolated mirror:
+
+`5cd801b90457b4b93f485cf7f466a5efa1ec5db7`
+
+GitHub correctly rejected it with GH001 / file size >100 MB. Remote `main` did not regress and remained at the previously verified publication.
+
+Readback showed:
+
+- `.gitattributes` absent from the failed publication commit;
+- `git lfs ls-files` empty;
+- ZIP blob size exactly `115808623`;
+- publication metadata incorrectly reported `published_tracked_file_count=0`, `published_tracked_bytes_before_lfs=0`, `lfs_paths=[]`, `research_included=false`.
+
+Root cause was exact: exported-file enumeration tested **absolute** `Path.parts` and skipped any path containing `.pcmmad_sync_runs`. Because the entire isolated mirror lives under canonical `.pcmmad_sync_runs/github_publish_mirrors/...`, every exported project file was excluded from the `copied` accounting list. The files still existed in the mirror, so `git add -A` staged the large ZIP without an LFS rule.
+
+Repair: exclusion tests now use `path.relative_to(mirror).parts`, so only `.git/` or `.pcmmad_sync_runs/` directories *inside the publication snapshot* are skipped. Exported project files are counted/hashed normally and large-file detection can generate the LFS rule.
+
+Scientific / architecture consequence: NONE.
