@@ -1,0 +1,23 @@
+{
+  "version": "I001-IRQCOUNT01-independent-audit-v1",
+  "passed": false,
+  "checks": {
+    "evaluation_passed": false,
+    "static_passed": true,
+    "input_snapshots_match_manifest": true,
+    "stage1_512": true,
+    "stage1_55aa": true,
+    "stage2_within_4096": true,
+    "image_1440k": true,
+    "trace_has_one_and_multi": false,
+    "trace_has_negative_control": false,
+    "same_progress_one_multi": false,
+    "exact_control_rejects_multi": false
+  },
+  "hashes": {
+    "trace": "138cc6f19395f61cfd335c5658c4dcdb7b4dbd107900882d45a0f70e438206d6",
+    "stage1": "bd13612a1a1db38dd2c847fce1f19ca5305a8febc06f99090d6d1ae882334eb8",
+    "stage2": "161972239d2ad332fa58cb55a6c2f1a4141d149bd6b17f472a36603450bce1cc",
+    "image": "30f60d801488ee884c6db8200f2756b5d9c99de026f6868902f709c6dfe82f17"
+  }
+}

@@ -282,3 +282,24 @@ Root `.gitattributes` now establishes LF canonical text and binary `-text` rules
 GitHub durability is now explicitly whole-project: every unique project datum must be admitted into the canonical folder tree or losslessly archived/manifested before a meaningful turn closes. `os/` remains independently sparse-checkout/buildable and may not depend implicitly on R&D trees.
 
 - The captured embodied reproduction also matched the historical I001 executable SHA-256 values for Clang, LLD, llvm-objcopy, QEMU, and Python exactly.- A clean fresh-output reproduction packet 02 is now the preferred reviewer record: ambient missing-tool discovery failed closed as designed; `HOSTILE_LLVM_BIN` then rebuilt exact historical machine bytes; QEMU PIDs 3596/13712 both exited33; verifier PASS. Packet 01 remains retained as the first reproduction capture.
+
+## 2026-08-30 superseding IRQCOUNT01 closure
+
+I001/IRQCOUNT01 is CLOSED PASS at tested one-core real-IRQ0 scope. Science close commit: `0614b06`.
+
+Controlling run: `research/integration/I001_IRQCOUNT01/runs/20260830T203401Z_i001_irqcount01_01`.
+
+The run used real PIT/PIC IRQ0 and produced:
+- ONE: event 1, valid relation, semantic accept, wake 1, explicit progress 2, exact-one control accept;
+- MULTI: event 2, same valid relation, same semantic accept/wake/progress, exact-one control reject;
+- BADREL: event 2 with stale generation relation, semantic reject, wake/progress remain 0.
+
+Evaluator 5/5, static closure 15/15, independent audit 11/11, QEMU COMPLETED exit33, all nine controlling inputs snapshotted including preregistration + Amendment A, originals unchanged.
+
+A full reconciliation of the 660 historical I001 overnight reds found exactly one signature: Boot1 differs only at zero-based line 13 (`IRQ_EVENT=1` -> `IRQ_EVENT=2`); Boot2 is exact in all 660. They remain historical evaluator FAIL records, but are now interpreted as exact-evaluator overbinding for this tested consequence rather than mechanism regressions.
+
+The living research-only verifier now accepts only the tested event-count set `{1,2}` and rejects `>2`; the historical exact-one evaluator remains sealed unchanged.
+
+The previous I001 IRQ-count seam is therefore closed at tested count-1/count-2 scope. Counts >2, loss/coalescing, event-counter wrap, stronger concurrency, and physical hardware remain open.
+
+The next P0 research candidate is faulted-restart durable-record integrity: distinguish newest complete durable meaning from torn/corrupt updates before attempting physical power-cut claims. See `research/plans/D64_FAULTED_RESTART_DURABLE_RECORD_PLAN_2026-08-30.md`.

@@ -4,75 +4,57 @@
 - Thread: HOSTILE-OS / PCMMAD
 - Last Updated: 2026-08-30
 - Mode: BUILD-COMMIT
-- Dominant Objective: make GitHub the complete durable project ledger and maintain a reproducible research-only embodied OS while preserving science/release promotion discipline
+- Dominant Objective: continue the research frontier from the durable embodied OS without regressing sealed science
 
 ## Active User Intent
-- Everything unique to the project is durably published to GitHub in a clear folder tree.
-- `os/` must contain a real research-purpose-only OS so reviewers/contributors can build, boot, inspect, and keep up with the work.
-- Donor review findings are to be verified, not merely accepted by source prestige.
-- OS-only checkout must remain independent from the multi-gigabyte R&D ledger.
+- Proceed with HOSTILE-OS research.
+- Preserve all unique project data and per-turn GitHub durability.
+- Keep a real research-only embodied OS current without confusing it with a release.
 
 ## Current Authoritative State
 - Architecture posture: `INTEGRATED_SHADOW_CANDIDATE`; no final/canonical/production release.
-- R3.1 remains `ADOPTED_IN_HOUSE_SOP`; R6 parent lineage/fallback; foundation promotion false.
-- D64/PR01 CLOSED PASS at clean-restart scope; 240/240 overnight replay PASS.
-- Broad chain campaign: 3304 cycles, 22463 passes, 660 I001 exact-evaluator reds (`IRQ_EVENT=2` vs historical exact `1`); dedicated semantic seam remains open.
-- Full reincarnation commit `58310d2...` published as GitHub `9b2d876...`; architecture-synthesis commit `b9eb550...` published as `22936401...`.
-- New `os/research_only/i001_reference/` embodiment exists and rebuilds exact controlling I001 machine bytes.
-- Reproduction run: two distinct QEMU PIDs 27432/27240, both COMPLETED exit33; verifier PASS.
-- Root `.gitattributes` now establishes LF canonical text and binary `-text` classes.
-- RB02 historical 12-source hash audit: PASS; all Git blobs classify `CRLF_NORMALIZED` against sealed Windows receipt hashes.
-- Opus raw donor review and adjudication are canonical project data candidates for this turn.
+- D64/PR01 clean-restart persistence CLOSED PASS; 240/240 overnight replay PASS.
+- I001/IRQCOUNT01 CLOSED PASS at tested event counts 1 and 2; science close `0614b06`.
+- Controlling IRQCOUNT01 run `20260830T203401Z_i001_irqcount01_01`: QEMU PID28520 COMPLETED exit33; evaluator 5/5; static 15/15; independent audit 11/11; all nine controlling snapshots including Amendment A hash-clean.
+- 660 historical I001 overnight reds have exactly one trace difference: Boot1 `IRQ_EVENT=2` instead of exact expected `1`; Boot2 exact. Historical evaluator FAIL remains; mechanism-regression interpretation is demoted at tested count-1/count-2 scope.
+- Living `os/research_only/i001_reference/` verifier accepts counts `{1,2}` only and rejects `>2`; historical I001 evaluator remains unchanged.
+- Full durable repository / research-only OS policy remains active; last previously verified GitHub publication before this turn: `f8d1d9b6caf3e521b56c493720f44ab55319e86a`.
 
 ## Active Constraints
-- Research-only embodiment is not release/architecture promotion.
-- Historical science artifacts/evaluators remain sealed; reproduction tools do not rewrite them.
-- Unique project data cannot remain only in `.pcmmad_sync_runs` at meaningful-turn close.
-- Exact duplicates/caches/process breadcrumbs need not be redundantly committed after disposition is recorded.
-- `os/` may not depend implicitly on `research/`, `continuity/`, `authority/`, or `handoffs/`.
+- Historical evidence is append-only/supersession-based; no recoloring or silent rewriting.
+- Research run directories are exact evidence bytes (`-text -whitespace`).
+- Run-local controlling inputs must be snapshotted before build/execution, including amendments.
 - Timeout/ambiguous execution = UNKNOWN.
-- Explicit paths only; never `git add .`.
+- Research-only embodiment is not release promotion.
+- `os/` remains independently sparse-checkout/buildable and may not depend implicitly on R&D trees.
 
 ## Decisions Locked In
-- GitHub is whole-project durable/reincarnation ledger.
-- Per-meaningful-turn publication includes the complete admitted data delta, not only continuity prose.
-- Initial embodied research OS seed = I001 integrated witness.
-- Reproducibility gate distinguishes exact machine bytes, runtime reproduction, and historical science authority.
-- Canonical text line endings = LF; old CRLF receipt hashes are verified through normalization-aware tooling, not rewritten.
+- Exact I001 IRQ event count 1 is not load-bearing for tested counts 1/2; current relation state remains load-bearing.
+- Counts >2 remain unearned and fail the living verifier.
+- The 660 long-replay reds are historical exact-evaluator overbinding for the tested consequence, not mechanism regressions.
+- Next P0 candidate: deterministic faulted-restart durable-record integrity before physical power-cut testing.
 
 ## Open Loops
-- Stage/verify/commit this full turn's repository + research-only OS changes.
-- Refresh CURRENT_REINCARNATION and THIS_CONVERSATION.
-- Publish captured canonical commit and verify GitHub remote SHA.
-- Future science: choose next post-PR01 P0, including I001 IRQ-count discriminator and/or deliberate later-D64 integration into a newer embodied OS revision.
+- Seal/adopt IRQCOUNT01 continuity + living verifier update.
+- Publish the full current project delta and verify GitHub remote SHA.
+- Turn `research/plans/D64_FAULTED_RESTART_DURABLE_RECORD_PLAN_2026-08-30.md` into a preregistered discriminator after comparing minimal integrity-field mechanisms under Pareto pressure.
 
 ## Immediate Next Step
-Refresh handoff/reincarnation package, run repository/build verification gates, commit exact admitted paths, publish, remote-readback.
+Close this turn durably, then derive/preregister the faulted-restart durable-record discriminator.
 
 ## Last 10 Turn Reinforcement Window
-1. Overnight PR01/integrity jobs completed cleanly.
-2. User required complete GitHub reincarnation/project dump and per-turn continuity publication.
-3. Maximum reincarnation package, bulk evidence archives, R3.1 original ZIP, transcript, decisions/scars were sealed and published.
-4. User asked what HOSTILE-OS is becoming; integrated relation-engine synthesis was written/published.
-5. User clarified all unique project data must go to GitHub and an embodied research-only OS is mandatory.
-6. User supplied Opus donor review emphasizing bare-metal credibility, retained audit scar, missing portable reproduction, and line-ending portability.
-7. Verified RB02 audit12 failure/audit13 correction/provenance correction.
-8. Verified all 12 RB02 historical hashes are CRLF-normalized relative to LF Git blobs.
-9. Added LF `.gitattributes`, durable-tree policy/tools, raw/adjudicated donor review, and `os/research_only/i001_reference/`.
-10. Rebuilt exact I001 bytes, booted twice in QEMU, verifier PASS; durable reproduction packet created.
+1. Full project/reincarnation repository and research-only OS were published.
+2. User asked to proceed with research.
+3. Frontier selected I001 exact IRQ-count seam as P0.
+4. IRQCOUNT01 preregistered before implementation at `564f454`.
+5. Probe implemented/sealed; pre-run helper/provenance fixes remained visible.
+6. First launcher failed before build/QEMU from wrong repo-root calculation; retained.
+7. First QEMU attempt completed ONE then timed out because PIT mode0 is one-shot; Amendment A retained the fixture correction.
+8. Next run passed semantics but was marked non-controlling because Amendment A was omitted from snapshots.
+9. Launcher v2 snapshotted Amendment A; final controlling run passed evaluator/static/audit/QEMU.
+10. All 660 historical I001 red traces were reconciled: only IRQ count differs; adoption narrows living verifier to counts 1/2.
 
 ## Delta Since Previous Shadow
-- `os/` crossed from README-only to real research-only embodied OS.
-- Whole-project durability rule clarified to all unique project data.
-- Reproducibility/line-ending donor pressure independently verified and embodied in tooling/policy.
-
-- The captured embodied reproduction also matched the historical I001 executable SHA-256 values for Clang, LLD, llvm-objcopy, QEMU, and Python exactly.- A clean fresh-output reproduction packet 02 is now the preferred reviewer record: ambient missing-tool discovery failed closed as designed; `HOSTILE_LLVM_BIN` then rebuilt exact historical machine bytes; QEMU PIDs 3596/13712 both exited33; verifier PASS. Packet 01 remains retained as the first reproduction capture.
-
-## 2026-08-30 durable-repo / research-OS delta
-- Operator clarified that GitHub is the durable repository for all unique project data, properly separated by responsibility; scratch may not be the sole surviving copy of unique evidence.
-- Canonical local commit `bde5d01c7af7e99453273f4022173b5100d49a8c` adds the durable full-project policy, project tree, LF Git policy, Opus review/adjudication, portability scars, and embodied research-only I001 OS/reproduction 01.
-- `os/research_only/i001_reference/` is explicitly `RESEARCH PURPOSES ONLY`, not final architecture or release promotion.
-- Clean reproduction 02 from checked-in source: exact historical stage1/stage2/initial-disk bytes; two distinct QEMU boots exit33; semantic/package verify PASS; RB02 12/12 historical hash differences reproduced as CRLF normalization; PowerShell wrapper exact-byte build PASS.
-- Fresh reproduction 02 is durably admitted under `research/reproduction/I001_RESEARCH_ONLY/20260830T195901Z_i001_reference_reproduction_02/`.
-- Historical I001 `IRQ_EVENT=1` exact-count seam remains open despite this reproduction observing `1`.
-- Immediate closure obligation: stage current manifest/scar/reproduction/continuity deltas, verify, commit, publish exact canonical snapshot, remote SHA readback.
+- I001 exact-count seam closed at tested count-1/count-2 scope.
+- Historical 660-red interpretation resolved without rewriting evidence.
+- Next P0 moved to faulted-restart durable-record integrity.

@@ -1,0 +1,63 @@
+{
+  "format": "I001_IRQCOUNT01_INPUTS_V1",
+  "created_utc": "2026-08-30T20:30:47.296049+00:00",
+  "git_head": "9acf2714f856517efbe2bff4203bb967d6e0228b",
+  "inputs": [
+    {
+      "key": "stage1.S",
+      "source_project_relative": "research/integration/I001_IRQCOUNT01/probe/stage1.S",
+      "snapshot_path": "inputs/stage1.S",
+      "sha256": "efa4445cebe3823d900efc26417884a1c833ffb125c2651dd857e939ab01b1cc",
+      "bytes": 716
+    },
+    {
+      "key": "stage1.ld",
+      "source_project_relative": "research/integration/I001_IRQCOUNT01/probe/stage1.ld",
+      "snapshot_path": "inputs/stage1.ld",
+      "sha256": "e698413555822fbe8434ccb11e06750a1682105a58e6ab091899b5ff1aa42d72",
+      "bytes": 181
+    },
+    {
+      "key": "stage2.S",
+      "source_project_relative": "research/integration/I001_IRQCOUNT01/probe/stage2.S",
+      "snapshot_path": "inputs/stage2.S",
+      "sha256": "8702912c1d6a913ea2f2c393d9dcf6faacc158a081ae0e0e9149bb7b6a492ef6",
+      "bytes": 5887
+    },
+    {
+      "key": "stage2.ld",
+      "source_project_relative": "research/integration/I001_IRQCOUNT01/probe/stage2.ld",
+      "snapshot_path": "inputs/stage2.ld",
+      "sha256": "1104e759ce8fa25af533ebe60bf97ef16f9a4c3bd209b8acc964153a0b141114",
+      "bytes": 169
+    },
+    {
+      "key": "evaluate_irqcount01.py",
+      "source_project_relative": "research/integration/I001_IRQCOUNT01/probe/evaluate_irqcount01.py",
+      "snapshot_path": "inputs/evaluate_irqcount01.py",
+      "sha256": "9c14aa7593349601b4b548ed5f2e8bb64d7f388e6f3da9edac78efc807e80ba4",
+      "bytes": 1548
+    },
+    {
+      "key": "static_check_irqcount01.py",
+      "source_project_relative": "research/integration/I001_IRQCOUNT01/probe/static_check_irqcount01.py",
+      "snapshot_path": "inputs/static_check_irqcount01.py",
+      "sha256": "793c6936eba565ee69a86b718779b49f209928460579e13d68a7db23a152216f",
+      "bytes": 2405
+    },
+    {
+      "key": "audit_irqcount01.py",
+      "source_project_relative": "research/integration/I001_IRQCOUNT01/probe/audit_irqcount01.py",
+      "snapshot_path": "inputs/audit_irqcount01.py",
+      "sha256": "999497e58153b7fcd29308890cc51c0fb725eebe760e103351db3e1d2d828ef7",
+      "bytes": 1977
+    },
+    {
+      "key": "preregistration",
+      "source_project_relative": "research/integration/I001_IRQCOUNT01/I001_IRQCOUNT01_PREREGISTRATION.md",
+      "snapshot_path": "inputs/I001_IRQCOUNT01_PREREGISTRATION.md",
+      "sha256": "887b828676e069667e16b3ea017645ff0e44d3a8623ac252310e069849a6cfc1",
+      "bytes": 6833
+    }
+  ]
+}

@@ -1,9 +1,9 @@
 {
   "files": [
     {
-      "bytes": 1440,
+      "bytes": 1507,
       "path": "00_READ_FIRST.md",
-      "sha256": "2dd9f9bef44622398ad3b60d423eb7b6e1a3df0b853de9a0466a445ffcde543c"
+      "sha256": "97883f94b2bb10418519748825f608970fc29cc5954586b7e471ef730c2abc28"
     },
     {
       "bytes": 1847,
@@ -11,9 +11,9 @@
       "sha256": "139c3abb0d70fc3119c6ba107409a71a01e7a5187023329c9dc50bb209c82bf6"
     },
     {
-      "bytes": 31088,
+      "bytes": 32851,
       "path": "02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "7c8b93e8553321f2358249afe6c0efb59841995fd45d8ba21a0c6e40b7ed01e4"
+      "sha256": "80c9f5780ff5a76879ee3f4638e4e78af932b159af05f23e1801e8c1127b3cb2"
     },
     {
       "bytes": 16352,
@@ -21,9 +21,9 @@
       "sha256": "f2f29ace540321507d5e1c8e29d7c8fbeb61bdbf1924356e83aecc53c6c45667"
     },
     {
-      "bytes": 7603,
+      "bytes": 9011,
       "path": "04_ENGINEERING_DECISION_LEDGER.md",
-      "sha256": "555353224e1b332a9eaf6847c1a9fa3133c72305330bef3022963cdfa8b2e249"
+      "sha256": "8ee14146bd2d77569c78d103a78d02dc4e39abe7f9419ed3e7201222686b5b64"
     },
     {
       "bytes": 6944,
@@ -36,9 +36,9 @@
       "sha256": "747aac249c7aaac4c8e3933c724cc4629ea919e2f9f028a29974d96677a477d4"
     },
     {
-      "bytes": 6502,
+      "bytes": 4042,
       "path": "07_LIVE_SHADOW.md",
-      "sha256": "650d70d143b9b2844347fb7f6dedc4eee93681da078cab8bea54b11501cbce22"
+      "sha256": "ebdc9600e3ccc3eefb92dbab00862ab505136a859b4ba383cb4549c551ab9335"
     },
     {
       "bytes": 1977,
@@ -46,9 +46,9 @@
       "sha256": "a54c5732b136ed839b1d6a99096f71c65b99120b8db7ade1a878699bf8178970"
     },
     {
-      "bytes": 4929,
+      "bytes": 5978,
       "path": "09_EXECUTION_AND_INFERENCE_SCARS.md",
-      "sha256": "621d3d15f6b0358ffd14f7484214ffb91c0bcaea602b6dd802c437d11ae4ac03"
+      "sha256": "2333c20e4d090e54c560177d191d740faa33e6adb31ad85f85b311cb9cc1f58c"
     },
     {
       "bytes": 2781,
@@ -61,9 +61,9 @@
       "sha256": "4a295343ca93eecfa00619d8b090408ddbb21cd1747b6a51e8b38abca9d2a525"
     },
     {
-      "bytes": 131693,
+      "bytes": 132597,
       "path": "12_THIS_CONVERSATION.md",
-      "sha256": "9f705690df3ccd343d8634efa1de81392c09ddf9ac2f39fda0db7cf7eef416d5"
+      "sha256": "243fb84c047c91cd3d0bdb42f282dda026ad444dd85ff6d9f296e2ae21c2b0d5"
     },
     {
       "bytes": 2247,
@@ -71,9 +71,9 @@
       "sha256": "dd97d1656d75ab96225993aa0f27245fa2b03ab85ac090fc90a58dde227e8cff"
     },
     {
-      "bytes": 10558,
+      "bytes": 11297,
       "path": "14_WHAT_HOSTILE_OS_IS_BECOMING.md",
-      "sha256": "c0eb59bc4a505b8379f5ef0c2a0d987f5e69b5b4f0f17fc275b629a077f26a7f"
+      "sha256": "4e0eb395080265edaaee5d469d701b5a3f3f45e0eee54e86028f5305acbbe836"
     },
     {
       "bytes": 2839,
@@ -114,7 +114,27 @@
       "bytes": 1850,
       "path": "21_REPRODUCTION_RESULT_02.md",
       "sha256": "c767158ed0f5622aa4a1af30b4184c9f8bc4ded81b289e80b584834b739bf620"
+    },
+    {
+      "bytes": 6655,
+      "path": "22_IRQCOUNT01_RESULT.md",
+      "sha256": "734960683d87019d816af4fe35bb0ce2577216df97f0ca32a6354c32fc7d8f81"
+    },
+    {
+      "bytes": 2408,
+      "path": "23_IRQCOUNT01_ADOPTION.md",
+      "sha256": "1a068724d7cda9555ee0549879dfa2635456f499dfd23e81f4b18999d70143f5"
+    },
+    {
+      "bytes": 2320,
+      "path": "24_IRQCOUNT_LONG_REPLAY_RECONCILIATION.md",
+      "sha256": "7d79bce482e6ad5b2e2a6e6996aecdea451a30feb97f40f335d1907784832166"
+    },
+    {
+      "bytes": 3736,
+      "path": "25_NEXT_P0_FAULTED_RESTART_PLAN.md",
+      "sha256": "76a27ca48c8f5c0597048f6f66f3f088d3c0cedfc2ebde87149cd35efe4d6c0e"
     }
   ],
-  "schema": "pcmmad.current_reincarnation.v2"
+  "schema": "pcmmad.current_reincarnation.v3"
 }

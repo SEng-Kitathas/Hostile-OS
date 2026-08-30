@@ -1,0 +1,11 @@
+{
+  "format": "I001_IRQCOUNT01_LAUNCH_FAILURE_V1",
+  "status": "FAILED_BEFORE_BUILD_OR_QEMU",
+  "stage": "git_provenance_lookup",
+  "error": "launcher used probe-directory parents[4] instead of parents[3], placing git cwd one level above HOSTILE_OS",
+  "exception": "subprocess.CalledProcessError: git rev-parse HEAD returned 128 / not a git repository",
+  "build_started": false,
+  "qemu_started": false,
+  "science_consequence": "NONE; no mechanism execution occurred",
+  "disposition": "retained as launcher/provenance scar; launcher corrected in a later commit before rerun"
+}

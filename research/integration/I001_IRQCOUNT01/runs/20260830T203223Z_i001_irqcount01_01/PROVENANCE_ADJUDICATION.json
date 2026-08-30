@@ -1,0 +1,13 @@
+{
+  "format": "I001_IRQCOUNT01_PROVENANCE_ADJUDICATION_V1",
+  "runtime_result": "PASS",
+  "evaluator_passed": true,
+  "static_passed": true,
+  "independent_audit_passed": true,
+  "qemu_status": "COMPLETED",
+  "qemu_exit_code": 33,
+  "control_status": "NON_CONTROLLING_PASS",
+  "provenance_defect": "run input snapshot included original preregistration but omitted Amendment A, which governed the post-timeout PIT rearm fixture",
+  "science_disposition": "informative confirmation only; do not use as controlling closure",
+  "repair": "launcher v2 snapshots Amendment A as a controlling input before build/execution; rerun required"
+}

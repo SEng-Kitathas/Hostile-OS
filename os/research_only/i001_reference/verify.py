@@ -62,17 +62,17 @@ def main() -> int:
             if len(irq)==1:
                 try: irq_count=int(irq[0].split('=',1)[1])
                 except ValueError: pass
-            checks['irq_event_positive']=irq_count is not None and irq_count>=1
+            checks['irq_event_count_tested_1_or_2']=irq_count in (1,2)
             checks['historical_exact_irq_event_one']=irq_count==1
             # The exact-one field is reported but intentionally not required here; historical science owns that seam.
-            for k in ['distinct_qemu_pids','boot1_exit33','boot2_exit33','no_host_write_between_boots','irq_event_positive']:
+            for k in ['distinct_qemu_pids','boot1_exit33','boot2_exit33','no_host_write_between_boots','irq_event_count_tested_1_or_2']:
                 if not checks.get(k): failures.append(k)
     report={
         'format':'HOSTILE_OS_RESEARCH_ONLY_VERIFY_V1',
         'passed':not failures,
         'checks':checks,
         'failures':failures,
-        'note':'historical_exact_irq_event_one is informational; the historical I001 evaluator remains unchanged and its IRQ_EVENT count seam remains open',
+        'note':'historical_exact_irq_event_one is informational; IRQCOUNT01 closed the tested count-1/count-2 semantic seam. Counts >2 remain unearned; the sealed historical I001 evaluator remains unchanged.',
     }
     (build/'verify_report.json').write_text(json.dumps(report,indent=2)+'\n',encoding='utf-8',newline='\n')
     print(json.dumps(report,indent=2))

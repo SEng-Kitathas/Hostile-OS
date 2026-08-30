@@ -1,0 +1,22 @@
+{
+  "format": "I001_IRQCOUNT01_ATTEMPT_ADJUDICATION_V1",
+  "status": "FAILED_FIXTURE / NO_SCIENCE_CONCLUSION",
+  "qemu_status": "UNKNOWN_TIMEOUT",
+  "qemu_pid": 27036,
+  "observed_trace": [
+    "S1_OK",
+    "TEST=I001_IRQCOUNT01_1",
+    "ONE_EVENT=1",
+    "ONE_REL=1",
+    "ONE_SEM=W",
+    "ONE_WAKE=1",
+    "ONE_PREPROG=0",
+    "ONE_PROG=2",
+    "ONE_EXACT=W"
+  ],
+  "one_phase_completed_as_preregistered": true,
+  "multi_phase_completed": false,
+  "cause": "PIT command 0x30 selects mode 0 one-shot; fixture did not rearm after first IRQ, so second required real IRQ never occurred",
+  "science_disposition": "does not decide exact-one versus positive-event semantics",
+  "repair": "visible preregistration amendment A + guest-side PIT rearm after sub-threshold event before rerun"
+}

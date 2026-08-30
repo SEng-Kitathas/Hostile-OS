@@ -47,3 +47,13 @@ Do not launder this into either conclusion. It is not yet proof the mechanism fa
 ## Per-turn continuity scar — 2026-08-30
 
 Repeated thread loss and stale local-only state demonstrated that “publish at end of substantive pass” leaves windows where a new thread can regress. Continuity is now a per-meaningful-turn Git/GitHub obligation. Failure to publish must be reported as pending/FAILED/UNKNOWN, never silently deferred as though remote continuity were current.
+
+## I001 IRQ-count seam resolution and fixture scars — 2026-08-30
+
+The prior long-replay `IRQ_EVENT=2` seam is resolved at tested count-1/count-2 scope by I001/IRQCOUNT01 PASS. All 660 historical I001 reds were verified to differ from the expected Boot1 trace only at `IRQ_EVENT=1` vs `2`; Boot2 is exact. Their evaluator FAIL status remains historical truth; the new interpretation is exact-evaluator overbinding for this tested consequence.
+
+Two new execution scars remain visible:
+1. a pre-build launcher-root mistake failed before mechanism execution and was retained;
+2. the first QEMU attempt assumed PIT command `0x30` would generate repeated interrupts, but mode 0 is one-shot. ONE passed, MULTI timed out. Amendment A added guest-side PIT rearm and preserved the timeout as `FAILED_FIXTURE / NO_SCIENCE_CONCLUSION`.
+
+A later semantic PASS was also deliberately marked non-controlling because Amendment A had not been included in its run-local input snapshot. Launcher v2 fixed that provenance defect; only the final rerun is controlling.

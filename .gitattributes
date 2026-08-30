@@ -25,6 +25,10 @@
 # Git LFS rules are added by the GitHub publication mirror for oversized admitted payloads.
 # Historical receipts may record CRLF working-tree hashes from pre-policy Windows runs;
 # use tools/verify_historical_receipt_sources.py to adjudicate those without rewriting history.
+
+# Scientific run directories are exact evidence bytes.
+# Do not normalize run-local snapshots, receipts, traces, or logs after execution.
+research/**/runs/** -text -whitespace
 # GitHub publication mirror LFS rules
 payload_history/lab_tooling/HOSTILE_OS_BACKDOOR_004_IA16_TOOLCHAIN.zip filter=lfs diff=lfs merge=lfs -text
 research/campaigns/EARNED_CHAIN_OVERNIGHT_ARCHIVE_2026-08-30/EARNED_CHAIN_OVERNIGHT_20260830T063648Z.tar filter=lfs diff=lfs merge=lfs -text

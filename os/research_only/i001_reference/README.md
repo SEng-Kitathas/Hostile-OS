@@ -87,7 +87,7 @@ Then:
 python verify.py
 ```
 
-The research-only verifier checks stable semantic markers and permits `IRQ_EVENT` to be one or more. That rule is **not** a retroactive change to the historical I001 evaluator. The historical exact evaluator remains sealed and its long-replay `IRQ_EVENT=2` seam remains open research.
+The research-only verifier checks stable semantic markers and permits the now-tested `IRQ_EVENT` counts 1 or 2. Counts greater than 2 remain unearned and fail the research-only verifier. That rule is **not** a retroactive change to the historical I001 evaluator. The historical exact evaluator remains sealed and its long-replay `IRQ_EVENT=2` seam remains open research.
 
 ## Contributor rule
 

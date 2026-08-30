@@ -135,3 +135,9 @@ That embodiment is deliberately a **reference body**, not the final body. Later 
 1. sealed historical science under `research/`;
 2. a living research-only embodied OS under `os/research_only/` for inspection and contribution;
 3. no promoted user release yet.
+
+## IRQ-count result — telemetry versus meaning
+
+I001/IRQCOUNT01 sharpened an important design rule: a measured counter value can be useful telemetry without being the meaning of the operation. At tested real IRQ0 counts 1 and 2, the same valid wait relation produced the same wake/progress consequence; a stale relation rejected even with two events. So the meaningful condition is not “the timer fired exactly once.” It is that an event occurred within the tested count range **and** the relation authorizing the wake remained current.
+
+That distinction fits the broader HOSTILE-OS direction: state relationships carry authority; incidental timing observations should not become architecture law unless a discriminator earns them.

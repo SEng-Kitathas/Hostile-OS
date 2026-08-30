@@ -1,0 +1,102 @@
+{
+  "version": "I001-IRQCOUNT01-launcher-v1",
+  "run_id": "20260830T203223Z_i001_irqcount01_01",
+  "git_head": "4c4d6eb39aff5aac269c8ca84dda548518b39122",
+  "qemu": {
+    "pid": 24140,
+    "status": "COMPLETED",
+    "exit_code": 33,
+    "started_utc": "2026-08-30T20:32:24.249327+00:00",
+    "ended_utc": "2026-08-30T20:32:24.477978+00:00",
+    "wall_ms": 228.65439999986847,
+    "argv": [
+      "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "-accel",
+      "tcg",
+      "-display",
+      "none",
+      "-monitor",
+      "none",
+      "-serial",
+      "none",
+      "-no-reboot",
+      "-boot",
+      "a",
+      "-drive",
+      "file=E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/integration/I001_IRQCOUNT01/runs/20260830T203223Z_i001_irqcount01_01/irqcount01.img,format=raw,if=floppy",
+      "-device",
+      "isa-debug-exit,iobase=0xf4,iosize=0x04",
+      "-debugcon",
+      "file:E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/integration/I001_IRQCOUNT01/runs/20260830T203223Z_i001_irqcount01_01/debugcon.txt",
+      "-global",
+      "isa-debugcon.iobase=0xe9"
+    ]
+  },
+  "build_return_codes": {
+    "01_stage1_compile": 0,
+    "02_stage1_link": 0,
+    "03_stage1_objcopy": 0,
+    "04_stage2_compile": 0,
+    "05_stage2_link": 0,
+    "06_stage2_objcopy": 0
+  },
+  "evaluator_exit": 0,
+  "static_exit": 0,
+  "original_inputs_unchanged": true,
+  "input_manifest_sha256": "e919c6129dd039fdacaeecd55d491a506402a27316ba02f35b285323ab5ce8f4",
+  "tools": {
+    "clang": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "version": "Android (13989888, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)",
+      "sha256": "f2e1b93d9dd27b847773e7de61b00f1b49ae27eb20ba434297cc020f768a1dfb"
+    },
+    "lld": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+      "version": "LLD 21.0.0 (/mnt/disks/build-disk/src/googleplex-android/llvm-r563880-release/out/llvm-project/llvm 5e96669f06077099aa41290cdb4c5e6fa0f59349) (compatible with GNU linkers)",
+      "sha256": "1260f9d6e0522bd476d040203998fa03406607971c13a9aa74f3f66f1e6d1c5d"
+    },
+    "objcopy": {
+      "path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+      "version": "llvm-objcopy, compatible with GNU objcopy",
+      "sha256": "4a7559a17dba5f35eb8d209e4765516b548e83b664278c8640f484c3be70e901"
+    },
+    "qemu": {
+      "path": "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+      "version": "QEMU emulator version 11.1.0 (v11.1.0-12130-ge470268ff4)",
+      "sha256": "dbbf7242e5b0d295e54336c69034a266ee1cc117d7ac6e3060e38bb61651200b"
+    },
+    "python": {
+      "path": "C:\\Users\\ancal\\AppData\\Local\\Python\\pythoncore-3.14-64\\python.exe",
+      "version": "Python 3.14.6",
+      "sha256": "03168c01b7b7491423350e82c26fee71f35b43694d1319d3c668bda6903a0c38"
+    }
+  },
+  "artifacts": {
+    "stage1.bin": {
+      "bytes": 512,
+      "sha256": "bd13612a1a1db38dd2c847fce1f19ca5305a8febc06f99090d6d1ae882334eb8"
+    },
+    "stage2.raw.bin": {
+      "bytes": 902,
+      "sha256": "97923b4eef00848f127c992420748d9047f724b4359ef269804b62b6396ae37a"
+    },
+    "stage2.padded.bin": {
+      "bytes": 4096,
+      "sha256": "c94db69c81dbc9726cc42c7a81d12ccc029d028615ac669c068755ed30589238"
+    },
+    "irqcount01.img": {
+      "bytes": 1474560,
+      "sha256": "6f960326e3a6f402048506133f0dd4a5bbb2a09248020fd5c53fcb32e05f8098"
+    },
+    "debugcon.txt": {
+      "bytes": 277,
+      "sha256": "3db85cd663de244311694167ad158ccd95efc37a337fae91525805bb8992cefc"
+    }
+  },
+  "audit_exit": 0,
+  "audit_passed": true,
+  "all_pass": true,
+  "evaluation_sha256": "fa993d86277e52479db495d5597f04148e0269e6a89b94bb2627d6e2bfe0d9ba",
+  "static_sha256": "cf922602cdc7400f3d2dd30a9fc2c656c578610e34a7e3b586a9db0ce4044e15",
+  "audit_sha256": "c7b5f10b33caa6a240e0c83f108b273d93b0296c903d03f3b41f2d93b123bb81"
+}

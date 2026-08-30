@@ -40,3 +40,13 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | Root canonical text is LF | Prevent clone-specific source hash confusion and cross-platform review failures | Repository text transport | Only if a stronger content-addressed source packaging policy replaces it |
 | Historical CRLF receipts remain sealed | Old hashes describe actual original Windows snapshots; rewriting would destroy provenance | Historical evidence | Never rewrite; use normalization-aware verifier |
 | Research-only semantic verifier does not replace historical evaluator | Long replay showed exact IRQ count may be timing-sensitive | Reproduction convenience, not science closure | Dedicated I001 IRQ-count discriminator resolves semantic requirement |
+
+## 2026-08-30 IRQCOUNT01 decisions
+
+| Decision | Why it exists | Authority ceiling | Reopen / demote when |
+|---|---|---|---|
+| I001 exact IRQ count `1` is not load-bearing for tested wake/progress | IRQCOUNT01 produced the same valid relation/wake/progress at real IRQ counts 1 and 2 while exact-one control rejected 2 | Counts 1 and 2 only; one core real IRQ0 | Count >2, loss/coalescing, wrap, stronger concurrency, or physical hardware changes consequence |
+| Relation validity remains required under repeated IRQ | BADREL received two real IRQs but stale generation kept relation invalid and semantic gate rejected | Tested generation/continuation/wait relation only | Different wait/currentness mechanism is adopted |
+| Living verifier accepts `{1,2}`, not arbitrary positive counts | Implements actual earned scope instead of overgeneralizing prereg predicate | Reviewer/reproduction gate only | New experiment earns larger count set |
+| Historical I001 evaluator remains unchanged | Preserve preregistered historical evidence and 660 red records | Historical evidence | Never rewrite; add superseding interpretation only |
+| Next P0 = deterministic faulted-restart durable-record integrity | Clean restart is closed; faulted media recovery is the next direct durability pressure without pretending physical power-cut proof | BUILD-PLAN candidate only | Another seam outranks it under new evidence |

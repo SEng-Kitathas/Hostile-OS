@@ -1,0 +1,25 @@
+{
+  "version": "I001-IRQCOUNT01-static-v1",
+  "passed": true,
+  "checks": {
+    "real_irq_vector_install": true,
+    "pit_programmed": true,
+    "handler_increments_event": true,
+    "handler_recomputes_relation": true,
+    "handler_threshold_masks": true,
+    "handler_eoi": true,
+    "phase_wait_uses_hlt": true,
+    "subthreshold_path_rearms_real_pit": true,
+    "semantic_requires_nonzero_event": true,
+    "semantic_requires_valid_relation": true,
+    "semantic_does_not_require_exact_one": true,
+    "exact_gate_requires_one": true,
+    "badrel_generation_mismatch": true,
+    "wake_progress_separate": true,
+    "stage1_loads_8_sectors": true
+  },
+  "source_sha256": {
+    "stage2": "4a6a958ce40beac6721747225622e36842a55a9211fd878b1a3f4f807f9fd798",
+    "stage1": "efa4445cebe3823d900efc26417884a1c833ffb125c2651dd857e939ab01b1cc"
+  }
+}

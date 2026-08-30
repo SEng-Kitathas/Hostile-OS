@@ -1223,3 +1223,9 @@ User required absolute clarity that all unique project data is durably published
 
 ### ASSISTANT — implementation/audit outcome
 The repository gained a durable project-tree policy, LF `.gitattributes`, external-review raw/adjudication records, reproducibility scars and tools, and `os/research_only/i001_reference/`. A clean second reproduction from the checked-in package rebuilt stage1/stage2/initial disk to exact historical hashes, completed two distinct QEMU boots exit33, passed semantic/package verification, reproduced all 12 RB02 historical source-hash differences as CRLF normalization, and confirmed the PowerShell wrapper builds identical bytes. The fresh evidence was promoted into the canonical research reproduction tree before turn closure.
+
+### USER — proceed with research
+`okay, lets proceed with the research`
+
+### ASSISTANT — I001 IRQ-count research closure
+Selected I001's unresolved exact IRQ-count seam. Preregistered a real-IRQ0 discriminator, retained a pre-build launcher scar, retained a one-shot PIT fixture timeout and Amendment A, retained a semantic PASS that was demoted because its run snapshots omitted the amendment, then reran under launcher v2 with amendment snapshot closure. Controlling run passed QEMU exit33, evaluator/static/audit, and showed counts 1 and 2 have the same valid-relation/wake/progress consequence while stale relation with two events rejects. Reconciled all 660 historical I001 reds as Boot1-only `IRQ_EVENT=2` exact-evaluator overbinding at tested scope, without rewriting historical FAIL records. Science close commit `0614b06`. Next research candidate: faulted-restart durable-record integrity.
