@@ -1,0 +1,133 @@
+{
+  "image_state_bytes": 3467,
+  "initial_code_target_bytes": 4341,
+  "lowmem_sector_buffers": [
+    {
+      "address": "0x7000",
+      "bytes": 512,
+      "name": "durable_A"
+    },
+    {
+      "address": "0x7200",
+      "bytes": 512,
+      "name": "durable_B"
+    }
+  ],
+  "rodata_allowance_bytes": 256,
+  "schema": "hostile_os.d64_reference_v2.state_budget.v1",
+  "stack_top": "0x7a00",
+  "stage2_envelope_bytes": 8192,
+  "state": [
+    {
+      "bytes": 64,
+      "name": "activity_identity",
+      "reason": "live/admitted identity marker"
+    },
+    {
+      "bytes": 64,
+      "name": "activity_generation",
+      "reason": "activity-handle currentness within current activity epoch"
+    },
+    {
+      "bytes": 64,
+      "name": "activity_epoch",
+      "reason": "per-slot epoch carried by checked activity/binding handles"
+    },
+    {
+      "bytes": 64,
+      "name": "activity_progress",
+      "reason": "current applied progress/result state"
+    },
+    {
+      "bytes": 64,
+      "name": "activity_pending_progress",
+      "reason": "continuation/application value kept separate from wake"
+    },
+    {
+      "bytes": 64,
+      "name": "activity_waiting",
+      "reason": "current wait relation present"
+    },
+    {
+      "bytes": 64,
+      "name": "activity_woken",
+      "reason": "notification/wake state, separate from application"
+    },
+    {
+      "bytes": 64,
+      "name": "activity_wait_slot",
+      "reason": "wait target slot"
+    },
+    {
+      "bytes": 64,
+      "name": "activity_wait_generation",
+      "reason": "wait target generation discriminator"
+    },
+    {
+      "bytes": 1,
+      "name": "activity_epoch_global",
+      "reason": "current activity namespace epoch"
+    },
+    {
+      "bytes": 1280,
+      "name": "binding_resource_plus1",
+      "reason": "binding applicability/backing slot, zero means empty"
+    },
+    {
+      "bytes": 1280,
+      "name": "binding_generation",
+      "reason": "binding-cell currentness"
+    },
+    {
+      "bytes": 64,
+      "name": "resource_identity",
+      "reason": "live resource identity marker"
+    },
+    {
+      "bytes": 64,
+      "name": "resource_generation",
+      "reason": "resource-handle currentness within resource epoch"
+    },
+    {
+      "bytes": 64,
+      "name": "resource_value",
+      "reason": "bounded reviewer backing value"
+    },
+    {
+      "bytes": 128,
+      "name": "resource_live_count_u16",
+      "reason": "shared lifetime count up to 1280 bindings"
+    },
+    {
+      "bytes": 1,
+      "name": "resource_epoch_global",
+      "reason": "current resource namespace epoch"
+    },
+    {
+      "bytes": 1,
+      "name": "irq_event_count_u8",
+      "reason": "real IRQ0 observation count; telemetry/semantic input only at tested 1/2 scope"
+    },
+    {
+      "bytes": 1,
+      "name": "irq_relation_ok",
+      "reason": "IRQ observer result for current wait relation"
+    },
+    {
+      "bytes": 1,
+      "name": "irq_phase_target",
+      "reason": "bounded reviewer phase target: tested count1 or2"
+    },
+    {
+      "bytes": 4,
+      "name": "saved_irq0_vector",
+      "reason": "saved offset+segment for reviewer IRQ installation/restoration"
+    },
+    {
+      "bytes": 2,
+      "name": "saved_pic_masks",
+      "reason": "saved master/slave PIC masks"
+    }
+  ],
+  "temporary_image_scratch_allowance_bytes": 128
+}

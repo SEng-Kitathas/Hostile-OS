@@ -185,3 +185,11 @@ At the tested QEMU/directsync scope, the media appeared whole-old through the bo
 The important rule is still not “sector writes are atomic.” The earned rule is narrower: **recovery follows validated persisted meaning, and the current emulated one-sector transport exposed only the two whole states at the controlled observation boundary.** Physical power loss and multi-sector ordering remain open.
 
 The project is now due for a new versioned research-only embodiment that integrates the adopted D64-era mechanism family while preserving the historical I001 body unchanged.
+
+## The current shadow now has a converged reviewer body
+
+The D64-era adopted mechanism family now exists together in one self-contained bootable research body rather than only as a chain of separate experiments. `d64_reference_v2` combines finite checked relations, shared lifetime, real IRQ observation/current-wait validation, durable meaning selection, and fresh restart reconstruction inside the previously qualified 8 KiB stage2 envelope.
+
+That convergence is important but should not be confused with a new ontology proof. The body is a **compression of already-earned mechanisms**. `activity`, `binding`, and `resource` remain working names, and the body can be split/replaced if later pressure exposes a cheaper grammar.
+
+The integrated body currently consumes 7440 of8192 linked bytes. That makes future growth visible: the next 752 bytes are no longer an abstract implementation detail; they are a concrete Pareto pressure surface.

@@ -94,3 +94,13 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | Maximum 5 targeted descendants per tranche before reconciliation | Prevents endless descendant chains and forces architecture/Pareto/embodiment review | Governance bound, not science constant | Explicit process decision changes it |
 | Preserve I001 reference body; create versioned D64 v2 body | Historical reproducibility and current reviewer relevance both matter | Research-only embodiment | v2 plan proves too large/contaminating or another integration strategy dominates |
 | Exact uploaded frozen-intent bytes remain an explicit Git-ingress seam | Local action server has not received a byte bridge from upload `/mnt/data` plane | Durability bookkeeping | Close only on exact byte/hash readback inside tracked Git state |
+
+## 2026-08-30 D64 v2 embodiment admission decisions
+
+| Decision | Why it exists | Authority ceiling | Reopen / demote when |
+|---|---|---|---|
+| `d64_reference_v2` is CURRENT_RESEARCH_REFERENCE | It integrates current adopted D64-era mechanisms and passes exact isolated `os/`-only build/run/verify | Reviewer embodiment only | Any mapped parent science is demoted, body diverges from parent consequence, or isolated reproducibility breaks |
+| Historical I001 body remains immutable/reference generation | Preserve independent historical machine-byte/reproduction lineage | Historical embodiment | Never mutate in place; supersede with another versioned body |
+| Preserve 8 KiB loader envelope for v2 | Integrated body closes at7440 bytes; enlargement has not earned its cost | Current v2 body | Needed mechanism cannot fit after explicit Pareto pressure |
+| 752 bytes remaining is a pressure budget, not free space | Prevent convenience features from silently consuming a qualified constraint | Embodiment engineering | New mechanism proves its consequence/cost and is admitted deliberately |
+| Admission does not promote final architecture/release | Reviewer convenience cannot become constitutional authority | Project-wide | Separate final architecture/release gates close |

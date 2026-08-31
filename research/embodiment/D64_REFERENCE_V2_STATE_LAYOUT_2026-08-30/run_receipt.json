@@ -1,0 +1,15 @@
+{
+  "format": "HOSTILE_OS_D64_V2_RUN_V1",
+  "status": "COMPLETED",
+  "exit_code": 33,
+  "pid": 33192,
+  "wall_ms": 1780.437699999311,
+  "qemu_module_dir": null,
+  "disk_sha256": "d2d6c09ffc8b5819bdc1f24277eed4319e53d1ac7bde6a47666429b101aca32f",
+  "debug_sha256": "9951db37e4d0235bf6750253fbfbea8325a3722dfe9ae7e3078a6c7b398a991d",
+  "trace": [
+    "S1_8K_OK",
+    "HOSTILE_OS_D64_V2_STATE_LAYOUT_OK"
+  ],
+  "stderr": ""
+}

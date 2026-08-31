@@ -1,0 +1,31 @@
+{
+  "format": "HOSTILE_OS_D64_V2_RUN_V1",
+  "status": "COMPLETED",
+  "exit_code": 33,
+  "pid": 24388,
+  "wall_ms": 189.99780000012834,
+  "qemu_module_dir": null,
+  "disk_sha256": "f33375823530b7a4d3bebc27421f8ff0db3313053542fc9c698cacd19c45f502",
+  "debug_sha256": "887a68d6536b127242ad7493fe7185aebaf8b395f83b9fe085420fe27e0497da",
+  "trace": [
+    "S1_8K_OK",
+    "TEST=D64_V2_CORE",
+    "ACT_FILLED=40",
+    "ACT_OVER=F",
+    "ROW_FILLED=14",
+    "ROW_OVER=F",
+    "SHARE_LIVE=0002",
+    "STALE_BIND=R",
+    "FRESH_BIND=W",
+    "FRESH_BIND_VAL=7E",
+    "MISSING_BIND=M",
+    "RELEASE_BOUND=B",
+    "DETACH_ONE_LIVE=0001",
+    "DETACH_LAST_LIVE=0000",
+    "OLD_RES=R",
+    "NEW_RES=W",
+    "NEW_RES_VAL=55",
+    "DONE"
+  ],
+  "stderr": ""
+}

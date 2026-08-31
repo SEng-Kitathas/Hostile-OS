@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "bytes": 2699,
+      "path": "build_manifest.json",
+      "sha256": "fba96c60a6e8358820ce771864a2376d4f362a6bd1ebfd1b7fdc9ea3e4435bbd"
+    },
+    {
+      "bytes": 1344,
+      "path": "READBACK.md",
+      "sha256": "712dcf235e56fa09d72a79796329d3db8de4a1ef11da079733a2dbabe92df104"
+    },
+    {
+      "bytes": 14214,
+      "path": "run_receipt.json",
+      "sha256": "0084c9d9b90b42c87fa923664aefe6dd67b3a3851ba55956e2f37ca2f04a1fc3"
+    },
+    {
+      "bytes": 777,
+      "path": "verification.json",
+      "sha256": "a72266bc51cbf21e374187d25546bf1abaf0c22b270ec3304d4cc2a4e8ff1c78"
+    }
+  ],
+  "i001_tree": "bd641bcd658fbf558f15a9226f96058351d5794c",
+  "schema": "hostile_os.d64_v2.final_admission_readback.v1",
+  "source_commit": "9332d34ac7cf0043a5851632aab698fe61967eef",
+  "v2_tree": "e7e9c08458bd9573ff4bcd60b9193d88adb26b21"
+}

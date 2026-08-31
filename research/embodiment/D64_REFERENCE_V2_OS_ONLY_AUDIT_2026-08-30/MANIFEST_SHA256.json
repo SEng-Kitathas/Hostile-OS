@@ -1,0 +1,28 @@
+{
+  "files": [
+    {
+      "bytes": 2247,
+      "path": "AUDIT.md",
+      "sha256": "5285d9fc766e3aaf230d07e6d7467c9df01b074f5b1f42e719a829fe285859da"
+    },
+    {
+      "bytes": 2700,
+      "path": "build_manifest.json",
+      "sha256": "5635824402f846abf31729b043d67b1ce3cec31c821ea9156281cc791a16dade"
+    },
+    {
+      "bytes": 14106,
+      "path": "run_receipt.json",
+      "sha256": "a3d7373237bae14efd4fed3c37145a8e63638c7ad0b22469530dd34b49438b8d"
+    },
+    {
+      "bytes": 778,
+      "path": "verification.json",
+      "sha256": "01ffaa9548c0ecea459bd8467a979baac181124d821cc53c4d7b1fb2882d26a9"
+    }
+  ],
+  "i001_tree": "bd641bcd658fbf558f15a9226f96058351d5794c",
+  "schema": "hostile_os.d64_v2_os_only_admission_audit.v1",
+  "source_commit": "aafc78eccf9611c815fcefa560847e425c50a548",
+  "v2_tree": "800bf1a727786dab6c90ab0b2469c2bd406a9b9c"
+}

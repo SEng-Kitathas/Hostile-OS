@@ -423,3 +423,39 @@ The original-thesis method revisit is now closed by `continuity/14_RESEARCH_CADE
 The post-WT01 embodiment convergence review decides the current I001 research-only body should remain immutable and a new versioned `os/research_only/d64_reference_v2/` is due. The build plan is `research/plans/D64_RESEARCH_OS_V2_EMBODIMENT_PLAN_2026-08-30.md`.
 
 A separate ingress receipt records a remaining cross-plane durability seam for the two newly uploaded frozen intent/history files: filenames, sizes, hashes and derived audit are in Git, but their exact `/mnt/data` source bytes are not yet claimed to be inside the Windows Git worktree. See `research/audits/UPLOADED_FROZEN_INTENT_INGRESS_RECEIPT_2026-08-30.md`.
+
+## 2026-08-30 D64 v2 current research reference admission
+
+`os/research_only/d64_reference_v2/` is now admitted as **CURRENT_RESEARCH_REFERENCE — RESEARCH PURPOSES ONLY**.
+
+Admission commit: `9332d34ac7cf0043a5851632aab698fe61967eef`.
+
+Final admitted-state Git tree:
+`e7e9c08458bd9573ff4bcd60b9193d88adb26b21`.
+
+Measured integrated body:
+- stage1 512 bytes + `55 aa`;
+- named state 3467 bytes;
+- stage2 raw 3845 bytes;
+- total linked stage2 memory 7440 / 8192 bytes;
+- envelope headroom 752 bytes;
+- one `run.py --mode all` invokes 8 QEMU boots;
+- integrated verifier PASS 17/17.
+
+Reviewer layers now embodied together:
+- D64 finite activity/binding/resource capacity/currentness/shared lifetime;
+- real IRQ0 count1/count2 semantics with stale-relation rejection;
+- two-boot durable write/recovery with no host write between boots;
+- FR01-compatible validation-before-sequence selection and fresh reconstruction;
+- five bounded faulted-media reviewer cases.
+
+An exact `git archive HEAD os` export from the admitted commit was built/run/verified in isolation. `research/`, `continuity/`, `authority/`, and `handoffs/` were absent. The final isolated suite again passed all eight QEMU boots and verifier17/17.
+
+Final readback packet:
+`research/embodiment/D64_REFERENCE_V2_FINAL_ADMISSION_READBACK_2026-08-30/`.
+
+The historical `os/research_only/i001_reference/` Git tree remains exactly `bd641bcd658fbf558f15a9226f96058351d5794c`, equal to the pre-v2 anchor at `c407449`.
+
+Admission does not change architecture posture. `FINAL_ARCHITECTURE=false`, `PRODUCTION_READY=false`, `GENERAL_PURPOSE_RELEASE=false`.
+
+The v2 body uses only 752 bytes of remaining qualified stage2 headroom. Do not add mechanisms casually; future embodiment additions require explicit byte/Pareto pressure or a new loader-envelope qualification.

@@ -1,0 +1,30 @@
+{
+  "files": [
+    {
+      "bytes": 2692,
+      "path": "build_manifest.json",
+      "sha256": "137b8da95b295c1de9f9522a31120d63047b5afd36f6a472d494a10d11ab4234"
+    },
+    {
+      "bytes": 786,
+      "path": "RESULT.md",
+      "sha256": "87d3fd62148be70f0ea9ae418c01c3db5d3f8ae10135e42909f508fe3e02ef87"
+    },
+    {
+      "bytes": 1023,
+      "path": "run_receipt.json",
+      "sha256": "d57636b302e519e66a7538c328d428e9db3f8ddfbd9cb22a72285cdcb21b0913"
+    },
+    {
+      "bytes": 4890,
+      "path": "stage2.nm.txt",
+      "sha256": "6c4fe91e509e1692d7d9d4134160483d3ccc229e414c89249d274eac491a530d"
+    },
+    {
+      "bytes": 425,
+      "path": "verification.json",
+      "sha256": "6d15cd8514af2fd2c2603403fb1f5e9e47707c5826f24291ca0cfe689dffeb86"
+    }
+  ],
+  "schema": "hostile_os.d64_v2_irq_evidence.v1"
+}

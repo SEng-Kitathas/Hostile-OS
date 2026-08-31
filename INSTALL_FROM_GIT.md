@@ -48,7 +48,20 @@ The install/build path MUST NOT silently require `research/`, `authority/`, `con
 
 ## Research-only embodied OS
 
-There is not yet a release installer, but the `os/` sparse checkout now contains a bootable research-only embodiment:
+There is not yet a release installer. The `os/` sparse checkout contains two bootable research-only generations.
+
+### Current research reference
+
+```text
+cd os/research_only/d64_reference_v2
+python build.py
+python run.py --mode all
+python verify.py
+```
+
+This path passed an isolated `os/`-only build/run/verify audit. It does not require `research/`, `continuity/`, `authority/`, or `handoffs/` to build or boot.
+
+### Historical I001 reference
 
 ```text
 cd os/research_only/i001_reference
@@ -57,4 +70,6 @@ python run.py
 python verify.py
 ```
 
-This path is intentionally self-contained under `os/`; it does not require the research/continuity/history trees to build or boot.
+The historical body remains unchanged for lineage/reproduction.
+
+Both are **RESEARCH PURPOSES ONLY**. Neither is a release installer or final architecture.

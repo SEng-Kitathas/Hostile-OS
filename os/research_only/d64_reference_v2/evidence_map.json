@@ -1,0 +1,48 @@
+{
+  "admission_audit": "research/embodiment/D64_REFERENCE_V2_OS_ONLY_AUDIT_2026-08-30/AUDIT.md",
+  "body_status": "CURRENT_RESEARCH_REFERENCE",
+  "mechanisms": [
+    {
+      "authority": "64 configured activity slots with explicit finite/full behavior at tested scope",
+      "name": "configured_activity_capacity",
+      "parent": "research/scaling/D64_A01"
+    },
+    {
+      "authority": "64x20 checked binding cells, 64 live resources at tested D64 scope",
+      "name": "binding_resource_scale",
+      "parent": "research/resource_binding/D64_RB02"
+    },
+    {
+      "authority": "separate bounded currentness/rekey domains at tested scope",
+      "name": "activity_resource_currentness",
+      "parent": "research/resource_rekey/D64_RR01 and related RK01/ARB01"
+    },
+    {
+      "authority": "one-core maskable IRQ coherence for tested coupled mutation windows",
+      "name": "irq_coherence",
+      "parent": "research/irq_coherence/D64_IRQ01"
+    },
+    {
+      "authority": "durable meaning can reconstruct fresh runtime relationships after clean restart at tested scope",
+      "name": "clean_restart",
+      "parent": "research/persistence/D64_PR01"
+    },
+    {
+      "authority": "tested event counts 1 and 2 do not change wake/progress when relation remains current; >2 unearned",
+      "name": "irq_event_count_semantics",
+      "parent": "research/integration/I001_IRQCOUNT01"
+    },
+    {
+      "authority": "two-candidate CRC+commit validation/fallback/fail-closed at deterministic tested media states",
+      "name": "faulted_media_recovery",
+      "parent": "research/persistence/D64_FR01"
+    },
+    {
+      "authority": "whole-old/whole-new observed boundary and sealed-reader recovery in tested QEMU/directsync envelope; no universal atomicity claim",
+      "name": "controlled_write_termination",
+      "parent": "research/persistence/D64_WT01"
+    }
+  ],
+  "schema": "hostile_os.d64_reference_v2.evidence_map.v1",
+  "working_nouns_are_primitives": false
+}

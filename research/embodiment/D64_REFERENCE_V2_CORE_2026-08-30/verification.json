@@ -1,0 +1,15 @@
+{
+  "format": "HOSTILE_OS_D64_V2_VERIFY_V2",
+  "body_status": "CORE_MODE_INTEGRATED",
+  "passed": true,
+  "checks": {
+    "stage1_size_512": true,
+    "stage1_signature_55aa": true,
+    "stage2_raw_within_8192": true,
+    "stage2_memory_within_8192": true,
+    "v2_named_state_exact_3467": true,
+    "core_has_at_least_2048_memory_headroom": true,
+    "qemu_completed_exit33": true,
+    "core_trace_exact": true
+  }
+}

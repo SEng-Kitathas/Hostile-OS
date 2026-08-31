@@ -1,0 +1,14 @@
+{
+  "format": "HOSTILE_OS_D64_V2_VERIFY_V1",
+  "body_status": "STATE_LAYOUT_SKELETON_ONLY",
+  "passed": true,
+  "checks": {
+    "stage1_size_512": true,
+    "stage1_signature_55aa": true,
+    "stage2_raw_within_8192": true,
+    "stage2_memory_within_8192": true,
+    "v2_named_state_exact_3467": true,
+    "qemu_completed_exit33": true,
+    "state_layout_trace_exact": true
+  }
+}
