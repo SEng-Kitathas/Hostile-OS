@@ -1,12 +1,11 @@
 {
   "blockers": [
-    "Physical H1 probe eventually requires operator hardware power/boot touch, but local preparation can continue first.",
+    "Physical H1 qualification requires later operator hardware touch.",
     "Foreign Opus raw packet not supplied.",
-    "Exact uploaded frozen-intent source-byte bridge into Windows Git remains open."
+    "Exact uploaded frozen-intent source-byte Git ingress remains open."
   ],
   "commanders_intent_deltas": [
-    "Current reality pressure moves to physical H1 qualification while preserving emulator authority ceiling.",
-    "Do not consume v3 103-byte headroom by convenience; remaining C004 embodiment gap requires explicit representation/Pareto pressure."
+    "A future thread must continue from Git/GitHub without asking the operator to reconstruct already-persisted history, nuance, reasons or current state."
   ],
   "continuity_files": [
     {
@@ -15,14 +14,14 @@
       "sha256": "86999a120154580fd465aa7fa18691c8fb3a205380df7995cf070ba7e67a6ec3"
     },
     {
-      "bytes": 4188,
+      "bytes": 4838,
       "path": "continuity/01_COMMANDERS_INTENT.md",
-      "sha256": "90e3820c427ec1e4d27d1979e049ad6fd7cdb5d5e62c92011661009323a814a3"
+      "sha256": "bc201b2107f2c58700a1eb66610c546ed7ddd18b4f25a4d860850206b0edb2d3"
     },
     {
-      "bytes": 55306,
+      "bytes": 56789,
       "path": "continuity/02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "17252a11a5c2f1d96dc65c36cda6a03f174e44a0f54702821531f7e66ed7f6b3"
+      "sha256": "f7c760de13db0e67459c9f2c492879b0b10e3b6f07eccbbc15ff1e5bb8a75004"
     },
     {
       "bytes": 3245,
@@ -35,9 +34,9 @@
       "sha256": "9b272b45284d86d06a9e5bcfe15743b05d2dc7c9eb47885edd02fee903306292"
     },
     {
-      "bytes": 6944,
+      "bytes": 7727,
       "path": "continuity/05_GITHUB_PUBLICATION_POLICY.md",
-      "sha256": "6b19b56d115a2ceb21d8a75243f7c7da2530ce60295db857b962f8fd2ed213cd"
+      "sha256": "9e1c30bf9cdf87a5d0e9817a28428ea769bed5101b09f4b05fe8542d0ddd36f2"
     },
     {
       "bytes": 2630,
@@ -60,9 +59,9 @@
       "sha256": "f2f29ace540321507d5e1c8e29d7c8fbeb61bdbf1924356e83aecc53c6c45667"
     },
     {
-      "bytes": 24463,
+      "bytes": 26259,
       "path": "continuity/10_ENGINEERING_DECISION_LEDGER_2026-08-30.md",
-      "sha256": "240988273a611a79527e3784699318d2754c0746cabfdf406bdc5be17a3fafd9"
+      "sha256": "3a4608f17c036ffa467a5861c8a15e92831c2e87d51f94a3b6ae50fa0053fb3b"
     },
     {
       "bytes": 3993,
@@ -95,14 +94,19 @@
       "sha256": "9bc8432895eb14f1262ad8ef6982b93ecda74059c13ba8019840f1237e625a80"
     },
     {
-      "bytes": 150390,
-      "path": "continuity/DESIGN_THREAD_STREAM.md",
-      "sha256": "a4cb8234020ff08e6e4ddd31948940eb35712f6dcc78a64da752b82fd9e48ec3"
+      "bytes": 15105,
+      "path": "continuity/16_ZERO_REEXPLANATION_REINCARNATION_2026-08-31.md",
+      "sha256": "8f85b9e3be48149f0b3cf51757afb7196bd293b4d5f5907e4f245ac1968152b4"
     },
     {
-      "bytes": 5718,
+      "bytes": 152141,
+      "path": "continuity/DESIGN_THREAD_STREAM.md",
+      "sha256": "748a7cec1d010a6e130b4cc1babdca3b352e905f3227d61b32443718f4950fb4"
+    },
+    {
+      "bytes": 5555,
       "path": "continuity/LIVE_SHADOW.md",
-      "sha256": "6d86a69e1ac3afca840ca5efae0cae754ae5de12159c0a6129a0a8a16aa68e76"
+      "sha256": "843d0b9f18dd6e34c0d39587a9e373fa98f302b421b9ebe24ccd681d6658fb7d"
     },
     {
       "bytes": 375,
@@ -165,14 +169,14 @@
       "sha256": "52a16e3570132413b15cf3fe6ea3c5897ac9e362699bd6b82e97a19cc0ac7ec6"
     }
   ],
-  "current_frontier": "D64 v3 is CURRENT_RESEARCH_REFERENCE; C005 CLOSED20/20; controlling post-promotion H1 QEMU+Bochs replay PASS. Next local P0 is physical-H1 qualification/boot/probe preparation; P1 is C004-to-v3 representation/Pareto convergence.",
+  "current_frontier": "D64 v3 current research reference; physical-H1 preparation P0; C004-to-v3 representation/Pareto review P1.",
   "decision_deltas": [
-    "Selected Candidate B single relation owner + explicit mailbox for current H1 scope after measured A/B Pareto comparison.",
-    "Promoted d64_reference_v3 to CURRENT_RESEARCH_REFERENCE after isolated os-only admission20/20.",
-    "Retargeted all identified current H1/QEMU portability tools from v2 to v3.",
-    "Preserved Candidate A as alternate and Candidate C as deferred/not disproven."
+    "Adopt zero-re-explanation reincarnation as standing continuity requirement.",
+    "Add current ingress overlay instead of rewriting historical handoffs.",
+    "Allow GitHub publication archive/mirror scratch to move off canonical drive via HOSTILE_GITHUB_PUBLISH_SCRATCH_ROOT.",
+    "Never drop admitted research/history to solve publication disk pressure."
   ],
-  "generated_utc": "2026-08-31T10:36:13+00:00",
+  "generated_utc": "2026-08-31T15:19:14+00:00",
   "living_surfaces": [
     {
       "path": "continuity/01_COMMANDERS_INTENT.md",
@@ -184,10 +188,6 @@
     },
     {
       "path": "continuity/10_ENGINEERING_DECISION_LEDGER_2026-08-30.md",
-      "status": "updated"
-    },
-    {
-      "path": "continuity/12_WHAT_HOSTILE_OS_IS_BECOMING_2026-08-30.md",
       "status": "updated"
     },
     {
@@ -207,15 +207,13 @@
       "status": "verified_unchanged"
     }
   ],
-  "mode": "PROMOTION / BUILD-COMMIT",
-  "pre_turn_git_head": "66e9c9a2f5e3a4950cc3ffc1a440929fb9535aad",
+  "mode": "BUILD-COMMIT / CHECKPOINT",
+  "pre_turn_git_head": "fa86af05b845765626c56e16124a6d2760d825ad",
   "research_deltas": [
-    "C005 is CLOSED20/20 / hard stop obeyed.",
-    "MIN01, MIN02 Candidate A and MIN03 Candidate B integration qualifications are closed PASS.",
-    "v3 isolated admission PASS: linked8089/8192, raw4494, state3467, scratch62, nine QEMU boots, verifier20/20.",
-    "Post-promotion H1 emulator matrix PASS from committed v3 promotion HEAD; pre-promotion matrix PASS retained as non-controlling."
+    "No new science/architecture promotion; current D64-v3/H1 evidence remains controlling.",
+    "Publication transport failure and correction are infrastructure-only scars."
   ],
-  "role": "R4 Convergence Refiner + R1 audit pressure",
+  "role": "R4 Convergence Refiner + R1 continuity audit",
   "schema": "hostile_os.turn_freshness.v1",
-  "turn_intent": "Proceed autonomously; finish post-C005 H1 SMP convergence and D64 v3 promotion while keeping every decision/research/Commander intent/continuity surface fresh per turn."
+  "turn_intent": "Publish every unique project datum and create a zero-re-explanation next-thread handoff while preserving the OS-only retrieval contract."
 }

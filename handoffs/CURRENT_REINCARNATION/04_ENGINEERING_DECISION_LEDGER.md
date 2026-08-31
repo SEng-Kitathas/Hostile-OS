@@ -164,3 +164,19 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | Current v3 all-mode admission = nine QEMU boots | Actual composition is1 SMP +1 core +2 restart +5 faults | Correct any earlier “eight boot” narration; count is execution fact, not architecture |
 | QEMU+Bochs agreement does not qualify H1 hardware | Neither emulator is the E2-1800/A45/HP firmware machine | Replace VM assumptions only with physical probe/boot evidence |
 | Do not spend v3's103-byte headroom by convenience | H1 remains physically untested and C004 embodiment pressure still exists | New bytes must buy an earned capability/guarantee after explicit Pareto pressure |
+
+## 2026-08-31 zero-re-explanation reincarnation decision
+
+| Decision | Why | Ceiling / reopen |
+|---|---|---|
+| Git/GitHub must contain enough current + historical context for a fresh thread to continue without operator re-explanation | Repeated long-thread recovery can otherwise move the project backward or cause old assumptions/frontiers to be reintroduced | Standing continuity policy; replace only with a stronger automatically verified reincarnation mechanism |
+| Add one current zero-re-explanation ingress contract rather than rewriting older handoffs | Historical handoffs are valid chronology but can become stale as frontiers move | New ingress must be refreshed when current architecture/frontier materially changes |
+| Explicitly mark older state paragraphs as historical/superseded when newer verified state exists | Prevent a fresh model from selecting a stale frontier because it appears earlier in a long state document | Newest verified artifact/Git state always wins |
+| Preserve full project ledger while keeping `os/` independently retrievable | Continuity completeness and OS usability are separate responsibilities | Only explicit commander policy may weaken either side |
+
+## 2026-08-31 publication scratch-capacity decision
+
+| Decision | Why | Ceiling / reopen |
+|---|---|---|
+| Publication scratch location is transport, not canonical state | Full snapshot needs archive+mirror space; E: exhausted while D: had ample free space | Scratch may move drives through `HOSTILE_GITHUB_PUBLISH_SCRATCH_ROOT`; exact canonical commit capture/readback rules remain unchanged |
+| Never drop research to solve publication disk pressure | GitHub is whole-project durability ledger | Adapt scratch/storage/LFS transport instead; only explicit commander policy may weaken inclusion |

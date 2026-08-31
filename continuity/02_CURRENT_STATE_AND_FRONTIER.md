@@ -636,3 +636,23 @@ P0 local work after durable turn close: prepare a non-destructive physical-H1 qu
 P1 local convergence: representation/Pareto review of the still-unembodied C004 authority/protection shadow against v3; do not consume the remaining103-byte envelope by convenience.
 
 No operator input is required until an actual H1 power/boot/probe action is ready or another genuinely external evidence seam becomes blocking.
+
+## 2026-08-31 zero-re-explanation publication pass
+
+Commander directed a full-project GitHub/reincarnation close such that the next thread can continue with **zero need for re-explanation**.
+
+Current canonical base at pass start: `fa86af05b845765626c56e16124a6d2760d825ad` (`Refresh post-C005 D64 v3 continuity and reincarnation`), clean worktree.
+
+New current ingress surfaces:
+- `NEXT_THREAD_START_HERE.md`;
+- `continuity/16_ZERO_REEXPLANATION_REINCARNATION_2026-08-31.md`.
+
+These do not replace historical evidence. They bind the current D64-v3/H1 frontier to the complete historical/decision/scar/transcript tree and explicitly tell future threads how to distinguish current truth from older chronology.
+
+No architecture/science promotion is implied by this continuity pass.
+
+## 2026-08-31 publication scratch-space recovery
+
+Zero-re-explanation checkpoint `4dccb659...` passed committed reincarnation81/81, freshness and durable-repository gates. First async publication wrapper call did not start (`EXECUTION_SUBMIT_FAILED / job not found`). Qualified detached publisher then reached exact immutable archive generation but failed with `Errno28` because E: lacked space for full archive+mirror expansion. Canonical content remained clean and remote success was not claimed.
+
+Publication tooling now supports external scratch root via `HOSTILE_GITHUB_PUBLISH_SCRATCH_ROOT`; rerun uses D: with ~153GB free. This is infrastructure hardening only, not science/architecture change.

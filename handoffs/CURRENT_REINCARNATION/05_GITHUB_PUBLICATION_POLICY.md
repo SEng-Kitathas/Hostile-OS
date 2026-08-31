@@ -111,3 +111,13 @@ Operator clarified “full project snapshot” as **all unique project data**, n
 At each meaningful turn, unique new project data from execution scratch, donor review, recovery scans, failed runs, or reproduction work must be admitted into the canonical folder tree or losslessly archived with hashes before publication. `.pcmmad_sync_runs/` is execution scratch, never the sole durable home of unique evidence.
 
 Exact duplicates/caches/process breadcrumbs are not required as redundant Git copies, but a load-bearing failure/disposition must be recorded before cleanup.
+
+## Publication scratch capacity / external-root rule — 2026-08-31
+
+A full immutable publication can transiently require space for both a canonical `git archive` and an isolated publication mirror. Publication scratch therefore SHALL NOT be assumed to fit on the canonical repository drive.
+
+`tools/publish_github_snapshot.py` supports `HOSTILE_GITHUB_PUBLISH_SCRATCH_ROOT`. When set, archive and mirror scratch live under that root while the canonical source remains the captured Git commit.
+
+Disk-space pressure is a transport problem. It SHALL NOT be solved by dropping admitted research, rewriting canonical science history, or weakening whole-project publication.
+
+The 2026-08-31 E:-drive exhaustion is recorded in `scars/GITHUB_PUBLICATION_SCRATCH_SPACE_SCAR_2026-08-31.md`.

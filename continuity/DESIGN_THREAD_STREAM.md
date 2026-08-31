@@ -1314,3 +1314,16 @@ User said `Proceed` repeatedly across recovery/convergence boundaries, introduci
 
 ### CONTINUITY CONSEQUENCE
 Living Commander's Intent, current state/frontier, decision ledger, architecture synthesis, Live Shadow, DTS, conversation handoff, reincarnation and per-turn hash manifest are refreshed at this turn close. Physical H1 remains the next reality authority; emulator agreement is not hardware qualification.
+
+## 2026-08-31 — USER — ZERO-RE-EXPLANATION FULL-PROJECT PUBLICATION DIRECTIVE
+Timestamp: 2026-08-31T15:10:59+00:00
+
+User directed that EVERYTHING be pushed to GitHub and that the next thread be able to take over seamlessly while understanding project then-and-now, nuance, subtleties, Commander’s Intent, research, decisions, rejected paths, current embodiment, and open seams, with zero need for operator re-explanation.
+
+## 2026-08-31 — ASSISTANT — REINCARNATION-GRADE PUBLICATION PASS STARTED
+Re-grounded on clean canonical `fa86af05b845765626c56e16124a6d2760d825ad`. Audited current Live Shadow, current-state tail, decision ledger, emerging-architecture synthesis, current 79-file reincarnation package, project-tree/install split, and transcript tail. Found historical maximum handoff useful but frontier-stale, and current package read-first bound to an older refresh marker. Added a new zero-re-explanation continuity contract and root start-here pointer; refreshed Commander intent, current state, decision ledger and chronological handoff. No science/architecture promotion claimed by this continuity pass.
+
+## 2026-08-31 — ASSISTANT — ZERO-REEXPLANATION PUBLICATION TRANSPORT SCAR
+Timestamp: 2026-08-31T15:18:45+00:00
+
+Committed zero-reexplanation checkpoint `4dccb659...`; committed reincarnation81/81, freshness and durability gates passed. Async-job publisher submission failed before start with `EXECUTION_SUBMIT_FAILED / job not found`. Detached exact-commit publisher then generated an immutable ~3.19GB archive but failed with `Errno28` because E: ran out of scratch space while D: had ~153GB free. No GitHub success was claimed. Added external publication scratch-root support and a durable scar; next rerun uses D:.

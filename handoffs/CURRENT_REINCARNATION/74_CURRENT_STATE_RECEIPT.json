@@ -1,0 +1,33 @@
+{
+  "architecture_posture": "INTEGRATED_SHADOW_CANDIDATE",
+  "base_head_before_turn_mutation": "fa86af05b845765626c56e16124a6d2760d825ad",
+  "campaigns": {
+    "C004": "CLOSED20/20",
+    "C005": "CLOSED20/20"
+  },
+  "current_research_reference": "os/research_only/d64_reference_v3",
+  "d64_v3": {
+    "all_mode_qemu_boots": 9,
+    "headroom_bytes": 103,
+    "isolated_verifier": "PASS20/20",
+    "linked_bytes": 8089,
+    "linked_envelope_bytes": 8192,
+    "scratch_bytes": 62,
+    "scratch_envelope_bytes": 128,
+    "semantic_state_bytes": 3467,
+    "stage1_bytes": 512,
+    "stage2_raw_bytes": 4494
+  },
+  "generated_utc": "2026-08-31T15:11:56+00:00",
+  "h1": {
+    "bochs_independent_replay": "PASS",
+    "physical_hardware": "UNQUALIFIED",
+    "physical_target": "HP Pavilion p2-1120",
+    "qemu_proxy": "PASS",
+    "selected_topology": "BSP sole relation mutator + ordered AP request/result mailbox"
+  },
+  "next_local_p0": "prepare non-destructive physical-H1 qualification/boot/probe/replay package",
+  "next_local_p1": "C004-to-v3 representation/Pareto convergence",
+  "operator_input_required_now": false,
+  "schema": "hostile_os.reincarnation.current_state.v1"
+}

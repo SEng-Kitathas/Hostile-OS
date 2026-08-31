@@ -43,3 +43,11 @@ Continue to prefer the smallest mechanism that preserves earned futures. Candida
 Current reality pressure is physical H1 qualification and remaining science/embodiment mismatch. In particular, C004 authority/protection science is not silently considered embodied merely because v3 is current. Prepare as much of the physical probe/boot/replay path locally as possible before requiring operator hardware touch.
 
 No QEMU/Bochs result may be promoted into physical H1 truth. No `CURRENT_RESEARCH_REFERENCE` label may be promoted into final architecture, production readiness, or general-purpose release by tone.
+
+## Zero-re-explanation continuity intent
+
+A future HOSTILE-OS thread must be able to take over without requiring the commander to restate project history, intent, nuance, engineering reasons, current state, rejected paths, or open seams.
+
+All load-bearing project meaning therefore belongs in durable Git/GitHub state. Continuity must preserve both **then** and **now**: historical evidence stays intact, while living documents explicitly mark which older frontiers have been superseded.
+
+A fresh thread SHALL rehydrate from the repository and continue. Asking the commander to reconstruct already-persisted project context is a continuity failure.

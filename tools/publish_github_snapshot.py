@@ -13,6 +13,7 @@ from pathlib import Path
 REMOTE_URL = "https://github.com/SEng-Kitathas/Hostile-OS.git"
 REMOTE_BRANCH = "main"
 MIRROR_ROOT_RELATIVE = Path(".pcmmad_sync_runs") / "github_publish_mirrors"
+PUBLISH_SCRATCH_ENV = "HOSTILE_GITHUB_PUBLISH_SCRATCH_ROOT"
 LFS_THRESHOLD_BYTES = 95_000_000
 
 
@@ -37,6 +38,14 @@ def utc_now() -> str:
     return dt.datetime.now(dt.timezone.utc).isoformat()
 
 
+
+
+def publication_scratch_root(source: Path) -> Path:
+    override = os.environ.get(PUBLISH_SCRATCH_ENV, "").strip()
+    root = Path(override).expanduser().resolve() if override else source / ".pcmmad_sync_runs"
+    root.mkdir(parents=True, exist_ok=True)
+    return root
+
 def clear_worktree(root: Path) -> None:
     # The PCMMAD execution surface may create ignored runtime logs inside the
     # mirror while publication is running. They are control-plane scratch, not
@@ -51,9 +60,9 @@ def clear_worktree(root: Path) -> None:
             child.unlink()
 
 
-def export_commit_snapshot(source: Path, mirror: Path, canonical_head: str) -> list[dict[str, object]]:
+def export_commit_snapshot(source: Path, mirror: Path, canonical_head: str, scratch_root: Path) -> list[dict[str, object]]:
     """Export one immutable Git commit, never the moving canonical worktree."""
-    scratch = source / ".pcmmad_sync_runs" / "github_publication_archives"
+    scratch = scratch_root / "github_publication_archives"
     scratch.mkdir(parents=True, exist_ok=True)
     archive = scratch / f"{canonical_head}_{os.getpid()}.tar"
     try:
@@ -138,7 +147,8 @@ def main() -> int:
     source = Path(__file__).resolve().parents[1]
 
     canonical_head = run(["git", "rev-parse", "HEAD"], source).stdout.strip()
-    mirror = source / MIRROR_ROOT_RELATIVE / f"{canonical_head[:12]}_{os.getpid()}"
+    scratch_root = publication_scratch_root(source)
+    mirror = scratch_root / "github_publish_mirrors" / f"{canonical_head[:12]}_{os.getpid()}"
     branch = run(["git", "branch", "--show-current"], source).stdout.strip()
     if branch != "main":
         raise RuntimeError(f"publication requires canonical branch main, observed {branch!r}")
@@ -151,7 +161,7 @@ def main() -> int:
     ensure_mirror(source, mirror)
     clear_worktree(mirror)
 
-    copied = export_commit_snapshot(source, mirror, canonical_head)
+    copied = export_commit_snapshot(source, mirror, canonical_head, scratch_root)
     lfs_paths = configure_lfs(mirror, copied)
 
     head_after_snapshot = run(["git", "rev-parse", "HEAD"], source).stdout.strip()
@@ -173,6 +183,7 @@ def main() -> int:
         "canonical_head_after_snapshot": head_after_snapshot,
         "canonical_advanced_during_publication": canonical_advanced_during_publication,
         "snapshot_source": "git archive <captured canonical commit>",
+        "publication_scratch_root": str(scratch_root),
     }
     (mirror / ".github-publication-source.json").write_text(json.dumps(metadata, indent=2) + "\n", encoding="utf-8")
 
@@ -210,6 +221,7 @@ def main() -> int:
         "canonical_head_after_snapshot": head_after_snapshot,
         "canonical_advanced_during_publication": canonical_advanced_during_publication,
         "mirror_workspace": str(mirror),
+        "publication_scratch_root": str(scratch_root),
     }
     print(json.dumps(result, indent=2))
     return 0

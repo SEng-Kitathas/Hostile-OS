@@ -2,75 +2,76 @@
 
 ## Thread Identity
 - Thread: HOSTILE-OS / PCMMAD
-- Last Updated: 2026-08-31T10:35:51+00:00
-- Mode: PROMOTION / BUILD-COMMIT turn-close
-- Dominant Objective: durably close post-C005 H1 SMP convergence and D64 v3 promotion, then prepare physical-H1 qualification without losing science/embodiment ceilings.
+- Last Updated: 2026-08-31T15:19:14+00:00
+- Mode: BUILD-COMMIT / CHECKPOINT
+- Dominant Objective: close and publish the zero-re-explanation checkpoint after hardening publication scratch transport onto D:.
 
 ## Active User Intent
-- Proceed autonomously until genuine operator-only input is required; stack such blockers at the end.
-- Keep every load-bearing decision, research result/adjudication, Commander's Intent and continuity/reincarnation surface fresh every meaningful turn.
-- H1 HP Pavilion p2-1120 is the first physical target; virtual work should reduce later physical-port cost, never replace hardware authority.
-- Orthogonal OSes may supply donor pressure only; hostile first-principles derivation and local evidence retain authority.
+- Push all unique project data to GitHub in the proper separated tree.
+- Make the next thread understand the project then and now, including nuance, subtleties, Commander’s Intent, research, decisions, rejected paths, scars and open seams.
+- Require zero need for the operator to re-explain already-persisted context.
+- Preserve the OS-only retrieval/install contract: full R&D ledger on GitHub must not become an implicit `os/` dependency.
+- Continue autonomously until a genuine operator-only blocker is reached.
 
 ## Current Authoritative State
-- Architecture posture remains `INTEGRATED_SHADOW_CANDIDATE`; no final/release/production promotion.
-- C004 CLOSED20/20; C005 CLOSED20/20; both hard stops obeyed, no P21.
-- C005 working grammar: trusted provenance + atomic/current transition state + publication/lifetime/recovery protocol -> coherent shared effect; responsibility vocabulary only.
-- H1-SMP-MIN01 PASS:7811 linked,381 headroom, scratch50.
-- Candidate A MIN02 PASS:8189 linked,3 headroom, scratch60; valid alternate, not selected.
-- Candidate B MIN03 PASS:8089 linked,103 headroom, raw4494, state3467, scratch62; BSP sole relation mutator + ordered AP request/result mailbox.
-- Candidate B selected for current H1 requirement; Candidate C deferred/not disproven.
-- `os/research_only/d64_reference_v3/` = **CURRENT_RESEARCH_REFERENCE — RESEARCH PURPOSES ONLY**. Promotion commit `af8a11eb055b486c38cefb3676066b3e6d808f32`.
-- v3 isolated admission: exact build, nine QEMU boots, verifier20/20, no parent-tree runtime dependency. First host-side read-only target-disk runner failure retained as Scar A.
-- Current controlling H1 cross-emulator replay: `20260831T103212Z_h1_emulator_matrix_01`, QEMU PASS + Bochs core/restart/five-fault PASS, source HEAD `af8a11e...`.
-- Current QEMU transplant portability gate follows v3 and PASS9/9.
+- Architecture posture: `INTEGRATED_SHADOW_CANDIDATE`; not final/release/production.
+- C004 CLOSED20/20; C005 CLOSED20/20; hard stops obeyed, no P21.
+- `os/research_only/d64_reference_v3/` = CURRENT_RESEARCH_REFERENCE — RESEARCH PURPOSES ONLY.
+- v3 promotion commit: `af8a11eb055b486c38cefb3676066b3e6d808f32`.
+- v3 body: stage1 512; stage2 raw4494; linked8089/8192; headroom103; semantic state3467; scratch62/128; isolated verifier20/20; all-mode9 QEMU boots.
+- Selected H1 topology: BSP sole relation mutator + ordered AP request/result mailbox. Candidate A remains valid alternate; Candidate C deferred/not disproven.
+- Current H1 cross-emulator replay: QEMU PASS + Bochs core/restart/five-fault PASS. Physical H1 remains unqualified.
+- Current canonical base at start of this publication pass: `fa86af05b845765626c56e16124a6d2760d825ad`, clean before continuity mutation.
+- New current ingress surfaces: `NEXT_THREAD_START_HERE.md` and `continuity/16_ZERO_REEXPLANATION_REINCARNATION_2026-08-31.md`.
+- Publication transport scar: async wrapper failed before start; exact-commit publisher then hit E:-drive `Errno28`; publisher now supports external scratch root and rerun will use D:.
 
 ## Active Constraints
+- Historical/sealed evidence is append-only; current overlays supersede stale frontier prose without deleting it.
 - `QEMU_H1_PROXY_PASS + BOCHS_PASS != H1_PHYSICAL_PASS`.
-- v3 current reference != final architecture / production / general-purpose release.
-- Historical/sealed evidence is append-only; living indexes are refreshed instead of rewriting history.
-- Per-turn semantic/hash freshness, reincarnation, durability, publication and remote readback are mandatory after mutation.
-- Candidate-B owner progress dependency is explicit; no fairness/stalled-owner recovery is claimed.
-- C004 authority/protection shadow is not silently deemed embodied by v3.
-- Do not spend v3's103-byte headroom without an earned capability/Pareto discriminator.
+- Current research body != complete current research shadow; C004 embodiment gap remains.
+- Do not spend v3's103-byte headroom by convenience.
+- Working nouns remain compression vocabulary, not constitutional primitives.
+- Every meaningful turn must refresh living continuity, reincarnation, hashes, durable-repository gate, commit, GitHub publication and remote readback.
+- `os/` must remain independently obtainable; research/history may not become hidden build/install dependencies.
 
 ## Decisions Locked In
-- Hostile first-principles derivation remains architecture-generating method; donors are quarry only.
-- H1 is first physical target.
-- C005 stops at P20.
-- Candidate B is selected H1 successor topology at current scope; A retained alternate, C deferred.
-- v3 supersedes v2 as current research reference; v2/I001 remain preserved prior lineage.
-- “Current” H1/portability tooling must follow the current body.
+- First-principles hostile derivation remains architecture-generating method; donors are evidence/quarry only.
+- H1 HP Pavilion p2-1120 is first physical target.
+- Candidate B is selected current H1 successor representation.
+- v3 supersedes v2 as current reviewer body; v2/I001 remain preserved lineage.
+- Zero-re-explanation reincarnation is standing continuity policy: a fresh thread must rehydrate from Git instead of asking the operator to retell the project.
 
 ## Open Loops
+- Prepare non-destructive physical-H1 qualification/boot/probe/replay package.
 - Physical H1 CPUID/PCI/BIOS/ACPI/storage/interrupt/SMP qualification.
-- Prepare non-destructive physical-H1 boot/probe/replay package locally before operator touch.
-- Representation/Pareto review for still-unembodied C004 authority/protection rules against v3.
+- C004-to-v3 representation/Pareto convergence without convenience growth.
 - Candidate-B owner availability/progress only if measured workload makes it relevant.
-- Full arbitrary-core/weak-memory/DMA/IOMMU/NMI/SMI/fairness guarantees remain unearned.
-- Foreign Opus raw packet and exact uploaded frozen-intent byte bridge remain external seams.
+- Arbitrary-core/weak-memory/DMA/IOMMU/NMI/SMI/fairness/production guarantees remain unearned.
+- Foreign Opus raw packet remains reported-only until supplied/hashed.
+- Exact uploaded frozen-intent source-byte Git ingress remains open.
 
 ## Immediate Next Step
-1. finish this turn's semantic/hash continuity + reincarnation + durable-repository gates;
-2. publish exact canonical checkpoint and independently read back remote main;
-3. next local P0: build the physical-H1 qualification/boot/probe package around v3;
-4. next local P1: C004-to-v3 representation/Pareto convergence review without convenience growth.
+1. refresh hashes/package with the publication-scratch scar and tool fix;
+2. syntax/semantic-check publisher, freshness, reincarnation and durable-repository gates;
+3. commit exact infrastructure/continuity delta;
+4. publish captured canonical commit using D: external scratch;
+5. independently read back GitHub `main`;
+6. next thread resumes physical-H1 package preparation locally without operator re-explanation.
 
 ## Last 10 Turn Reinforcement Window
-1. USER: directed H1 durable machine profile + dual-emulator replay while concurrency work continued; state-changing priority.
-2. ASSISTANT: H1 QEMU/Bochs replay path qualified; C005 continued.
-3. USER: “Proceed”; continuation trigger.
-4. ASSISTANT: C005 reached P20 hard stop and moved into mandatory representation convergence.
-5. ASSISTANT: MIN01 proved AP transport fits; MIN02 direct-caller whole-operation gate passed but left3 bytes headroom.
-6. USER: “Proceed”; continuation/recovery trigger.
-7. ASSISTANT: MIN03 Candidate B was specified from MIN01, sealed and passed at8089/8192 with103 headroom.
-8. ASSISTANT: successor review selected B; self-contained v3 package created; first standalone run failed host-side before guest and was visibly amended.
-9. ASSISTANT: amended v3 isolated build/run/verify passed; v3 promoted; current tools retargeted; committed QEMU+Bochs matrix passed.
-10. USER: current “Proceed”; no new constraint, requires autonomous continuation and per-turn durable close.
+1. USER: authorized emulator acquisition for H1.
+2. ASSISTANT: installed Bochs3.1; QEMU remains primary H1 proxy; no exact H1 emulator claim.
+3. USER: required all decisions/research/Commander intent/continuity fresh per turn.
+4. ASSISTANT: adopted semantic+hash freshness policy and checker.
+5. USER: directed H1 durable profile + dual-emulator replay while concurrency continued.
+6. ASSISTANT: C005 closed20/20 and post-campaign H1 SMP convergence measured MIN01/MIN02/MIN03.
+7. USER: repeatedly said Proceed, retaining autonomous continuation authority.
+8. ASSISTANT: Candidate B selected; D64 v3 created, isolated, promoted and retargeted as current reference; H1 QEMU+Bochs replay passed.
+9. ASSISTANT: post-C005/v3 continuity and reincarnation refreshed at canonical `fa86af0...`.
+10. USER: ordered full GitHub push and zero-re-explanation next-thread continuity; current state-changing directive.
 
 ## Delta Since Previous Shadow
-- Replaced obsolete P13 frontier with C005 CLOSED20/20.
-- Added MIN01/MIN02/MIN03 measured Pareto convergence and Candidate-B selection.
-- Promoted v3 to current research reference with exact admission metrics and retained runner scar.
-- Added controlling current v3 H1 cross-emulator replay and current portability PASS.
-- Moved immediate frontier to physical-H1 preparation plus C004 embodiment convergence.
+- Added zero-re-explanation as explicit Commander continuity requirement.
+- Added current root/thread ingress surfaces and exact interpretation rule for stale historical handoffs.
+- Publication objective changed from ordinary turn close to reincarnation-grade full-project checkpoint.
+- Science/architecture state itself is unchanged from post-C005 D64-v3 close.
