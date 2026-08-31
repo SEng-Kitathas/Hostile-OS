@@ -1263,3 +1263,8 @@ Relayed Opus's second independent reproduction report. User emphasized project-r
 
 ### ASSISTANT — audited and closed current direct-runner data-dir gap
 Confirmed the claim for direct Python launch. Also found the nuance that PATCH_003 already supplied `-L`, so the project had wrapper-level coverage. Kept historical I001 tree immutable; current D64 v2 runner gained explicit/auto QEMU data-dir discovery and `-L`, recorded as `qemu_data_dir`. Synthetic transplant gate and exact committed os-only full suite passed; all eight v2 QEMU argv arrays now carry the selected `-L`. No science authority changed and Opus's second foreign run remains reported-only until raw artifacts arrive.
+
+### ASSISTANT — PARETO01 and mature comparison gate
+Selected Pareto characterization instead of spending v2 headroom. Sealed then ran10 builds and80 reviewer runs totaling320 QEMU boots plus20 verifier-only runs. All320 boots and80 runs independently matched exact semantics. Static body remains7440/8192 linked with752 bytes headroom. Core/restart/fault medians were tight; first-build and two all-mode timing tails were host/QEMU/toolchain reproduction variance with exact traces preserved, not OS latency/semantic defects. No optimization/envelope growth earned.
+
+Defined the mature-OS blind-comparison maturity gate. Current prerequisites are satisfied, so a bounded comparison tranche may now open, but outside systems remain non-authoritative quarry only and may supply questions rather than design answers.

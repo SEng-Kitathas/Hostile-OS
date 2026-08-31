@@ -488,3 +488,36 @@ Closure packet:
 `research/reproduction/QEMU_DATA_DIR_CLOSURE_2026-08-30/`.
 
 No science or architecture authority changes.
+
+## 2026-08-30 D64/V2-PARETO01 and blind-comparison gate
+
+Frontier-selection audit chose Pareto characterization over convenience growth, immediate hardware science, or premature mature-OS comparison.
+
+D64/V2-PARETO01 CLOSED PASS as engineering characterization at source HEAD `d5c96891fbef796caac9b3070e29e63d8cb9352f` / v2 body tree `03af56020afe6d117836133c0e33092d098fc13e`.
+
+Population:
+- 10 clean builds;
+- 20 core runs;
+- 20 restart runs;
+- 20 faulted-media runs;
+- 20 all-mode runs;
+- 20 verifier-only runs;
+- exactly 320 QEMU boots.
+
+Independent receipt adjudication found 80/80 reviewer runs and 320/320 boots exact: exit33, expected traces, and restart/fault semantic side conditions all PASS.
+
+Measured static burden remains stage1 512, stage2 raw3845, named state3467, linked7440/8192, headroom752.
+
+Median host command costs on this exact environment:
+- clean build ~599 ms (first-build outlier ~8.85 s);
+- core ~339 ms;
+- restart ~512 ms;
+- five-case faulted-media ~1.24 s;
+- all-mode ~1.93 s (two host/QEMU outliers ~4.58 s and ~9.56 s);
+- verifier ~42 ms.
+
+The timing tails preserve exact guest traces and localize to host/QEMU/toolchain reproduction variance, not guest semantic instability. These are not architecture latency measurements.
+
+No burden discriminator currently justifies optimizing the representation or enlarging the 8 KiB loader. The remaining 752 bytes are a pressure budget, not free feature space.
+
+The previously deferred mature-OS blind-comparison maturity gate is now satisfied at governance level. Comparison is eligible to open under strict quarantine: external systems may supply responsibility comparison/questions, never architecture authority or copied answers. See `research/audits/MATURE_OS_BLIND_COMPARISON_MATURITY_GATE_2026-08-30.md`.

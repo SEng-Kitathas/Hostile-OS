@@ -1,0 +1,49 @@
+{
+  "assurance": {
+    "integrated_verifier_checks": 17,
+    "integrated_verifier_passed": true,
+    "qemu_portability_checks": 9,
+    "qemu_portability_passed": true
+  },
+  "body_tree": "03af56020afe6d117836133c0e33092d098fc13e",
+  "llvm_tools": {
+    "clang": {
+      "identity_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "invocation_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "sha256": "f2e1b93d9dd27b847773e7de61b00f1b49ae27eb20ba434297cc020f768a1dfb",
+      "version": "Android (13989888, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)"
+    },
+    "lld": {
+      "identity_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+      "invocation_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+      "sha256": "1260f9d6e0522bd476d040203998fa03406607971c13a9aa74f3f66f1e6d1c5d",
+      "version": "LLD 21.0.0 (/mnt/disks/build-disk/src/googleplex-android/llvm-r563880-release/out/llvm-project/llvm 5e96669f06077099aa41290cdb4c5e6fa0f59349) (compatible with GNU linkers)"
+    },
+    "nm": {
+      "identity_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-nm.exe",
+      "invocation_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-nm.exe",
+      "sha256": "682d479f37f1b0aea7f0c5b400dc6ac46b309f040dfe0935b12e902dee3244fc",
+      "version": "llvm-nm, compatible with GNU nm"
+    },
+    "objcopy": {
+      "identity_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+      "invocation_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+      "sha256": "4a7559a17dba5f35eb8d209e4765516b548e83b664278c8640f484c3be70e901",
+      "version": "llvm-objcopy, compatible with GNU objcopy"
+    }
+  },
+  "platform": "Windows-11-10.0.26200-SP0",
+  "python": {
+    "executable": "C:\\Users\\ancal\\Desktop\\PCMMAD_RECEIVER_V29_NATIVE_PROTOCOL_RC1\\PCMMAD_receiver\\baseline\\pcmmad_receiver\\.venv\\Scripts\\python.exe",
+    "version": "3.12.10"
+  },
+  "qemu": {
+    "data_dir": "C:\\Program Files\\qemu\\share",
+    "invocation_path": "C:\\Program Files\\qemu\\qemu-system-i386.exe",
+    "module_dir": null,
+    "sha256": "dbbf7242e5b0d295e54336c69034a266ee1cc117d7ac6e3060e38bb61651200b",
+    "version": "QEMU emulator version 11.1.0 (v11.1.0-12130-ge470268ff4)"
+  },
+  "schema": "hostile_os.d64_v2_pareto01.environment.v1",
+  "source_head": "d5c96891fbef796caac9b3070e29e63d8cb9352f"
+}

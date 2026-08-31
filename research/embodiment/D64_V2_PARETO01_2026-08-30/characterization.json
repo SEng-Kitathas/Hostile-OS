@@ -1,0 +1,331 @@
+{
+  "body_tree": "03af56020afe6d117836133c0e33092d098fc13e",
+  "boot_groups": {
+    "all": {
+      "boot_wall_ms": {
+        "max_ms": 883.3040000026813,
+        "mean_ms": 206.31822687478234,
+        "median_ms": 182.1297999995295,
+        "min_ms": 171.10230000253068,
+        "n": 160,
+        "p95_ms": 269.26559999992605,
+        "stdev_ms": 97.39269952260965
+      },
+      "boots_per_run": [
+        8
+      ],
+      "total_boots": 160
+    },
+    "core": {
+      "boot_wall_ms": {
+        "max_ms": 225.89049999805866,
+        "mean_ms": 212.2326350014191,
+        "median_ms": 211.899550002272,
+        "min_ms": 200.16640000540065,
+        "n": 20,
+        "p95_ms": 221.4380000004894,
+        "stdev_ms": 6.50799999056574
+      },
+      "boots_per_run": [
+        1
+      ],
+      "total_boots": 20
+    },
+    "faulted-media": {
+      "boot_wall_ms": {
+        "max_ms": 192.12520000291988,
+        "mean_ms": 180.88172100011434,
+        "median_ms": 181.24929999976302,
+        "min_ms": 170.11490000004414,
+        "n": 100,
+        "p95_ms": 188.3250000028056,
+        "stdev_ms": 4.771660466886552
+      },
+      "boots_per_run": [
+        5
+      ],
+      "total_boots": 100
+    },
+    "restart": {
+      "boot_wall_ms": {
+        "max_ms": 194.33839999692282,
+        "mean_ms": 185.4205199995704,
+        "median_ms": 185.9118499996839,
+        "min_ms": 174.58640000404557,
+        "n": 40,
+        "p95_ms": 192.32679999549873,
+        "stdev_ms": 4.510968442667589
+      },
+      "boots_per_run": [
+        2
+      ],
+      "total_boots": 40
+    }
+  },
+  "build_manifest": {
+    "body_status": "CURRENT_RESEARCH_REFERENCE",
+    "disk": {
+      "bytes": 1474560,
+      "sha256": "ce19f42e6e74fc9b0b3db09a1bb9af11d9a05126762e34079e80034d0606b06c"
+    },
+    "format": "HOSTILE_OS_D64_V2_BUILD_V1",
+    "stage1": {
+      "bytes": 512,
+      "sha256": "feecbbfdea750fc26f401c0e8eeeabcdd70953036bd60e287368e987ac1ed97d",
+      "signature_55aa": true
+    },
+    "stage2": {
+      "envelope_bytes": 8192,
+      "image_memory_bytes": 7440,
+      "padded_bytes": 8192,
+      "padded_sha256": "206bb795253b3536f30a5d5a9d01e5a1174cc7f25fdafbd79b235ec277413d6b",
+      "raw_bytes": 3845,
+      "raw_sha256": "5d78b672812674810d6363594a1e5c0b76b90a9a2b272229a9146bfa453127ac"
+    },
+    "state": {
+      "actual_bytes": 3467,
+      "begin": 36613,
+      "end": 40080,
+      "expected_bytes": 3467
+    },
+    "tools": {
+      "clang": {
+        "identity_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+        "invocation_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+        "sha256": "f2e1b93d9dd27b847773e7de61b00f1b49ae27eb20ba434297cc020f768a1dfb",
+        "version": "Android (13989888, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)"
+      },
+      "lld": {
+        "identity_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+        "invocation_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+        "sha256": "1260f9d6e0522bd476d040203998fa03406607971c13a9aa74f3f66f1e6d1c5d",
+        "version": "LLD 21.0.0 (/mnt/disks/build-disk/src/googleplex-android/llvm-r563880-release/out/llvm-project/llvm 5e96669f06077099aa41290cdb4c5e6fa0f59349) (compatible with GNU linkers)"
+      },
+      "nm": {
+        "identity_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-nm.exe",
+        "invocation_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-nm.exe",
+        "sha256": "682d479f37f1b0aea7f0c5b400dc6ac46b309f040dfe0935b12e902dee3244fc",
+        "version": "llvm-nm, compatible with GNU nm"
+      },
+      "objcopy": {
+        "identity_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+        "invocation_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+        "sha256": "4a7559a17dba5f35eb8d209e4765516b548e83b664278c8640f484c3be70e901",
+        "version": "llvm-objcopy, compatible with GNU objcopy"
+      }
+    }
+  },
+  "environment": {
+    "llvm_bin": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin",
+    "platform": "nt"
+  },
+  "measured_qemu_boots": 320,
+  "planned_qemu_boots": 320,
+  "samples": {
+    "all_ms": [
+      1943.4831999969902,
+      1896.726300001319,
+      1929.3181000030017,
+      1923.4713000041666,
+      1917.275100000552,
+      1928.4343000035733,
+      1904.2764999976498,
+      1942.211399997177,
+      9562.898800002586,
+      4583.323399994697,
+      1956.0647000034805,
+      1930.2320999995572,
+      1914.1616000051727,
+      1934.5773000022746,
+      1929.0871000048355,
+      1964.4000000043889,
+      1929.8113000040757,
+      1898.9866000047186,
+      1927.8542999963975,
+      1978.4551999982796
+    ],
+    "build_ms": [
+      8846.40610000497,
+      595.7876000029501,
+      575.8329999953276,
+      599.0103000003728,
+      600.5004000035115,
+      593.0021999956807,
+      615.0840999980574,
+      599.5780999946874,
+      581.8959999960498,
+      613.0172999983188
+    ],
+    "core_ms": [
+      336.93420000054175,
+      345.62110000115354,
+      341.35129999776836,
+      338.8598000019556,
+      349.3545000019367,
+      339.03750000172295,
+      327.41040000109933,
+      344.9107999986154,
+      340.24199999839766,
+      341.3561999986996,
+      341.79759999824455,
+      334.59160000347765,
+      351.9192000021576,
+      336.6403999971226,
+      334.29269999760436,
+      339.0923999977531,
+      333.1514000019524,
+      323.90879999729805,
+      325.4737999959616,
+      336.9745999953011
+    ],
+    "faulted_media_ms": [
+      1257.4663999985205,
+      1230.740599996352,
+      1238.732899997558,
+      1245.3477000017301,
+      1271.3127999959397,
+      1267.7876000016113,
+      1253.4683999983827,
+      1272.9994999972405,
+      1254.6569000041927,
+      1244.851600000402,
+      1239.9886999992304,
+      1230.485399995814,
+      1234.4713999991654,
+      1231.633099996543,
+      1218.097699995269,
+      1220.99850000086,
+      1257.6508999991347,
+      1229.489500001364,
+      1236.343399999896,
+      1250.1316999987466
+    ],
+    "restart_ms": [
+      531.4159000045038,
+      508.1363000062993,
+      503.0527000053553,
+      511.1765000037849,
+      504.6959999963292,
+      526.3205000010203,
+      507.77689999813447,
+      512.7428000050713,
+      514.266400001361,
+      516.3491000057547,
+      504.3736000006902,
+      502.1530000012717,
+      514.1664999973727,
+      520.529000001261,
+      492.05870000150753,
+      512.30989999749,
+      519.4136999998591,
+      510.57540000329027,
+      509.76860000082524,
+      522.4363999950583
+    ],
+    "verify_ms": [
+      67.28389999625506,
+      40.137300005881116,
+      37.836800001969095,
+      38.99030000320636,
+      39.20780000044033,
+      43.273700001009274,
+      56.075499996950384,
+      46.764500002609566,
+      45.74460000003455,
+      42.364100001577754,
+      41.95349999645259,
+      40.27889999997569,
+      40.34189999947557,
+      42.26869999547489,
+      42.08199999993667,
+      41.21609999856446,
+      44.15780000272207,
+      44.15619999781484,
+      47.61579999467358,
+      43.92730000108713
+    ]
+  },
+  "schema": "hostile_os.d64_v2_pareto01.raw.v1",
+  "source_head": "d5c96891fbef796caac9b3070e29e63d8cb9352f",
+  "summary": {
+    "all_ms": {
+      "max_ms": 9562.898800002586,
+      "mean_ms": 2444.7524300012446,
+      "median_ms": 1929.5647000035387,
+      "min_ms": 1896.726300001319,
+      "n": 20,
+      "p95_ms": 4583.323399994697,
+      "stdev_ms": 1732.189725284095
+    },
+    "build_ms": {
+      "max_ms": 8846.40610000497,
+      "mean_ms": 1422.0115099989926,
+      "median_ms": 599.2941999975301,
+      "min_ms": 575.8329999953276,
+      "n": 10,
+      "p95_ms": 615.0840999980574,
+      "stdev_ms": 2474.824463286089
+    },
+    "core_ms": {
+      "max_ms": 351.9192000021576,
+      "mean_ms": 338.1460149994382,
+      "median_ms": 338.94865000183927,
+      "min_ms": 323.90879999729805,
+      "n": 20,
+      "p95_ms": 349.3545000019367,
+      "stdev_ms": 7.048221896672097
+    },
+    "faulted_media_ms": {
+      "max_ms": 1272.9994999972405,
+      "mean_ms": 1244.3327349988976,
+      "median_ms": 1242.4201499998162,
+      "min_ms": 1218.097699995269,
+      "n": 20,
+      "p95_ms": 1271.3127999959397,
+      "stdev_ms": 15.615450316386877
+    },
+    "restart_ms": {
+      "max_ms": 531.4159000045038,
+      "mean_ms": 512.185895001312,
+      "median_ms": 511.74320000063744,
+      "min_ms": 492.05870000150753,
+      "n": 20,
+      "p95_ms": 526.3205000010203,
+      "stdev_ms": 8.871340651617524
+    },
+    "verify_ms": {
+      "max_ms": 67.28389999625506,
+      "mean_ms": 44.28383499980555,
+      "median_ms": 42.31639999852632,
+      "min_ms": 37.836800001969095,
+      "n": 20,
+      "p95_ms": 56.075499996950384,
+      "stdev_ms": 6.5581065999474
+    }
+  },
+  "verification": {
+    "body_status": "CURRENT_RESEARCH_REFERENCE",
+    "check_count": 17,
+    "checks": {
+      "core_irq_boot_exact": true,
+      "fault_both_invalid": true,
+      "fault_equal_conflict": true,
+      "fault_newer_corrupt": true,
+      "fault_newer_valid": true,
+      "fault_old_empty": true,
+      "integrated_has_at_least_512_memory_headroom": true,
+      "restart_boot1_exact": true,
+      "restart_boot2_exact": true,
+      "restart_guest_record_exact": true,
+      "restart_no_host_write_between_boots": true,
+      "restart_recovery_boot_read_only": true,
+      "stage1_signature_55aa": true,
+      "stage1_size_512": true,
+      "stage2_memory_within_8192": true,
+      "stage2_raw_within_8192": true,
+      "v2_named_state_exact_3467": true
+    },
+    "format": "HOSTILE_OS_D64_V2_VERIFY_V4",
+    "passed": true
+  }
+}

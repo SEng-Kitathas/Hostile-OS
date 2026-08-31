@@ -113,3 +113,12 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | Current v2 runner discovers/overrides firmware data dir and maps it to `-L` | Removes hidden system-path dependence for direct Python launch | Current research reference runner | Different QEMU layout/data contract invalidates discovery |
 | Historical I001 runner stays frozen; PATCH_003 remains its transplant wrapper | Preserve exact historical I001 tree while keeping official transplanted execution working | Historical embodiment lineage | A versioned successor I001 body is deliberately created |
 | Foreign second-run report remains reported, not raw-hash-verified | Reviewer supplied conclusions, not artifacts | External evidence only | Foreign manifest/traces/verify packet is supplied and locally hashed |
+
+## 2026-08-30 PARETO01 / mature comparison decisions
+
+| Decision | Why it exists | Authority ceiling | Reopen / demote when |
+|---|---|---|---|
+| Do not spend the remaining752 v2 bytes without a capability/burden discriminator | PARETO01 found no semantic instability or missing mechanism across320 boots | Embodiment engineering | A new capability test earns additional state/code |
+| Treat measured command/boot wall times as reproduction burden, not OS latency | Large tails preserved exact guest traces and were host/QEMU/toolchain localized | Exact host/QEMU envelope only | Guest-cycle/hardware timing instrumentation exists |
+| Mature-OS blind comparison is now eligible to open | Independent derivation, integrated os-only body, and first burden baseline now exist | Research comparison/quarry only | Comparison contaminates architecture authority or gate prerequisites regress |
+| External comparison findings cannot directly add mechanisms | Mature systems supply questions/disagreement, not design answers | Project-wide | Never waive without explicit doctrine change |
