@@ -1,0 +1,38 @@
+{
+  "format": "HOSTILE_H1_PHYSICAL_PROBE_BUILD_V1",
+  "physical_image": {
+    "bytes": 1474560,
+    "sha256": "809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead"
+  },
+  "qemu_image": {
+    "bytes": 1474560,
+    "sha256": "319274733fb44dd5f7f93649e67c4c49d0370f861e8fed636e563f5bf5241944"
+  },
+  "sources": {
+    "H1_PHYSICAL_PROBE_PREREGISTRATION_2026-08-31.md": "2a36c46cdbc5ef1edd334fe73b3544207456880f4f3d968901f03e82cef2b4e5",
+    "build.py": "0db9ab6dffc39e1a0933b8e66aa1ccde829e88b3a1d06905cd8a30359f077bf4",
+    "stage1.S": "7466d2748c69fa2ea78916c366b64447a740e9506f547b69aeeb1a8976482779",
+    "stage1.ld": "f042ce861cd76dcc5ab7381aadd88375bd2e31e1b46def58b9d05e7ace3b1e38",
+    "stage2.S": "9689d286534c7716a9043adfc8b9828c28de52c331c3c97e095a49a89c26ab60",
+    "stage2.ld": "2ef980bf9aba7547938e4e57f71ccf3bfadbfffd12a27c9174760839ef01d85a"
+  },
+  "stage1": {
+    "bytes": 512,
+    "sha256": "ae5d9561a5a4ee4f870d6b1d6a57d4b5de4da3616c0868beefd8e8bf73580dda"
+  },
+  "stage2_physical": {
+    "bytes": 2460,
+    "headroom": 5732,
+    "sha256": "c12ea44714fd2c4d7dd3590c259e0f196cd38b8a979af8618ddaf79ac31f677d"
+  },
+  "stage2_qemu": {
+    "bytes": 2464,
+    "headroom": 5728,
+    "sha256": "2b7c0c2b47f751b716d4340aa7e0764d16a07eb49b8d036311d7d9f8e13234e2"
+  },
+  "tool_paths": {
+    "clang": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+    "lld": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+    "objcopy": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe"
+  }
+}

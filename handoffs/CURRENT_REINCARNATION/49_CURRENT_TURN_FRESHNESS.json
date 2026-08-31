@@ -1,12 +1,11 @@
 {
   "blockers": [
-    "Physical H1 qualification requires later operator hardware touch.",
+    "Physical H1 qualification now requires operator hardware touch.",
     "Foreign Opus raw packet not supplied.",
     "Exact uploaded frozen-intent source-byte Git ingress remains open."
   ],
   "commanders_intent_deltas": [
-    "After inspecting durable evidence, unresolved load-bearing unknowns or unidentified traces must be escalated by asking the commander rather than guessed across.",
-    "Do not ask the commander to reconstruct state already persisted in Git/project continuity."
+    "Push project forward only through earned campaign/qualification work; physical H1 is now the next real evidence boundary."
   ],
   "continuity_files": [
     {
@@ -20,9 +19,9 @@
       "sha256": "d4efd09f7b3e43a5a73519055fd7fe1a261315c7d265b3f77718ae8f5fc954e2"
     },
     {
-      "bytes": 58601,
+      "bytes": 61954,
       "path": "continuity/02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "cfa8f694760ec37a559ad0620dddd66599c687268fa84ad7d460be5fe2cbddfa"
+      "sha256": "4056142eea1dcabc8a3a46de9eb149696dfeb91270cd6430425f46c54d5ad32a"
     },
     {
       "bytes": 3245,
@@ -60,9 +59,9 @@
       "sha256": "f2f29ace540321507d5e1c8e29d7c8fbeb61bdbf1924356e83aecc53c6c45667"
     },
     {
-      "bytes": 27168,
+      "bytes": 28790,
       "path": "continuity/10_ENGINEERING_DECISION_LEDGER_2026-08-30.md",
-      "sha256": "c01c416821fc5542fead9bf0fc2a5b73d3a63796bdab438db5d870365ed1bfa8"
+      "sha256": "7b9775805a2241c3724297a115fe93b84d3fc6160a0f9dfdbbb6d5f30a5feb13"
     },
     {
       "bytes": 3993,
@@ -110,14 +109,14 @@
       "sha256": "7c2be2ff94006ffa47b58efc6b4693673d18b86c78f68af18b35cd19840de255"
     },
     {
-      "bytes": 156808,
+      "bytes": 159497,
       "path": "continuity/DESIGN_THREAD_STREAM.md",
-      "sha256": "13d5a466c682b80c38112a00c06fbf0468abda5f7cb38285ab84fd5c4dd8f36a"
+      "sha256": "71951e9953b7e4f3069fdf8b1938ccda99a91f185cc7800d9eb5a641f7c58e72"
     },
     {
-      "bytes": 6506,
+      "bytes": 5764,
       "path": "continuity/LIVE_SHADOW.md",
-      "sha256": "fc66b20259ee7adb105a85a5cb933e1f0fba6765f43c3a32a6c4e2f49ac4ec90"
+      "sha256": "4e24a0c5b1f007f7113899087c0ae76212256659e294a656aef3ab8bf8ffbfa7"
     },
     {
       "bytes": 375,
@@ -180,26 +179,18 @@
       "sha256": "52a16e3570132413b15cf3fe6ea3c5897ac9e362699bd6b82e97a19cc0ac7ec6"
     }
   ],
-  "current_frontier": "D64 v3 current research reference; physical-H1 preparation P0; C004-to-v3 authority/protection representation/Pareto review P1. Frontier unchanged by SOP update.",
+  "current_frontier": "H1 physical observation instrument QUALIFIED under proxy; physical H1 UNQUALIFIED and next reality-authority step. C004-to-v3 Pareto review CLOSED; D64-v3 unchanged; no C006 open.",
   "decision_deltas": [
-    "Adopt standing SOP: inspect durable evidence first; if a load-bearing unknown remains, ask the commander rather than guess or silently route around it.",
-    "Adopt standing SOP: if traces of an artifact/state/decision/dependency exist but their identity or role cannot be recovered from durable evidence, ask the commander.",
-    "Preserve zero-re-explanation for already-persisted state; ZERO_REEXPLANATION != NEVER_ASK.",
-    "Reconfirm R3.1 as the normal adopted in-house engineering/research SOP surface; R6 remains ancestry/fallback authority; no foundation or architecture promotion."
+    "Physical-H1 observation uses a separate non-destructive instrument; exact physical image SHA-256 809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead.",
+    "Do not spend D64-v3 103-byte headroom on partial authority state without a non-bypassable boundary.",
+    "C004 authority/protection remains a capability-triggered obligation; qualify representation/envelope when untrusted execution or direct privileged effects are admitted.",
+    "No C006 is opened by numbering momentum."
   ],
-  "generated_utc": "2026-08-31T17:34:30+00:00",
+  "generated_utc": "2026-08-31T18:10:00+00:00",
   "living_surfaces": [
     {
-      "path": "authority/ADOPTION_STATE.md",
-      "status": "updated"
-    },
-    {
-      "path": "authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md",
-      "status": "created"
-    },
-    {
       "path": "continuity/01_COMMANDERS_INTENT.md",
-      "status": "updated"
+      "status": "verified_unchanged"
     },
     {
       "path": "continuity/02_CURRENT_STATE_AND_FRONTIER.md",
@@ -208,14 +199,6 @@
     {
       "path": "continuity/10_ENGINEERING_DECISION_LEDGER_2026-08-30.md",
       "status": "updated"
-    },
-    {
-      "path": "continuity/16_ZERO_REEXPLANATION_REINCARNATION_2026-08-31.md",
-      "status": "updated"
-    },
-    {
-      "path": "continuity/18_UNKNOWN_TRACE_ASK_SOP_AND_R3_1_RECONFIRMATION_2026-08-31.md",
-      "status": "created"
     },
     {
       "path": "continuity/LIVE_SHADOW.md",
@@ -230,21 +213,22 @@
       "status": "updated"
     },
     {
-      "path": "NEXT_THREAD_START_HERE.md",
-      "status": "updated"
-    },
-    {
       "path": "continuity/15_PER_TURN_SEMANTIC_AND_HASH_FRESHNESS_POLICY_2026-08-31.md",
       "status": "verified_unchanged"
+    },
+    {
+      "path": "NEXT_THREAD_START_HERE.md",
+      "status": "updated"
     }
   ],
   "mode": "BUILD-COMMIT / CHECKPOINT",
-  "pre_turn_git_head": "64d655334d0c2b6b8941d2a983c7021e8e34e3b7",
+  "pre_turn_git_head": "455838c867cebc762369afd6b336f620aee3a464",
   "research_deltas": [
-    "No science, architecture, D64-v3 embodiment, or engineering frontier changed this turn.",
-    "R3.1 package integrity reverified: 45 manifest payload entries, 0 missing/mismatch in extracted tree and ZIP; ZIP has 46 files including manifest; SHA-256 4d205becc2413889bdb37c6b6ff7513d6f759a7dff1d9f9b8fddaddd8235a278."
+    "H1 probe preregistration, Amendment A, two preserved qualification scars, implementation, static PASS13/13, controlling QEMU run and qualification result admitted.",
+    "Controlling H1-proxy qualification: source 51fafe6a61db701a592b6a0564b9b374d748d8b2, PID 7940, exit67, all required markers; physical instrument itself remains hardware-unexecuted.",
+    "C004-to-D64-v3 Pareto review closed with v3 unchanged; C004/P20 TSS alone is 104 bytes versus current v3 103-byte total headroom."
   ],
-  "role": "R4 Convergence Refiner + R1 audit pressure",
+  "role": "R5 Reality Pressure Engine + R1 audit pressure, closing under R4 convergence",
   "schema": "hostile_os.turn_freshness.v1",
-  "turn_intent": "Adopt inspect-first/ask-at-real-unknown-boundary as SOP and reconfirm adoption/integrity of the supplied R3.1 SOP archive."
+  "turn_intent": "Verify apparent encoding defect, then advance the lawful post-C005 frontier through physical-H1 qualification preparation and C004-to-D64-v3 representation/Pareto review."
 }

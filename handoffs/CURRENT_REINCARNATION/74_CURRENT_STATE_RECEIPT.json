@@ -1,11 +1,16 @@
 {
   "architecture_posture": "INTEGRATED_SHADOW_CANDIDATE",
-  "base_head_before_turn_mutation": "fa86af05b845765626c56e16124a6d2760d825ad",
+  "authority_pareto": {
+    "c004_to_v3": "CLOSED_KEEP_V3_UNCHANGED",
+    "c006": "NOT_OPEN",
+    "rule": "C004 becomes mandatory embodiment gate when untrusted execution or direct privileged effects are admitted"
+  },
   "campaigns": {
     "C004": "CLOSED20/20",
-    "C005": "CLOSED20/20"
+    "C005": "CLOSED20/20",
+    "C006": "NOT_OPEN"
   },
-  "canonical_source_head": "47ba80bd60f1b96d078c6260317607a26952ab60",
+  "canonical_source_head": "ca797a7936dbf4442429b6720b0a1a9192daf81e",
   "current_research_reference": "os/research_only/d64_reference_v3",
   "d64_v3": {
     "all_mode_qemu_boots": 9,
@@ -19,25 +24,23 @@
     "stage1_bytes": 512,
     "stage2_raw_bytes": 4494
   },
-  "generated_utc": "2026-08-31T17:36:30+00:00",
+  "generated_utc": "2026-08-31T18:10:00+00:00",
   "h1": {
     "bochs_independent_replay": "PASS",
     "physical_hardware": "UNQUALIFIED",
     "physical_target": "HP Pavilion p2-1120",
+    "probe_controlling_run": "research/targets/H1_PHYSICAL_PROBE/runs/20260831T180418Z_h1_physical_probe_qemu_01",
+    "probe_image_sha256": "809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead",
+    "probe_instrument": "QUALIFIED_UNDER_PROXY",
     "qemu_proxy": "PASS",
     "selected_topology": "BSP sole relation mutator + ordered AP request/result mailbox"
   },
-  "next_local_p0": "prepare non-destructive physical-H1 qualification/boot/probe/replay package",
-  "next_local_p1": "C004-to-v3 representation/Pareto convergence",
-  "operator_input_required_now": false,
+  "next_reality_step": "physical H1 boot/probe packet",
+  "operator_input_required_now": true,
   "schema": "hostile_os.reincarnation.current_state.v1",
   "sop": {
     "r3_1_operational_status": "ADOPTED_IN_HOUSE_SOP",
-    "r3_1_reverification": "PASS_45_MANIFEST_PAYLOADS_0_MISSING_0_MISMATCH_ZIP_46_FILES_INCLUDING_MANIFEST",
-    "r3_1_zip_sha256": "4d205becc2413889bdb37c6b6ff7513d6f759a7dff1d9f9b8fddaddd8235a278",
     "unknown_trace_rule": "Inspect first. If a load-bearing unknown remains, ASK. If you see traces you cannot identify, ASK. Never guess across the gap.",
     "zero_reexplanation_boundary": "Do not ask for persisted state; do ask after inspection when a load-bearing unknown genuinely remains."
-  },
-  "verified_pre_turn_checkpoint": "64d655334d0c2b6b8941d2a983c7021e8e34e3b7",
-  "verified_pre_turn_github_publication": "00bd8c48a8bc4494d5a6b5d3acc57e12a3ea030c"
+  }
 }

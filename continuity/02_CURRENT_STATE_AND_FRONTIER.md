@@ -680,3 +680,55 @@ New active SOP delta: inspect durable evidence first; if a load-bearing unknown 
 Current engineering frontier remains unchanged:
 - P0: non-destructive physical-H1 boot/probe/qualification package around D64-v3;
 - P1: C004-to-v3 authority/protection representation/Pareto review without convenience growth.
+
+
+---
+
+## 2026-08-31 superseding frontier delta — H1 probe instrument qualified / C004 Pareto review closed
+
+This section supersedes the prior immediate-frontier paragraph that still listed physical-H1 package preparation and C004->v3 Pareto review as open local work.
+
+### P0 physical-H1 preparation
+
+The non-destructive H1 observation instrument is now **QUALIFIED FOR PHYSICAL-USE PREPARATION** under the emulator proxy. Physical H1 itself remains **UNQUALIFIED**.
+
+Preregistration: `2828ee9b73b53c53c1c878d9ebf021957ec2f2c6`.
+Amendment A: `a32da98938e96f62e698fc4418632fb231343019`.
+Implementation: `51fafe6a61db701a592b6a0564b9b374d748d8b2`.
+Controlling run: `research/targets/H1_PHYSICAL_PROBE/runs/20260831T180418Z_h1_physical_probe_qemu_01`.
+
+Qualified instrument facts:
+- QEMU PID 7940, exit67;
+- required CPU/BOOT/FW/IRQ/E820/PCI/BEGIN/END markers all present;
+- static safety gate PASS13/13;
+- physical stage22460 bytes inside8192-byte probe envelope;
+- physical image SHA-256 `809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead`;
+- physical image has no QEMU debug-exit sequence and no target-disk write path;
+- exact ready image and manifests are under `research/targets/H1_PHYSICAL_PROBE/package/`.
+
+Preserved scars:
+- Scar A: EFLAGS.ID CPUID-availability precheck incorrectly suppressed CPUID under the proxy; repaired before controlling qualification.
+- Scar B: first static checker incorrectly banned all stage2 INT13 calls; repaired to admit only preregistered read-only AH=08/AH=41 calls.
+
+No proxy observation is physical truth. Missing physical fields may not be filled from QEMU.
+
+### P1 C004 -> D64-v3 authority/protection convergence
+
+`research/audits/C004_TO_D64_V3_AUTHORITY_PARETO_REVIEW_2026-08-31.md` closes the local representation/Pareto seam.
+
+Verified D64-v3 remains `.code16` and contains no current CR0/LGDT/LIDT/LTR/TSS/GDT/ring3/CPL or grant/right/delegation/revocation authority body. The H1 BSP-owner/AP-mailbox rule is trusted-body concurrency ownership, not C004 untrusted caller provenance.
+
+C004/P20's final x86 enforcement witness uses a104-byte TSS alone. That already exceeds D64-v3's total103-byte linked-image headroom before descriptor/gate, rights/currentness, mediator and provenance-handling burden.
+
+Selected Pareto rule:
+- do **not** spend the103 bytes on cooperative policy-looking state without a non-bypassable boundary;
+- keep C004's adopted grammar as a capability-triggered shadow obligation;
+- when actually untrusted execution or direct privileged effects are admitted, qualify the minimum target-specific enforcement representation and either recover space by measured compression/reuse or explicitly qualify a successor envelope.
+
+D64-v3 remains unchanged and current. C004 remains valid and not fully embodied. No C006 is opened by this review.
+
+### Current immediate frontier
+
+The next reality-authority step is the **physical H1 boot/probe packet** using the qualified removable-media image. That step requires operator hardware touch.
+
+No broad new campaign is currently earned merely by campaign numbering pressure. A new campaign becomes lawful when physical H1 or another verified input exposes a new responsibility domain or contradiction that cannot be handled as a bounded integration/qualification descendant.

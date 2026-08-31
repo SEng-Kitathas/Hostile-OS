@@ -36,3 +36,12 @@ Do not ask the commander to reconstruct persisted project history. Inspect Git/p
 If, after inspection, a load-bearing point is still unknown/unclear/contradictory, or you see traces of something whose identity or role cannot be recovered, **ASK the commander** instead of guessing, inventing provenance, or silently routing around it.
 
 Controlling SOP delta: `authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md`.
+
+
+## 2026-08-31 current frontier update — physical probe instrument ready
+
+P0 local preparation is no longer open. The non-destructive H1 observation instrument is qualified under the H1 QEMU proxy and packaged at `research/targets/H1_PHYSICAL_PROBE/package/h1_probe_physical.img`, SHA-256 `809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead`. Physical H1 itself remains UNQUALIFIED until a real boot packet is captured.
+
+P1 C004->D64-v3 representation/Pareto review is also closed. D64-v3 remains unchanged at8089/8192 with103 bytes headroom. Do not add partial authority state without a non-bypassable untrusted boundary. C004 remains a capability-triggered obligation; a separately qualified enforcement representation/envelope becomes mandatory when actually untrusted execution or direct privileged effects are admitted.
+
+No C006 is open. The next reality-authority step is the physical H1 boot/probe packet. Do not invent a new campaign merely to keep numbering moving.

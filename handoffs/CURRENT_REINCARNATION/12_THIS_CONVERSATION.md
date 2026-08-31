@@ -1336,3 +1336,16 @@ Recovered canonical project root. Identified exact R3.1 archive: `RAHL_ENGINEERI
 Independent re-verification checked all 45 manifest payload entries against both the extracted authority tree and ZIP members: 0 missing, 0 mismatches; ZIP contains 46 files including manifest; PASS.
 
 Created/activated local SOP delta `authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md` and reconciled living continuity. Compact rule: `Inspect first. If a load-bearing unknown remains, ASK. If you see traces you cannot identify, ASK. Never guess across the gap.` Zero-re-explanation remains active for state already recoverable from Git/project evidence. Engineering frontier unchanged: P0 physical-H1 package preparation, P1 C004-to-v3 authority/protection Pareto review.
+
+
+### USER — rectify encoding trace and push project forward
+Timestamp: 2026-08-31T17:55Z
+
+User directed the assistant to check/rectify the apparent UTF-8 title defect and then push the project forward in campaigns.
+
+### ASSISTANT — encoding audit, H1 probe qualification, Pareto close
+Byte audit proved the apparent mangled em dash was console decoding only: the file is valid UTF-8, no BOM, with correct `E2 80 94`; no text mutation was needed. Rehydration confirmed C004/C005 CLOSED20/20, D64-v3 current, and explicit doctrine against opening C006 by momentum.
+
+Advanced the lawful P0 lane instead. Sealed H1 physical-probe preregistration at `2828ee9...`, preserved CPUID-precheck Scar A, sealed firmware/ACPI Amendment A at `a32da98...`, preserved static-checker Scar B, and sealed implementation at `51fafe6a61db701a592b6a0564b9b374d748d8b2`. Controlling QEMU qualification from that exact source used PID 7940, exit 67, static PASS13/13, and all CPU/BOOT/FW/IRQ/E820/PCI markers. Exact physical image SHA-256 is `809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead`. Instrument is qualified; physical HP remains unqualified.
+
+Closed P1 by direct representation/Pareto audit. D64-v3 is still `.code16` with no untrusted authority boundary machinery; C004/P20's x86 witness uses a 104-byte TSS alone, already larger than v3's 103-byte remaining linked headroom before gate/descriptor/mediator burden. Selected rule: keep v3 unchanged, reject partial cooperative authority theater, preserve C004 as a capability-triggered obligation, and require a separately qualified enforcement representation/envelope when actually untrusted execution or direct privileged effects are admitted. No C006 opened. Science/qualification close commit: `ca797a7936dbf4442429b6720b0a1a9192daf81e`.

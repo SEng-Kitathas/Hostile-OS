@@ -2,79 +2,74 @@
 
 ## Thread Identity
 - Thread: HOSTILE-OS / PCMMAD
-- Last Updated: 2026-08-31T17:34:30Z
-- Mode: BUILD-COMMIT / CHECKPOINT
-- Role: R4 Convergence Refiner with R1 audit pressure
-- Dominant Objective: close the commander-directed unknown/trace/ask SOP delta and reconfirm exact R3.1 SOP adoption, then resume physical-H1 preparation.
+- Last Updated: 2026-08-31T18:07:00Z
+- Mode: BUILD-COMMIT
+- Role: R5 Reality Pressure Engine with R1 audit pressure
+- Dominant Objective: qualify the physical-H1 observation instrument, close the C004->D64-v3 Pareto gap, then stop at the real hardware boundary rather than invent C006 by momentum.
 
 ## Active User Intent
-- Continue from the current reincarnation-grade checkpoint without re-explaining persisted history.
-- If anything load-bearing is unclear/unknown/contradictory, or traces exist whose identity/meaning cannot be recovered, inspect first and then ASK rather than guess.
-- Make sure the supplied R3.1 SOP archive is actually adopted.
-- Continue autonomous local work until a real operator-only blocker is reached.
+- Continue autonomously from persisted state.
+- If a load-bearing unknown remains after inspection, ASK; unexplained traces must not be guessed across.
+- Push the project forward through lawful campaign/qualification work.
 
 ## Current Authoritative State
-- Canonical local HOSTILE-OS checkpoint before this turn: `64d655334d0c2b6b8941d2a983c7021e8e34e3b7`.
-- Canonical worktree was clean at re-entry.
-- Verified GitHub publication-mirror `main`: `00bd8c48a8bc4494d5a6b5d3acc57e12a3ea030c` by independent `ls-remote` in this incarnation.
-- Canonical tree at re-entry: 4,893 tracked files / 3,183,263,350 bytes before LFS conversion.
-- Current reincarnation package at re-entry: 83 manifest files.
+- R3.1 remains the adopted normal in-house SOP; R6 remains ancestry/fallback authority; foundation promotion false.
 - C004 CLOSED 20/20; C005 CLOSED 20/20; no P21 for either.
-- `os/research_only/d64_reference_v3/` = `CURRENT_RESEARCH_REFERENCE — RESEARCH PURPOSES ONLY`.
-- D64-v3 measured body: stage1 512; stage2 raw 4494; linked 8089/8192; headroom 103; semantic state 3467; scratch 62/128; isolated verifier PASS 20/20; all-mode admission 9 QEMU boots.
-- Selected H1 topology: BSP sole current relation mutator + ordered AP request/result mailbox participant. Candidate A remains valid alternate; Candidate C deferred/not disproven.
-- Physical H1 remains unqualified. QEMU/Bochs evidence does not promote to physical truth.
-- C004 authority/protection science is not silently considered fully embodied in D64-v3.
-
-## SOP / Authority State
-- R3.1 exact ZIP is already the adopted normal in-house engineering/research SOP surface per `authority/ADOPTION_STATE.md`.
-- Adopted ZIP SHA-256: `4d205becc2413889bdb37c6b6ff7513d6f759a7dff1d9f9b8fddaddd8235a278`.
-- Re-supplied uploaded ZIP matches canonical `payload_history` byte-for-byte: 104,946 bytes, same SHA-256.
-- Independent 2026-08-31 verification: 45 manifest payload entries; 0 extracted missing; 0 extracted mismatches; ZIP has 46 files including manifest; 0 ZIP missing/mismatches; PASS.
-- Operational status stays: R3.1 adopted for normal SOP use; R6 preserved ancestry/fallback authority; sealed package keeps historical `SHADOW_USE_CANDIDATE` metadata; no foundation/architecture promotion.
-- New active local SOP delta: `authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md`.
-- Compact law: **Inspect first. If a load-bearing unknown remains, ASK. If you see traces you cannot identify, ASK. Never guess across the gap.**
-- Zero-re-explanation remains active: do not ask the commander for facts already recoverable from Git/project state.
-- Boundary rule: `ZERO_REEXPLANATION != NEVER_ASK`.
+- `os/research_only/d64_reference_v3/` remains CURRENT_RESEARCH_REFERENCE — RESEARCH PURPOSES ONLY.
+- D64-v3: stage1 512; stage2 raw 4494; linked 8089/8192; headroom 103; semantic state 3467; scratch 62/128.
+- Selected H1 topology remains BSP sole relation mutator + ordered AP request/result mailbox participant.
+- Physical H1 itself remains UNQUALIFIED.
+- H1 physical observation instrument is now qualified under QEMU proxy from committed source `51fafe6a61db701a592b6a0564b9b374d748d8b2`.
+- Controlling instrument run: `research/targets/H1_PHYSICAL_PROBE/runs/20260831T180418Z_h1_physical_probe_qemu_01`; PID 7940; exit 67; required markers PASS; debug SHA-256 `d7050841354fb408977d7a03f01cbf0a15290e57a805cf774f6178e191b5c655`.
+- Physical probe image SHA-256 `809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead`; stage2 2460 bytes; no target-disk write path; packaged under `research/targets/H1_PHYSICAL_PROBE/package/`.
+- Probe Scar A: EFLAGS.ID CPUID precheck failed under proxy; repaired before controlling qualification by direct target-specific CPUID use.
+- Probe Scar B: first static verifier over-banned all INT13; repaired to admit only read-only AH=08/AH=41 stage2 calls. Corrected static gate PASS 13/13.
+- C004->D64-v3 representation/Pareto review is CLOSED: do not spend 103 bytes on partial authority state without a non-bypassable untrusted boundary.
+- C004/P20 x86 witness uses a 104-byte TSS alone, already larger than v3's total 103-byte headroom, before descriptor/gate/mediator burden.
+- Selected P1 rule: keep C004 as a capability-triggered obligation; require separate representation/envelope qualification when actually untrusted execution or direct privileged effects are admitted.
+- No C006 opened.
 
 ## Active Constraints
 - Project/runtime evidence outranks narrative.
-- Historical/sealed evidence is append-only; newer interpretation is added, not silently rewritten into old evidence.
-- Every meaningful turn refreshes living continuity/reincarnation/freshness state, commits exact admitted paths, publishes full admitted delta, and verifies remote readback.
-- `os/` remains independently retrievable; full R&D history on GitHub may not become an implicit build/install dependency.
-- Do not spend D64-v3's 103-byte headroom by convenience.
-- Working nouns remain compression vocabulary, not constitutional primitives.
-- Timeout/ambiguous execution remains UNKNOWN.
-- Do not guess across unresolved provenance/authority/state gaps.
+- Historical/sealed evidence is append-only; repairs are visible.
+- Zero-re-explanation and ASK-on-unknown coexist: inspect persisted state first, ask where evidence genuinely stops.
+- Do not spend D64-v3's 103 bytes by convenience.
+- Emulator evidence does not become physical-H1 truth.
+- Physical probe values from QEMU are proxy values only and may not fill missing physical fields.
+- A new campaign must be earned by a new responsibility domain or verified contradiction; campaign numbering is not a progress meter.
+
+## Decisions Locked In
+- Physical-H1 probe lane is qualification support, not C006.
+- Exact physical image is ready for removable-media use when the commander chooses hardware touch.
+- D64-v3 remains unchanged by the C004 Pareto review.
+- Partial cooperative rights checks without an untrusted enforcement boundary are rejected as semantic theater.
 
 ## Open Loops
-- P0: prepare non-destructive physical-H1 boot/probe/qualification/replay package around D64-v3.
-- Physical H1 CPUID/PCI/BIOS/ACPI/storage/interrupt/SMP observations when hardware touch is ready.
-- P1: C004 -> D64-v3 authority/protection representation/Pareto convergence without convenience growth.
-- Candidate-B owner availability/progress only if measured workload earns it.
-- Arbitrary-core/weak-memory/DMA/IOMMU/NMI/SMI/fairness/production guarantees remain unearned.
-- Foreign Opus raw packet remains reported-only until supplied/hashed.
-- Exact uploaded frozen-intent source-byte Git ingress remains open.
+- Physical H1 boot/probe packet: CPU, PCI, BIOS/ACPI, storage, interrupt/APIC, memory and boot behavior.
+- Any physical contradiction with proxy/body assumptions must be localized before demotion/promotion.
+- Candidate-B owner progress/fairness only if a measured workload earns it.
+- Arbitrary-core, weak-memory cross-target rules, DMA/IOMMU/NMI/SMI, production guarantees remain unearned.
+- GitHub publication/reincarnation refresh for this new turn remains to close.
 
 ## Immediate Next Step
-1. close this SOP/adoption turn through continuity, reincarnation package, freshness gate, canonical Git, GitHub publication, and remote readback;
-2. resume P0 physical-H1 package preparation locally;
-3. ask the commander only if inspection reaches a genuinely load-bearing unresolved unknown or unidentified trace.
+1. seal probe result/package + P1 Pareto review + continuity in canonical Git;
+2. refresh reincarnation/publication state if the current project gate requires it;
+3. next reality step requiring operator hardware touch is physical H1 boot/probe. No C006 before that unless new local evidence earns one.
 
 ## Last 10 Turn Reinforcement Window
-1. USER supplied the newer reincarnation-grade checkpoint and stated the branch was far behind current state.
-2. ASSISTANT rehydrated from canonical Git and verified local HEAD `64d6553...`, clean tree, remote `00bd8c4...`, 4,893 files / 3,183,263,350 bytes, and 83-file reincarnation package.
-3. USER directed: if anything is unclear/unknown or only visible through traces, ASK; adopt this as SOP.
-4. ASSISTANT first hit a transient project-root failure and correctly asked whether E: was disconnected/moved rather than recreating state.
-5. USER said the drive/path issue was fixed and directed retry.
-6. Project root recovered. Existing doctrine was inspected; unresolved-unknown escalation was found not explicit enough.
-7. USER again said retry and additionally required the SOP archive they sent to be adopted.
-8. Exact R3.1 archive was identified as `RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29.zip`; canonical payload-history copy matches uploaded SHA `4d205be...`.
-9. Current `ADOPTION_STATE.md` proved R3.1 was already `ADOPTED_IN_HOUSE_SOP`; R6 remains fallback/parent, no foundation promotion.
-10. Archive manifest/extracted tree were independently reverified PASS and new ask-on-unknown local SOP delta was written.
+1. User asked to check the apparent UTF-8 corruption, rectify it, and push campaigns forward.
+2. Byte audit proved the em dash file was valid UTF-8; prior display was console decoding only.
+3. Rehydration confirmed C004/C005 CLOSED20/20, D64-v3 current, physical-H1 P0 and C004->v3 P1 frontier.
+4. Repository doctrine explicitly said no C006 by momentum.
+5. Physical-H1 probe preregistration sealed at `2828ee9...`.
+6. First implementation precheck exposed CPUID availability-test Scar A; preserved and repaired.
+7. Firmware/ACPI requirement gap was noticed before controlling qualification; Amendment A sealed at `a32da98...`.
+8. Static checker over-ban exposed Scar B; corrected verifier PASS13/13.
+9. Implementation sealed at `51fafe6...`; controlling QEMU qualification from committed source PASS, PID7940, exit67.
+10. P1 source/P20 audit proved current 103-byte body cannot honestly carry the existing x86 untrusted-boundary witness; selected defer-to-capability-trigger rule, no C006.
 
 ## Delta Since Previous Shadow
-- Rebased Live Shadow from older publication state to verified incarnation checkpoint (`64d6553...` local / `00bd8c4...` remote).
-- Added commander-directed unknown/trace escalation SOP.
-- Reconfirmed exact R3.1 archive adoption and package integrity.
-- Engineering/science frontier unchanged.
+- P0 local preparation advanced from open work to QUALIFIED INSTRUMENT / physical H1 still unqualified.
+- P1 C004->v3 representation/Pareto review closed without changing D64-v3.
+- Two probe qualification scars preserved and repaired.
+- Next real authority boundary is physical H1 hardware observation.

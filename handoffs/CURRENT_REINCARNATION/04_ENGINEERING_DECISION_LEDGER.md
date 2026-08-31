@@ -192,3 +192,15 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 **Authority:** Operator-directed local SOP delta under the adopted R3.1 operational surface. No foundation or architecture promotion.
 
 **Controlling artifact:** `authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md`.
+
+
+## 2026-08-31 physical-H1 probe / C004-to-v3 Pareto decisions
+
+| Decision | Why | Ceiling / reopen |
+|---|---|---|
+| Qualify a separate non-destructive H1 observation instrument rather than modifying D64-v3 for hardware discovery | Physical facts must replace VM assumptions without spending the current body envelope or risking target storage | Instrument qualification only; physical H1 remains UNQUALIFIED until real boot evidence |
+| Preserve probe Scar A and Scar B | CPUID precheck and first static-checker rule both failed before controlling qualification | Scars are infrastructure/evaluator evidence; controlling qualification uses repaired committed source |
+| Exact physical probe image is `809e70bf...dbead` | Binds future hardware evidence to one reviewed read-only instrument | Any changed image requires new hash + qualification |
+| Do not spend D64-v3's 103 bytes on partial authority-looking state | C004 requires a non-bypassable boundary; cooperative rights bytes alone would be semantic theater | Reopen when actually untrusted execution or direct privileged effects are admitted |
+| Keep C004 as a capability-triggered embodiment obligation | C004 science remains valid while current H1 body is trusted-only | Mandatory new representation/envelope qualification at first untrusted-domain/effect admission |
+| Do not open C006 by campaign-number momentum | C004/C005 hard stops are closed; no new broad responsibility domain has yet been earned | Open a new campaign only on a verified new responsibility domain or physical contradiction that cannot be handled as bounded qualification/integration |

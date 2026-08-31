@@ -1,0 +1,21 @@
+{
+  "checks": {
+    "e820_bounded": true,
+    "firmware_markers": true,
+    "no_pci_config_data_write": true,
+    "no_pic_command_write": true,
+    "output_begin_end": true,
+    "pci_config_address_write_present": true,
+    "pci_config_data_read_present": true,
+    "pci_full_bdf_bounds": true,
+    "physical_binary_has_no_qemu_exit_sequence": true,
+    "physical_stage2_within_8192": true,
+    "qemu_binary_has_qemu_exit_sequence": true,
+    "stage1_only_bios_disk_read_ah02": true,
+    "stage2_int13_only_readonly_08_41": true
+  },
+  "format": "HOSTILE_H1_PHYSICAL_PROBE_STATIC_V1",
+  "pass": true,
+  "physical_stage2_bytes": 2460,
+  "qemu_stage2_bytes": 2464
+}

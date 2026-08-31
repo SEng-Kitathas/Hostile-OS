@@ -1396,3 +1396,26 @@ Compact rule: **Inspect first. If a load-bearing unknown remains, ASK. If you se
 Reconciled relationship to zero-re-explanation: persisted/known state must be recovered without asking the commander; genuinely unresolved load-bearing state after inspection must be escalated by asking rather than guessed across.
 
 Engineering frontier unchanged: P0 physical-H1 non-destructive qualification package; P1 C004-to-v3 authority/protection Pareto convergence.
+
+
+---
+
+## 2026-08-31 — USER
+Tags: UTF8-AUDIT, CAMPAIGN-PROGRESS, BUILD-COMMIT
+
+User directed: check and rectify the apparent title corruption, then push the project forward in campaigns.
+
+---
+
+## 2026-08-31 — ASSISTANT
+Tags: VERIFIED-NO-UTF8-DEFECT, H1-PROBE-QUALIFICATION, PARETO-CLOSE
+
+Verified `handoffs/CURRENT_REINCARNATION/77_UNKNOWN_TRACE_ASK_SOP.md` is valid UTF-8 with no BOM; the title contains the correct em dash bytes `E2 80 94`. The earlier `�?"` display was console decoding only; no file mutation was required.
+
+Rehydrated current frontier: C004 and C005 are CLOSED20/20, D64-v3 is current, no C006 exists, and project doctrine explicitly says not to open C006 by momentum. Advanced P0 instead through a real target-qualification lane.
+
+Sealed `research/targets/H1_PHYSICAL_PROBE/H1_PHYSICAL_PROBE_PREREGISTRATION_2026-08-31.md` at `2828ee9...`. Built a separate removable-media physical probe rather than spending D64-v3's103-byte body headroom. First QEMU precheck exposed Scar A: EFLAGS.ID CPUID-availability detection suppressed CPUID under the H1 proxy; preserved and repaired by direct target-specific CPUID use. Before controlling qualification, noticed the target packet also needed an explicit ACPI root observation; sealed Amendment A at `a32da98...`, then added EBDA/RSDP scanning. Static checker then exposed Scar B by incorrectly banning all stage2 INT13 calls; preserved and repaired to allow only read-only AH=08/AH=41 queries. Corrected static gate PASS13/13.
+
+Probe implementation sealed at `51fafe6a61db701a592b6a0564b9b374d748d8b2`. Controlling QEMU run `20260831T180418Z_h1_physical_probe_qemu_01` from that exact HEAD used PID7940, exited67 through QEMU-only debug-exit, and passed every required CPU/BOOT/FW/IRQ/E820/PCI framing marker. Physical stage2 is2460 bytes; exact physical image SHA-256 `809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead`. Physical image has no QEMU-exit sequence and no target-disk write path. Physical H1 remains unqualified until real hardware execution.
+
+Advanced P1 by direct C004/D64-v3 representation audit. D64-v3 remains `.code16` and has no current untrusted authority boundary machinery. C004/P20's earned x86 ring3 witness uses a104-byte TSS alone, exceeding v3's total103-byte headroom before descriptor/gate/mediator burden. Closed the Pareto decision: reject partial rights/currentness bytes without a non-bypassable boundary; keep C004 as a capability-triggered shadow obligation; require separately qualified enforcement representation/envelope when actually untrusted execution or direct privileged effects are admitted. D64-v3 remains unchanged. No C006 opened.
