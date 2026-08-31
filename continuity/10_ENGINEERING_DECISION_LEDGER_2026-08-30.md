@@ -206,3 +206,14 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | Do not open C006 by campaign-number momentum | C004/C005 hard stops are closed; no new broad responsibility domain has yet been earned | Open a new campaign only on a verified new responsibility domain or physical contradiction that cannot be handled as bounded qualification/integration |
 
 | 2026-08-31 | H1 probe second independent proxy | Same immutable physical probe image completed all preregistered observation families under Bochs 3.1 after QEMU qualification; proxy values differed materially without collection failure | Strengthen instrument qualification to two independent emulator/firmware stacks; keep physical H1 UNQUALIFIED; do not open C006 because no new HOSTILE-OS responsibility contradiction was exposed | Physical H1 packet or another verified contradiction | ACTIVE |
+
+
+## 2026-08-31 H1 splash-wrapper decisions
+
+| Decision | Why | Ceiling / reopen |
+|---|---|---|
+| Keep splash outside D64-v3 and outside probe stage2 | Presentation must not spend D64-v3 headroom or change qualified probe science | Wrapper/transport only |
+| Make `bcd49e64...ca31` the recommended human-facing USB image | Dual BIOS paths, static gate and framebuffer proof passed from clean committed source | Physical HP remains unqualified; preserve older no-splash image |
+| Complete all wrapper disk reads before entering VGA mode | EDD/AHCI proxy stalled when BIOS disk calls were made during graphics mode; staged-read form passes CHS+EDD | Reopen only on physical BIOS contradiction |
+| Qualification runner must refuse dirty splash source state | A successful development precheck named HEAD while using newer working-tree loader bytes | Standing provenance gate |
+| Do not open C006 for splash work | No new OS responsibility was added; this is human-facing transport | New campaign still requires physical/new responsibility evidence |

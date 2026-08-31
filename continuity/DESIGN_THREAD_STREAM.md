@@ -1470,3 +1470,28 @@ Post-commit verification of reincarnation v15 compared every manifest entry agai
 Tags: CHECKPOINT, GITHUB-PUBLICATION, DURABILITY-CLOSE
 
 Repaired the CRLF/LF reincarnation manifest defect and committed it at `35b39efd0a1950062eae535059356493d67bcc51`. Strong post-commit verification hashed all 94 reincarnation payloads directly from Git blobs against the committed manifest: PASS94/94. Per-turn freshness PASS36 and durable repository gate PASS. Published canonical `35b39efd...` through the hardened D:-scratch exact-commit publisher as GitHub publication mirror `40a94c13132f073a51536ae997e3b50bb05067e6`; publisher and independent `git ls-remote` readback both matched. Publication carried4954 files /3187929282 pre-LFS bytes, research included, no canonical drift. No science/architecture promotion; next load-bearing boundary remains physical H1 hardware boot/probe.
+
+
+---
+
+## 2026-08-31 — ASSISTANT / H1 SPLASH WRAPPER
+Tags: SPLASH, BOOT-TRANSPORT, QUALIFICATION, PROVENANCE
+
+Recovered failed-turn splash work after retry. Verified inbound JPEG SHA-256 `c7e5d0b83ddbd74cdf1291e7e68bbabd418d7c89ed42ada96204392e4630dc63`; preregistration and 32-color VGA assets were already sealed at `2d0cfee`. Audited and completed wrapper implementation. Development exposed dual-BIOS transport issues and a dirty-source receipt hazard; repairs were sealed at `600d8ad`. Controlling run `20260831T190606Z_h1_splash_wrapper_qemu_01` came from clean source HEAD `600d8ad`, passed floppy/CHS and IDE/EDD paths, framebuffer equality, backing-image immutability, and full chain through `H1PROBE_END`. Qualification package committed at `a76578c`. Exact recommended physical splash image SHA-256 `bcd49e64a80f693b1b38afdef0e81d1045e54970bb76b0c5167240877c16ca31`. Post-run Git/input audit found remaining text snapshot differences were CRLF checkout expansion only; normalized text and all binary assets match committed Git content. Physical H1 remains unqualified.
+
+
+---
+
+## 2026-08-31 — USER
+Tags: SPLASH, PHYSICAL-H1, PRESENTATION
+
+Commander supplied a HOSTILE-OS artwork image after clarifying that the desired image was a literal boot splash screen.
+
+---
+
+## 2026-08-31 — ASSISTANT
+Tags: SPLASH-WRAPPER, DUAL-BIOS, FRAMEBUFFER-QUALIFICATION
+
+Converted the 1408x768 source JPEG (SHA-256 `c7e5d0b83ddbd74cdf1291e7e68bbabd418d7c89ed42ada96204392e4630dc63`) to an aspect-preserved 320x200/32-color VGA asset. Sealed prereg/assets at `2d0cfee`. Built a separate wrapper; D64-v3 and the underlying probe stage2 remained unchanged. Preserved precheck scars: DAC-evaluator mismatch, QEMU IDE read-only-node rejection, post-video-mode EDD stall, and dirty-source receipt provenance. Final staged-read repair + clean-source harness gate sealed at `600d8ad`.
+
+Controlling run from clean source `600d8ad` passed floppy/CHS PID16260 exit67 and IDE/EDD PID8648 exit67. Both screendumps matched expected frame exactly after QEMU 2x scan normalization. Evidence/package sealed at `a76578c`. Recommended physical image SHA-256 `bcd49e64a80f693b1b38afdef0e81d1045e54970bb76b0c5167240877c16ca31`. Physical H1 remains UNQUALIFIED; no C006 opened.

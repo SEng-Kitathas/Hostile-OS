@@ -45,3 +45,6 @@ Current refinement: the exact physical probe image has completed all required ob
 Integrity maintenance: `87_CURRENT_REINCARNATION_CRLF_MANIFEST_SCAR.md` records the pre-publication CRLF/LF manifest repair. Current package manifests are required to close over committed Git blob bytes, not only worktree bytes.
 
 Durability close: read `88_H1_BOCHS_PUBLICATION_CLOSE.md` for the verified primary publication of the two-proxy H1 instrument checkpoint.
+
+
+Current recommended physical transport: `89_H1_SPLASH_WRAPPER_QUALIFICATION_RESULT.md` + `90_H1_SPLASH_WRAPPER_USE_INSTRUCTIONS.md`. Exact splash USB image SHA-256 `bcd49e64a80f693b1b38afdef0e81d1045e54970bb76b0c5167240877c16ca31`. Physical H1 remains UNQUALIFIED.

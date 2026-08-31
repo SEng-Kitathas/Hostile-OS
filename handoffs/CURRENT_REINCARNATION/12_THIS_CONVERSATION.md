@@ -1375,3 +1375,20 @@ A stronger committed-Git-object package audit rejected the first v15 refresh: 10
 Timestamp: 2026-08-31T18:34Z
 
 After repairing the CRLF/LF reincarnation manifest scar, committed-Git-blob closure passed94/94, freshness passed36, durable repository gate passed, and the clean canonical checkpoint `35b39efd0a1950062eae535059356493d67bcc51` published through D:-scratch as GitHub mirror `40a94c13132f073a51536ae997e3b50bb05067e6`. Independent `git ls-remote` matched exactly. Publication contained4954 tracked files /3187929282 pre-LFS bytes with research included and no canonical drift. Physical H1 remains UNQUALIFIED; no C006 is open.
+
+
+---
+
+### USER — supply literal boot splash
+Tags: SPLASH, PHYSICAL-H1, PRESENTATION
+
+Commander supplied a HOSTILE-OS artwork image after clarifying that the desired image was a literal boot splash screen.
+
+---
+
+### ASSISTANT — qualify splash wrapper
+Tags: SPLASH-WRAPPER, DUAL-BIOS, FRAMEBUFFER-QUALIFICATION
+
+Converted the 1408x768 source JPEG (SHA-256 `c7e5d0b83ddbd74cdf1291e7e68bbabd418d7c89ed42ada96204392e4630dc63`) to an aspect-preserved 320x200/32-color VGA asset. Sealed prereg/assets at `2d0cfee`. Built a separate wrapper; D64-v3 and the underlying probe stage2 remained unchanged. Preserved precheck scars: DAC-evaluator mismatch, QEMU IDE read-only-node rejection, post-video-mode EDD stall, and dirty-source receipt provenance. Final staged-read repair + clean-source harness gate sealed at `600d8ad`.
+
+Controlling run from clean source `600d8ad` passed floppy/CHS PID16260 exit67 and IDE/EDD PID8648 exit67. Both screendumps matched expected frame exactly after QEMU 2x scan normalization. Evidence/package sealed at `a76578c`. Recommended physical image SHA-256 `bcd49e64a80f693b1b38afdef0e81d1045e54970bb76b0c5167240877c16ca31`. Physical H1 remains UNQUALIFIED; no C006 opened.

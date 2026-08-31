@@ -756,3 +756,31 @@ Current frontier therefore remains:
 - C006: not opened.
 
 The next load-bearing reality step is the physical H1 boot/probe packet. A new broad campaign becomes lawful only if that packet or another verified input exposes a new responsibility domain or mechanism contradiction that cannot be handled as bounded qualification/integration work.
+
+
+---
+
+## 2026-08-31 superseding H1 presentation/transport delta — splash wrapper qualified
+
+The commander-supplied artwork has been converted to a 320x200, 32-color VGA frame and wrapped around the already-qualified H1 probe without changing the probe stage2 bytes or D64-v3.
+
+Controlling wrapper result: `research/targets/H1_PHYSICAL_PROBE_SPLASH/H1_SPLASH_WRAPPER_QUALIFICATION_RESULT_2026-08-31.md`.
+
+Recommended physical image: `research/targets/H1_PHYSICAL_PROBE_SPLASH/package/h1_probe_splash_physical.img`, SHA-256 `bcd49e64a80f693b1b38afdef0e81d1045e54970bb76b0c5167240877c16ca31`.
+
+Qualification: static PASS15/15; floppy/CHS QEMU PASS; IDE/EDD QEMU PASS; framebuffer screendump exactly matches derived VGA frame in both modes; backing image unchanged; underlying probe reaches `H1PROBE_END`. Physical H1 itself remains UNQUALIFIED.
+
+The plain no-splash image remains preserved as prior qualified transport. The splash wrapper is now the recommended human-facing thumb-drive image.
+
+
+---
+
+## 2026-08-31 superseding transport delta — splash wrapper qualified
+
+The physical H1 observation **instrument science is unchanged**, but the recommended human-facing removable-media transport is now the qualified splash wrapper.
+
+Recommended image: `research/targets/H1_PHYSICAL_PROBE_SPLASH/package/h1_probe_splash_physical.img`, SHA-256 `bcd49e64a80f693b1b38afdef0e81d1045e54970bb76b0c5167240877c16ca31`.
+
+The wrapper shows the commander-supplied HOSTILE-OS art in VGA mode13h for about three seconds/key skip, restores text mode, then transfers to the exact qualified probe stage2. It passed both QEMU floppy/CHS and hard-disk/EDD legacy BIOS mappings plus exact framebuffer comparison.
+
+The older no-splash image `809e70bf...dbead` remains preserved and qualified. Physical H1 remains UNQUALIFIED. No C006 is open. The next authority step remains actual HP boot/probe evidence.

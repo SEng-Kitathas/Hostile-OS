@@ -54,3 +54,19 @@ The exact physical H1 probe image has now passed under both the QEMU H1 proxy an
 Bochs qualification result: `research/targets/H1_PHYSICAL_PROBE/H1_PHYSICAL_PROBE_BOCHS_QUALIFICATION_RESULT_2026-08-31.md`.
 
 This strengthens the instrument only. Physical H1 remains UNQUALIFIED. No C006 is open. The next real evidence boundary is still the physical H1 boot/probe packet.
+
+
+## 2026-08-31 splash-wrapper update
+
+Recommended physical thumb-drive image is now `research/targets/H1_PHYSICAL_PROBE_SPLASH/package/h1_probe_splash_physical.img`, SHA-256 `bcd49e64a80f693b1b38afdef0e81d1045e54970bb76b0c5167240877c16ca31`. It shows the commander-supplied HOSTILE-OS artwork for about three seconds, returns to text mode, then runs the exact qualified H1 probe.
+
+Wrapper qualification passed both floppy/CHS and hard-disk/EDD QEMU presentations with exact framebuffer equality and full `H1PROBE_END` chain. Physical H1 remains UNQUALIFIED until the HP is actually booted.
+
+
+## 2026-08-31 current transport update — splash wrapper
+
+The recommended physical thumb-drive image is now `research/targets/H1_PHYSICAL_PROBE_SPLASH/package/h1_probe_splash_physical.img`, SHA-256 `bcd49e64a80f693b1b38afdef0e81d1045e54970bb76b0c5167240877c16ca31`. It is a qualified presentation/boot wrapper around the exact existing H1 probe stage2.
+
+Expected physical flow: HOSTILE-OS VGA splash (~3 seconds or key skip) -> text mode -> `H1PROBE_BEGIN` ... `H1PROBE_END`. Wrapper passed both QEMU CHS/floppy and EDD/hard-disk legacy BIOS paths with exact framebuffer proof.
+
+Physical H1 itself is still UNQUALIFIED. Do not open C006 merely because the wrapper is complete.

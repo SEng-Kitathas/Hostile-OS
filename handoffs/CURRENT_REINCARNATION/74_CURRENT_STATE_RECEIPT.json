@@ -10,7 +10,7 @@
     "C005": "CLOSED20/20",
     "C006": "NOT_OPEN"
   },
-  "canonical_source_head": "c679f679aee6d51a8812ce8c816ea8bf92e90929",
+  "canonical_source_head": "a76578c4a716ab91dbecd2d2728832fa15abde58",
   "current_research_reference": "os/research_only/d64_reference_v3",
   "d64_v3": {
     "all_mode_qemu_boots": 9,
@@ -24,29 +24,32 @@
     "stage1_bytes": 512,
     "stage2_raw_bytes": 4494
   },
-  "generated_utc": "2026-08-31T18:34:00+00:00",
+  "generated_utc": "2026-08-31T19:09:00+00:00",
   "h1": {
     "bochs_independent_replay": "PASS_INSTRUMENT_COLLECTION",
+    "bochs_probe_controlling_run": "research/targets/H1_PHYSICAL_PROBE/runs/20260831T182218Z_h1_physical_probe_bochs_01",
     "physical_hardware": "UNQUALIFIED",
     "physical_target": "HP Pavilion p2-1120",
     "probe_controlling_run": "research/targets/H1_PHYSICAL_PROBE/runs/20260831T180418Z_h1_physical_probe_qemu_01",
     "probe_image_sha256": "809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead",
     "probe_instrument": "QUALIFIED_UNDER_QEMU_AND_BOCHS_PROXIES",
     "qemu_proxy": "PASS",
+    "recommended_probe_image": "research/targets/H1_PHYSICAL_PROBE_SPLASH/package/h1_probe_splash_physical.img",
+    "recommended_probe_image_sha256": "bcd49e64a80f693b1b38afdef0e81d1045e54970bb76b0c5167240877c16ca31",
     "selected_topology": "BSP sole relation mutator + ordered AP request/result mailbox",
-    "bochs_probe_controlling_run": "research/targets/H1_PHYSICAL_PROBE/runs/20260831T182218Z_h1_physical_probe_bochs_01"
+    "splash_wrapper": "QUALIFIED_QEMU_CHS_EDD"
   },
-  "next_reality_step": "physical H1 boot/probe packet",
+  "next_reality_step": "write qualified splash image to explicitly selected USB, then physical H1 boot/probe packet",
   "operator_input_required_now": true,
+  "primary_publication": {
+    "canonical_head": "35b39efd0a1950062eae535059356493d67bcc51",
+    "independent_readback": "PASS",
+    "publication_mirror_head": "40a94c13132f073a51536ae997e3b50bb05067e6"
+  },
   "schema": "hostile_os.reincarnation.current_state.v1",
   "sop": {
     "r3_1_operational_status": "ADOPTED_IN_HOUSE_SOP",
     "unknown_trace_rule": "Inspect first. If a load-bearing unknown remains, ASK. If you see traces you cannot identify, ASK. Never guess across the gap.",
     "zero_reexplanation_boundary": "Do not ask for persisted state; do ask after inspection when a load-bearing unknown genuinely remains."
-  },
-  "primary_publication": {
-    "canonical_head": "35b39efd0a1950062eae535059356493d67bcc51",
-    "publication_mirror_head": "40a94c13132f073a51536ae997e3b50bb05067e6",
-    "independent_readback": "PASS"
   }
 }

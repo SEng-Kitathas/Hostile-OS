@@ -1,9 +1,9 @@
 {
   "files": [
     {
-      "bytes": 3406,
+      "bytes": 3673,
       "path": "00_READ_FIRST.md",
-      "sha256": "ea092de0fbcccd847bf9b07ded8d29a0ae87c5b3e43830fae9e457fd408d7f9b"
+      "sha256": "62d46380a61700e93f960b852097e97655a06aaaead8c79b8c937feeb67e0ad7"
     },
     {
       "bytes": 5614,
@@ -11,9 +11,9 @@
       "sha256": "9443b210897d3eaafcaeae98ca73b20bcf957b1805ab77feb80962333ac4cd2a"
     },
     {
-      "bytes": 63539,
+      "bytes": 65426,
       "path": "02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "542be4bbeacee474b7410365fac338152f4e339318245df036612cfdc2c08685"
+      "sha256": "4a5bc59c25c2b9b3c0a49539f6489fab7e6c201ecfae844f74a5428aaa2e6706"
     },
     {
       "bytes": 16352,
@@ -21,9 +21,9 @@
       "sha256": "f2f29ace540321507d5e1c8e29d7c8fbeb61bdbf1924356e83aecc53c6c45667"
     },
     {
-      "bytes": 29291,
+      "bytes": 30339,
       "path": "04_ENGINEERING_DECISION_LEDGER.md",
-      "sha256": "80f7ce76db94f227e06d59b4874cc41da819bcb444865ef601ed1637f59f0e05"
+      "sha256": "8531754ccf03fc6b263a94aa62925388aedcba3bed6ac2427ef0ac92383f36ef"
     },
     {
       "bytes": 7727,
@@ -36,9 +36,9 @@
       "sha256": "747aac249c7aaac4c8e3933c724cc4629ea919e2f9f028a29974d96677a477d4"
     },
     {
-      "bytes": 6851,
+      "bytes": 4791,
       "path": "07_LIVE_SHADOW.md",
-      "sha256": "c9c22accd3eb00bbbd567c3edbab4c3a91b7735875cc227850a5d185ad67f7a8"
+      "sha256": "0ac6abfc73527b3830380c8d35fd8825d987ba32f46087a1e4229cdcafcea5f8"
     },
     {
       "bytes": 1977,
@@ -61,9 +61,9 @@
       "sha256": "4a295343ca93eecfa00619d8b090408ddbb21cd1747b6a51e8b38abca9d2a525"
     },
     {
-      "bytes": 153039,
+      "bytes": 154239,
       "path": "12_THIS_CONVERSATION.md",
-      "sha256": "374aa9f4bea498ad97e90b7a289b0961c428d294e4499b28938c6b4a15806f38"
+      "sha256": "68532ce8b91d6d1aa724124f625e3741c6b60e427f4a3949c10823d05c0642ce"
     },
     {
       "bytes": 2247,
@@ -276,9 +276,9 @@
       "sha256": "9bc8432895eb14f1262ad8ef6982b93ecda74059c13ba8019840f1237e625a80"
     },
     {
-      "bytes": 11184,
+      "bytes": 10493,
       "path": "49_CURRENT_TURN_FRESHNESS.json",
-      "sha256": "5d16822f977e9db62616b9662a83ee1087c7b11e350ed4afc7aac97f609d688d"
+      "sha256": "6df13e13fce26877d2819b08b772d010d8ad734d1216c489d774f490ee3fbbdc"
     },
     {
       "bytes": 5688,
@@ -381,9 +381,9 @@
       "sha256": "b6352637f6278347c2fefbb9193e0c5321e66f324278930871e01218f014bc12"
     },
     {
-      "bytes": 164233,
+      "bytes": 166485,
       "path": "70_DESIGN_THREAD_STREAM.md",
-      "sha256": "27267e92d61426ee9b02a837afd8d2128538c9da7dd2bf5fa25a066324a12075"
+      "sha256": "26545027d00ee0b0613fa9ea79e0222a3276a27b84ba49c37333a16ad844f462"
     },
     {
       "bytes": 1222,
@@ -396,14 +396,14 @@
       "sha256": "40f205844d74447dc31d6b25272be302749751129f413b48d0321501ae5a7d57"
     },
     {
-      "bytes": 4327,
+      "bytes": 5598,
       "path": "73_NEXT_THREAD_START_HERE.md",
-      "sha256": "78c97c48e22e90cad91b1582fd9f3c23dbd39bd24a43c00764d6aaa2c4ca164f"
+      "sha256": "21216b70617144f3726c138d6fa10921328aae2c015b4c539b2b377c61f02a14"
     },
     {
-      "bytes": 2291,
+      "bytes": 2620,
       "path": "74_CURRENT_STATE_RECEIPT.json",
-      "sha256": "bcb75cdeb818f475563dda580a8a5b4fa14a30ba8a0e3d29675612b4b5735c3e"
+      "sha256": "1f6669c6e8622275291f241bff693ff9091547ce5f2595898358ac695ca9ba42"
     },
     {
       "bytes": 2090,
@@ -474,8 +474,23 @@
       "bytes": 2043,
       "path": "88_H1_BOCHS_PUBLICATION_CLOSE.md",
       "sha256": "730c3ea888d17de878a36a4f2240387d0a39884237ea501bbb1d3cc4dc12dfbc"
+    },
+    {
+      "bytes": 6681,
+      "path": "89_H1_SPLASH_WRAPPER_QUALIFICATION_RESULT.md",
+      "sha256": "f130693d41d74f17e679870174c4e563a426e15269e16041a2508c4f016aff6c"
+    },
+    {
+      "bytes": 1857,
+      "path": "90_H1_SPLASH_WRAPPER_USE_INSTRUCTIONS.md",
+      "sha256": "906e776ce913a8902bbbeeb1b4f9efebd26a6d4d17d535c6a80c74f5493cb54b"
+    },
+    {
+      "bytes": 1972,
+      "path": "91_H1_SPLASH_WRAPPER_CLOSE.md",
+      "sha256": "550fc141197d105cd622ee2c683c104d0fd41247534906f9e435fc411a54fbc8"
     }
   ],
-  "generated_utc": "2026-08-31T18:34:00+00:00",
-  "schema": "pcmmad.current_reincarnation.v16"
+  "generated_utc": "2026-08-31T19:09:00+00:00",
+  "schema": "pcmmad.current_reincarnation.v17"
 }

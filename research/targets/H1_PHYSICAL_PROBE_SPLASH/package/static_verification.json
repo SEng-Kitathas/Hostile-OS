@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "dual_disk_mode_logic_present": true,
+    "loader_within_4096": true,
+    "no_disk_write_functions": true,
+    "no_pci_config_ports_in_wrapper": true,
+    "no_pic_apic_programming_ports_in_wrapper": true,
+    "palette_exact": true,
+    "physical_probe_stage2_exact": true,
+    "pixels_exact": true,
+    "qemu_probe_stage2_exact": true,
+    "splash_loader_int13_readonly_set": true,
+    "splash_markers_present": true,
+    "wrapper_has_no_qemu_exit_port_source": true,
+    "wrapper_stage1_exact_512": true,
+    "wrapper_stage1_int13_only_ah02": true,
+    "wrapper_stage1_signature": true
+  },
+  "format": "HOSTILE_H1_SPLASH_STATIC_V1",
+  "loader_int13": [
+    "0x41",
+    "0x08",
+    "0x42",
+    "0x02"
+  ],
+  "pass": true,
+  "stage1_int13": [
+    "0x02"
+  ]
+}

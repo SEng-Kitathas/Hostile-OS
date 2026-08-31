@@ -1,6 +1,7 @@
 {
   "blockers": [
-    "Physical H1 qualification requires operator hardware touch.",
+    "Physical H1 boot/probe requires operator hardware touch.",
+    "USB raw-write target must be explicitly identified; never infer physical disk.",
     "Foreign Opus raw packet not supplied.",
     "Exact uploaded frozen-intent source-byte Git ingress remains open."
   ],
@@ -19,9 +20,9 @@
       "sha256": "d4efd09f7b3e43a5a73519055fd7fe1a261315c7d265b3f77718ae8f5fc954e2"
     },
     {
-      "bytes": 63616,
+      "bytes": 65503,
       "path": "continuity/02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "dbac958d6237a53147557dad29e5165dae3a642216cdb03b482ec3a953e1cb2b"
+      "sha256": "f2f8343037eac69cafe4ce8a2886be9d9d6d0626bd6d0d54d77368c0e63e219e"
     },
     {
       "bytes": 3245,
@@ -59,9 +60,9 @@
       "sha256": "f2f29ace540321507d5e1c8e29d7c8fbeb61bdbf1924356e83aecc53c6c45667"
     },
     {
-      "bytes": 29292,
+      "bytes": 30340,
       "path": "continuity/10_ENGINEERING_DECISION_LEDGER_2026-08-30.md",
-      "sha256": "9d72d94d484212c47ca4ada35b0f71ee211f78851406cf67e60b04e2af670924"
+      "sha256": "2b9fd480208af219a7cd194bc5e3d480d054636e129fde7cf1c61b87a229ec84"
     },
     {
       "bytes": 3993,
@@ -124,14 +125,19 @@
       "sha256": "730c3ea888d17de878a36a4f2240387d0a39884237ea501bbb1d3cc4dc12dfbc"
     },
     {
-      "bytes": 164233,
-      "path": "continuity/DESIGN_THREAD_STREAM.md",
-      "sha256": "27267e92d61426ee9b02a837afd8d2128538c9da7dd2bf5fa25a066324a12075"
+      "bytes": 1972,
+      "path": "continuity/22_H1_SPLASH_WRAPPER_CLOSE_2026-08-31.md",
+      "sha256": "550fc141197d105cd622ee2c683c104d0fd41247534906f9e435fc411a54fbc8"
     },
     {
-      "bytes": 6851,
+      "bytes": 166485,
+      "path": "continuity/DESIGN_THREAD_STREAM.md",
+      "sha256": "26545027d00ee0b0613fa9ea79e0222a3276a27b84ba49c37333a16ad844f462"
+    },
+    {
+      "bytes": 4791,
       "path": "continuity/LIVE_SHADOW.md",
-      "sha256": "c9c22accd3eb00bbbd567c3edbab4c3a91b7735875cc227850a5d185ad67f7a8"
+      "sha256": "0ac6abfc73527b3830380c8d35fd8825d987ba32f46087a1e4229cdcafcea5f8"
     },
     {
       "bytes": 375,
@@ -194,13 +200,14 @@
       "sha256": "52a16e3570132413b15cf3fe6ea3c5897ac9e362699bd6b82e97a19cc0ac7ec6"
     }
   ],
-  "current_frontier": "H1 observation instrument QUALIFIED under QEMU + Bochs independent proxies; physical H1 UNQUALIFIED and next authority boundary. Primary checkpoint publication verified. D64-v3 unchanged; C004/C005 CLOSED20/20; no C006.",
+  "current_frontier": "Splash-wrapped H1 probe transport QUALIFIED under QEMU CHS+EDD mappings; underlying probe still QEMU+Bochs qualified; physical H1 UNQUALIFIED and next authority boundary; no C006.",
   "decision_deltas": [
-    "Same physical H1 probe image now qualified for observation-family collection under QEMU and Bochs; exact proxy values are not authority.",
-    "Bochs/QEMU observation differences are proxy diversity, not a HOSTILE-OS mechanism contradiction.",
-    "No C006 is opened by numbering momentum; physical H1 or another verified new responsibility/contradiction must earn it."
+    "Recommended physical USB image is now splash wrapper SHA-256 bcd49e64a80f693b1b38afdef0e81d1045e54970bb76b0c5167240877c16ca31; plain probe image remains preserved.",
+    "Splash remains outside D64-v3 and outside probe stage2; all wrapper disk reads finish before VGA mode.",
+    "Qualification runner refuses dirty splash source state.",
+    "No C006 opened."
   ],
-  "generated_utc": "2026-08-31T18:34:00+00:00",
+  "generated_utc": "2026-08-31T19:09:00+00:00",
   "living_surfaces": [
     {
       "path": "continuity/01_COMMANDERS_INTENT.md",
@@ -240,17 +247,14 @@
     }
   ],
   "mode": "BUILD-COMMIT / CHECKPOINT",
-  "pre_turn_git_head": "97c1f8cbfda53b846a493f4924b5e9b57de3b7b2",
+  "pre_turn_git_head": "ffcfe2f51647d9ff6db174cecfc0bea633b1addd",
   "research_deltas": [
-    "Bochs independent-proxy preregistration sealed at 77b91de; committed harness sealed at d8cc509; controlling run PID26904 PASS all eight receipt checks.",
-    "Exact physical probe image 809e70... unchanged before/after Bochs; full CPU/BOOT/FW/IRQ/E820/PCI framing reached H1PROBE_END.",
-    "Bochs values differed from QEMU as expected proxy diversity; no physical-H1 truth, architecture promotion or C006 earned.",
-    "Canonical science/qualification close at c679f679aee6d51a8812ce8c816ea8bf92e90929.",
-    "Legacy reincarnation builder help probe exposed that tools/build_hostile_os_reincarnation.py is a historical /mnt/data-bound constructor with no help guard; failed before tracked mutation and is preserved as a tooling scar.",
-    "Committed-Git-blob audit caught and blocked a CRLF/LF reincarnation-manifest mismatch before publication; repair requires LF-normalized package bytes and post-commit Git-blob closure.",
-    "Primary canonical checkpoint 35b39efd published as mirror 40a94c13 with independent remote readback; 4954 files / 3187929282 pre-LFS bytes, research included, no canonical drift."
+    "Commander artwork converted/sealed as 32-color VGA payload.",
+    "Splash wrapper static gate PASS15/15.",
+    "Controlling dual-mode QEMU run 20260831T190606Z: CHS PID16260 exit67, EDD PID8648 exit67, exact framebuffer PASS both.",
+    "Physical H1 remains unqualified."
   ],
   "role": "R5 Reality Pressure Engine + R1 audit pressure, closing under R4 convergence",
   "schema": "hostile_os.turn_freshness.v1",
-  "turn_intent": "Verify the apparent encoding trace, then advance the lawful campaign/qualification frontier without inventing C006; independently qualify the physical H1 probe under a second emulator stack."
+  "turn_intent": "Integrate commander-supplied literal boot splash around the qualified H1 probe without changing probe science or D64-v3."
 }
