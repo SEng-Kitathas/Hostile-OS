@@ -784,3 +784,29 @@ Recommended image: `research/targets/H1_PHYSICAL_PROBE_SPLASH/package/h1_probe_s
 The wrapper shows the commander-supplied HOSTILE-OS art in VGA mode13h for about three seconds/key skip, restores text mode, then transfers to the exact qualified probe stage2. It passed both QEMU floppy/CHS and hard-disk/EDD legacy BIOS mappings plus exact framebuffer comparison.
 
 The older no-splash image `809e70bf...dbead` remains preserved and qualified. Physical H1 remains UNQUALIFIED. No C006 is open. The next authority step remains actual HP boot/probe evidence.
+
+
+---
+
+## 2026-08-31 physical H1 display discriminator delta
+
+First physical boot of the qualified splash-wrapper image was accepted by the HP boot menu, but the attached TV reported **NO SIGNAL** immediately after boot-device handoff. No persistent USB log exists; the physical probe path is read-only. This is a real physical transport/display failure, not a successful hidden run.
+
+The exact failing instruction is not yet localized. The splash wrapper's explicit legacy VGA mode-13h transition is the leading discriminator.
+
+A text-only wrapper has now been preregistered, implemented, statically verified, and qualified under both CHS/floppy and EDD/IDE emulator presentations while preserving the firmware-selected video mode. Source HEAD `9d3c70a47467252161a6763fac526342a10c6696`; static PASS15/15; controlling run `research/targets/H1_PHYSICAL_PROBE_TEXT_WRAPPER/runs/20260831T194842Z_h1_text_wrapper_qemu_01`; physical image SHA-256 `5f90b22ad6264d2e2afb7c0155454b635a7bd4aa4ed22da6be879d14d3c26b42`.
+
+Immediate frontier: rewrite the same SanDisk with the text-only image and retest physical H1. If the TV remains synchronized and `H1TEXT_WRAPPER_OK` appears, the graphics-mode transition is strongly implicated. If TV still loses signal before text, preserve the failure and localize earlier/deeper.
+
+
+---
+
+## 2026-08-31 superseding physical-H1 frontier — durable boot-USB journal qualified
+
+After the first physical splash-wrapper boot caused TV `NO SIGNAL`, the next instrument now preserves execution independently of display. `research/targets/H1_PHYSICAL_PROBE_DURABLE_LOG/` is qualified under both CHS/floppy and EDD/IDE emulator BIOS presentations.
+
+Journal: raw boot-USB LBAs 256..383 only, 65,536 bytes, `H1LG` version/session/sequence/length records, newline flush. Wrapper + probe transcript is independently extractable without a filesystem. Static PASS22/22. Controlling run `20260831T195424Z_h1_durable_log_qemu_01` produced 36 records in each mode through `H1PROBE_END`; all bytes outside the journal region remained unchanged.
+
+Exact initial physical image SHA-256: `ddf9ceec0b97ed8014874e11e804716867ad0956eaa980085373bb803e9a6cca`. The whole-image hash is expected to change after a real boot because the journal is intentionally mutable.
+
+This descendant keeps firmware-selected text/video mode and adds no mode-13h transition. D64-v3 remains unchanged. Physical H1 remains UNQUALIFIED until the real SanDisk journal is recovered and reconciled.

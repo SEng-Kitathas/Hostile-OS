@@ -1502,3 +1502,11 @@ Controlling run from clean source `600d8ad` passed floppy/CHS PID16260 exit67 an
 ## 2026-08-31 — PHYSICAL H1 FIRST DISPLAY FAILURE / TEXT-ONLY DISCRIMINATOR
 
 Operator reported: HP boot menu accepted the SanDisk splash image; immediately after launching it, attached TV reported NO SIGNAL. Confirmed physical probe writes no persistent USB log. Preserved result under splash target. Leading but unproven hypothesis is legacy VGA mode-13h transition. Built a text-only wrapper reusing hardened dual EDD/CHS disk transport and exact qualified probe stage2, with no explicit video mode set, DAC programming, or framebuffer writes. Static PASS15/15. Dual QEMU qualification from source `9d3c70a...`: CHS PID24100 exit67 PASS; EDD PID16040 exit67 PASS; both reached `H1PROBE_END`. Physical image SHA-256 `5f90b22ad6264d2e2afb7c0155454b635a7bd4aa4ed22da6be879d14d3c26b42`. Next physical action is text-only retest.
+
+
+---
+
+## 2026-08-31 — USER / ASSISTANT
+Tags: PHYSICAL-H1, NO-SIGNAL, DURABLE-LOG, BUILD-COMMIT
+
+User reported the HP accepted the SanDisk as boot device but the attached TV immediately went `NO SIGNAL`, then directed: add a durable log because it can capture execution whether visible or not. Assistant preserved the physical failure, selected the already-qualified text-mode-preserving transport, preregistered a raw USB journal at LBAs256..383, implemented a resident logger below the probe plus a single indirect `putc` hook, and qualified both CHS and EDD write paths. Controlling run `20260831T195424Z_h1_durable_log_qemu_01`: PASS in both modes, 36 durable records each, complete transcript through `H1PROBE_END`, bytes outside journal unchanged. Initial physical image SHA `ddf9ceec0b97ed8014874e11e804716867ad0956eaa980085373bb803e9a6cca`. Physical H1 retest remains pending.

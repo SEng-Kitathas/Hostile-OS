@@ -8,7 +8,12 @@ Read in this order:
 3. `73_NEXT_THREAD_START_HERE.md`
 4. `77_UNKNOWN_TRACE_ASK_SOP.md`
 5. `78_UNKNOWN_TRACE_ASK_AND_R3_1_RECONFIRMATION.md`
-6. `79_H1_PHYSICAL_PROBE_QUALIFICATION_RESULT.md`
+6. `92_H1_PHYSICAL_SPLASH_NO_SIGNAL_RESULT.md`
+7. `93_H1_TEXT_WRAPPER_QUALIFICATION_RESULT.md`
+8. `95_H1_DURABLE_LOG_PREREGISTRATION.md`
+9. `96_H1_DURABLE_LOG_QUALIFICATION_RESULT.md`
+10. `97_H1_DURABLE_LOG_USE_INSTRUCTIONS.md`
+11. `79_H1_PHYSICAL_PROBE_QUALIFICATION_RESULT.md`
 7. `80_H1_PHYSICAL_PROBE_USE_INSTRUCTIONS.md`
 8. `81_C004_TO_D64_V3_AUTHORITY_PARETO_REVIEW.md`
 9. `76_ZERO_REEXPLANATION_PUBLICATION_CLOSE.md` (historical publication close; verify current Git/remote separately)
@@ -48,3 +53,6 @@ Durability close: read `88_H1_BOCHS_PUBLICATION_CLOSE.md` for the verified prima
 
 
 Current recommended physical transport: `89_H1_SPLASH_WRAPPER_QUALIFICATION_RESULT.md` + `90_H1_SPLASH_WRAPPER_USE_INSTRUCTIONS.md`. Exact splash USB image SHA-256 `bcd49e64a80f693b1b38afdef0e81d1045e54970bb76b0c5167240877c16ca31`. Physical H1 remains UNQUALIFIED.
+
+
+Current physical frontier: first H1 splash boot produced TV NO SIGNAL. Use the durable-log text-mode descendant next; initial image SHA-256 `ddf9ceec0b97ed8014874e11e804716867ad0956eaa980085373bb803e9a6cca`. Recover the raw journal after the physical boot before rewriting the SanDisk.

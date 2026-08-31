@@ -1,9 +1,9 @@
 {
   "files": [
     {
-      "bytes": 3673,
+      "bytes": 4190,
       "path": "00_READ_FIRST.md",
-      "sha256": "62d46380a61700e93f960b852097e97655a06aaaead8c79b8c937feeb67e0ad7"
+      "sha256": "f907e5e4068cd814517c5650fbc087c6ff2bf78402aaf375bcca0d90f205ecf9"
     },
     {
       "bytes": 5614,
@@ -11,9 +11,9 @@
       "sha256": "9443b210897d3eaafcaeae98ca73b20bcf957b1805ab77feb80962333ac4cd2a"
     },
     {
-      "bytes": 65426,
+      "bytes": 67904,
       "path": "02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "4a5bc59c25c2b9b3c0a49539f6489fab7e6c201ecfae844f74a5428aaa2e6706"
+      "sha256": "34e00feb34b96fc67aa1d6baf705b6481dc2e2979886b034227a6931adea96fe"
     },
     {
       "bytes": 16352,
@@ -36,9 +36,9 @@
       "sha256": "747aac249c7aaac4c8e3933c724cc4629ea919e2f9f028a29974d96677a477d4"
     },
     {
-      "bytes": 4791,
+      "bytes": 5599,
       "path": "07_LIVE_SHADOW.md",
-      "sha256": "0ac6abfc73527b3830380c8d35fd8825d987ba32f46087a1e4229cdcafcea5f8"
+      "sha256": "92f00fdafbf4187a16005c8c973e96014ce0b9da5e8c9a05b0d173990aca620a"
     },
     {
       "bytes": 1977,
@@ -276,9 +276,9 @@
       "sha256": "9bc8432895eb14f1262ad8ef6982b93ecda74059c13ba8019840f1237e625a80"
     },
     {
-      "bytes": 10493,
+      "bytes": 11375,
       "path": "49_CURRENT_TURN_FRESHNESS.json",
-      "sha256": "6df13e13fce26877d2819b08b772d010d8ad734d1216c489d774f490ee3fbbdc"
+      "sha256": "da9f5583ae489397622ae0054de5b1b260de64b6addd665b19c9486ac3e18007"
     },
     {
       "bytes": 5688,
@@ -381,9 +381,9 @@
       "sha256": "b6352637f6278347c2fefbb9193e0c5321e66f324278930871e01218f014bc12"
     },
     {
-      "bytes": 166485,
+      "bytes": 168208,
       "path": "70_DESIGN_THREAD_STREAM.md",
-      "sha256": "26545027d00ee0b0613fa9ea79e0222a3276a27b84ba49c37333a16ad844f462"
+      "sha256": "e33fd6fd07db3619f1b47bff9fb8d809b08a9b78cc676167a70859cc6625aa5d"
     },
     {
       "bytes": 1222,
@@ -396,14 +396,14 @@
       "sha256": "40f205844d74447dc31d6b25272be302749751129f413b48d0321501ae5a7d57"
     },
     {
-      "bytes": 5598,
+      "bytes": 6741,
       "path": "73_NEXT_THREAD_START_HERE.md",
-      "sha256": "21216b70617144f3726c138d6fa10921328aae2c015b4c539b2b377c61f02a14"
+      "sha256": "687f048f6fcb44653d3ce06a1a6da14022fa750fe2716810d8fa1da8073c8018"
     },
     {
-      "bytes": 2620,
+      "bytes": 2831,
       "path": "74_CURRENT_STATE_RECEIPT.json",
-      "sha256": "1f6669c6e8622275291f241bff693ff9091547ce5f2595898358ac695ca9ba42"
+      "sha256": "415c0927cce7572f2cbd6fccca83a9870efeb5f9ed4e988406dc898328665f3b"
     },
     {
       "bytes": 2090,
@@ -489,8 +489,43 @@
       "bytes": 1972,
       "path": "91_H1_SPLASH_WRAPPER_CLOSE.md",
       "sha256": "550fc141197d105cd622ee2c683c104d0fd41247534906f9e435fc411a54fbc8"
+    },
+    {
+      "bytes": 1292,
+      "path": "92_H1_PHYSICAL_SPLASH_NO_SIGNAL_RESULT.md",
+      "sha256": "ec12d2d87aadd0261d668eac812f0ebb95e658142372c91fb0f17a3986919775"
+    },
+    {
+      "bytes": 2204,
+      "path": "93_H1_TEXT_WRAPPER_QUALIFICATION_RESULT.md",
+      "sha256": "06f4b5733a3d6edf310baef2bc3f699a8c7d44be9d3749dc84849daf1bca8c10"
+    },
+    {
+      "bytes": 1207,
+      "path": "94_H1_TEXT_WRAPPER_USE_INSTRUCTIONS.md",
+      "sha256": "a9f511a6df94b53e23320e77946e7b4494bbf376d7cb8eb0711a2997621972cc"
+    },
+    {
+      "bytes": 4858,
+      "path": "95_H1_DURABLE_LOG_PREREGISTRATION.md",
+      "sha256": "1b286ec1fa38835e9dce182846b2335f46e1e52356faef4ab561851da196b801"
+    },
+    {
+      "bytes": 3245,
+      "path": "96_H1_DURABLE_LOG_QUALIFICATION_RESULT.md",
+      "sha256": "0ecc266d8065961b1b8890a427fc03e405eb9e914d4c71616153d4e684ef25f2"
+    },
+    {
+      "bytes": 1615,
+      "path": "97_H1_DURABLE_LOG_USE_INSTRUCTIONS.md",
+      "sha256": "8bb3628fdba86f6c9373076234d8d6926da5ed3b8870d0c4b87b865f5b4b6209"
+    },
+    {
+      "bytes": 2574,
+      "path": "98_H1_DURABLE_LOG_EXTRACTOR.py",
+      "sha256": "3b51500297ea2f5e54d1b9d76adca4ce6aa4fb44c9dd4248940f9f1856f8e7d4"
     }
   ],
-  "generated_utc": "2026-08-31T19:09:00+00:00",
-  "schema": "pcmmad.current_reincarnation.v17"
+  "generated_utc": "2026-08-31T20:00:00+00:00",
+  "schema": "pcmmad.current_reincarnation.v18"
 }

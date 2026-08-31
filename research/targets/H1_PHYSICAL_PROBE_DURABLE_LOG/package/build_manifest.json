@@ -1,0 +1,61 @@
+{
+  "format": "HOSTILE_H1_DURABLE_LOG_BUILD_V1",
+  "layout": {
+    "journal_bytes": 65536,
+    "journal_lba_start": 256,
+    "journal_sector_count": 128,
+    "loader_lba_count": 8,
+    "loader_lba_start": 1,
+    "probe_lba_count": 16,
+    "probe_lba_start": 9,
+    "stage1_lba": 0
+  },
+  "logger_loader": {
+    "bytes": 1376,
+    "envelope": 4096,
+    "headroom": 2720,
+    "sha256": "822365195dd4a3f6cc8a75620f8bc88b0925633ae23d127b4d3df7bbe1a1e05f"
+  },
+  "physical_image": {
+    "bytes": 1474560,
+    "sha256": "ddf9ceec0b97ed8014874e11e804716867ad0956eaa980085373bb803e9a6cca"
+  },
+  "probe_physical": {
+    "bytes": 2464,
+    "envelope": 8192,
+    "headroom": 5728,
+    "sha256": "fd70047f5e8eb5115f6b417a4013ebd0a116740a5208c43ef2d3af4a59fe06ca"
+  },
+  "probe_qemu": {
+    "bytes": 2468,
+    "envelope": 8192,
+    "headroom": 5724,
+    "sha256": "8e9a17ff18c10a5aa99077abcbcaef5afc7d2112ee18a8bc4981d323b99559f3"
+  },
+  "qemu_image": {
+    "bytes": 1474560,
+    "sha256": "afe6064c0c5562016db121120c1b61e1d14e050c5608841ca7606ff1838831ed"
+  },
+  "sources": {
+    "H1_DURABLE_LOG_PREREGISTRATION_2026-08-31.md": "3235970b629b7a8e93e4dfcbd93c608c94e605c58ce5372cf5bd25cfb59e7ac1",
+    "build.py": "601b09f1b7d3ec9e476f66d0553cbb14744d09da7ccf6925e2858b6bd86d5f4c",
+    "extract_log.py": "3b51500297ea2f5e54d1b9d76adca4ce6aa4fb44c9dd4248940f9f1856f8e7d4",
+    "run_qemu_qualification.py": "e7cf9976b7b8a25f487715f35cc51bf672d27c04e32f492b04a521d47cca3d7f",
+    "stage2.S": "cfaa9ff2ee3a487084d969fca8685ea51059793dbc6dad34af1e35b5887a9b38",
+    "stage2.ld": "2ef980bf9aba7547938e4e57f71ccf3bfadbfffd12a27c9174760839ef01d85a",
+    "text_loader.S": "a969a0eca08e41a54777dc37ecb253494887b0bf91e24f6878e3ef789941632f",
+    "text_loader.ld": "22c4b8aff0f9a7e5ae8b52d47cde25f230a52b321d945ba448d7568da4223d7d",
+    "verify_static.py": "276cdb1c15107ab43400df79aa9fa87cf59d1a9233ec964484a48c0224e173eb",
+    "wrapper_stage1.S": "84afa94088bc6519b916c0c3c89734ac84f3bc771d9b38091c32f658359b6b43",
+    "wrapper_stage1.ld": "f042ce861cd76dcc5ab7381aadd88375bd2e31e1b46def58b9d05e7ace3b1e38"
+  },
+  "tool_paths": {
+    "clang": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+    "lld": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+    "objcopy": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe"
+  },
+  "wrapper_stage1": {
+    "bytes": 512,
+    "sha256": "2915030c48d09439a917d648a2029e3bbee2acdcd05ffbc76760ba2297808826"
+  }
+}

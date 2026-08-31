@@ -50,6 +50,12 @@
 - Reconcile physical CPU/PCI/BIOS-ACPI/storage/interrupt/SMP observations against proxy assumptions.
 - Open a new campaign only if physical evidence earns one.
 
+- Physical H1 splash transport failure is preserved at `research/targets/H1_PHYSICAL_PROBE_SPLASH/PHYSICAL_H1_SPLASH_NO_SIGNAL_RESULT_2026-08-31.md`. Exact failing instruction remains unlocalized; VGA mode 13h is the leading discriminator.
+- Text-only H1 wrapper is QUALIFIED under QEMU dual BIOS paths from source `9d3c70a47467252161a6763fac526342a10c6696`; static PASS15/15; no explicit video-mode set/DAC/framebuffer writes.
+- Text-only physical image SHA-256 `5f90b22ad6264d2e2afb7c0155454b635a7bd4aa4ed22da6be879d14d3c26b42`.
+
+- Physical H1 durable-log descendant is now emulator-qualified: text-mode preserving, raw USB journal LBAs 256..383, full transcript durable under CHS+EDD, physical image SHA-256 `ddf9ceec0b97ed8014874e11e804716867ad0956eaa980085373bb803e9a6cca`. Physical H1 retest pending.
+
 ## Immediate Next Step
 - Prepare the guarded clone -> D: staging -> USB-write command block using splash image SHA-256 `bcd49e64...ca31`, then perform physical H1 boot when the commander is ready.
 
