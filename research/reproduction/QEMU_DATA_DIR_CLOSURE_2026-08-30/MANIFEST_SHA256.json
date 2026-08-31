@@ -1,0 +1,38 @@
+{
+  "files": [
+    {
+      "bytes": 2699,
+      "path": "build_manifest.json",
+      "sha256": "fba96c60a6e8358820ce771864a2376d4f362a6bd1ebfd1b7fdc9ea3e4435bbd"
+    },
+    {
+      "bytes": 750,
+      "path": "current_qemu_portability_gate.json",
+      "sha256": "b9d5d5bb386f2789a99feb9e72c6bc80027af7b58340376acf4527f51716fae1"
+    },
+    {
+      "bytes": 794,
+      "path": "i001_portability_gate.json",
+      "sha256": "1798b85663d27a082d99ed512771ee699a8192cc960ab819df0aa7593489bdf1"
+    },
+    {
+      "bytes": 2394,
+      "path": "RESULT.md",
+      "sha256": "08d5c1a2c0c7451a1d22da34258b078d5f3b784fa277d592e5d5217c54e3ed45"
+    },
+    {
+      "bytes": 14699,
+      "path": "run_receipt.json",
+      "sha256": "89dfd4e700245bba89ee845cd3ecead21b830ad5edc83cf087c6fcb2a063ba2b"
+    },
+    {
+      "bytes": 777,
+      "path": "verification.json",
+      "sha256": "a72266bc51cbf21e374187d25546bf1abaf0c22b270ec3304d4cc2a4e8ff1c78"
+    }
+  ],
+  "i001_tree": "bd641bcd658fbf558f15a9226f96058351d5794c",
+  "schema": "hostile_os.qemu_data_dir_closure.v1",
+  "source_commit": "5f57ad17d3daddd2ef26bc4eda4f98ebbaf91af5",
+  "v2_tree": "03af56020afe6d117836133c0e33092d098fc13e"
+}

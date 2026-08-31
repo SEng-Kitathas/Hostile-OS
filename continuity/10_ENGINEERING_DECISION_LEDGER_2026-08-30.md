@@ -104,3 +104,12 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | Preserve 8 KiB loader envelope for v2 | Integrated body closes at7440 bytes; enlargement has not earned its cost | Current v2 body | Needed mechanism cannot fit after explicit Pareto pressure |
 | 752 bytes remaining is a pressure budget, not free space | Prevent convenience features from silently consuming a qualified constraint | Embodiment engineering | New mechanism proves its consequence/cost and is admitted deliberately |
 | Admission does not promote final architecture/release | Reviewer convenience cannot become constitutional authority | Project-wide | Separate final architecture/release gates close |
+
+## 2026-08-30 QEMU data-directory portability decision
+
+| Decision | Why it exists | Authority ceiling | Reopen / demote when |
+|---|---|---|---|
+| Treat QEMU executable/modules/firmware-data as separate transplant runtime surfaces | Independent host found binary could run only after module and firmware paths moved with it | Reproduction infrastructure only | Another required relocated runtime component appears |
+| Current v2 runner discovers/overrides firmware data dir and maps it to `-L` | Removes hidden system-path dependence for direct Python launch | Current research reference runner | Different QEMU layout/data contract invalidates discovery |
+| Historical I001 runner stays frozen; PATCH_003 remains its transplant wrapper | Preserve exact historical I001 tree while keeping official transplanted execution working | Historical embodiment lineage | A versioned successor I001 body is deliberately created |
+| Foreign second-run report remains reported, not raw-hash-verified | Reviewer supplied conclusions, not artifacts | External evidence only | Foreign manifest/traces/verify packet is supplied and locally hashed |

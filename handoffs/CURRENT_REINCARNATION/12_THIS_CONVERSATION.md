@@ -1257,3 +1257,9 @@ After science close, adopted WT01 only at QEMU/directsync scope, formalized the 
 Built the post-WT01 versioned reviewer body representation-first. Selected 3467 bytes of named state without bit-packing earned distinctions or blindly unioning historical fixture fields. The body stayed inside the qualified 8 KiB loader while adding the D64 core, real IRQ count1/count2/stale-relation semantics, two-boot durable reconstruction, and five FR01-compatible faulted-media reviewer cases. Final stage2 is3845 raw /7440 linked with752 bytes headroom. One all-mode run uses eight QEMU boots and verifier passes17/17.
 
 Preserved implementation scars (generated-map whitespace and a verifier-source quoting bug) separately. Exact os-only Git archive audit passed with R&D/history roots absent; historical I001 tree is unchanged. `d64_reference_v2` was admitted as CURRENT_RESEARCH_REFERENCE at commit `9332d34...`, still explicitly research-only/non-final/non-production. A second exact isolation run from the admitted commit passed again.
+
+### USER — Opus second reproduction and one remaining firmware-path assertion
+Relayed Opus's second independent reproduction report. User emphasized project-relevant content, especially the remaining claim that relocated QEMU firmware/data under `share/qemu` was not reachable from Python `run.py` because no `-L` hook existed.
+
+### ASSISTANT — audited and closed current direct-runner data-dir gap
+Confirmed the claim for direct Python launch. Also found the nuance that PATCH_003 already supplied `-L`, so the project had wrapper-level coverage. Kept historical I001 tree immutable; current D64 v2 runner gained explicit/auto QEMU data-dir discovery and `-L`, recorded as `qemu_data_dir`. Synthetic transplant gate and exact committed os-only full suite passed; all eight v2 QEMU argv arrays now carry the selected `-L`. No science authority changed and Opus's second foreign run remains reported-only until raw artifacts arrive.

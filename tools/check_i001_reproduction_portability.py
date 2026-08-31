@@ -66,9 +66,10 @@ def main() -> int:
         checks["patch003_has_wrapper"] = "runtime/qemu/run-qemu-i386.sh" in names
         checks["patch003_exports_qemu_module_dir"] = "QEMU_MODULE_DIR" in wrapper and "$HERE/modules" in wrapper
         checks["patch003_defaults_nic_none"] = "-nic none" in wrapper
+        checks["patch003_supplies_qemu_data_dir"] = '-L "$HERE/share/qemu"' in wrapper
         details["patch003_entries"] = sorted(names)
 
-    result = {"format":"HOSTILE_OS_I001_PORTABILITY_GATE_V1","passed":all(checks.values()),"checks":checks,"details":details}
+    result = {"format":"HOSTILE_OS_I001_PORTABILITY_GATE_V2","passed":all(checks.values()),"checks":checks,"details":details}
     print(json.dumps(result, indent=2))
     return 0 if result["passed"] else 1
 

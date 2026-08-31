@@ -1,9 +1,9 @@
 {
   "files": [
     {
-      "bytes": 810,
+      "bytes": 603,
       "path": "00_READ_FIRST.md",
-      "sha256": "2520439fb60e057067e84264f0bb065018598f2830ad26ff9c386f4867a29877"
+      "sha256": "40ec2560622dd03b7ff4088fec5f4e2d42260546ba096fa02b58c9ce92375203"
     },
     {
       "bytes": 1847,
@@ -11,9 +11,9 @@
       "sha256": "139c3abb0d70fc3119c6ba107409a71a01e7a5187023329c9dc50bb209c82bf6"
     },
     {
-      "bytes": 43026,
+      "bytes": 44691,
       "path": "02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "d308f2ebf290c776088492ddabdc54687a74292936e71e9c27ac8ff5dd6397ae"
+      "sha256": "89ac26b213dc6ef70e57d83cac921fa90d4ff19374ab6a03a9db4b94995998e7"
     },
     {
       "bytes": 16352,
@@ -21,9 +21,9 @@
       "sha256": "f2f29ace540321507d5e1c8e29d7c8fbeb61bdbf1924356e83aecc53c6c45667"
     },
     {
-      "bytes": 16548,
+      "bytes": 17684,
       "path": "04_ENGINEERING_DECISION_LEDGER.md",
-      "sha256": "469e0204685dfbc7c377972d01061981ad97cbc62d00feb2e9410259727cbc93"
+      "sha256": "22b2ce5a1b90d82c68a84aa19bc5b2e154d49ee0f2552bf2137551ab8c871b4e"
     },
     {
       "bytes": 6944,
@@ -36,9 +36,9 @@
       "sha256": "747aac249c7aaac4c8e3933c724cc4629ea919e2f9f028a29974d96677a477d4"
     },
     {
-      "bytes": 2690,
+      "bytes": 2552,
       "path": "07_LIVE_SHADOW.md",
-      "sha256": "cb889952a40a8e04b609f29e56fa83f776bdcaa26229b1fb07743bc746ce3472"
+      "sha256": "1eed4dfe17599db4dc10981727de802cf151cab9a06b07f77c864624a2303e1b"
     },
     {
       "bytes": 1977,
@@ -61,9 +61,9 @@
       "sha256": "4a295343ca93eecfa00619d8b090408ddbb21cd1747b6a51e8b38abca9d2a525"
     },
     {
-      "bytes": 137754,
+      "bytes": 138691,
       "path": "12_THIS_CONVERSATION.md",
-      "sha256": "e1d490865d805d28527cf1484407336aaca1ae4184dc96343b812204fdc04d6e"
+      "sha256": "b2036681790201fe4b0d3d45690ae9f469233e442afe4737237ad3fbda8eae88"
     },
     {
       "bytes": 2247,
@@ -229,7 +229,22 @@
       "bytes": 1344,
       "path": "44_D64_V2_FINAL_ADMISSION_READBACK.md",
       "sha256": "712dcf235e56fa09d72a79796329d3db8de4a1ef11da079733a2dbabe92df104"
+    },
+    {
+      "bytes": 3839,
+      "path": "45_OPUS_SECOND_REPRODUCTION_RAW.md",
+      "sha256": "d3ac512ad719bd5f195d8e546b38dd0ef3463ee5f5f35adc5d88249e76080a75"
+    },
+    {
+      "bytes": 5182,
+      "path": "46_OPUS_SECOND_REPRODUCTION_ADJUDICATION.md",
+      "sha256": "dd3860f3bd863cdcbf2b2fa79b2f2fd7403fc8fe3c33cff38f59eb0cf2844439"
+    },
+    {
+      "bytes": 2394,
+      "path": "47_QEMU_DATA_DIR_CLOSURE.md",
+      "sha256": "08d5c1a2c0c7451a1d22da34258b078d5f3b784fa277d592e5d5217c54e3ed45"
     }
   ],
-  "schema": "pcmmad.current_reincarnation.v8"
+  "schema": "pcmmad.current_reincarnation.v9"
 }

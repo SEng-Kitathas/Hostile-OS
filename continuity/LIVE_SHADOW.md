@@ -3,34 +3,32 @@
 ## Thread Identity
 - Thread: HOSTILE-OS / PCMMAD
 - Last Updated: 2026-08-30
-- Mode: BUILD-COMMIT / admission closure
-- Dominant Objective: durably publish the newly admitted D64 v2 current research reference, then choose the next pressure from the converged body rather than extending it by convenience.
+- Mode: AUDIT / BUILD-COMMIT portability closure
+- Dominant Objective: preserve current D64 v2 reference reproducibility across transplanted QEMU runtime environments without changing OS science authority.
 
 ## Current Authoritative State
 - Architecture posture: `INTEGRATED_SHADOW_CANDIDATE`; not final/canonical/production-ready.
-- C001/C002/C003 CLOSED 20/20; I001 and D64 descendant science remain closed at stated scopes.
-- FR01 deterministic faulted durable-record recovery CLOSED PASS.
-- WT01 controlled actual guest-write termination boundary CLOSED PASS.
-- `os/research_only/d64_reference_v2/` is **CURRENT_RESEARCH_REFERENCE — RESEARCH PURPOSES ONLY** at admission commit `9332d34ac7cf0043a5851632aab698fe61967eef`.
-- Final admitted v2 tree: `e7e9c08458bd9573ff4bcd60b9193d88adb26b21`.
-- V2 measured: stage1 512; stage2 raw3845; named state3467; linked memory7440/8192; headroom752; 8 reviewer QEMU boots; verifier17/17.
-- V2 integrates core D64 capacity/currentness/lifetime, real IRQ0 count1/count2/stale relation, two-boot restart, FR01-style selection/reconstruction, and five faulted-media reviewer cases.
-- Final exact `git archive HEAD os` isolated admitted-state readback PASS; no research/continuity/authority/handoffs root present.
-- Historical I001 reference tree remains unchanged at `bd641bcd658fbf558f15a9226f96058351d5794c`.
-- Two-level research cadence remains: broad20-pass campaigns; localized descendants max5 before reconciliation.
-- Working nouns `activity/binding/resource` remain defeasible, not constitutional primitives.
+- `os/research_only/d64_reference_v2/` remains CURRENT_RESEARCH_REFERENCE — RESEARCH PURPOSES ONLY.
+- V2 machine/body science consequences unchanged: stage2 raw3845; linked7440/8192; named state3467; eight reviewer boots; verifier17/17.
+- Opus reports a second independent I001 reproduction on repaired tree; still external reported evidence because foreign raw manifest/traces/verify files have not been supplied.
+- Opus's remaining firmware/data-path assertion was VERIFIED for direct Python launch: runner lacked QEMU `-L` data-dir binding.
+- Nuance: PATCH_003 already supplied `-L "$HERE/share/qemu"`; the gap was wrapper-covered but missing in direct runner.
+- Current v2 direct runner repaired at `5f57ad17d3daddd2ef26bc4eda4f98ebbaf91af5`: `HOSTILE_QEMU_DATA_DIR`, `HOSTILE_QEMU_FIRMWARE`, adjacent share/qemu/share discovery, `-L`, receipt `qemu_data_dir`.
+- Exact committed os-only readback after repair PASS: eight boots + verifier17/17; every QEMU argv carries selected `-L`; local selected data dir `C:\Program Files\qemu\share`.
+- Historical I001 tree remains frozen unchanged at `bd641bcd658fbf558f15a9226f96058351d5794c`; PATCH_003 remains its supported transplant wrapper.
+- Current QEMU portability gate PASS9/9; historical I001 portability gate PASS8/8.
 
 ## Active Constraints
-- CURRENT_RESEARCH_REFERENCE != final architecture or release.
-- Only752 bytes remain in the qualified 8 KiB v2 envelope; no convenience growth without explicit burden/admission.
-- Parent science remains authority over embodiment.
-- Preserve os-only sparse-checkout independence.
-- Exact uploaded frozen-intent bytes remain a cross-plane Git-ingress seam until byte bridge exists.
+- Infrastructure portability analogy is not OS architecture proof.
+- Foreign raw Opus packet must not be called hash-verified until supplied.
+- Historical I001 tree must remain unchanged.
+- Current reference must remain build/run independent of research/continuity/authority/handoffs.
+- Exact uploaded frozen-intent bytes remain separate open cross-plane Git-ingress seam.
 
 ## Open Loops
-- Commit/publish v2 final admission readback and continuity.
-- Verify reincarnation manifest and durable repository after commit.
-- Choose next frontier after publication. Candidate pressures: Pareto/latency receipt on current body; deliberate maturity gate for blind modern-OS comparison; a new open science domain; or physical-hardware qualification planning. Do not start another persistence descendant automatically.
+- Commit/publish QEMU data-dir closure evidence and continuity.
+- If Opus supplies foreign `build_manifest.json`, debugcon traces and verify report, admit them under external reproduction with local hashes.
+- After publication, return to frontier-selection audit rather than adding convenience features to the 752-byte v2 headroom.
 
 ## Immediate Next Step
-Publish the complete current delta and independently verify GitHub main. Then perform a frontier-selection audit from the converged v2 body.
+Close/publish this portability turn and independently verify GitHub main.

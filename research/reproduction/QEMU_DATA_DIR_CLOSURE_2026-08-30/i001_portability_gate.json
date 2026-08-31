@@ -1,0 +1,23 @@
+{
+  "format": "HOSTILE_OS_I001_PORTABILITY_GATE_V2",
+  "passed": true,
+  "checks": {
+    "tool_invocation_spelling_preserved": true,
+    "tool_identity_resolves_separately": true,
+    "qemu_module_dir_inferred": true,
+    "run_disables_default_nic": true,
+    "patch003_has_wrapper": true,
+    "patch003_exports_qemu_module_dir": true,
+    "patch003_defaults_nic_none": true,
+    "patch003_supplies_qemu_data_dir": true
+  },
+  "details": {
+    "tool_invocation": "C:\\Users\\ancal\\AppData\\Local\\Temp\\hostile-portability-4cz5q5tk\\alias\\..\\bin\\ld.lld",
+    "tool_identity": "C:\\Users\\ancal\\AppData\\Local\\Temp\\hostile-portability-4cz5q5tk\\bin\\ld.lld",
+    "patch003_entries": [
+      "README_PATCH_003.md",
+      "SHA256SUMS.txt",
+      "runtime/qemu/run-qemu-i386.sh"
+    ]
+  }
+}

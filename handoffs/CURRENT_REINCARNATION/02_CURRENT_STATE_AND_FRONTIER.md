@@ -459,3 +459,32 @@ The historical `os/research_only/i001_reference/` Git tree remains exactly `bd64
 Admission does not change architecture posture. `FINAL_ARCHITECTURE=false`, `PRODUCTION_READY=false`, `GENERAL_PURPOSE_RELEASE=false`.
 
 The v2 body uses only 752 bytes of remaining qualified stage2 headroom. Do not add mechanisms casually; future embodiment additions require explicit byte/Pareto pressure or a new loader-envelope qualification.
+
+## 2026-08-30 Opus second reproduction / QEMU firmware-data closure
+
+Opus reported a second independent I001 reproduction on the repaired tree and confirmed the prior tool-invocation, module-dir, NIC, IRQCOUNT/adjudication behavior. The foreign raw packet is still not supplied; authority remains `EXTERNAL REPRODUCTION REPORTED`, not locally hash-verified foreign evidence.
+
+The reported remaining portability finding was audited and is technically correct with an important nuance:
+- both Python runners had module-dir support and `-nic none` but no direct QEMU firmware/data-dir -> `-L` support;
+- existing PATCH_003 wrapper already supplied `-L "$HERE/share/qemu"`;
+- therefore the gap was `KNOWN_IN_WRAPPER / MISSING_IN_DIRECT_PYTHON_RUNNER`, not total project absence.
+
+Current D64 v2 direct runner is now repaired at commit `5f57ad17d3daddd2ef26bc4eda4f98ebbaf91af5`:
+- `HOSTILE_QEMU_DATA_DIR`;
+- `HOSTILE_QEMU_FIRMWARE` alias;
+- adjacent `share/qemu` / `share` discovery, requiring `bios-256k.bin` for auto-discovery;
+- selected directory passed with `-L`;
+- `qemu_data_dir` recorded in run receipt.
+
+Exact committed `git archive HEAD os` isolated readback:
+- no research/continuity/authority/handoffs roots;
+- full v2 build + eight reviewer boots + verifier17/17 PASS;
+- local QEMU data dir auto-selected `C:\Program Files\qemu\share`;
+- all eight QEMU argv arrays include `-L` plus the selected data directory;
+- v2 stage2 raw hash unchanged;
+- historical I001 tree remains unchanged and uses PATCH_003 for transplanted execution.
+
+Closure packet:
+`research/reproduction/QEMU_DATA_DIR_CLOSURE_2026-08-30/`.
+
+No science or architecture authority changes.

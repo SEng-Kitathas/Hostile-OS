@@ -1,0 +1,19 @@
+{
+  "format": "HOSTILE_OS_CURRENT_QEMU_TRANSPLANT_PORTABILITY_GATE_V1",
+  "passed": true,
+  "checks": {
+    "module_dir_inferred": true,
+    "data_dir_inferred": true,
+    "explicit_data_dir_override": true,
+    "firmware_alias_override": true,
+    "runner_maps_data_dir_to_dash_L": true,
+    "runner_records_qemu_data_dir": true,
+    "runner_disables_default_nic": true,
+    "historical_patch003_supplies_dash_L": true,
+    "historical_patch003_supplies_module_dir": true
+  },
+  "details": {
+    "synthetic_module_dir": "C:\\Users\\ancal\\AppData\\Local\\Temp\\hostile-qemu-runtime-wrswntqz\\runtime\\qemu\\modules",
+    "synthetic_data_dir": "C:\\Users\\ancal\\AppData\\Local\\Temp\\hostile-qemu-runtime-wrswntqz\\runtime\\qemu\\share\\qemu"
+  }
+}

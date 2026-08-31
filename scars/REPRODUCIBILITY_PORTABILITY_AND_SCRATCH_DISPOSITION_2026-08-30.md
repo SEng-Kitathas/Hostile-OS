@@ -51,3 +51,17 @@ An outside-host I001 reproduction report exposed three additional transplant def
 Local Windows could not create a real symlink without elevation, so the exact POSIX symlink failure is externally observed. Repository-side path-spelling identity and module/NIC gates pass. Exact I001 machine bytes and two-boot behavior remain unchanged after the repairs.
 
 Rule earned for infrastructure: **tool path is not tool identity, and transplanted binary is not transplanted environment**. These are infrastructure rules/analogies, not automatic OS architecture proof.
+
+## QEMU firmware/data path — fourth transplant-environment surface
+
+Opus's second independent-host pass exposed that direct Python launch still lacked a QEMU firmware/data-directory hook. A transplanted QEMU binary could locate neither system firmware nor its relocated `share/qemu/bios-256k.bin` without `-L`.
+
+Important historical nuance: PATCH_003 already supplied `-L "$HERE/share/qemu"`; the defect was direct-runner integration, not project-wide ignorance.
+
+Current v2 runner now treats executable, module directory, and firmware/data directory as distinct runtime surfaces and records the selected data path. Historical I001 remains frozen and uses PATCH_003.
+
+Rule reinforced:
+
+`TRANSPLANTED_BINARY != TRANSPLANTED_ENVIRONMENT`
+
+This remains infrastructure evidence/analogy, not new OS architecture proof.
