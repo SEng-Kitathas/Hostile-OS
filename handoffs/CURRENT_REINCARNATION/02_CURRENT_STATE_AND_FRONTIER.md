@@ -732,3 +732,27 @@ D64-v3 remains unchanged and current. C004 remains valid and not fully embodied.
 The next reality-authority step is the **physical H1 boot/probe packet** using the qualified removable-media image. That step requires operator hardware touch.
 
 No broad new campaign is currently earned merely by campaign numbering pressure. A new campaign becomes lawful when physical H1 or another verified input exposes a new responsibility domain or contradiction that cannot be handled as a bounded integration/qualification descendant.
+
+
+---
+
+## 2026-08-31 superseding frontier delta — H1 probe qualified under second independent proxy
+
+The exact physical H1 observation image already qualified under the QEMU H1 proxy was replayed unchanged under Bochs 3.1 after a separately sealed preregistration.
+
+Preregistration: `77b91de3878eb6b1164e3805259c34cce2adbf34`.
+Harness: `d8cc509cdffa3f85503d632e6b597e6e2db307b9`.
+Controlling run: `research/targets/H1_PHYSICAL_PROBE/runs/20260831T182218Z_h1_physical_probe_bochs_01`.
+
+Result: **PASS / COLLECTION COMPLETE / EMULATOR TERMINATED BY HARNESS**. The exact physical image SHA-256 `809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead` was unchanged before/after. Required CPU, boot, firmware, IRQ/APIC, E820, PCI and begin/end families were all captured.
+
+Bochs produced materially different CPU detail, ACPI placement, PIC mask, E820 layout and PCI topology from QEMU. That proxy diversity strengthens the observation instrument because it demonstrates collection is not hard-wired to QEMU values. It does not establish physical-H1 truth and does not expose a HOSTILE-OS mechanism contradiction.
+
+Current frontier therefore remains:
+- physical H1 itself: **UNQUALIFIED**;
+- observation instrument: qualified under **two independent emulator/firmware stacks**;
+- D64-v3: unchanged;
+- C004/C005: CLOSED20/20;
+- C006: not opened.
+
+The next load-bearing reality step is the physical H1 boot/probe packet. A new broad campaign becomes lawful only if that packet or another verified input exposes a new responsibility domain or mechanism contradiction that cannot be handled as bounded qualification/integration work.

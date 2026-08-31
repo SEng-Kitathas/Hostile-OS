@@ -31,3 +31,15 @@ P1 is closed: do not spend the remaining103 bytes on partial authority-looking s
 Immediate frontier: physical H1 boot/probe packet. A new broad campaign is opened only if physical evidence or another verified input earns a new responsibility domain/contradiction.
 
 Verify this package using `MANIFEST_SHA256.json` and verify canonical Git/GitHub HEAD before mutation. Do not trust an older embedded commit marker over current verified Git state.
+
+
+## 2026-08-31 second-proxy superseding ingress
+
+Before hardware touch, also read:
+- `83_H1_PHYSICAL_PROBE_BOCHS_PREREGISTRATION.md`;
+- `84_H1_PHYSICAL_PROBE_BOCHS_QUALIFICATION_RESULT.md`;
+- `85_H1_BOCHS_INDEPENDENT_PROXY_CLOSE.md`.
+
+Current refinement: the exact physical probe image has completed all required observation families under both QEMU and Bochs 3.1. This strengthens the instrument only. Physical H1 remains UNQUALIFIED; D64-v3 remains unchanged; C004/C005 remain CLOSED20/20; no C006 is open. The next load-bearing reality step remains the physical H1 boot/probe packet.
+
+Integrity maintenance: `87_CURRENT_REINCARNATION_CRLF_MANIFEST_SCAR.md` records the pre-publication CRLF/LF manifest repair. Current package manifests are required to close over committed Git blob bytes, not only worktree bytes.

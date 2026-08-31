@@ -10,7 +10,7 @@
     "C005": "CLOSED20/20",
     "C006": "NOT_OPEN"
   },
-  "canonical_source_head": "ca797a7936dbf4442429b6720b0a1a9192daf81e",
+  "canonical_source_head": "c679f679aee6d51a8812ce8c816ea8bf92e90929",
   "current_research_reference": "os/research_only/d64_reference_v3",
   "d64_v3": {
     "all_mode_qemu_boots": 9,
@@ -24,16 +24,17 @@
     "stage1_bytes": 512,
     "stage2_raw_bytes": 4494
   },
-  "generated_utc": "2026-08-31T18:10:00+00:00",
+  "generated_utc": "2026-08-31T18:25:00+00:00",
   "h1": {
-    "bochs_independent_replay": "PASS",
+    "bochs_independent_replay": "PASS_INSTRUMENT_COLLECTION",
     "physical_hardware": "UNQUALIFIED",
     "physical_target": "HP Pavilion p2-1120",
     "probe_controlling_run": "research/targets/H1_PHYSICAL_PROBE/runs/20260831T180418Z_h1_physical_probe_qemu_01",
     "probe_image_sha256": "809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead",
-    "probe_instrument": "QUALIFIED_UNDER_PROXY",
+    "probe_instrument": "QUALIFIED_UNDER_QEMU_AND_BOCHS_PROXIES",
     "qemu_proxy": "PASS",
-    "selected_topology": "BSP sole relation mutator + ordered AP request/result mailbox"
+    "selected_topology": "BSP sole relation mutator + ordered AP request/result mailbox",
+    "bochs_probe_controlling_run": "research/targets/H1_PHYSICAL_PROBE/runs/20260831T182218Z_h1_physical_probe_bochs_01"
   },
   "next_reality_step": "physical H1 boot/probe packet",
   "operator_input_required_now": true,

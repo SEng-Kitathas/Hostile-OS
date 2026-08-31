@@ -1,11 +1,11 @@
 {
   "blockers": [
-    "Physical H1 qualification now requires operator hardware touch.",
+    "Physical H1 qualification requires operator hardware touch.",
     "Foreign Opus raw packet not supplied.",
     "Exact uploaded frozen-intent source-byte Git ingress remains open."
   ],
   "commanders_intent_deltas": [
-    "Push project forward only through earned campaign/qualification work; physical H1 is now the next real evidence boundary."
+    "Advance only through earned campaign/qualification work; two independent proxies now qualify the collection instrument, while physical H1 remains the next authority boundary."
   ],
   "continuity_files": [
     {
@@ -19,9 +19,9 @@
       "sha256": "d4efd09f7b3e43a5a73519055fd7fe1a261315c7d265b3f77718ae8f5fc954e2"
     },
     {
-      "bytes": 61954,
+      "bytes": 63616,
       "path": "continuity/02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "4056142eea1dcabc8a3a46de9eb149696dfeb91270cd6430425f46c54d5ad32a"
+      "sha256": "dbac958d6237a53147557dad29e5165dae3a642216cdb03b482ec3a953e1cb2b"
     },
     {
       "bytes": 3245,
@@ -59,9 +59,9 @@
       "sha256": "f2f29ace540321507d5e1c8e29d7c8fbeb61bdbf1924356e83aecc53c6c45667"
     },
     {
-      "bytes": 28790,
+      "bytes": 29292,
       "path": "continuity/10_ENGINEERING_DECISION_LEDGER_2026-08-30.md",
-      "sha256": "7b9775805a2241c3724297a115fe93b84d3fc6160a0f9dfdbbb6d5f30a5feb13"
+      "sha256": "9d72d94d484212c47ca4ada35b0f71ee211f78851406cf67e60b04e2af670924"
     },
     {
       "bytes": 3993,
@@ -114,14 +114,19 @@
       "sha256": "61b27519450a62831b7dd50e04871c87555a53ff9942029c3d6aa6a4b31c4a60"
     },
     {
-      "bytes": 160244,
-      "path": "continuity/DESIGN_THREAD_STREAM.md",
-      "sha256": "81dc6e84cf1abbbf251db7ed09c919ab17a6780f134ff8f39687d183c3f0a833"
+      "bytes": 1959,
+      "path": "continuity/20_H1_BOCHS_INDEPENDENT_PROXY_CLOSE_2026-08-31.md",
+      "sha256": "28827568208419f0ed5335917972cf7e9f2f0ea35901192685cf79964961fdfd"
     },
     {
-      "bytes": 5695,
+      "bytes": 163405,
+      "path": "continuity/DESIGN_THREAD_STREAM.md",
+      "sha256": "0dd0991b32b203fd0e7f4a9f6768ee2489e825b43f816fde1317c9850e5bf47e"
+    },
+    {
+      "bytes": 6377,
       "path": "continuity/LIVE_SHADOW.md",
-      "sha256": "0bf2d1dc05f9762f6654ddff8d5add1e59cc1c16284cca23b81ca3ba1415d03a"
+      "sha256": "2cde6dedad9238fbee4ea91928260d0de0bd5d5a3dbded3d18fff6693cf75666"
     },
     {
       "bytes": 375,
@@ -184,14 +189,13 @@
       "sha256": "52a16e3570132413b15cf3fe6ea3c5897ac9e362699bd6b82e97a19cc0ac7ec6"
     }
   ],
-  "current_frontier": "H1 physical observation instrument QUALIFIED under proxy; physical H1 UNQUALIFIED and next reality-authority step. C004-to-v3 Pareto review CLOSED; D64-v3 unchanged; no C006 open.",
+  "current_frontier": "H1 physical observation instrument QUALIFIED under QEMU and Bochs independent proxies using the same immutable physical image; physical H1 UNQUALIFIED and next reality-authority step. D64-v3 unchanged; C004/C005 CLOSED20/20; no C006 open.",
   "decision_deltas": [
-    "Physical-H1 observation uses a separate non-destructive instrument; exact physical image SHA-256 809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead.",
-    "Do not spend D64-v3 103-byte headroom on partial authority state without a non-bypassable boundary.",
-    "C004 authority/protection remains a capability-triggered obligation; qualify representation/envelope when untrusted execution or direct privileged effects are admitted.",
-    "No C006 is opened by numbering momentum."
+    "Same physical H1 probe image now qualified for observation-family collection under QEMU and Bochs; exact proxy values are not authority.",
+    "Bochs/QEMU observation differences are proxy diversity, not a HOSTILE-OS mechanism contradiction.",
+    "No C006 is opened by numbering momentum; physical H1 or another verified new responsibility/contradiction must earn it."
   ],
-  "generated_utc": "2026-08-31T18:16:00+00:00",
+  "generated_utc": "2026-08-31T18:31:00+00:00",
   "living_surfaces": [
     {
       "path": "continuity/01_COMMANDERS_INTENT.md",
@@ -226,19 +230,21 @@
       "status": "updated"
     },
     {
-      "path": "continuity/19_H1_PROBE_PARETO_PUBLICATION_CLOSE_2026-08-31.md",
+      "path": "continuity/20_H1_BOCHS_INDEPENDENT_PROXY_CLOSE_2026-08-31.md",
       "status": "updated"
     }
   ],
   "mode": "BUILD-COMMIT / CHECKPOINT",
-  "pre_turn_git_head": "455838c867cebc762369afd6b336f620aee3a464",
+  "pre_turn_git_head": "97c1f8cbfda53b846a493f4924b5e9b57de3b7b2",
   "research_deltas": [
-    "H1 probe preregistration, Amendment A, two preserved qualification scars, implementation, static PASS13/13, controlling QEMU run and qualification result admitted.",
-    "Controlling H1-proxy qualification: source 51fafe6a61db701a592b6a0564b9b374d748d8b2, PID 7940, exit67, all required markers; physical instrument itself remains hardware-unexecuted.",
-    "C004-to-D64-v3 Pareto review closed with v3 unchanged; C004/P20 TSS alone is 104 bytes versus current v3 103-byte total headroom.",
-    "Durability close verified: substantive canonical 04fe437 published as mirror 7be27f36 with independent remote readback; final close commit publication remains before response."
+    "Bochs independent-proxy preregistration sealed at 77b91de; committed harness sealed at d8cc509; controlling run PID26904 PASS all eight receipt checks.",
+    "Exact physical probe image 809e70... unchanged before/after Bochs; full CPU/BOOT/FW/IRQ/E820/PCI framing reached H1PROBE_END.",
+    "Bochs values differed from QEMU as expected proxy diversity; no physical-H1 truth, architecture promotion or C006 earned.",
+    "Canonical science/qualification close at c679f679aee6d51a8812ce8c816ea8bf92e90929.",
+    "Legacy reincarnation builder help probe exposed that tools/build_hostile_os_reincarnation.py is a historical /mnt/data-bound constructor with no help guard; failed before tracked mutation and is preserved as a tooling scar.",
+    "Committed-Git-blob audit caught and blocked a CRLF/LF reincarnation-manifest mismatch before publication; repair requires LF-normalized package bytes and post-commit Git-blob closure."
   ],
   "role": "R5 Reality Pressure Engine + R1 audit pressure, closing under R4 convergence",
   "schema": "hostile_os.turn_freshness.v1",
-  "turn_intent": "Verify apparent encoding defect, then advance the lawful post-C005 frontier through physical-H1 qualification preparation and C004-to-D64-v3 representation/Pareto review."
+  "turn_intent": "Verify the apparent encoding trace, then advance the lawful campaign/qualification frontier without inventing C006; independently qualify the physical H1 probe under a second emulator stack."
 }

@@ -1427,3 +1427,38 @@ Advanced P1 by direct C004/D64-v3 representation audit. D64-v3 remains `.code16`
 Tags: CHECKPOINT, PUBLICATION-CLOSE, PHYSICAL-H1-BOUNDARY
 
 Closed the local durability layer after H1 probe/Pareto work: freshness PASS34, reincarnation worktree and committed-Git-object closure PASS88, durable repository PASS, clean canonical tree. Published canonical `04fe4370f2363c0bc36657c882136d7c53da15d2` through the hardened D:-scratch exact-commit publisher as mirror `7be27f36fb93f5c2516349aea28a9b86445b877c`; independent `ls-remote` matched exactly. Publisher carried4934 tracked files /3,186,370,387 pre-LFS bytes, research included, no canonical advance. One final continuity-close commit/publication follows; no science or architecture change. Next real authority step is physical H1 boot/probe.
+
+
+---
+
+## 2026-08-31 — USER
+Tags: PROCEED, CAMPAIGN-PRESSURE
+
+User instructed to proceed after asking that the apparent encoding issue be checked/rectified and that the project be pushed forward through campaigns.
+
+---
+
+## 2026-08-31 — ASSISTANT
+Tags: H1-PROBE, BOCHS, QUALIFICATION, NO-C006
+
+Byte-level audit proved the apparent `�?"` title corruption was only terminal decoding: `77_UNKNOWN_TRACE_ASK_SOP.md` is valid UTF-8, no BOM, and contains a normal em dash byte sequence `E2 80 94`. No file-content repair was needed.
+
+Rehydrated current HEAD and found P0/P1 had already advanced: H1 physical observation instrument qualified under QEMU, C004->D64-v3 Pareto review closed, D64-v3 unchanged, no C006 earned. Repository doctrine still forbids opening C006 by numbering momentum.
+
+Identified a lawful independent-proxy qualification descendant instead of inventing C006. Sealed `H1_PHYSICAL_PROBE_BOCHS_PREREGISTRATION_2026-08-31.md` at `77b91de3878eb6b1164e3805259c34cce2adbf34`, requiring the exact physical image hash, read-only floppy, independent Bochs stack, required observation families, and explicit harness-termination semantics after `H1PROBE_END`.
+
+Implemented and sealed `run_bochs_qualification.py` at `d8cc509cdffa3f85503d632e6b597e6e2db307b9`, then executed from committed inputs.
+
+Controlling run `research/targets/H1_PHYSICAL_PROBE/runs/20260831T182218Z_h1_physical_probe_bochs_01`: Bochs PID 26904; start `2026-08-31T18:22:18.943793+00:00`; end `2026-08-31T18:22:20.391529+00:00`; all eight receipt checks PASS; status `COLLECTION_COMPLETE / EMULATOR_TERMINATED_BY_HARNESS`; exact physical image SHA-256 `809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead` unchanged before/after.
+
+Bochs produced complete CPU/BOOT/FW/IRQ/E820/PCI framing but materially different proxy values from QEMU (logical CPU count, CPUID detail, ACPI placement, PIC mask, E820, PCI topology). Classified these as useful proxy diversity, not physical H1 truth and not a HOSTILE-OS mechanism contradiction.
+
+Prepared result `H1_PHYSICAL_PROBE_BOCHS_QUALIFICATION_RESULT_2026-08-31.md` with status PASS / instrument qualification strengthened / physical H1 still unqualified / no C006. Updated frontier, next-thread ingress, Live Shadow, and added `continuity/20_H1_BOCHS_INDEPENDENT_PROXY_CLOSE_2026-08-31.md`. One PowerShell continuity-formatting defect inserted literal newline escape text; detected before commit and repaired. Next authority boundary remains real physical H1 boot/probe.
+
+
+---
+
+## 2026-08-31 — ASSISTANT
+Tags: REINCARNATION-INTEGRITY, CRLF-SCAR, PRE-PUBLICATION-REPAIR
+
+Post-commit verification of reincarnation v15 compared every manifest entry against committed Git blobs and rejected 10 text entries: the manifest had been generated over CRLF worktree bytes, while Git normalized those files to LF at commit. The science/qualification evidence was unaffected, but committed package integrity was not earned. Publication was stopped. Repair rule: normalize current package text copies to LF before manifest generation, regenerate manifest, then require both worktree closure and committed-Git-blob closure before publication. Scar recorded at `scars/CURRENT_REINCARNATION_CRLF_MANIFEST_SCAR_2026-08-31.md`.

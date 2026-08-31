@@ -45,3 +45,12 @@ P0 local preparation is no longer open. The non-destructive H1 observation instr
 P1 C004->D64-v3 representation/Pareto review is also closed. D64-v3 remains unchanged at8089/8192 with103 bytes headroom. Do not add partial authority state without a non-bypassable untrusted boundary. C004 remains a capability-triggered obligation; a separately qualified enforcement representation/envelope becomes mandatory when actually untrusted execution or direct privileged effects are admitted.
 
 No C006 is open. The next reality-authority step is the physical H1 boot/probe packet. Do not invent a new campaign merely to keep numbering moving.
+
+
+## 2026-08-31 second-proxy qualification update
+
+The exact physical H1 probe image has now passed under both the QEMU H1 proxy and Bochs 3.1, with the Bochs run using the same unchanged physical image and a separately sealed preregistration.
+
+Bochs qualification result: `research/targets/H1_PHYSICAL_PROBE/H1_PHYSICAL_PROBE_BOCHS_QUALIFICATION_RESULT_2026-08-31.md`.
+
+This strengthens the instrument only. Physical H1 remains UNQUALIFIED. No C006 is open. The next real evidence boundary is still the physical H1 boot/probe packet.

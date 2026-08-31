@@ -1,11 +1,11 @@
-# LIVE SHADOW — HOSTILE-OS
+# LIVE SHADOW â€” HOSTILE-OS
 
 ## Thread Identity
 - Thread: HOSTILE-OS / PCMMAD
-- Last Updated: 2026-08-31T18:07:00Z
+- Last Updated: 2026-08-31T18:31:00Z
 - Mode: BUILD-COMMIT
 - Role: R5 Reality Pressure Engine with R1 audit pressure
-- Dominant Objective: qualify the physical-H1 observation instrument, close the C004->D64-v3 Pareto gap, then stop at the real hardware boundary rather than invent C006 by momentum.
+- Dominant Objective: preserve the now two-proxy-qualified H1 observation instrument and stop at the physical-H1 evidence boundary until real hardware or another verified contradiction earns the next campaign.
 
 ## Active User Intent
 - Continue autonomously from persisted state.
@@ -15,11 +15,12 @@
 ## Current Authoritative State
 - R3.1 remains the adopted normal in-house SOP; R6 remains ancestry/fallback authority; foundation promotion false.
 - C004 CLOSED 20/20; C005 CLOSED 20/20; no P21 for either.
-- `os/research_only/d64_reference_v3/` remains CURRENT_RESEARCH_REFERENCE — RESEARCH PURPOSES ONLY.
+- `os/research_only/d64_reference_v3/` remains CURRENT_RESEARCH_REFERENCE â€” RESEARCH PURPOSES ONLY.
 - D64-v3: stage1 512; stage2 raw 4494; linked 8089/8192; headroom 103; semantic state 3467; scratch 62/128.
 - Selected H1 topology remains BSP sole relation mutator + ordered AP request/result mailbox participant.
 - Physical H1 itself remains UNQUALIFIED.
 - H1 physical observation instrument is now qualified under QEMU proxy from committed source `51fafe6a61db701a592b6a0564b9b374d748d8b2`.
+- The same immutable physical image also passed an independently preregistered Bochs 3.1 qualification from committed harness d8cc509cdffa3f85503d632e6b597e6e2db307b9; run 20260831T182218Z_h1_physical_probe_bochs_01, PID 26904, all receipt checks PASS, image unchanged.
 - Controlling instrument run: `research/targets/H1_PHYSICAL_PROBE/runs/20260831T180418Z_h1_physical_probe_qemu_01`; PID 7940; exit 67; required markers PASS; debug SHA-256 `d7050841354fb408977d7a03f01cbf0a15290e57a805cf774f6178e191b5c655`.
 - Physical probe image SHA-256 `809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead`; stage2 2460 bytes; no target-disk write path; packaged under `research/targets/H1_PHYSICAL_PROBE/package/`.
 - Probe Scar A: EFLAGS.ID CPUID precheck failed under proxy; repaired before controlling qualification by direct target-specific CPUID use.
@@ -45,6 +46,7 @@
 - Partial cooperative rights checks without an untrusted enforcement boundary are rejected as semantic theater.
 
 ## Open Loops
+- Reincarnation CRLF manifest scar: repair package to Git-blob-identical LF text and verify committed closure before publication.
 - Physical H1 boot/probe packet: CPU, PCI, BIOS/ACPI, storage, interrupt/APIC, memory and boot behavior.
 - Any physical contradiction with proxy/body assumptions must be localized before demotion/promotion.
 - Candidate-B owner progress/fairness only if a measured workload earns it.
@@ -52,8 +54,8 @@
 - Substantive state through `04fe4370...` passed freshness/durability/reincarnation gates and published as mirror `7be27f36...` with independent readback; final close commit publication is the last durability action before response.
 
 ## Immediate Next Step
-1. complete final close-commit publication/readback;
-2. then next reality step is physical H1 boot/probe. No C006 before physical/new evidence earns one.
+1. close and publish the second-proxy qualification turn;
+2. then the next reality step is physical H1 boot/probe. No C006 before physical/new evidence earns one.
 
 ## Last 10 Turn Reinforcement Window
 1. User asked to check the apparent UTF-8 corruption, rectify it, and push campaigns forward.
@@ -68,7 +70,8 @@
 10. P1 source/P20 audit proved current 103-byte body cannot honestly carry the existing x86 untrusted-boundary witness; selected defer-to-capability-trigger rule, no C006.
 
 ## Delta Since Previous Shadow
-- P0 local preparation advanced from open work to QUALIFIED INSTRUMENT / physical H1 still unqualified.
-- P1 C004->v3 representation/Pareto review closed without changing D64-v3.
-- Two probe qualification scars preserved and repaired.
-- Next real authority boundary is physical H1 hardware observation.
+- Pre-publication Git-blob audit caught a CRLF-vs-LF manifest mismatch in 10 reincarnation text files; publication stopped and repair is active.
+- Apparent UTF-8 title corruption was disproved at byte level; file is valid UTF-8 with em dash.
+- H1 physical observation instrument now has successful QEMU and Bochs proxy qualification using the same physical image.
+- Bochs/QEMU value differences were classified as proxy diversity, not HOSTILE-OS mechanism contradiction.
+- No C006 earned; physical H1 remains the next authority boundary.

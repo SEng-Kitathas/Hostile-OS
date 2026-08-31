@@ -1357,3 +1357,15 @@ Closed P1 by direct representation/Pareto audit. D64-v3 is still `.code16` with 
 Tags: CHECKPOINT, PUBLICATION-CLOSE, PHYSICAL-H1-BOUNDARY
 
 Closed the local durability layer after H1 probe/Pareto work: freshness PASS34, reincarnation worktree and committed-Git-object closure PASS88, durable repository PASS, clean canonical tree. Published canonical `04fe4370f2363c0bc36657c882136d7c53da15d2` through the hardened D:-scratch exact-commit publisher as mirror `7be27f36fb93f5c2516349aea28a9b86445b877c`; independent `ls-remote` matched exactly. Publisher carried4934 tracked files /3,186,370,387 pre-LFS bytes, research included, no canonical advance. One final continuity-close commit/publication follows; no science or architecture change. Next real authority step is physical H1 boot/probe.
+
+
+### ASSISTANT — Bochs independent-proxy qualification
+Timestamp: 2026-08-31T18:24Z
+
+After the user said `Proceed`, preserved the no-C006-by-momentum gate and advanced the physical qualification lane instead. Sealed a separate Bochs preregistration at `77b91de3878eb6b1164e3805259c34cce2adbf34`, then sealed the committed harness at `d8cc509cdffa3f85503d632e6b597e6e2db307b9`. Controlling run `research/targets/H1_PHYSICAL_PROBE/runs/20260831T182218Z_h1_physical_probe_bochs_01` used PID26904 and the exact physical image SHA-256 `809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead`; all eight receipt checks passed and the image was unchanged. The guest reached `H1PROBE_END`, then the harness terminated Bochs as preregistered because the physical image intentionally halts forever. Bochs produced materially different CPU/ACPI/PIC/E820/PCI proxy values from QEMU while the same image still completed, strengthening the instrument without creating physical-H1 truth or a new mechanism contradiction. Result/continuity close is sealed in canonical commit `c679f679aee6d51a8812ce8c816ea8bf92e90929`. Physical H1 remains UNQUALIFIED; no C006 is open.
+
+
+### ASSISTANT — CRLF manifest scar before publication
+Timestamp: 2026-08-31T18:31Z
+
+A stronger committed-Git-object package audit rejected the first v15 refresh: 10 text files were hashed as CRLF in the worktree but stored as LF by Git. Publication was stopped before the invalid manifest could be pushed. No science or runtime evidence changed. The package is being repaired by LF-normalizing current package text copies before hashing and requiring Git-blob closure after commit.

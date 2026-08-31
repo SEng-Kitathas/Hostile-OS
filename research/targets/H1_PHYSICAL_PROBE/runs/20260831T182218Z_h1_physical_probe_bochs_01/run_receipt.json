@@ -1,0 +1,36 @@
+{
+  "format": "H1_PHYSICAL_PROBE_BOCHS_RUN_V1",
+  "status": "COLLECTION_COMPLETE / EMULATOR_TERMINATED_BY_HARNESS",
+  "passed": true,
+  "checks": {
+    "source_image_hash_expected": true,
+    "run_image_hash_before_expected": true,
+    "run_image_unchanged": true,
+    "begin_end_and_required_order": true,
+    "cpu_family": true,
+    "boot_geometry_family": true,
+    "firmware_rsdp_family": true,
+    "collection_end_seen": true
+  },
+  "git_head": "d8cc509cdffa3f85503d632e6b597e6e2db307b9",
+  "run": "research/targets/H1_PHYSICAL_PROBE/runs/20260831T182218Z_h1_physical_probe_bochs_01",
+  "pid": 26904,
+  "start": "2026-08-31T18:22:18.943793+00:00",
+  "end": "2026-08-31T18:22:20.391529+00:00",
+  "argv": [
+    "C:\\Program Files\\Bochs-3.1\\bochs.exe",
+    "-q",
+    "-f",
+    "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\targets\\H1_PHYSICAL_PROBE\\runs\\20260831T182218Z_h1_physical_probe_bochs_01\\bochsrc.txt"
+  ],
+  "termination": "harness_terminate_after_end",
+  "process_return_code_after_harness_action": 1,
+  "source_image_sha256": "809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead",
+  "run_image_sha256_before": "809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead",
+  "run_image_sha256_after": "809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead",
+  "preregistration_sha256": "19b89a04c49583f8fe465f2d98885a7fc75de6837489a4d294e290282627909b",
+  "bochs_sha256": "a59871b4cae1f8f7729eeb1419ec25e15543641b348bc32f712946d8fb04b1bb",
+  "stdout_sha256": "9f7d23ebbabe941f7c5c61a78ee1aa689b32f481aaa435328864cdaa9a1dcf67",
+  "stderr_sha256": "f7101a9f15cdb7e147f33018dfba8b45b114c13d87cae58e311cfd9865c6879f",
+  "bochs_log_sha256": "80181b1256e68c33ccdeb092cdcf7c87bfdd8ed33d757406eb5f3dbeb4f6c98a"
+}

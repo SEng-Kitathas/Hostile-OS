@@ -1,9 +1,9 @@
 {
   "files": [
     {
-      "bytes": 2449,
+      "bytes": 3267,
       "path": "00_READ_FIRST.md",
-      "sha256": "65cc54edb012bece245e451fd287aa9c70fba7272a5a8ba850c623099b53bd9e"
+      "sha256": "0815470143390a3d2e9450eb108b3f2137f78eda713980ec7e714a0d4164c841"
     },
     {
       "bytes": 5614,
@@ -11,9 +11,9 @@
       "sha256": "9443b210897d3eaafcaeae98ca73b20bcf957b1805ab77feb80962333ac4cd2a"
     },
     {
-      "bytes": 61901,
+      "bytes": 63539,
       "path": "02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "b75690ea496978cf15700535efadc75e692fc566ac8321e194c92fe27e245d23"
+      "sha256": "542be4bbeacee474b7410365fac338152f4e339318245df036612cfdc2c08685"
     },
     {
       "bytes": 16352,
@@ -21,9 +21,9 @@
       "sha256": "f2f29ace540321507d5e1c8e29d7c8fbeb61bdbf1924356e83aecc53c6c45667"
     },
     {
-      "bytes": 28789,
+      "bytes": 29291,
       "path": "04_ENGINEERING_DECISION_LEDGER.md",
-      "sha256": "6733e424d1b376438c90daa267ade93eb5d7f318c8687c572e0dafd246f467bf"
+      "sha256": "80f7ce76db94f227e06d59b4874cc41da819bcb444865ef601ed1637f59f0e05"
     },
     {
       "bytes": 7727,
@@ -36,9 +36,9 @@
       "sha256": "747aac249c7aaac4c8e3933c724cc4629ea919e2f9f028a29974d96677a477d4"
     },
     {
-      "bytes": 5695,
+      "bytes": 6377,
       "path": "07_LIVE_SHADOW.md",
-      "sha256": "0bf2d1dc05f9762f6654ddff8d5add1e59cc1c16284cca23b81ca3ba1415d03a"
+      "sha256": "2cde6dedad9238fbee4ea91928260d0de0bd5d5a3dbded3d18fff6693cf75666"
     },
     {
       "bytes": 1977,
@@ -61,9 +61,9 @@
       "sha256": "4a295343ca93eecfa00619d8b090408ddbb21cd1747b6a51e8b38abca9d2a525"
     },
     {
-      "bytes": 150759,
+      "bytes": 152412,
       "path": "12_THIS_CONVERSATION.md",
-      "sha256": "b019b870078800fe25c4a991d28df20c7c0fb727b04230f37589552591b68f97"
+      "sha256": "86fcc2d3cb6a4e9a2afb3b41f397f9aa5b29ceb352d10a410a79af409c64c61d"
     },
     {
       "bytes": 2247,
@@ -276,9 +276,9 @@
       "sha256": "9bc8432895eb14f1262ad8ef6982b93ecda74059c13ba8019840f1237e625a80"
     },
     {
-      "bytes": 10383,
+      "bytes": 10834,
       "path": "49_CURRENT_TURN_FRESHNESS.json",
-      "sha256": "26fe52cc3b300f558e494f84c8efb17f9b356b1cd9e1034d251402ebb85fdf19"
+      "sha256": "41bcc879455628b586038b09f096cabcd8b50d2510a3212d6377d2a892f94007"
     },
     {
       "bytes": 5688,
@@ -381,9 +381,9 @@
       "sha256": "b6352637f6278347c2fefbb9193e0c5321e66f324278930871e01218f014bc12"
     },
     {
-      "bytes": 160157,
+      "bytes": 163405,
       "path": "70_DESIGN_THREAD_STREAM.md",
-      "sha256": "c35fd4ec06a1b2cf9abc0a3d3a9ae6fe3f041636bb5fb1d67f633fa482868cdd"
+      "sha256": "0dd0991b32b203fd0e7f4a9f6768ee2489e825b43f816fde1317c9850e5bf47e"
     },
     {
       "bytes": 1222,
@@ -396,14 +396,14 @@
       "sha256": "40f205844d74447dc31d6b25272be302749751129f413b48d0321501ae5a7d57"
     },
     {
-      "bytes": 3792,
+      "bytes": 4327,
       "path": "73_NEXT_THREAD_START_HERE.md",
-      "sha256": "6c2562fd4bb718d9b637c5f852d8c45ac46e9a294d6b6769e043bcff97aa9e41"
+      "sha256": "78c97c48e22e90cad91b1582fd9f3c23dbd39bd24a43c00764d6aaa2c4ca164f"
     },
     {
-      "bytes": 1922,
+      "bytes": 2083,
       "path": "74_CURRENT_STATE_RECEIPT.json",
-      "sha256": "c2858fbb9cf3ac91610956fbb7ed546437eaaf8d7e59819fb823bd6fd6bd0d4d"
+      "sha256": "84612e3a5fbd965662cfb592db5a8845d52e8b8723ebaa41e93d34ff694d0e98"
     },
     {
       "bytes": 2090,
@@ -444,8 +444,33 @@
       "bytes": 1808,
       "path": "82_H1_PROBE_PARETO_PUBLICATION_CLOSE.md",
       "sha256": "61b27519450a62831b7dd50e04871c87555a53ff9942029c3d6aa6a4b31c4a60"
+    },
+    {
+      "bytes": 3987,
+      "path": "83_H1_PHYSICAL_PROBE_BOCHS_PREREGISTRATION.md",
+      "sha256": "6897bfd3edcabcac972ee64f926ba358069ec351fb21dc7ae54e7d7bdab77348"
+    },
+    {
+      "bytes": 4162,
+      "path": "84_H1_PHYSICAL_PROBE_BOCHS_QUALIFICATION_RESULT.md",
+      "sha256": "a2139b5aec893e72bcac1568839caefa9db275b874189e202a29b6313f8268b2"
+    },
+    {
+      "bytes": 1926,
+      "path": "85_H1_BOCHS_INDEPENDENT_PROXY_CLOSE.md",
+      "sha256": "f66562d6865d72f24d2c49b1d8f99ca36b30bba4932de4d397ce60cb66e44db3"
+    },
+    {
+      "bytes": 1660,
+      "path": "86_LEGACY_REINCARNATION_BUILDER_INVOCATION_SCAR.md",
+      "sha256": "c815033e861147f30bd16a739d36caf0b858157c881ff56d5feeaead420b59d7"
+    },
+    {
+      "bytes": 1447,
+      "path": "87_CURRENT_REINCARNATION_CRLF_MANIFEST_SCAR.md",
+      "sha256": "7f3912497efd9778067693536945d6f2e1dead84d057ced9ca4a083cb4c4abfc"
     }
   ],
-  "generated_utc": "2026-08-31T18:16:00+00:00",
-  "schema": "pcmmad.current_reincarnation.v14"
+  "generated_utc": "2026-08-31T18:31:00+00:00",
+  "schema": "pcmmad.current_reincarnation.v15"
 }
