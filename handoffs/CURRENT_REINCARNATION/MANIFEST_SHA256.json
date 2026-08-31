@@ -1,9 +1,9 @@
 {
   "files": [
     {
-      "bytes": 1688,
+      "bytes": 1737,
       "path": "00_READ_FIRST.md",
-      "sha256": "03d50c2a50c8a5671af469449611cc2cc421c4e1916b44367e86648913129dd9"
+      "sha256": "73c60d37ac73c6d783653b73b03ad90da62187099c1db7c4326abe00beb13c3a"
     },
     {
       "bytes": 4838,
@@ -11,9 +11,9 @@
       "sha256": "bc201b2107f2c58700a1eb66610c546ed7ddd18b4f25a4d860850206b0edb2d3"
     },
     {
-      "bytes": 56789,
+      "bytes": 57595,
       "path": "02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "f7c760de13db0e67459c9f2c492879b0b10e3b6f07eccbbc15ff1e5bb8a75004"
+      "sha256": "a5150b2a6423bd7960c053563d1f67b17475e49d1d83ae8f35e6e87a59ca7312"
     },
     {
       "bytes": 16352,
@@ -36,9 +36,9 @@
       "sha256": "747aac249c7aaac4c8e3933c724cc4629ea919e2f9f028a29974d96677a477d4"
     },
     {
-      "bytes": 5555,
+      "bytes": 5801,
       "path": "07_LIVE_SHADOW.md",
-      "sha256": "843d0b9f18dd6e34c0d39587a9e373fa98f302b421b9ebe24ccd681d6658fb7d"
+      "sha256": "fc20c866756dd03019a00d34e4c28fd079ce44e0281810fff61c879af8d57671"
     },
     {
       "bytes": 1977,
@@ -61,9 +61,9 @@
       "sha256": "4a295343ca93eecfa00619d8b090408ddbb21cd1747b6a51e8b38abca9d2a525"
     },
     {
-      "bytes": 145479,
+      "bytes": 146208,
       "path": "12_THIS_CONVERSATION.md",
-      "sha256": "cd75b8b75a23a76d87111aa451cf68e802524751946babbe2f636d89c441a389"
+      "sha256": "ac05a2b9bea0f527a478f90c377bfcb30a81770285985e9b55f4de24860019f1"
     },
     {
       "bytes": 2247,
@@ -276,9 +276,9 @@
       "sha256": "9bc8432895eb14f1262ad8ef6982b93ecda74059c13ba8019840f1237e625a80"
     },
     {
-      "bytes": 8821,
+      "bytes": 9060,
       "path": "49_CURRENT_TURN_FRESHNESS.json",
-      "sha256": "e685008044670dbff98f9ee540dbf35a8c5ab94f80c5cdf7414e05770579a0b9"
+      "sha256": "155f942ee635f943461f93b5538df26361c498d2049d314a345b11d5102a3e19"
     },
     {
       "bytes": 5688,
@@ -381,9 +381,9 @@
       "sha256": "b6352637f6278347c2fefbb9193e0c5321e66f324278930871e01218f014bc12"
     },
     {
-      "bytes": 152141,
+      "bytes": 152884,
       "path": "70_DESIGN_THREAD_STREAM.md",
-      "sha256": "748a7cec1d010a6e130b4cc1babdca3b352e905f3227d61b32443718f4950fb4"
+      "sha256": "bceda0fefe01b29b6d68936fa166090840be7fc7df4df650c862c4c84a042a10"
     },
     {
       "bytes": 1222,
@@ -409,7 +409,13 @@
       "bytes": 2090,
       "path": "75_GITHUB_PUBLICATION_SCRATCH_SPACE_SCAR.md",
       "sha256": "9b99de517ae97b7f7e5a9b403d7aca8b31955a06edb717eba55deacf4f2b8d02"
+    },
+    {
+      "bytes": 2668,
+      "path": "76_ZERO_REEXPLANATION_PUBLICATION_CLOSE.md",
+      "sha256": "efe9355dd8efea376db24b08d0a5ba72ddf9d8b8c97770cfb74c3c5e90c99bdd"
     }
   ],
+  "generated_utc": "2026-08-31T15:23:33+00:00",
   "schema": "pcmmad.current_reincarnation.v11"
 }

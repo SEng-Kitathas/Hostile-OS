@@ -1310,3 +1310,8 @@ Re-grounded on clean canonical `fa86af05b845765626c56e16124a6d2760d825ad`. Audit
 Timestamp: 2026-08-31T15:18:45+00:00
 
 Committed zero-reexplanation checkpoint `4dccb659...`; committed reincarnation81/81, freshness and durability gates passed. Async-job publisher submission failed before start with `EXECUTION_SUBMIT_FAILED / job not found`. Detached exact-commit publisher then generated an immutable ~3.19GB archive but failed with `Errno28` because E: ran out of scratch space while D: had ~153GB free. No GitHub success was claimed. Added external publication scratch-root support and a durable scar; next rerun uses D:.
+
+### ASSISTANT — full zero-reexplanation GitHub publication verified
+Timestamp: 2026-08-31T15:23:33+00:00
+
+After hardening publication scratch transport, canonical `d4292e55170d8f4457b2b6aceacc5d6ed6a17e6b` published successfully as GitHub `9a573d63fb96a170db4801cc113ade1a96227324`. Publisher reported4891 files /3,183,252,214 bytes before LFS, research included, no canonical advance. Independent `ls-remote` matched the remote SHA. A brand-new remote blob-filtered/depth1 sparse `os/` checkout at the same SHA contained current D64 v3 and did not materialize research/continuity/handoffs/authority. This proves the full-ledger + OS-only retrieval contract at the remote. Final turn-close receipt commit/publication follows.

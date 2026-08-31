@@ -19,9 +19,9 @@
       "sha256": "bc201b2107f2c58700a1eb66610c546ed7ddd18b4f25a4d860850206b0edb2d3"
     },
     {
-      "bytes": 56789,
+      "bytes": 57595,
       "path": "continuity/02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "f7c760de13db0e67459c9f2c492879b0b10e3b6f07eccbbc15ff1e5bb8a75004"
+      "sha256": "a5150b2a6423bd7960c053563d1f67b17475e49d1d83ae8f35e6e87a59ca7312"
     },
     {
       "bytes": 3245,
@@ -99,14 +99,19 @@
       "sha256": "8f85b9e3be48149f0b3cf51757afb7196bd293b4d5f5907e4f245ac1968152b4"
     },
     {
-      "bytes": 152141,
-      "path": "continuity/DESIGN_THREAD_STREAM.md",
-      "sha256": "748a7cec1d010a6e130b4cc1babdca3b352e905f3227d61b32443718f4950fb4"
+      "bytes": 2668,
+      "path": "continuity/17_ZERO_REEXPLANATION_PUBLICATION_CLOSE_2026-08-31.md",
+      "sha256": "efe9355dd8efea376db24b08d0a5ba72ddf9d8b8c97770cfb74c3c5e90c99bdd"
     },
     {
-      "bytes": 5555,
+      "bytes": 152884,
+      "path": "continuity/DESIGN_THREAD_STREAM.md",
+      "sha256": "bceda0fefe01b29b6d68936fa166090840be7fc7df4df650c862c4c84a042a10"
+    },
+    {
+      "bytes": 5801,
       "path": "continuity/LIVE_SHADOW.md",
-      "sha256": "843d0b9f18dd6e34c0d39587a9e373fa98f302b421b9ebe24ccd681d6658fb7d"
+      "sha256": "fc20c866756dd03019a00d34e4c28fd079ce44e0281810fff61c879af8d57671"
     },
     {
       "bytes": 375,
@@ -176,7 +181,7 @@
     "Allow GitHub publication archive/mirror scratch to move off canonical drive via HOSTILE_GITHUB_PUBLISH_SCRATCH_ROOT.",
     "Never drop admitted research/history to solve publication disk pressure."
   ],
-  "generated_utc": "2026-08-31T15:19:14+00:00",
+  "generated_utc": "2026-08-31T15:23:33+00:00",
   "living_surfaces": [
     {
       "path": "continuity/01_COMMANDERS_INTENT.md",
@@ -211,7 +216,7 @@
   "pre_turn_git_head": "fa86af05b845765626c56e16124a6d2760d825ad",
   "research_deltas": [
     "No new science/architecture promotion; current D64-v3/H1 evidence remains controlling.",
-    "Publication transport failure and correction are infrastructure-only scars."
+    "Full project publication and remote OS-only sparse retrieval verified; this is repository/continuity evidence only."
   ],
   "role": "R4 Convergence Refiner + R1 continuity audit",
   "schema": "hostile_os.turn_freshness.v1",

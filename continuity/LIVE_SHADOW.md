@@ -2,9 +2,9 @@
 
 ## Thread Identity
 - Thread: HOSTILE-OS / PCMMAD
-- Last Updated: 2026-08-31T15:19:14+00:00
+- Last Updated: 2026-08-31T15:23:33+00:00
 - Mode: BUILD-COMMIT / CHECKPOINT
-- Dominant Objective: close and publish the zero-re-explanation checkpoint after hardening publication scratch transport onto D:.
+- Dominant Objective: commit/publish the final verified publication receipt, then hand off seamlessly to physical-H1 preparation.
 
 ## Active User Intent
 - Push all unique project data to GitHub in the proper separated tree.
@@ -23,7 +23,9 @@
 - Current H1 cross-emulator replay: QEMU PASS + Bochs core/restart/five-fault PASS. Physical H1 remains unqualified.
 - Current canonical base at start of this publication pass: `fa86af05b845765626c56e16124a6d2760d825ad`, clean before continuity mutation.
 - New current ingress surfaces: `NEXT_THREAD_START_HERE.md` and `continuity/16_ZERO_REEXPLANATION_REINCARNATION_2026-08-31.md`.
-- Publication transport scar: async wrapper failed before start; exact-commit publisher then hit E:-drive `Errno28`; publisher now supports external scratch root and rerun will use D:.
+- Publication transport scar: async wrapper failed before start; exact-commit publisher then hit E:-drive `Errno28`; publisher now supports external scratch root and rerun used D: successfully.
+- Verified full-ledger publication: canonical `d4292e55170d8f4457b2b6aceacc5d6ed6a17e6b` -> GitHub `9a573d63fb96a170db4801cc113ade1a96227324`,4891 files /3,183,252,214 pre-LFS bytes, research included, independent remote readback matched.
+- Fresh remote sparse `os/` clone verified v3 present while research/continuity/handoffs/authority were not materialized.
 
 ## Active Constraints
 - Historical/sealed evidence is append-only; current overlays supersede stale frontier prose without deleting it.
@@ -51,12 +53,10 @@
 - Exact uploaded frozen-intent source-byte Git ingress remains open.
 
 ## Immediate Next Step
-1. refresh hashes/package with the publication-scratch scar and tool fix;
-2. syntax/semantic-check publisher, freshness, reincarnation and durable-repository gates;
-3. commit exact infrastructure/continuity delta;
-4. publish captured canonical commit using D: external scratch;
-5. independently read back GitHub `main`;
-6. next thread resumes physical-H1 package preparation locally without operator re-explanation.
+1. commit this final publication/readback receipt and refreshed reincarnation package;
+2. publish/read back that final canonical close;
+3. next thread resumes physical-H1 package preparation locally without operator re-explanation;
+4. P1 remains C004-to-v3 representation/Pareto convergence.
 
 ## Last 10 Turn Reinforcement Window
 1. USER: authorized emulator acquisition for H1.

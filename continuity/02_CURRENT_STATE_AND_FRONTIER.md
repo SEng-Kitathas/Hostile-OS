@@ -656,3 +656,13 @@ No architecture/science promotion is implied by this continuity pass.
 Zero-re-explanation checkpoint `4dccb659...` passed committed reincarnation81/81, freshness and durable-repository gates. First async publication wrapper call did not start (`EXECUTION_SUBMIT_FAILED / job not found`). Qualified detached publisher then reached exact immutable archive generation but failed with `Errno28` because E: lacked space for full archive+mirror expansion. Canonical content remained clean and remote success was not claimed.
 
 Publication tooling now supports external scratch root via `HOSTILE_GITHUB_PUBLISH_SCRATCH_ROOT`; rerun uses D: with ~153GB free. This is infrastructure hardening only, not science/architecture change.
+
+## 2026-08-31 zero-re-explanation publication verified
+
+Canonical `d4292e55170d8f4457b2b6aceacc5d6ed6a17e6b` was fully published after the D:-scratch hardening. GitHub publication commit `9a573d63fb96a170db4801cc113ade1a96227324` carries4891 tracked files /3,183,252,214 pre-LFS bytes with research included and canonical-advanced=false. Independent `ls-remote` readback matched.
+
+A fresh remote blob-filtered/depth1 sparse checkout of `os/` at `9a573d63fb96a170db4801cc113ade1a96227324` materialized D64 v3 while leaving `research/`, `continuity/`, `handoffs/`, and `authority/` absent. Therefore full-ledger publication and OS-only retrieval are both verified at the remote.
+
+Close receipt: `continuity/17_ZERO_REEXPLANATION_PUBLICATION_CLOSE_2026-08-31.md`.
+
+No science/architecture authority changes.
