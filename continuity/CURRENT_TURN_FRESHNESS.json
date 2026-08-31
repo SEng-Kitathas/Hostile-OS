@@ -119,14 +119,19 @@
       "sha256": "28827568208419f0ed5335917972cf7e9f2f0ea35901192685cf79964961fdfd"
     },
     {
-      "bytes": 163405,
-      "path": "continuity/DESIGN_THREAD_STREAM.md",
-      "sha256": "0dd0991b32b203fd0e7f4a9f6768ee2489e825b43f816fde1317c9850e5bf47e"
+      "bytes": 2043,
+      "path": "continuity/21_H1_BOCHS_PUBLICATION_CLOSE_2026-08-31.md",
+      "sha256": "730c3ea888d17de878a36a4f2240387d0a39884237ea501bbb1d3cc4dc12dfbc"
     },
     {
-      "bytes": 6377,
+      "bytes": 164233,
+      "path": "continuity/DESIGN_THREAD_STREAM.md",
+      "sha256": "27267e92d61426ee9b02a837afd8d2128538c9da7dd2bf5fa25a066324a12075"
+    },
+    {
+      "bytes": 6851,
       "path": "continuity/LIVE_SHADOW.md",
-      "sha256": "2cde6dedad9238fbee4ea91928260d0de0bd5d5a3dbded3d18fff6693cf75666"
+      "sha256": "c9c22accd3eb00bbbd567c3edbab4c3a91b7735875cc227850a5d185ad67f7a8"
     },
     {
       "bytes": 375,
@@ -189,13 +194,13 @@
       "sha256": "52a16e3570132413b15cf3fe6ea3c5897ac9e362699bd6b82e97a19cc0ac7ec6"
     }
   ],
-  "current_frontier": "H1 physical observation instrument QUALIFIED under QEMU and Bochs independent proxies using the same immutable physical image; physical H1 UNQUALIFIED and next reality-authority step. D64-v3 unchanged; C004/C005 CLOSED20/20; no C006 open.",
+  "current_frontier": "H1 observation instrument QUALIFIED under QEMU + Bochs independent proxies; physical H1 UNQUALIFIED and next authority boundary. Primary checkpoint publication verified. D64-v3 unchanged; C004/C005 CLOSED20/20; no C006.",
   "decision_deltas": [
     "Same physical H1 probe image now qualified for observation-family collection under QEMU and Bochs; exact proxy values are not authority.",
     "Bochs/QEMU observation differences are proxy diversity, not a HOSTILE-OS mechanism contradiction.",
     "No C006 is opened by numbering momentum; physical H1 or another verified new responsibility/contradiction must earn it."
   ],
-  "generated_utc": "2026-08-31T18:31:00+00:00",
+  "generated_utc": "2026-08-31T18:34:00+00:00",
   "living_surfaces": [
     {
       "path": "continuity/01_COMMANDERS_INTENT.md",
@@ -230,7 +235,7 @@
       "status": "updated"
     },
     {
-      "path": "continuity/20_H1_BOCHS_INDEPENDENT_PROXY_CLOSE_2026-08-31.md",
+      "path": "continuity/21_H1_BOCHS_PUBLICATION_CLOSE_2026-08-31.md",
       "status": "updated"
     }
   ],
@@ -242,7 +247,8 @@
     "Bochs values differed from QEMU as expected proxy diversity; no physical-H1 truth, architecture promotion or C006 earned.",
     "Canonical science/qualification close at c679f679aee6d51a8812ce8c816ea8bf92e90929.",
     "Legacy reincarnation builder help probe exposed that tools/build_hostile_os_reincarnation.py is a historical /mnt/data-bound constructor with no help guard; failed before tracked mutation and is preserved as a tooling scar.",
-    "Committed-Git-blob audit caught and blocked a CRLF/LF reincarnation-manifest mismatch before publication; repair requires LF-normalized package bytes and post-commit Git-blob closure."
+    "Committed-Git-blob audit caught and blocked a CRLF/LF reincarnation-manifest mismatch before publication; repair requires LF-normalized package bytes and post-commit Git-blob closure.",
+    "Primary canonical checkpoint 35b39efd published as mirror 40a94c13 with independent remote readback; 4954 files / 3187929282 pre-LFS bytes, research included, no canonical drift."
   ],
   "role": "R5 Reality Pressure Engine + R1 audit pressure, closing under R4 convergence",
   "schema": "hostile_os.turn_freshness.v1",

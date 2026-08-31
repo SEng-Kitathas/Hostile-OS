@@ -1,9 +1,9 @@
 {
   "files": [
     {
-      "bytes": 3267,
+      "bytes": 3406,
       "path": "00_READ_FIRST.md",
-      "sha256": "0815470143390a3d2e9450eb108b3f2137f78eda713980ec7e714a0d4164c841"
+      "sha256": "ea092de0fbcccd847bf9b07ded8d29a0ae87c5b3e43830fae9e457fd408d7f9b"
     },
     {
       "bytes": 5614,
@@ -36,9 +36,9 @@
       "sha256": "747aac249c7aaac4c8e3933c724cc4629ea919e2f9f028a29974d96677a477d4"
     },
     {
-      "bytes": 6377,
+      "bytes": 6851,
       "path": "07_LIVE_SHADOW.md",
-      "sha256": "2cde6dedad9238fbee4ea91928260d0de0bd5d5a3dbded3d18fff6693cf75666"
+      "sha256": "c9c22accd3eb00bbbd567c3edbab4c3a91b7735875cc227850a5d185ad67f7a8"
     },
     {
       "bytes": 1977,
@@ -61,9 +61,9 @@
       "sha256": "4a295343ca93eecfa00619d8b090408ddbb21cd1747b6a51e8b38abca9d2a525"
     },
     {
-      "bytes": 152412,
+      "bytes": 153039,
       "path": "12_THIS_CONVERSATION.md",
-      "sha256": "86fcc2d3cb6a4e9a2afb3b41f397f9aa5b29ceb352d10a410a79af409c64c61d"
+      "sha256": "374aa9f4bea498ad97e90b7a289b0961c428d294e4499b28938c6b4a15806f38"
     },
     {
       "bytes": 2247,
@@ -276,9 +276,9 @@
       "sha256": "9bc8432895eb14f1262ad8ef6982b93ecda74059c13ba8019840f1237e625a80"
     },
     {
-      "bytes": 10834,
+      "bytes": 11184,
       "path": "49_CURRENT_TURN_FRESHNESS.json",
-      "sha256": "41bcc879455628b586038b09f096cabcd8b50d2510a3212d6377d2a892f94007"
+      "sha256": "5d16822f977e9db62616b9662a83ee1087c7b11e350ed4afc7aac97f609d688d"
     },
     {
       "bytes": 5688,
@@ -381,9 +381,9 @@
       "sha256": "b6352637f6278347c2fefbb9193e0c5321e66f324278930871e01218f014bc12"
     },
     {
-      "bytes": 163405,
+      "bytes": 164233,
       "path": "70_DESIGN_THREAD_STREAM.md",
-      "sha256": "0dd0991b32b203fd0e7f4a9f6768ee2489e825b43f816fde1317c9850e5bf47e"
+      "sha256": "27267e92d61426ee9b02a837afd8d2128538c9da7dd2bf5fa25a066324a12075"
     },
     {
       "bytes": 1222,
@@ -401,9 +401,9 @@
       "sha256": "78c97c48e22e90cad91b1582fd9f3c23dbd39bd24a43c00764d6aaa2c4ca164f"
     },
     {
-      "bytes": 2083,
+      "bytes": 2291,
       "path": "74_CURRENT_STATE_RECEIPT.json",
-      "sha256": "84612e3a5fbd965662cfb592db5a8845d52e8b8723ebaa41e93d34ff694d0e98"
+      "sha256": "bcb75cdeb818f475563dda580a8a5b4fa14a30ba8a0e3d29675612b4b5735c3e"
     },
     {
       "bytes": 2090,
@@ -469,8 +469,13 @@
       "bytes": 1447,
       "path": "87_CURRENT_REINCARNATION_CRLF_MANIFEST_SCAR.md",
       "sha256": "7f3912497efd9778067693536945d6f2e1dead84d057ced9ca4a083cb4c4abfc"
+    },
+    {
+      "bytes": 2043,
+      "path": "88_H1_BOCHS_PUBLICATION_CLOSE.md",
+      "sha256": "730c3ea888d17de878a36a4f2240387d0a39884237ea501bbb1d3cc4dc12dfbc"
     }
   ],
-  "generated_utc": "2026-08-31T18:31:00+00:00",
-  "schema": "pcmmad.current_reincarnation.v15"
+  "generated_utc": "2026-08-31T18:34:00+00:00",
+  "schema": "pcmmad.current_reincarnation.v16"
 }

@@ -1462,3 +1462,11 @@ Prepared result `H1_PHYSICAL_PROBE_BOCHS_QUALIFICATION_RESULT_2026-08-31.md` wit
 Tags: REINCARNATION-INTEGRITY, CRLF-SCAR, PRE-PUBLICATION-REPAIR
 
 Post-commit verification of reincarnation v15 compared every manifest entry against committed Git blobs and rejected 10 text entries: the manifest had been generated over CRLF worktree bytes, while Git normalized those files to LF at commit. The science/qualification evidence was unaffected, but committed package integrity was not earned. Publication was stopped. Repair rule: normalize current package text copies to LF before manifest generation, regenerate manifest, then require both worktree closure and committed-Git-blob closure before publication. Scar recorded at `scars/CURRENT_REINCARNATION_CRLF_MANIFEST_SCAR_2026-08-31.md`.
+
+
+---
+
+## 2026-08-31 — ASSISTANT
+Tags: CHECKPOINT, GITHUB-PUBLICATION, DURABILITY-CLOSE
+
+Repaired the CRLF/LF reincarnation manifest defect and committed it at `35b39efd0a1950062eae535059356493d67bcc51`. Strong post-commit verification hashed all 94 reincarnation payloads directly from Git blobs against the committed manifest: PASS94/94. Per-turn freshness PASS36 and durable repository gate PASS. Published canonical `35b39efd...` through the hardened D:-scratch exact-commit publisher as GitHub publication mirror `40a94c13132f073a51536ae997e3b50bb05067e6`; publisher and independent `git ls-remote` readback both matched. Publication carried4954 files /3187929282 pre-LFS bytes, research included, no canonical drift. No science/architecture promotion; next load-bearing boundary remains physical H1 hardware boot/probe.

@@ -1369,3 +1369,9 @@ After the user said `Proceed`, preserved the no-C006-by-momentum gate and advanc
 Timestamp: 2026-08-31T18:31Z
 
 A stronger committed-Git-object package audit rejected the first v15 refresh: 10 text files were hashed as CRLF in the worktree but stored as LF by Git. Publication was stopped before the invalid manifest could be pushed. No science or runtime evidence changed. The package is being repaired by LF-normalizing current package text copies before hashing and requiring Git-blob closure after commit.
+
+
+### ASSISTANT — primary substantive checkpoint publication verified
+Timestamp: 2026-08-31T18:34Z
+
+After repairing the CRLF/LF reincarnation manifest scar, committed-Git-blob closure passed94/94, freshness passed36, durable repository gate passed, and the clean canonical checkpoint `35b39efd0a1950062eae535059356493d67bcc51` published through D:-scratch as GitHub mirror `40a94c13132f073a51536ae997e3b50bb05067e6`. Independent `git ls-remote` matched exactly. Publication contained4954 tracked files /3187929282 pre-LFS bytes with research included and no canonical drift. Physical H1 remains UNQUALIFIED; no C006 is open.

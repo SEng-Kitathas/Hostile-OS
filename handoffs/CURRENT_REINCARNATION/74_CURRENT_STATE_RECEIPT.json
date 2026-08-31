@@ -24,7 +24,7 @@
     "stage1_bytes": 512,
     "stage2_raw_bytes": 4494
   },
-  "generated_utc": "2026-08-31T18:25:00+00:00",
+  "generated_utc": "2026-08-31T18:34:00+00:00",
   "h1": {
     "bochs_independent_replay": "PASS_INSTRUMENT_COLLECTION",
     "physical_hardware": "UNQUALIFIED",
@@ -43,5 +43,10 @@
     "r3_1_operational_status": "ADOPTED_IN_HOUSE_SOP",
     "unknown_trace_rule": "Inspect first. If a load-bearing unknown remains, ASK. If you see traces you cannot identify, ASK. Never guess across the gap.",
     "zero_reexplanation_boundary": "Do not ask for persisted state; do ask after inspection when a load-bearing unknown genuinely remains."
+  },
+  "primary_publication": {
+    "canonical_head": "35b39efd0a1950062eae535059356493d67bcc51",
+    "publication_mirror_head": "40a94c13132f073a51536ae997e3b50bb05067e6",
+    "independent_readback": "PASS"
   }
 }

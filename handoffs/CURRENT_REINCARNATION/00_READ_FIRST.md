@@ -43,3 +43,5 @@ Before hardware touch, also read:
 Current refinement: the exact physical probe image has completed all required observation families under both QEMU and Bochs 3.1. This strengthens the instrument only. Physical H1 remains UNQUALIFIED; D64-v3 remains unchanged; C004/C005 remain CLOSED20/20; no C006 is open. The next load-bearing reality step remains the physical H1 boot/probe packet.
 
 Integrity maintenance: `87_CURRENT_REINCARNATION_CRLF_MANIFEST_SCAR.md` records the pre-publication CRLF/LF manifest repair. Current package manifests are required to close over committed Git blob bytes, not only worktree bytes.
+
+Durability close: read `88_H1_BOCHS_PUBLICATION_CLOSE.md` for the verified primary publication of the two-proxy H1 instrument checkpoint.

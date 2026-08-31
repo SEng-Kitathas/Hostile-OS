@@ -2,7 +2,7 @@
 
 ## Thread Identity
 - Thread: HOSTILE-OS / PCMMAD
-- Last Updated: 2026-08-31T18:31:00Z
+- Last Updated: 2026-08-31T18:34:00Z
 - Mode: BUILD-COMMIT
 - Role: R5 Reality Pressure Engine with R1 audit pressure
 - Dominant Objective: preserve the now two-proxy-qualified H1 observation instrument and stop at the physical-H1 evidence boundary until real hardware or another verified contradiction earns the next campaign.
@@ -40,13 +40,15 @@
 - A new campaign must be earned by a new responsibility domain or verified contradiction; campaign numbering is not a progress meter.
 
 ## Decisions Locked In
+- Primary substantive checkpoint publication verified: canonical `35b39efd0a1950062eae535059356493d67bcc51` -> GitHub mirror `40a94c13132f073a51536ae997e3b50bb05067e6`; independent remote readback matched.
+- Reincarnation package CRLF/LF integrity scar is REPAIRED: committed Git-blob closure PASS 94/94.
 - Physical-H1 probe lane is qualification support, not C006.
 - Exact physical image is ready for removable-media use when the commander chooses hardware touch.
 - D64-v3 remains unchanged by the C004 Pareto review.
 - Partial cooperative rights checks without an untrusted enforcement boundary are rejected as semantic theater.
 
 ## Open Loops
-- Reincarnation CRLF manifest scar: repair package to Git-blob-identical LF text and verify committed closure before publication.
+- Physical H1 boot/probe packet remains the next external evidence boundary; hardware touch is required.
 - Physical H1 boot/probe packet: CPU, PCI, BIOS/ACPI, storage, interrupt/APIC, memory and boot behavior.
 - Any physical contradiction with proxy/body assumptions must be localized before demotion/promotion.
 - Candidate-B owner progress/fairness only if a measured workload earns it.
@@ -54,8 +56,8 @@
 - Substantive state through `04fe4370...` passed freshness/durability/reincarnation gates and published as mirror `7be27f36...` with independent readback; final close commit publication is the last durability action before response.
 
 ## Immediate Next Step
-1. close and publish the second-proxy qualification turn;
-2. then the next reality step is physical H1 boot/probe. No C006 before physical/new evidence earns one.
+1. physical H1 boot/probe packet when operator hardware touch is available;
+2. localize any physical-vs-proxy/body contradiction before opening any new campaign. No C006 by momentum.
 
 ## Last 10 Turn Reinforcement Window
 1. User asked to check the apparent UTF-8 corruption, rectify it, and push campaigns forward.
@@ -70,6 +72,8 @@
 10. P1 source/P20 audit proved current 103-byte body cannot honestly carry the existing x86 untrusted-boundary witness; selected defer-to-capability-trigger rule, no C006.
 
 ## Delta Since Previous Shadow
+- Primary substantive checkpoint publication and independent GitHub readback passed.
+- Reincarnation CRLF/LF manifest defect repaired; committed Git-blob closure PASS 94/94.
 - Pre-publication Git-blob audit caught a CRLF-vs-LF manifest mismatch in 10 reincarnation text files; publication stopped and repair is active.
 - Apparent UTF-8 title corruption was disproved at byte level; file is valid UTF-8 with em dash.
 - H1 physical observation instrument now has successful QEMU and Bochs proxy qualification using the same physical image.
