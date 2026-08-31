@@ -1,0 +1,54 @@
+{
+  "format": "C005_P13_INPUTS_V1",
+  "git_head": "02de865460a31b5bbb74c6a73438d8bf42731283",
+  "inputs": [
+    {
+      "source": "research/concurrency/C005/P13/stage1.S",
+      "snapshot_path": "inputs/stage1.S",
+      "bytes": 706,
+      "sha256": "24e3976a6c248fb4250e3ef79cb112dd9a97c5ef7d7c12a7245fa4ac66c6859c"
+    },
+    {
+      "source": "research/concurrency/C005/P13/stage1.ld",
+      "snapshot_path": "inputs/stage1.ld",
+      "bytes": 176,
+      "sha256": "df82423232fc19b14d7a221c4dab4b3764a3651442b2890339d3f4fa91e29cf1"
+    },
+    {
+      "source": "research/concurrency/C005/P13/stage2.S",
+      "snapshot_path": "inputs/stage2.S",
+      "bytes": 4276,
+      "sha256": "684bb075b48a740c088815faf6217a7938a5eb45bce2c687aca1de1b65bf548a"
+    },
+    {
+      "source": "research/concurrency/C005/P13/stage2.ld",
+      "snapshot_path": "inputs/stage2.ld",
+      "bytes": 179,
+      "sha256": "6ee3b16c0fedebc13167d5ccd817db296e3b9587566222f5672333dc7702d1d1"
+    },
+    {
+      "source": "research/concurrency/C005/P13/launch.py",
+      "snapshot_path": "inputs/launch.py",
+      "bytes": 4172,
+      "sha256": "d2ab3b9099b060b140437bc7f31cd81795288c362c047d91c8715195735af4ca"
+    },
+    {
+      "source": "research/concurrency/C005/P13/evaluate.py",
+      "snapshot_path": "inputs/evaluate.py",
+      "bytes": 834,
+      "sha256": "4dcca48d0c8f90013d3f2b77455ecc9604240e1cb0cfc7a0dc063c0516434703"
+    },
+    {
+      "source": "research/concurrency/C005/P13_PREREGISTRATION.md",
+      "snapshot_path": "inputs/P13_PREREGISTRATION.md",
+      "bytes": 1107,
+      "sha256": "10b554bbecf63c2736bfdb908beddb6e3894273ab75c8a85b6ef1a889de02ae2"
+    },
+    {
+      "source": "research/concurrency/C005/C005_CAMPAIGN_CHARTER_2026-08-31.md",
+      "snapshot_path": "inputs/C005_CAMPAIGN_CHARTER_2026-08-31.md",
+      "bytes": 2588,
+      "sha256": "45f5486e338eae045e39b94bf31357b76e7d340ea4efe4ebed95849820afcee6"
+    }
+  ]
+}

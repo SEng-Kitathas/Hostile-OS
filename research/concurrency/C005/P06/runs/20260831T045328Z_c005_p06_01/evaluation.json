@@ -1,0 +1,22 @@
+{
+  "format": "C005_P06_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "two_cpu_participation": true,
+    "safety_without_progress": true,
+    "explicit_release_restores_progress": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C005_P06",
+    "AP_READY=1",
+    "AP_OWNS=1",
+    "DOUBLE_OWNER=0",
+    "STALLED_PROGRESS=0",
+    "AP_RELEASED=1",
+    "AFTER_RELEASE_PROGRESS=1",
+    "AP_DONE=1",
+    "DONE"
+  ]
+}

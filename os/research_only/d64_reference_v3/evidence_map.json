@@ -1,0 +1,30 @@
+{
+  "admission": {
+    "admission_evidence_commit": "cf67026",
+    "isolated_admission_result": "PASS_20_OF_20",
+    "source_package_commit": "90f7ee369157597cd7e4ac5fac04ae269e44ea8a",
+    "source_package_git_tree": "171b3be2d985560c34a1a1b98ead0cf7cda8b404",
+    "status": "CURRENT_RESEARCH_REFERENCE"
+  },
+  "body_class": "research-only",
+  "format": "HOSTILE_OS_D64_V3_EVIDENCE_MAP_V1",
+  "lineage": {
+    "c005_close_commit": "1c88925",
+    "min01_close_commit": "e007cae",
+    "min02_controlling_admission_commit": "c7e9015",
+    "min03_close_commit": "38cf7ce",
+    "min03_implementation_commit": "dbf2291",
+    "min03_spec_commit": "71e708b",
+    "prior_body": "d64_reference_v2",
+    "successor_selection_commit": "82161e2"
+  },
+  "scope_ceiling": [
+    "research_only",
+    "two_cpu_h1_proxy",
+    "no_physical_h1_qualification",
+    "no_general_ipc",
+    "no_owner_failure_recovery",
+    "no_arbitrary_core_count"
+  ],
+  "selected_mechanism": "single_writer_relation_owner_plus_explicit_request_result_mailbox"
+}

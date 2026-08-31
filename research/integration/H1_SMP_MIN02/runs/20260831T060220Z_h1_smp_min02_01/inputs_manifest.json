@@ -1,0 +1,48 @@
+{
+  "format": "H1_SMP_MIN02_INPUTS_V1",
+  "git_head": "1f1ca341f296265e1fe39bbf5997698b6f227894",
+  "inputs": [
+    {
+      "source": "research/integration/H1_SMP_MIN02/stage1.S",
+      "snapshot": "inputs/stage1.S",
+      "bytes": 706,
+      "sha256": "24e3976a6c248fb4250e3ef79cb112dd9a97c5ef7d7c12a7245fa4ac66c6859c"
+    },
+    {
+      "source": "research/integration/H1_SMP_MIN02/stage1.ld",
+      "snapshot": "inputs/stage1.ld",
+      "bytes": 176,
+      "sha256": "df82423232fc19b14d7a221c4dab4b3764a3651442b2890339d3f4fa91e29cf1"
+    },
+    {
+      "source": "research/integration/H1_SMP_MIN02/stage2.S",
+      "snapshot": "inputs/stage2.S",
+      "bytes": 39728,
+      "sha256": "7781a7554626d3703cbae27cde8e5974a84756a67a007d953cc749d389bb93d0"
+    },
+    {
+      "source": "research/integration/H1_SMP_MIN02/stage2.ld",
+      "snapshot": "inputs/stage2.ld",
+      "bytes": 311,
+      "sha256": "d5bae527e2003a84dee3f82157c05711ffab810ca77266ac39ff5e6d3762f449"
+    },
+    {
+      "source": "research/integration/H1_SMP_MIN02/launch.py",
+      "snapshot": "inputs/launch.py",
+      "bytes": 7165,
+      "sha256": "cc6c5ab08dbcc9261a51e2a8e3d4c98fb0a1ea3a36ad1885424fc68eeb2f446a"
+    },
+    {
+      "source": "research/integration/H1_SMP_MIN02/H1_SMP_MIN02_INTEGRATION_SPEC.md",
+      "snapshot": "inputs/H1_SMP_MIN02_INTEGRATION_SPEC.md",
+      "bytes": 2487,
+      "sha256": "ae9afdf82f3cd82846cb6ad1ade2819727b2d0db8299a8331b0b3cd0e2a9f454"
+    },
+    {
+      "source": "os/research_only/d64_reference_v2/stage2.S",
+      "bytes": 33942,
+      "sha256": "ae0197f3bb4482ecc2c83c40b21f1109599fadac273ad692c91bee29ca07d769",
+      "role": "parent_body_source"
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+from pathlib import Path
+import json,sys
+expected=['S1_8K_OK','TEST=C005_P13','AP_READY=1','STALLED_ACCEPT=0','STALLED_RETRIES=40','AFTER_COMPLETE_ACCEPT=1','AFTER_A=33','AFTER_B=44','AP_DONE=1','DONE']
+trace=Path(sys.argv[1]).read_text(encoding='ascii',errors='replace').splitlines();checks={'trace_exact':trace==expected,'safe_reader_stalls':all(x in trace for x in ['STALLED_ACCEPT=0','STALLED_RETRIES=40']),'completion_restores_progress':all(x in trace for x in ['AFTER_COMPLETE_ACCEPT=1','AFTER_A=33','AFTER_B=44']),'two_cpu_participation':all(x in trace for x in ['AP_READY=1','AP_DONE=1'])};out={'format':'C005_P13_EVALUATION_V1','passed':all(checks.values()),'checks':checks,'trace':trace};Path(sys.argv[2]).write_text(json.dumps(out,indent=2)+'\n');print(json.dumps(out,indent=2));raise SystemExit(0 if out['passed'] else 1)

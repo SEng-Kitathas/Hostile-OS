@@ -1,0 +1,41 @@
+{
+  "format": "C005_P18_RUN_V1",
+  "status": "COMPLETED",
+  "stage1_bytes": 512,
+  "stage2_bytes": 629,
+  "stage2_sha256": "192160bf987bfd52722bd56fc6a4999d44e58e923f8b6ff33589603f8154a637",
+  "boot1": {
+    "exit_code": 33,
+    "trace": [
+      "S1_8K_OK",
+      "TEST=C005_P18",
+      "PHASE=WRITE",
+      "WRITE=A",
+      "DONE"
+    ],
+    "stderr": ""
+  },
+  "record_after_boot1_hex": "483543317e0501010100000000000000",
+  "disk_changed_boot1": true,
+  "no_host_write_between_boots": true,
+  "boot2": {
+    "exit_code": 33,
+    "trace": [
+      "S1_8K_OK",
+      "TEST=C005_P18",
+      "PHASE=RECOVER",
+      "BAD_HELD=1",
+      "BAD_USERS=01",
+      "BAD_FRESH_ACQUIRE=0",
+      "BAD_PHANTOM_USER=1",
+      "GOOD_HELD=0",
+      "GOOD_USERS=00",
+      "GOOD_EPOCH=02",
+      "GOOD_FRESH_ACQUIRE=1",
+      "GOOD_VALUE=7E",
+      "DONE"
+    ],
+    "stderr": ""
+  },
+  "disk_unchanged_boot2": true
+}

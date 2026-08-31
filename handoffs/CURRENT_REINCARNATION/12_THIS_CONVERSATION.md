@@ -1283,3 +1283,17 @@ User required every decision, every research item, every Commander's Intent and 
 
 ### ASSISTANT — continuity doctrine response
 Adopted a stronger per-turn semantic/hash freshness contract: current intent/state/decisions/research/frontier/DTS/handoff/reincarnation are reconciled each meaningful turn; sealed history is not rewritten for timestamps; the entire continuity tree is hash-attested per turn. This is standing Commander-directed doctrine.
+
+### USER — H1 parallel replay / proceed through convergence
+User directed that H1 become a durable target profile and the current boot/integrated body be replayed under both emulator families while concurrency work continued. User then repeatedly said `Proceed`, preserving standing authorization to continue autonomously until genuine operator-only blockers.
+
+### ASSISTANT — C005 hard stop and post-campaign convergence
+C005 eventually CLOSED20/20 at its mandatory hard stop. No P21 exists. Post-campaign convergence measured MIN01 transport, Candidate A whole-operation atomic gate, and Candidate B single-writer owner + explicit mailbox. A passed at8189/8192 linked bytes with3 headroom; B passed at8089/8192 with103 headroom, state3467, scratch62. B was selected for current H1 capability because direct multicore relation mutation is not yet required; A remains a valid alternate and C is deferred/not disproven.
+
+### ASSISTANT — D64 v3 admission/promotion
+Created self-contained `os/research_only/d64_reference_v3/` from selected B without rewriting v2. First standalone runner attempt failed host-side before guest because the auxiliary H1 QCOW was read-only on Q35 IDE; Scar A retained it. Amended runner changed only target-disk transport. Successful isolated package then produced exact machine metrics, nine exact QEMU boots and verifier20/20. Admission evidence was committed and v3 was promoted to `CURRENT_RESEARCH_REFERENCE — RESEARCH PURPOSES ONLY` at `af8a11eb055b486c38cefb3676066b3e6d808f32`.
+
+Current-reference H1 and portability tools were retargeted from v2 to v3. QEMU-transplant gate PASS9/9. A post-promotion H1 cross-emulator matrix from committed HEAD `af8a11e...` passed QEMU H1 plus Bochs core/restart/five fault cases; its evidence/adjudication is committed at `66e9c9a...`. Earlier pre-promotion matrix PASS is explicitly non-controlling because its source HEAD did not bind the uncommitted runner delta.
+
+### CURRENT FRONTIER / AUTHORITY CEILING
+v3 is the current integrated reviewer, not final architecture/release/production. Physical H1 remains unqualified. v3 embodies the selected C005 H1 two-core topology but does not silently embody the entire C004 authority/protection shadow. Next local work after durable closure is physical-H1 probe/boot package preparation, followed by C004-to-v3 representation/Pareto convergence. No user input is needed until actual H1 hardware touch is ready.

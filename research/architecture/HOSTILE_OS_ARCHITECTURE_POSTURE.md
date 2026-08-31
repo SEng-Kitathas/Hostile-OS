@@ -1,6 +1,6 @@
 # HOSTILE-OS Architecture Posture
 
-**Last updated:** 2026-08-30
+**Last updated:** 2026-08-31
 **Current posture:** `INTEGRATED_SHADOW_CANDIDATE`
 **Final architecture:** `false`
 **Production ready:** `false`
@@ -42,7 +42,7 @@ It does **not** mean:
 - arbitrary workload support;
 - physical-hardware proof;
 - general memory/capability safety;
-- SMP/NMI/DMA correctness;
+- general SMP/NMI/DMA/weak-memory correctness beyond the bounded two-CPU x86/QEMU C005 evidence;
 - crash-consistent persistence;
 - universal rejection of Process/Scheduler/File-style descriptive abstractions;
 - R3.1 replacement readiness;
@@ -123,7 +123,7 @@ The current architecture rules are now clearer:
 - firmware is an explicit borrowed platform boundary; after machine-state takeover, firmware reuse requires explicit restore, while a higher target should prefer bootstrap-only firmware plus owned transport;
 - capacity is finite, configured, checked before mutation, and has visible exhaustion; I001's two slots are witness capacity only;
 - generation/epoch currentness is width-parametric, monotonic within a namespace, and fail-closed before aliasing wrap; no width is "enough" without a declared lifetime bound;
-- current concurrency claims are single-core and maskable-interrupt bounded; SMP/NMI/DMA/weak-memory claims are outside the current target;
+- concurrency shadow now includes bounded two-CPU x86/QEMU evidence from C005 plus the earlier one-core maskable-IRQ rules; arbitrary CPU counts, NMI/DMA/weak-memory and physical-hardware concurrency remain outside the earned scope;
 - persistence claims remain clean-restart only unless stronger durability is explicitly required;
 - physical hardware is a higher-assurance gate, not a prerequisite for continued architecture work.
 
@@ -189,7 +189,7 @@ Still scope-dependent because current D64 permits explicit firmware borrowing.
 
 ### Scope-dependent higher-assurance seams
 
-Physical hardware, arbitrary/dynamic capacity, SMP/NMI/DMA/weak-memory correctness, crash/partial-write persistence, and general capability/memory safety remain unearned unless explicitly targeted.
+Physical hardware, arbitrary/dynamic capacity, concurrency beyond the tested two-CPU x86/QEMU scope, NMI/DMA/weak-memory correctness, and general capability/memory safety remain unearned unless explicitly targeted. Deterministic faulted-media and bounded interrupted-write persistence have separate FR01/WT01 evidence and should not be collapsed back to clean-restart-only wording.
 
 ## Demotion triggers
 
@@ -221,3 +221,23 @@ Adoption commit: `b8912647a5a1fb1fc62cfa8fbe125d3f64b7bc5f`. The sealed R3.1 pac
 The next lawful pressure is **expanded D64 binding/resource clean-restart persistence**. I001 earned clean-restart persistence/rebind for a smaller durable record; the adopted 64x20 binding/resource relation, separate activity/resource epochs, and their currentness rules have not yet been reconstructed across restart.
 
 Keep the first persistence discriminator narrow: distinguish durable identity/value from volatile runtime bindings/currentness, preserve explicit fresh-runtime namespace semantics, and do not bundle crash/partial-write durability, filesystem semantics, native storage transport, or stronger concurrency into the same pass.
+
+## 2026-08-31 C004/C005 shadow expansion and current gate
+
+C004 authority/protection and C005 multicore concurrency/coherence are both CLOSED20/20. Their adoption reviews extend the incumbent shadow rules without promoting final architecture.
+
+C005 adds bounded two-CPU x86/QEMU evidence that:
+- local interrupt exclusion is not inter-CPU exclusion;
+- racing ownership/update transitions need atomic transition semantics at the tested scope;
+- publication, lifetime-through-use, progress/recovery, bounded wrap/currentness and trusted participant provenance are independently load-bearing;
+- IRQ and second-CPU participants touching one coupled relation must share one coherence protocol;
+- validated read-side retry can avoid exclusive reader ownership under a separately enforced single-writer condition;
+- runtime concurrency ownership is reconstructed fresh across restart unless separately earned durable.
+
+C005/P20 passed on the H1 QEMU constraint proxy, but this remains emulator evidence. Physical H1 is still unqualified.
+
+The current embodied research reference is `os/research_only/d64_reference_v2/`, not the historical I001 body. It remains runnable/current for its generation but materially lags C004+C005 science and has only752 bytes remaining in its qualified8192-byte linked stage2 envelope.
+
+The older “next posture gate = expanded D64 clean-restart persistence” language above is superseded by later PR01/FR01/WT01 and v2 convergence work.
+
+**Current posture gate:** post-C005 representation/Pareto convergence. Determine the smallest representation that can embody the already-earned C004+C005 guarantees; do not open C006 or enlarge the body by momentum. If the 8 KiB envelope is genuinely insufficient after compression/derivation review, qualify a larger envelope explicitly.

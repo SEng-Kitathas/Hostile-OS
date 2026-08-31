@@ -1,0 +1,24 @@
+{
+  "format": "C005_P16_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "wrap_becomes_false_zero": true,
+    "checked_overflow_preserves_state": true,
+    "two_cpu_participation": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C005_P16",
+    "AP_READY=1",
+    "BAD_WRAP=1",
+    "BAD_RECLAIM=1",
+    "BAD_USE_VAL=00",
+    "GOOD_ACQUIRE=F",
+    "GOOD_USERS=FF",
+    "GOOD_RECLAIM=0",
+    "GOOD_VALUE=7E",
+    "AP_DONE=1",
+    "DONE"
+  ]
+}

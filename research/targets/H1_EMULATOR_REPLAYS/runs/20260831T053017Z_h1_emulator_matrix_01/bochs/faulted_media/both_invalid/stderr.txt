@@ -1,0 +1,3 @@
+00000000000i[      ] reading configuration from E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\targets\H1_EMULATOR_REPLAYS\runs\20260831T053017Z_h1_emulator_matrix_01\bochs\faulted_media\both_invalid\bochsrc.txt
+00000000000i[      ] installing nogui module as the Bochs GUI
+00000000000i[      ] using log file E:\new pc\AI_Pushes_Sandbox\projects\PCMMAD\HOSTILE_OS\research\targets\H1_EMULATOR_REPLAYS\runs\20260831T053017Z_h1_emulator_matrix_01\bochs\faulted_media\both_invalid\bochs.log

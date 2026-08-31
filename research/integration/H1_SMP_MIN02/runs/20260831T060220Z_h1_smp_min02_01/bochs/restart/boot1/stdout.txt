@@ -1,0 +1,11 @@
+========================================================================
+                        Bochs x86 Emulator 3.1
+             Built from GitHub snapshot on August 23, 2026
+                Timestamp: Sun Aug 23 07:15:00 CEST 2026
+========================================================================
+S1_8K_OK
+TEST=D64_V2_PERSIST
+MODE=R
+PHASE=WRITE
+WRITE=A
+PERSIST_DONE

@@ -1,0 +1,37 @@
+========================================================================
+                        Bochs x86 Emulator 3.1
+             Built from GitHub snapshot on August 23, 2026
+                Timestamp: Sun Aug 23 07:15:00 CEST 2026
+========================================================================
+S1_8K_OK
+TEST=D64_V2_CORE
+ACT_FILLED=40
+ACT_OVER=F
+ROW_FILLED=14
+ROW_OVER=F
+SHARE_LIVE=0002
+STALE_BIND=R
+FRESH_BIND=W
+FRESH_BIND_VAL=7E
+MISSING_BIND=M
+RELEASE_BOUND=B
+DETACH_ONE_LIVE=0001
+DETACH_LAST_LIVE=0000
+OLD_RES=R
+NEW_RES=W
+NEW_RES_VAL=55
+DONE
+TEST=D64_V2_IRQ
+IRQ1_EVENT=01
+IRQ1_REL=1
+IRQ1_WAKE=1
+IRQ1_PROG=02
+IRQ2_EVENT=02
+IRQ2_REL=1
+IRQ2_WAKE=1
+IRQ2_PROG=02
+IRQBAD_EVENT=02
+IRQBAD_REL=0
+IRQBAD_WAKE=0
+IRQBAD_PROG=00
+IRQ_DONE

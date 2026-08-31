@@ -1,0 +1,77 @@
+{
+  "format": "HOSTILE_OS_POST_C005_MULTICORE_CANDIDATE_BURDEN_V1",
+  "current_body": {
+    "runtime_linked_bytes": 7440,
+    "qualified_envelope_bytes": 8192,
+    "headroom_bytes": 752,
+    "named_state_bytes": 3467
+  },
+  "measured_witness_transport": {
+    "init_sipi_wait_bytes": 147,
+    "ap_trampoline_bytes": 220,
+    "subtotal_bytes": 367,
+    "source": "C005/P20 symbol-address difference"
+  },
+  "shared_relation_call_interface": {
+    "input_bytes": 10,
+    "output_bytes": 5,
+    "last_value_bytes": 1,
+    "total_shared_interface_bytes": 16
+  },
+  "candidates": [
+    {
+      "id": "A_WHOLE_OPERATION_GATE",
+      "priority": 1,
+      "new_state_estimate_bytes": "1 gate + AP handshake/provenance",
+      "relationship": "serialize argument preparation + relation call + result capture",
+      "advantages": [
+        "smallest state delta",
+        "no relation table duplication",
+        "no per-CPU scratch refactor"
+      ],
+      "risks": [
+        "global serialization",
+        "holder progress dependency"
+      ],
+      "status": "PROTOTYPE_FIRST"
+    },
+    {
+      "id": "B_SINGLE_WRITER_MAILBOX",
+      "priority": 2,
+      "new_state_estimate_bytes": "mailbox request/response/provenance",
+      "relationship": "one relation-state writer, explicit inter-core requests",
+      "advantages": [
+        "preserves single-writer relation internals",
+        "explicit communication"
+      ],
+      "risks": [
+        "mailbox protocol burden",
+        "central progress bottleneck",
+        "manager-like gravity"
+      ],
+      "status": "ALTERNATE"
+    },
+    {
+      "id": "C_PER_CPU_SCRATCH_NARROW_GATE",
+      "priority": 3,
+      "new_state_estimate_bytes": "at least +16 bytes for second core interface plus selector/provenance",
+      "relationship": "per-core arguments/results + narrow coupled-transition gate",
+      "advantages": [
+        "direct multi-core operations",
+        "narrower serialization"
+      ],
+      "risks": [
+        "refactor/code burden",
+        "premature general SMP structure"
+      ],
+      "status": "ALTERNATE"
+    }
+  ],
+  "authority_ceiling": [
+    "no H1 physical proof",
+    "no arbitrary core count",
+    "no untrusted execution added",
+    "no stalled-holder recovery guarantee",
+    "no general weak-memory claim"
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "format": "C005_P20_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "two_distinct_apic_ids": true,
+    "bad_claimed_owner_breaks_exclusion": true,
+    "trusted_release_provenance_preserves_exclusion": true,
+    "h1_proxy": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C005_P20",
+    "AP_READY=1",
+    "BSP_ID=00",
+    "AP_ACTUAL_ID=01",
+    "BAD_CLAIMED_ID=00",
+    "BAD_RELEASE=1",
+    "BAD_AP_ACQUIRE=1",
+    "BAD_DOUBLE_OWNER=1",
+    "GOOD_CLAIMED_ID=00",
+    "GOOD_ACTUAL_ID=01",
+    "GOOD_RELEASE=0",
+    "GOOD_AP_ACQUIRE_WHILE=0",
+    "GOOD_DOUBLE_OWNER=0",
+    "GOOD_AP_ACQUIRE_AFTER=1",
+    "AP_DONE=1",
+    "DONE"
+  ]
+}

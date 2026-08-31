@@ -1,0 +1,21 @@
+{
+  "format": "C005_P03_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "two_cpu_participation": true,
+    "bad_indicator_precedes_payload": true,
+    "good_payload_precedes_indicator": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C005_P03",
+    "AP_READY=1",
+    "BAD_SEEN=7E",
+    "BAD_FINAL=55",
+    "GOOD_SEEN=55",
+    "GOOD_FINAL=55",
+    "AP_DONE=1",
+    "DONE"
+  ]
+}

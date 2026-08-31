@@ -560,3 +560,79 @@ Interpretation is append-only-safe: living indexes are semantically reconciled e
 Current science frontier at this checkpoint: C005/P01 and P02 CLOSED PASS; P03 preregistered and implementation sealed at `2f8d7967a1a11c4124f2b095feb7cb62832cfd44` (`Seal C005 P03 publication-order implementation`), science run not yet claimed at this freshness-policy checkpoint.
 
 H1 remains first physical target; QEMU proxy qualified; Bochs3.1 installed as an independent x86 emulator/debug witness, not an exact H1 clone. Full Bochs device-surface qualification remains open.
+
+## 2026-08-31 post-C005 / H1 SMP convergence / D64 v3 current state
+
+This section supersedes earlier live-frontier paragraphs that still describe C005/P03 or P13 as active. Historical sections remain preserved for chronology.
+
+### Campaign state
+
+- C004 authority/protection: **CLOSED20/20**, hard stop obeyed, no P21.
+- C005 multicore concurrency/coherence: **CLOSED20/20**, hard stop obeyed, no P21. Close/adoption: `research/concurrency/C005/C005_CAMPAIGN_CLOSE_2026-08-31.md` and `C005_ADOPTION_REVIEW_2026-08-31.md`.
+- C005 adopted responsibilities include inter-CPU atomic/current transitions, publication order, safety/progress separation, lifetime participation, stale-writer recovery currentness, bounded wrap/exhaustion handling, fresh restart concurrency state, IRQ+CPU shared coherence, and trusted release provenance. The working compression remains responsibility vocabulary, not primitive ontology.
+
+### Post-C005 representation/Pareto convergence
+
+H1-SMP-MIN01 proved second-core transport/participation fits the existing8192-byte stage2 envelope: linked7811, headroom381, scratch50.
+
+Candidate A / MIN02 (whole-operation atomic gate around legacy relation call) PASS: linked8189, headroom3, scratch60. It preserves direct trusted callers but is an unnecessarily brittle first-H1 fit.
+
+Candidate B / MIN03 (BSP sole relation mutator + explicit AP request/result mailbox) PASS: linked8089, headroom103, raw4494, scratch62, semantic state3467. AP does not call the relation mutation function or write legacy relation-call scratch; payload is published before request and result before completion. QEMU S/C and Bochs core/restart/fault regressions passed.
+
+Successor review selected **Candidate B** for the current H1 requirement because it buys100 linked bytes/headroom versus A while preserving the existing single-writer relation internals and does not add unrequired direct-multicore mutation capability. A remains a valid alternate; C is deferred/not disproven. Reopen triggers are recorded in `research/integration/H1_SMP_SUCCESSOR_ADMISSION_REVIEW_2026-08-31.md`.
+
+### Current embodied research reference
+
+`os/research_only/d64_reference_v3/` is now **CURRENT_RESEARCH_REFERENCE — RESEARCH PURPOSES ONLY**.
+
+Promotion commit: `af8a11eb055b486c38cefb3676066b3e6d808f32`.
+
+Admitted machine-body source was independently built/run/verified from the os-only v3 package after runner Amendment A:
+- stage1 512 bytes with55aa;
+- stage2 raw4494 bytes;
+- linked stage28089/8192;
+- headroom103;
+- named semantic state3467;
+- implementation scratch62/128;
+- exact H1 two-core S trace `IDS=0001 / OWNER=BSP / MAIL=WW11`;
+- inherited core+IRQ exact;
+- restart boot1 + fresh-process read-only boot2 exact;
+- five faulted-media cases exact/read-only;
+- verifier PASS20/20;
+- no build/run dependency on research/continuity/authority/handoff trees.
+
+The successful all-mode standalone run performed **nine QEMU boots**:1 SMP +1 core +2 restart +5 faulted-media. A prior statement of eight is corrected here.
+
+The first standalone v3 run never reached guest execution because its new runner attached the auxiliary H1 target QCOW read-only on Q35 IDE; QEMU returned `Block node is read-only`. Scar A is retained. Amendment A changed only that auxiliary target-disk transport and did not change stage1/stage2 or guest criteria.
+
+`d64_reference_v2/` and `i001_reference/` remain preserved prior lineage; v2 was not rewritten to create v3.
+
+### Current H1 cross-emulator state
+
+Current-reference cross-emulator replay is controlling at:
+`research/targets/H1_EMULATOR_REPLAYS/runs/20260831T103212Z_h1_emulator_matrix_01`
+with source Git HEAD `af8a11eb055b486c38cefb3676066b3e6d808f32`.
+
+Result: QEMU H1 proxy PASS; Bochs independent core PASS; Bochs restart exact/invariants PASS; five Bochs faulted-media cases exact/read-only PASS.
+
+The immediately preceding run `20260831T103138Z...` also passed but is non-controlling because it exercised uncommitted promotion/tool-pointer changes and its recorded source HEAD did not bind those runner bytes.
+
+Current QEMU transplant portability gate follows v3 and PASS9/9.
+
+### Current authority ceiling / open seams
+
+- `QEMU_H1_PROXY_PASS + BOCHS_PASS != H1_PHYSICAL_PASS`.
+- Physical H1 CPUID/PCI/BIOS/ACPI/storage/interrupt/multicore behavior remains unqualified.
+- v3 closes the selected H1 C005 multicore embodiment gap but does **not** imply all C004 authority/protection rules are embodied.
+- Candidate-B owner progress dependency is explicit; stalled-owner recovery/fairness are not current H1 guarantees.
+- Arbitrary CPU count, weak-memory cross-architecture rules, DMA/IOMMU/NMI/SMI, production progress/timing and final ABI remain unearned.
+- Foreign Opus raw packet remains externally reported rather than locally hash-verified.
+- Exact uploaded frozen-intent source-byte ingress to Windows Git remains an open cross-plane seam.
+
+### Immediate frontier
+
+P0 local work after durable turn close: prepare a non-destructive physical-H1 qualification/boot/probe package around v3 so operator hardware touch is minimized and exact physical observations can replace VM assumptions.
+
+P1 local convergence: representation/Pareto review of the still-unembodied C004 authority/protection shadow against v3; do not consume the remaining103-byte envelope by convenience.
+
+No operator input is required until an actual H1 power/boot/probe action is ready or another genuinely external evidence seam becomes blocking.

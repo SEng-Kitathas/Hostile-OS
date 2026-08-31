@@ -1,0 +1,25 @@
+{
+  "format": "C005_P08_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "two_cpu_participation": true,
+    "entry_validation_not_lifetime_protection": true,
+    "inflight_participation_blocks_reclaim": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C005_P08",
+    "AP_READY=1",
+    "BAD_ENTRY_VALID=1",
+    "BAD_RECLAIM=1",
+    "BAD_USE_VAL=00",
+    "GOOD_USERS_DURING=01",
+    "GOOD_RECLAIM_DURING=0",
+    "GOOD_USE_VAL=7E",
+    "GOOD_USERS_AFTER=00",
+    "GOOD_RECLAIM_AFTER=1",
+    "AP_DONE=1",
+    "DONE"
+  ]
+}

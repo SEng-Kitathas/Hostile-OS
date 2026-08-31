@@ -146,3 +146,21 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | Orthogonal OS architectures are donor pressure, never architecture authority | Avoid local-optimum rediscovery without allowing donor ontology capture | Seam must be stated locally first; local experiment/adoption required |
 | Every meaningful turn refreshes living decision/research/intent/continuity surfaces | Commander requires no repeated re-explanation and no hidden chat-only state | Historical sealed evidence is hash-attested, not rewritten |
 | Per-turn freshness includes exact continuity-tree hashes | Makes “reviewed/unchanged” distinguishable from “forgotten/stale” | Replace only with stronger automatic content-addressed continuity system |
+
+## 2026-08-31 C005 close / H1 SMP convergence / D64 v3 promotion decisions
+
+| Decision | Why | Ceiling / reopen |
+|---|---|---|
+| C005 hard-stops at P20; no P21 | Exact campaign law and all20 passes closed | Reopen concurrency only as a separately scoped new campaign/frontier, never as C005/P21 |
+| Adopt C005 responsibilities, not donor synchronization nouns | Twenty hostile passes earned atomic/current transitions, publication, lifetime/progress/recovery/provenance distinctions | Mechanism witnesses remain target-specific; no universal Lock/RCU/Seqlock/Scheduler primitive |
+| H1 second-core transport fits without loader-envelope expansion | MIN01 linked7811/8192 | Reopen if physical H1 startup differs or stronger target capability is required |
+| Candidate A whole-operation gate remains valid but is not selected | MIN02 PASS with direct BSP/AP relation callers | Current implementation leaves only3 bytes headroom; reopen if direct multicore relation mutation becomes required or representation shrinks |
+| Select Candidate B for current H1 successor body | MIN03 preserves one relation owner, exact mailbox publication, linked8089 with103 headroom, same H1 consequence | Owner-service dependency accepted only at current scope; reopen on measured availability/latency blocker, direct-caller requirement, >2 CPUs, or physical H1 failure |
+| Candidate C is deferred, not disproven | It adds per-CPU call scratch/narrower gate capability not yet required | Price it when a concrete workload earns direct multicore relation callers or A/B becomes insufficient |
+| `d64_reference_v3` is CURRENT_RESEARCH_REFERENCE | Selected B passed isolated os-only build/run/verify20/20 and current H1 cross-emulator replay | Research embodiment only; demote on parent-science demotion, reproduction break, physical H1 contradiction, or stronger admitted version |
+| v2/I001 remain immutable prior lineage | New capability must not rewrite historical machine/reproduction evidence | Supersede only with versioned bodies; never mutate history for “current” status theater |
+| Current-reference tooling follows v3 | A “current” helper/checker pointing at v2 would create false authority surfaces | Update atomically with future current-reference promotion |
+| First v3 isolated run is a runner scar, not guest result | QEMU rejected read-only auxiliary Q35 target disk before guest boot | Preserve host-side failure; body conclusion comes only from amended committed rerun |
+| Current v3 all-mode admission = nine QEMU boots | Actual composition is1 SMP +1 core +2 restart +5 faults | Correct any earlier “eight boot” narration; count is execution fact, not architecture |
+| QEMU+Bochs agreement does not qualify H1 hardware | Neither emulator is the E2-1800/A45/HP firmware machine | Replace VM assumptions only with physical probe/boot evidence |
+| Do not spend v3's103-byte headroom by convenience | H1 remains physically untested and C004 embodiment pressure still exists | New bytes must buy an earned capability/guarantee after explicit Pareto pressure |

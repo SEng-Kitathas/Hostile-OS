@@ -7,7 +7,7 @@ import tempfile
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-RUN = ROOT / "os/research_only/d64_reference_v2/run.py"
+RUN = ROOT / "os/research_only/d64_reference_v3/run.py"
 PATCH003 = ROOT / "infra/reproduction/qemu_transplant/PATCH_003/runtime/qemu/run-qemu-i386.sh"
 
 
@@ -20,7 +20,7 @@ def load(name: str, path: Path):
 
 
 def main() -> int:
-    run = load("hostile_d64_v2_run_portability", RUN)
+    run = load("hostile_d64_v3_run_portability", RUN)
     checks: dict[str, bool] = {}
     details: dict[str, object] = {}
 
@@ -73,7 +73,7 @@ def main() -> int:
         checks["firmware_alias_override"] = alias_selected == str(explicit_alias)
 
     source = RUN.read_text(encoding="utf-8")
-    checks["runner_maps_data_dir_to_dash_L"] = "if data_dir:argv += ['-L',data_dir]" in source
+    checks["runner_maps_data_dir_to_dash_L"] = ("if data_dir:argv += ['-L',data_dir]" in source) or ("if data:argv+=['-L',data]" in source)
     checks["runner_records_qemu_data_dir"] = "'qemu_data_dir':data" in source
     checks["runner_disables_default_nic"] = "'-nic','none'" in source
 

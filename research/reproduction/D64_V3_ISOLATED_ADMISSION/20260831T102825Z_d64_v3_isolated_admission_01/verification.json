@@ -1,0 +1,28 @@
+{
+  "format": "HOSTILE_OS_D64_V3_VERIFY_V1",
+  "body_class": "research-only",
+  "passed": true,
+  "checks": {
+    "stage1_512_55aa": true,
+    "stage2_raw_exact_4494": true,
+    "stage2_memory_exact_8089": true,
+    "headroom_exact_103": true,
+    "named_state_exact_3467": true,
+    "scratch_used_exact_62": true,
+    "h1_profile_exact": true,
+    "smp_exact": true,
+    "core_irq_exact": true,
+    "restart_boot1_exact": true,
+    "restart_record_exact": true,
+    "restart_no_host_write_between": true,
+    "restart_boot2_exact": true,
+    "restart_boot2_readonly": true,
+    "fault_old_empty": true,
+    "fault_newer_valid": true,
+    "fault_newer_corrupt": true,
+    "fault_equal_conflict": true,
+    "fault_both_invalid": true,
+    "os_only_no_parent_runtime_dependency": true
+  },
+  "check_count": 20
+}

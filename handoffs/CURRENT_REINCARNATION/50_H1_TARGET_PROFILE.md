@@ -93,3 +93,28 @@ That packet will replace proxy assumptions one by one. It is a future operator/h
 ## Engineering rule
 
 New HOSTILE-OS work should prefer surviving the H1 constraint proxy unless the experiment explicitly requires a different fixture. Do not optimize only for the high-end development workstation and hope to down-port later.
+
+## Multi-emulator qualification lane
+
+The durable emulator matrix is defined by:
+- `research/targets/H1_HP_PAVILION_P2_1120_EMULATOR_MATRIX_V2.json`;
+- `research/targets/H1_EMULATOR_QUALIFICATION_POLICY_2026-08-31.md`;
+- `tools/run_h1_emulator_matrix.py`.
+
+QEMU remains the only currently qualified two-vCPU H1 constraint proxy. The installed Bochs3.1 Windows package is limited to one processor and is therefore used only as an independent full-body semantic replay/debug witness. Cross-emulator agreement does not substitute for physical H1 qualification.
+
+## Current cross-emulator result
+
+`research/targets/H1_EMULATOR_MATRIX_RESULT_2026-08-31.md` is CLOSED PASS from `research/targets/H1_EMULATOR_REPLAYS/runs/20260831T053017Z_h1_emulator_matrix_01`.
+
+The exact current D64-v2 eight-boot semantic surface reproduced under Bochs at one-CPU scope, while the QEMU H1 proxy remains green at the target-shaped two-vCPU/4GiB/500GiB envelope. Bochs package SMP is unavailable in the installed build, so only QEMU currently supplies virtual two-core H1 pressure.
+
+## C005/P20 target-shaped concurrency evidence
+
+C005/P20 ran its hard-stop two-CPU release-provenance discriminator under the H1 QEMU constraint proxy (`pc-q35-11.1`, `phenom`, 2 vCPU, 4096 MiB, TCG) and passed exactly.
+
+This strengthens target-shaped emulator continuity but does not change the target authority law:
+
+`QEMU_H1_PROXY_PASS + BOCHS_REPLAY_PASS != H1_PHYSICAL_PASS`.
+
+The physical machine remains the authority for real E2-1800/A45/HP firmware, PCI/ACPI, interrupt, storage and timing behavior.

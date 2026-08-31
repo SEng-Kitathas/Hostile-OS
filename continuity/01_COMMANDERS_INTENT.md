@@ -31,3 +31,15 @@ Every meaningful turn therefore refreshes the living intent/state/decision/resea
 A decision, research result, caveat, scar, blocker, target constraint, or method change that matters enough to affect future work matters enough to enter durable project state that turn.
 
 GitHub remains the remote reincarnation ledger for the whole admitted project, while `os/` remains independently retrievable for OS-only use.
+
+## Current execution intent — post-C005 / D64 v3
+
+The first physical target remains H1, the HP Pavilion p2-1120. Virtual and cross-emulator work exists to reduce physical-port uncertainty, not to replace real-machine authority.
+
+The current embodied reviewer is `os/research_only/d64_reference_v3/`. Its selected H1 two-core topology keeps one current relation mutator on BSP and lets AP publish an explicitly ordered request/result mailbox. That topology is a scoped representation choice for the current H1 capability, not a declaration that “mailbox,” “owner,” or any familiar IPC/server noun is a primitive.
+
+Continue to prefer the smallest mechanism that preserves earned futures. Candidate A (direct multicore relation callers behind a whole-operation atomic gate) remains a valid alternate; Candidate C (per-CPU scratch + narrower transition gate) remains deferred/not disproven. Reopen only when a required capability or measured pressure justifies the extra burden.
+
+Current reality pressure is physical H1 qualification and remaining science/embodiment mismatch. In particular, C004 authority/protection science is not silently considered embodied merely because v3 is current. Prepare as much of the physical probe/boot/replay path locally as possible before requiring operator hardware touch.
+
+No QEMU/Bochs result may be promoted into physical H1 truth. No `CURRENT_RESEARCH_REFERENCE` label may be promoted into final architecture, production readiness, or general-purpose release by tone.

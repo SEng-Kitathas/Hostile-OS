@@ -1,0 +1,4 @@
+from pathlib import Path
+import json,sys
+expected=['S1_8K_OK','TEST=C005_P09','AP_READY=1','BAD_ACCEPTED=1','BAD_REVOKE_GEN=02','BAD_APPLY=W','BAD_VALUE=55','GOOD_ACCEPTED=1','GOOD_REVOKE_GEN=02','GOOD_APPLY=U','GOOD_VALUE=7E','AP_DONE=1','DONE']
+trace=Path(sys.argv[1]).read_text(encoding='ascii',errors='replace').splitlines();checks={'trace_exact':trace==expected,'two_cpu_participation':all(x in trace for x in ['AP_READY=1','AP_DONE=1']),'cached_authority_applies_after_revoke':all(x in trace for x in ['BAD_ACCEPTED=1','BAD_REVOKE_GEN=02','BAD_APPLY=W','BAD_VALUE=55']),'effect_revalidation_rejects':all(x in trace for x in ['GOOD_ACCEPTED=1','GOOD_REVOKE_GEN=02','GOOD_APPLY=U','GOOD_VALUE=7E'])};out={'format':'C005_P09_EVALUATION_V1','passed':all(checks.values()),'checks':checks,'trace':trace};Path(sys.argv[2]).write_text(json.dumps(out,indent=2)+'\n',encoding='utf-8',newline='\n');print(json.dumps(out,indent=2));raise SystemExit(0 if out['passed'] else 1)

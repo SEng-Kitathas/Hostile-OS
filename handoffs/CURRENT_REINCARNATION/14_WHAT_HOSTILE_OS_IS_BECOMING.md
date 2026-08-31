@@ -193,3 +193,13 @@ The D64-era adopted mechanism family now exists together in one self-contained b
 That convergence is important but should not be confused with a new ontology proof. The body is a **compression of already-earned mechanisms**. `activity`, `binding`, and `resource` remain working names, and the body can be split/replaced if later pressure exposes a cheaper grammar.
 
 The integrated body currently consumes 7440 of8192 linked bytes. That makes future growth visible: the next 752 bytes are no longer an abstract implementation detail; they are a concrete Pareto pressure surface.
+
+## 2026-08-31 update — after C005 and D64 v3
+
+The research has now crossed a meaningful boundary: multicore concurrency/coherence is no longer an unnamed future gap. C005 closed20/20 and earned a bounded grammar for atomic/current transitions, publication, lifetime participation, progress/recovery, wrap/exhaustion, IRQ/CPU coherence, restart reconstruction and trusted release provenance.
+
+The embodied reviewer has also advanced. `d64_reference_v3` is the current research reference. For the first H1 two-core capability it does **not** make the whole relation body generally multiwriter. Instead it keeps one current relation owner on BSP and makes AP participation explicit through an ordered request/result mailbox. That choice was made after measuring two candidates, not by importing a server/IPC architecture: the direct-caller whole-operation gate passed but left3 bytes headroom; the selected single-owner representation passed with103 bytes headroom and preserved the existing relation internals.
+
+This strengthens the recurring shape of HOSTILE-OS: the design keeps separating futures that reality proves different, then tries to compress the representation back down without erasing those distinctions. The current body is therefore becoming a small evidence-derived operating substrate with explicit identity/currentness, relation applicability, lifetime, authority/provenance, durability/reconstruction and concurrency/coherence protocols around state transitions.
+
+The same caution remains: working nouns are not constitutional primitives. `activity`, `binding`, `resource`, `owner`, and `mailbox` are current compression vocabulary. Physical H1 has not yet spoken, C004 authority science is still broader than the body, and no final architecture/general-purpose release has been earned.

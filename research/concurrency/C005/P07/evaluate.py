@@ -1,0 +1,4 @@
+from pathlib import Path
+import json,sys
+expected=['S1_8K_OK','TEST=C005_P07','AP_READY=1','BAD_BSP_FIRST=1','BAD_AP_FIRST=1','BAD_BSP_SECOND=0','BAD_AP_SECOND=0','BAD_BOTH_BLOCKED=1','GOOD_BSP_COMPLETE=1','GOOD_AP_COMPLETE=1','AP_DONE=1','DONE']
+trace=Path(sys.argv[1]).read_text(encoding='ascii',errors='replace').splitlines();checks={'trace_exact':trace==expected,'two_cpu_participation':all(x in trace for x in ['AP_READY=1','AP_DONE=1']),'opposite_order_blocks_both':all(x in trace for x in ['BAD_BSP_FIRST=1','BAD_AP_FIRST=1','BAD_BSP_SECOND=0','BAD_AP_SECOND=0','BAD_BOTH_BLOCKED=1']),'shared_order_completes_both':all(x in trace for x in ['GOOD_BSP_COMPLETE=1','GOOD_AP_COMPLETE=1'])};out={'format':'C005_P07_EVALUATION_V1','passed':all(checks.values()),'checks':checks,'trace':trace};Path(sys.argv[2]).write_text(json.dumps(out,indent=2)+'\n',encoding='utf-8',newline='\n');print(json.dumps(out,indent=2));raise SystemExit(0 if out['passed'] else 1)

@@ -1,0 +1,60 @@
+{
+  "format": "C005_P20_INPUTS_V1",
+  "git_head": "1422404f1d6c98e3479af8b03c671ea0b99605a1",
+  "inputs": [
+    {
+      "source": "research/concurrency/C005/P20/stage1.S",
+      "snapshot_path": "inputs/stage1.S",
+      "bytes": 706,
+      "sha256": "24e3976a6c248fb4250e3ef79cb112dd9a97c5ef7d7c12a7245fa4ac66c6859c"
+    },
+    {
+      "source": "research/concurrency/C005/P20/stage1.ld",
+      "snapshot_path": "inputs/stage1.ld",
+      "bytes": 176,
+      "sha256": "df82423232fc19b14d7a221c4dab4b3764a3651442b2890339d3f4fa91e29cf1"
+    },
+    {
+      "source": "research/concurrency/C005/P20/stage2.S",
+      "snapshot_path": "inputs/stage2.S",
+      "bytes": 6063,
+      "sha256": "7d4fc43e85db9e6b46897db12b2d4e78e1a9737189aab0d332426bf7a390b0be"
+    },
+    {
+      "source": "research/concurrency/C005/P20/stage2.ld",
+      "snapshot_path": "inputs/stage2.ld",
+      "bytes": 179,
+      "sha256": "6ee3b16c0fedebc13167d5ccd817db296e3b9587566222f5672333dc7702d1d1"
+    },
+    {
+      "source": "research/concurrency/C005/P20/launch.py",
+      "snapshot_path": "inputs/launch.py",
+      "bytes": 4529,
+      "sha256": "9cfcf4987ac7c75c53fa5be665df23ad64813a9558171d589c7b928260d7105f"
+    },
+    {
+      "source": "research/concurrency/C005/P20/evaluate.py",
+      "snapshot_path": "inputs/evaluate.py",
+      "bytes": 1181,
+      "sha256": "d140214303f44ac590fbc4779374d18dff5dc7f5719d6fc84b5a0b0ffa8a0d9c"
+    },
+    {
+      "source": "research/concurrency/C005/P20_PREREGISTRATION.md",
+      "snapshot_path": "inputs/P20_PREREGISTRATION.md",
+      "bytes": 1893,
+      "sha256": "d3dc633ce4eae01d6af729ef9bce01031038ebd2486ba2e1739d717929c0c354"
+    },
+    {
+      "source": "research/concurrency/C005/C005_CAMPAIGN_CHARTER_2026-08-31.md",
+      "snapshot_path": "inputs/C005_CAMPAIGN_CHARTER_2026-08-31.md",
+      "bytes": 2588,
+      "sha256": "45f5486e338eae045e39b94bf31357b76e7d340ea4efe4ebed95849820afcee6"
+    },
+    {
+      "source": "research/targets/H1_HP_PAVILION_P2_1120_EMULATOR_MATRIX_V2.json",
+      "snapshot_path": "inputs/H1_HP_PAVILION_P2_1120_EMULATOR_MATRIX_V2.json",
+      "bytes": 1895,
+      "sha256": "b5a42b8e590960a513dc1e616db4e591d5758ae9ddfc3cc4097821bce2ef1cae"
+    }
+  ]
+}

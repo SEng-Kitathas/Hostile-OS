@@ -1,0 +1,23 @@
+{
+  "format": "C005_P04_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "two_cpu_participation": true,
+    "bad_split_rmw_loses_update": true,
+    "atomic_update_preserves_both": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C005_P04",
+    "AP_READY=1",
+    "BAD_BSP_READ=1",
+    "BAD_AP_READ=1",
+    "BAD_INTENTS=02",
+    "BAD_FINAL=01",
+    "GOOD_INTENTS=02",
+    "GOOD_FINAL=02",
+    "AP_DONE=1",
+    "DONE"
+  ]
+}

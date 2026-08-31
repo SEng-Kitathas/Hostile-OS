@@ -1,0 +1,14 @@
+romimage: file="C:/Program Files/Bochs-3.1/BIOS-bochs-latest", options=fastboot
+vgaromimage: file="C:/Program Files/Bochs-3.1/VGABIOS-lgpl-latest.bin"
+cpu: model=phenom_8650_toliman, count=1, ips=50000000, reset_on_triple_fault=1, ignore_bad_msrs=1
+memory: guest=4096, host=256
+floppya: 1_44="E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/targets/H1_EMULATOR_REPLAYS/runs/20260831T103212Z_h1_emulator_matrix_01/bochs/faulted_media/old_empty/old_empty.img", status=inserted, write_protected=1
+boot: floppy
+port_e9_hack: enabled=1, all_rings=1
+display_library: nogui
+log: "E:/new pc/AI_Pushes_Sandbox/projects/PCMMAD/HOSTILE_OS/research/targets/H1_EMULATOR_REPLAYS/runs/20260831T103212Z_h1_emulator_matrix_01/bochs/faulted_media/old_empty/bochs.log"
+panic: action=fatal
+error: action=report
+info: action=report
+debug: action=ignore
+clock: sync=none

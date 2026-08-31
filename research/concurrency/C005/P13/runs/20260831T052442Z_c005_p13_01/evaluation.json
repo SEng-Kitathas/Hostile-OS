@@ -1,0 +1,22 @@
+{
+  "format": "C005_P13_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "safe_reader_stalls": true,
+    "completion_restores_progress": true,
+    "two_cpu_participation": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C005_P13",
+    "AP_READY=1",
+    "STALLED_ACCEPT=0",
+    "STALLED_RETRIES=40",
+    "AFTER_COMPLETE_ACCEPT=1",
+    "AFTER_A=33",
+    "AFTER_B=44",
+    "AP_DONE=1",
+    "DONE"
+  ]
+}

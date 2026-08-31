@@ -1,0 +1,25 @@
+{
+  "format": "C005_P09_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "two_cpu_participation": true,
+    "cached_authority_applies_after_revoke": true,
+    "effect_revalidation_rejects": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C005_P09",
+    "AP_READY=1",
+    "BAD_ACCEPTED=1",
+    "BAD_REVOKE_GEN=02",
+    "BAD_APPLY=W",
+    "BAD_VALUE=55",
+    "GOOD_ACCEPTED=1",
+    "GOOD_REVOKE_GEN=02",
+    "GOOD_APPLY=U",
+    "GOOD_VALUE=7E",
+    "AP_DONE=1",
+    "DONE"
+  ]
+}

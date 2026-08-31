@@ -1,0 +1,11 @@
+{
+  "format": "C005_P18_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "boot1_exact": true,
+    "durable_record_written": true,
+    "no_host_write_between_boots": true,
+    "boot2_exact": true,
+    "boot2_read_only": true
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "format": "C005_P12_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "bad_multiple_writers_break_version_meaning": true,
+    "good_single_writer_condition": true,
+    "two_cpu_participation": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C005_P12",
+    "AP_READY=1",
+    "BAD_ACTIVE_WRITERS=02",
+    "BAD_VERSION_WHILE_ACTIVE=02",
+    "BAD_EVEN_WHILE_ACTIVE=1",
+    "GOOD_MAX_ACTIVE=01",
+    "GOOD_BSP_COMPLETE=1",
+    "GOOD_AP_COMPLETE=1",
+    "GOOD_FINAL_VERSION=04",
+    "AP_DONE=1",
+    "DONE"
+  ]
+}

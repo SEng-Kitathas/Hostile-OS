@@ -1,0 +1,86 @@
+{
+  "body_class": "research-only",
+  "disk": {
+    "bytes": 1474560,
+    "sha256": "0bf0dd01902e548a47f186bf49aa117d534ddd0f8fd8e75cb04885cf83432099"
+  },
+  "format": "HOSTILE_OS_D64_V3_BUILD_V1",
+  "implementation_scratch": {
+    "capacity_bytes": 128,
+    "used_bytes": 62
+  },
+  "sources": {
+    "build.py": {
+      "bytes": 4399,
+      "sha256": "e55873e6da297f045791f1ca9c889e7d4257d1eae6d6997c37a3491d02aaa8b5"
+    },
+    "run.py": {
+      "bytes": 7086,
+      "sha256": "2607a4ae707ab87400f46e60b338bfa6f60734c85d667b10acfed6f1557ce144"
+    },
+    "stage1.S": {
+      "bytes": 706,
+      "sha256": "24e3976a6c248fb4250e3ef79cb112dd9a97c5ef7d7c12a7245fa4ac66c6859c"
+    },
+    "stage1.ld": {
+      "bytes": 176,
+      "sha256": "df82423232fc19b14d7a221c4dab4b3764a3651442b2890339d3f4fa91e29cf1"
+    },
+    "stage2.S": {
+      "bytes": 39503,
+      "sha256": "8182866f3b0b2ebe2666fb1f9ba8a8642c61d253fb75e29331af3cc8f460c88e"
+    },
+    "stage2.ld": {
+      "bytes": 311,
+      "sha256": "d5bae527e2003a84dee3f82157c05711ffab810ca77266ac39ff5e6d3762f449"
+    },
+    "verify.py": {
+      "bytes": 4309,
+      "sha256": "ff6453996d7e4304ece04033572f25fcd85c0918cac7e72a48f88f0ab569d323"
+    }
+  },
+  "stage1": {
+    "bytes": 512,
+    "sha256": "feecbbfdea750fc26f401c0e8eeeabcdd70953036bd60e287368e987ac1ed97d",
+    "signature_55aa": true
+  },
+  "stage2": {
+    "envelope_bytes": 8192,
+    "headroom_bytes": 103,
+    "image_memory_bytes": 8089,
+    "padded_bytes": 8192,
+    "padded_sha256": "eb30bf4dff3dd1700df6f7823588a9c7fa47943aa72af1d609bb44b1072a192b",
+    "raw_bytes": 4494,
+    "raw_sha256": "db79b1d511e32b083fa6ae511e37ea375ea97b0fc3ad1817531f537ea84733b8"
+  },
+  "state": {
+    "actual_bytes": 3467,
+    "expected_bytes": 3467
+  },
+  "tools": {
+    "clang": {
+      "identity_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "invocation_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+      "sha256": "f2e1b93d9dd27b847773e7de61b00f1b49ae27eb20ba434297cc020f768a1dfb",
+      "version": "Android (13989888, based on r563880c) clang version 21.0.0 (https://android.googlesource.com/toolchain/llvm-project 5e96669f06077099aa41290cdb4c5e6fa0f59349)"
+    },
+    "lld": {
+      "identity_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+      "invocation_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+      "sha256": "1260f9d6e0522bd476d040203998fa03406607971c13a9aa74f3f66f1e6d1c5d",
+      "version": "LLD 21.0.0 (/mnt/disks/build-disk/src/googleplex-android/llvm-r563880-release/out/llvm-project/llvm 5e96669f06077099aa41290cdb4c5e6fa0f59349) (compatible with GNU linkers)"
+    },
+    "nm": {
+      "identity_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-nm.exe",
+      "invocation_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-nm.exe",
+      "sha256": "682d479f37f1b0aea7f0c5b400dc6ac46b309f040dfe0935b12e902dee3244fc",
+      "version": "llvm-nm, compatible with GNU nm"
+    },
+    "objcopy": {
+      "identity_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+      "invocation_path": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe",
+      "sha256": "4a7559a17dba5f35eb8d209e4765516b548e83b664278c8640f484c3be70e901",
+      "version": "llvm-objcopy, compatible with GNU objcopy"
+    }
+  }
+}

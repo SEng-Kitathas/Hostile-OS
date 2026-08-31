@@ -1,0 +1,23 @@
+{
+  "format": "H1_MATRIX_INPUTS_V1",
+  "source_git_head": "3f216afb3187b9c4a1b7e0db2d4a8859681238f5",
+  "body_git_tree": "03af56020afe6d117836133c0e33092d098fc13e",
+  "base_image_sha256": "ce19f42e6e74fc9b0b3db09a1bb9af11d9a05126762e34079e80034d0606b06c",
+  "inputs": [
+    {
+      "path": "H1_EMULATOR_QUALIFICATION_POLICY_2026-08-31.md",
+      "bytes": 2098,
+      "sha256": "86cf9e153aa330e6f83a1527d1b18e032e02ae6b118403ad8e23f70d346df541"
+    },
+    {
+      "path": "H1_HP_PAVILION_P2_1120_EMULATOR_MATRIX_V2.json",
+      "bytes": 1895,
+      "sha256": "b5a42b8e590960a513dc1e616db4e591d5758ae9ddfc3cc4097821bce2ef1cae"
+    },
+    {
+      "path": "run_h1_emulator_matrix.py",
+      "bytes": 14421,
+      "sha256": "816de93ff6be905c7a1b4aac6f7db2106d630069e1d477e6f1d5c9465725c3c5"
+    }
+  ]
+}
