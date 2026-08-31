@@ -70,3 +70,10 @@ The recommended physical thumb-drive image is now `research/targets/H1_PHYSICAL_
 Expected physical flow: HOSTILE-OS VGA splash (~3 seconds or key skip) -> text mode -> `H1PROBE_BEGIN` ... `H1PROBE_END`. Wrapper passed both QEMU CHS/floppy and EDD/hard-disk legacy BIOS paths with exact framebuffer proof.
 
 Physical H1 itself is still UNQUALIFIED. Do not open C006 merely because the wrapper is complete.
+
+
+## 2026-08-31 physical H1 first-failure / text-only retest
+
+First splash-wrapper physical boot on H1 caused the attached TV to report NO SIGNAL immediately after boot handoff. No USB log is expected. Do not treat this as a hidden completed probe run.
+
+Next physical image is `research/targets/H1_PHYSICAL_PROBE_TEXT_WRAPPER/package/h1_probe_text_physical.img`, SHA-256 `5f90b22ad6264d2e2afb7c0155454b635a7bd4aa4ed22da6be879d14d3c26b42`. It uses the hardened EDD/CHS transport, preserves firmware video mode, has no explicit VGA mode set/DAC/framebuffer writes, and chains the exact qualified probe. Emulator dual-mode qualification PASS.

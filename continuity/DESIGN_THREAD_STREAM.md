@@ -1495,3 +1495,10 @@ Tags: SPLASH-WRAPPER, DUAL-BIOS, FRAMEBUFFER-QUALIFICATION
 Converted the 1408x768 source JPEG (SHA-256 `c7e5d0b83ddbd74cdf1291e7e68bbabd418d7c89ed42ada96204392e4630dc63`) to an aspect-preserved 320x200/32-color VGA asset. Sealed prereg/assets at `2d0cfee`. Built a separate wrapper; D64-v3 and the underlying probe stage2 remained unchanged. Preserved precheck scars: DAC-evaluator mismatch, QEMU IDE read-only-node rejection, post-video-mode EDD stall, and dirty-source receipt provenance. Final staged-read repair + clean-source harness gate sealed at `600d8ad`.
 
 Controlling run from clean source `600d8ad` passed floppy/CHS PID16260 exit67 and IDE/EDD PID8648 exit67. Both screendumps matched expected frame exactly after QEMU 2x scan normalization. Evidence/package sealed at `a76578c`. Recommended physical image SHA-256 `bcd49e64a80f693b1b38afdef0e81d1045e54970bb76b0c5167240877c16ca31`. Physical H1 remains UNQUALIFIED; no C006 opened.
+
+
+---
+
+## 2026-08-31 — PHYSICAL H1 FIRST DISPLAY FAILURE / TEXT-ONLY DISCRIMINATOR
+
+Operator reported: HP boot menu accepted the SanDisk splash image; immediately after launching it, attached TV reported NO SIGNAL. Confirmed physical probe writes no persistent USB log. Preserved result under splash target. Leading but unproven hypothesis is legacy VGA mode-13h transition. Built a text-only wrapper reusing hardened dual EDD/CHS disk transport and exact qualified probe stage2, with no explicit video mode set, DAC programming, or framebuffer writes. Static PASS15/15. Dual QEMU qualification from source `9d3c70a...`: CHS PID24100 exit67 PASS; EDD PID16040 exit67 PASS; both reached `H1PROBE_END`. Physical image SHA-256 `5f90b22ad6264d2e2afb7c0155454b635a7bd4aa4ed22da6be879d14d3c26b42`. Next physical action is text-only retest.

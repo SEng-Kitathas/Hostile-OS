@@ -1,0 +1,30 @@
+{
+  "checks": {
+    "bios_teletype_only_video_call": true,
+    "dual_disk_mode_logic_present": true,
+    "loader_within_4096": true,
+    "no_disk_write_functions": true,
+    "no_explicit_video_mode_set": true,
+    "no_framebuffer_segment": true,
+    "no_vga_dac_ports": true,
+    "physical_image_1440k": true,
+    "physical_probe_stage2_exact": true,
+    "qemu_probe_stage2_exact": true,
+    "required_text_markers_present": true,
+    "text_loader_int13_readonly_set": true,
+    "wrapper_stage1_exact_512": true,
+    "wrapper_stage1_int13_only_ah02": true,
+    "wrapper_stage1_signature": true
+  },
+  "format": "HOSTILE_H1_TEXT_WRAPPER_STATIC_V1",
+  "loader_int13": [
+    "0x41",
+    "0x08",
+    "0x42",
+    "0x02"
+  ],
+  "pass": true,
+  "stage1_int13": [
+    "0x02"
+  ]
+}

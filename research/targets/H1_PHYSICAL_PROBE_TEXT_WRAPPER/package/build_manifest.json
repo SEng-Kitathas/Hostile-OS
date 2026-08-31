@@ -1,0 +1,45 @@
+{
+  "format": "HOSTILE_H1_TEXT_WRAPPER_BUILD_V1",
+  "layout": {
+    "loader_lba_count": 8,
+    "loader_lba_start": 1,
+    "probe_lba_count": 16,
+    "probe_lba_start": 9,
+    "stage1_lba": 0
+  },
+  "parent_probe": {
+    "physical_stage2_sha256": "c12ea44714fd2c4d7dd3590c259e0f196cd38b8a979af8618ddaf79ac31f677d",
+    "qemu_stage2_sha256": "2b7c0c2b47f751b716d4340aa7e0764d16a07eb49b8d036311d7d9f8e13234e2"
+  },
+  "physical_image": {
+    "bytes": 1474560,
+    "sha256": "5f90b22ad6264d2e2afb7c0155454b635a7bd4aa4ed22da6be879d14d3c26b42"
+  },
+  "qemu_image": {
+    "bytes": 1474560,
+    "sha256": "fd1c830f2ee12c722f984b4a5586e324adc807537dcd3c37d002e6c26e0153d7"
+  },
+  "sources": {
+    "H1_TEXT_WRAPPER_PREREGISTRATION_2026-08-31.md": "d784fabbb7aaa1ed230f1ad3c0de18c365dcb33d4e29f7d1ac8dae88a365cb2f",
+    "build.py": "ff3b4e9c5d4a125f97191f883dc60a1e43c0706d2678a785e2572a53e8930b97",
+    "text_loader.S": "3dd3a81212ec2cc133e1a30ec8b8b7ffd0598a75502024e8f247d9daeb9d0fba",
+    "text_loader.ld": "22c4b8aff0f9a7e5ae8b52d47cde25f230a52b321d945ba448d7568da4223d7d",
+    "wrapper_stage1.S": "84afa94088bc6519b916c0c3c89734ac84f3bc771d9b38091c32f658359b6b43",
+    "wrapper_stage1.ld": "f042ce861cd76dcc5ab7381aadd88375bd2e31e1b46def58b9d05e7ace3b1e38"
+  },
+  "text_loader": {
+    "bytes": 456,
+    "envelope": 4096,
+    "headroom": 3640,
+    "sha256": "54f1e11b1c0b43c3e904dd930dd554956199aa6e91d264ca37bafeb28ba8e25c"
+  },
+  "tool_paths": {
+    "clang": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\clang.exe",
+    "lld": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\ld.lld.exe",
+    "objcopy": "E:\\Android\\Sdk\\ndk\\29.0.14206865\\toolchains\\llvm\\prebuilt\\windows-x86_64\\bin\\llvm-objcopy.exe"
+  },
+  "wrapper_stage1": {
+    "bytes": 512,
+    "sha256": "2915030c48d09439a917d648a2029e3bbee2acdcd05ffbc76760ba2297808826"
+  }
+}
