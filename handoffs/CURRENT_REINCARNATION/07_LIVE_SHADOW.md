@@ -49,12 +49,11 @@
 - Any physical contradiction with proxy/body assumptions must be localized before demotion/promotion.
 - Candidate-B owner progress/fairness only if a measured workload earns it.
 - Arbitrary-core, weak-memory cross-target rules, DMA/IOMMU/NMI/SMI, production guarantees remain unearned.
-- GitHub publication/reincarnation refresh for this new turn remains to close.
+- Substantive state through `04fe4370...` passed freshness/durability/reincarnation gates and published as mirror `7be27f36...` with independent readback; final close commit publication is the last durability action before response.
 
 ## Immediate Next Step
-1. seal probe result/package + P1 Pareto review + continuity in canonical Git;
-2. refresh reincarnation/publication state if the current project gate requires it;
-3. next reality step requiring operator hardware touch is physical H1 boot/probe. No C006 before that unless new local evidence earns one.
+1. complete final close-commit publication/readback;
+2. then next reality step is physical H1 boot/probe. No C006 before physical/new evidence earns one.
 
 ## Last 10 Turn Reinforcement Window
 1. User asked to check the apparent UTF-8 corruption, rectify it, and push campaigns forward.

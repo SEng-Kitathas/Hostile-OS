@@ -1419,3 +1419,11 @@ Sealed `research/targets/H1_PHYSICAL_PROBE/H1_PHYSICAL_PROBE_PREREGISTRATION_202
 Probe implementation sealed at `51fafe6a61db701a592b6a0564b9b374d748d8b2`. Controlling QEMU run `20260831T180418Z_h1_physical_probe_qemu_01` from that exact HEAD used PID7940, exited67 through QEMU-only debug-exit, and passed every required CPU/BOOT/FW/IRQ/E820/PCI framing marker. Physical stage2 is2460 bytes; exact physical image SHA-256 `809e70bffb511d0dc67d8ca3df23cf63273db97c29bccbc781482c7d828dbead`. Physical image has no QEMU-exit sequence and no target-disk write path. Physical H1 remains unqualified until real hardware execution.
 
 Advanced P1 by direct C004/D64-v3 representation audit. D64-v3 remains `.code16` and has no current untrusted authority boundary machinery. C004/P20's earned x86 ring3 witness uses a104-byte TSS alone, exceeding v3's total103-byte headroom before descriptor/gate/mediator burden. Closed the Pareto decision: reject partial rights/currentness bytes without a non-bypassable boundary; keep C004 as a capability-triggered shadow obligation; require separately qualified enforcement representation/envelope when actually untrusted execution or direct privileged effects are admitted. D64-v3 remains unchanged. No C006 opened.
+
+
+---
+
+## 2026-08-31 — ASSISTANT
+Tags: CHECKPOINT, PUBLICATION-CLOSE, PHYSICAL-H1-BOUNDARY
+
+Closed the local durability layer after H1 probe/Pareto work: freshness PASS34, reincarnation worktree and committed-Git-object closure PASS88, durable repository PASS, clean canonical tree. Published canonical `04fe4370f2363c0bc36657c882136d7c53da15d2` through the hardened D:-scratch exact-commit publisher as mirror `7be27f36fb93f5c2516349aea28a9b86445b877c`; independent `ls-remote` matched exactly. Publisher carried4934 tracked files /3,186,370,387 pre-LFS bytes, research included, no canonical advance. One final continuity-close commit/publication follows; no science or architecture change. Next real authority step is physical H1 boot/probe.

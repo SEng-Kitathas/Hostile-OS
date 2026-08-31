@@ -109,14 +109,19 @@
       "sha256": "7c2be2ff94006ffa47b58efc6b4693673d18b86c78f68af18b35cd19840de255"
     },
     {
-      "bytes": 159497,
-      "path": "continuity/DESIGN_THREAD_STREAM.md",
-      "sha256": "71951e9953b7e4f3069fdf8b1938ccda99a91f185cc7800d9eb5a641f7c58e72"
+      "bytes": 1808,
+      "path": "continuity/19_H1_PROBE_PARETO_PUBLICATION_CLOSE_2026-08-31.md",
+      "sha256": "61b27519450a62831b7dd50e04871c87555a53ff9942029c3d6aa6a4b31c4a60"
     },
     {
-      "bytes": 5764,
+      "bytes": 160244,
+      "path": "continuity/DESIGN_THREAD_STREAM.md",
+      "sha256": "81dc6e84cf1abbbf251db7ed09c919ab17a6780f134ff8f39687d183c3f0a833"
+    },
+    {
+      "bytes": 5695,
       "path": "continuity/LIVE_SHADOW.md",
-      "sha256": "4e24a0c5b1f007f7113899087c0ae76212256659e294a656aef3ab8bf8ffbfa7"
+      "sha256": "0bf2d1dc05f9762f6654ddff8d5add1e59cc1c16284cca23b81ca3ba1415d03a"
     },
     {
       "bytes": 375,
@@ -186,7 +191,7 @@
     "C004 authority/protection remains a capability-triggered obligation; qualify representation/envelope when untrusted execution or direct privileged effects are admitted.",
     "No C006 is opened by numbering momentum."
   ],
-  "generated_utc": "2026-08-31T18:10:00+00:00",
+  "generated_utc": "2026-08-31T18:16:00+00:00",
   "living_surfaces": [
     {
       "path": "continuity/01_COMMANDERS_INTENT.md",
@@ -219,6 +224,10 @@
     {
       "path": "NEXT_THREAD_START_HERE.md",
       "status": "updated"
+    },
+    {
+      "path": "continuity/19_H1_PROBE_PARETO_PUBLICATION_CLOSE_2026-08-31.md",
+      "status": "updated"
     }
   ],
   "mode": "BUILD-COMMIT / CHECKPOINT",
@@ -226,7 +235,8 @@
   "research_deltas": [
     "H1 probe preregistration, Amendment A, two preserved qualification scars, implementation, static PASS13/13, controlling QEMU run and qualification result admitted.",
     "Controlling H1-proxy qualification: source 51fafe6a61db701a592b6a0564b9b374d748d8b2, PID 7940, exit67, all required markers; physical instrument itself remains hardware-unexecuted.",
-    "C004-to-D64-v3 Pareto review closed with v3 unchanged; C004/P20 TSS alone is 104 bytes versus current v3 103-byte total headroom."
+    "C004-to-D64-v3 Pareto review closed with v3 unchanged; C004/P20 TSS alone is 104 bytes versus current v3 103-byte total headroom.",
+    "Durability close verified: substantive canonical 04fe437 published as mirror 7be27f36 with independent remote readback; final close commit publication remains before response."
   ],
   "role": "R5 Reality Pressure Engine + R1 audit pressure, closing under R4 convergence",
   "schema": "hostile_os.turn_freshness.v1",

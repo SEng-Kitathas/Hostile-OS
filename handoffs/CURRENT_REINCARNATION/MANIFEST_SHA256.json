@@ -36,9 +36,9 @@
       "sha256": "747aac249c7aaac4c8e3933c724cc4629ea919e2f9f028a29974d96677a477d4"
     },
     {
-      "bytes": 5689,
+      "bytes": 5695,
       "path": "07_LIVE_SHADOW.md",
-      "sha256": "9ac9b0af7c8fa803c99e222ae0848715a955c7da2182642b45d865ffa73dbb0d"
+      "sha256": "0bf2d1dc05f9762f6654ddff8d5add1e59cc1c16284cca23b81ca3ba1415d03a"
     },
     {
       "bytes": 1977,
@@ -61,9 +61,9 @@
       "sha256": "4a295343ca93eecfa00619d8b090408ddbb21cd1747b6a51e8b38abca9d2a525"
     },
     {
-      "bytes": 149999,
+      "bytes": 150759,
       "path": "12_THIS_CONVERSATION.md",
-      "sha256": "530f5ec376de1e3b363fe8e037945efe330182ce216f2f283c8e94c05a654c55"
+      "sha256": "b019b870078800fe25c4a991d28df20c7c0fb727b04230f37589552591b68f97"
     },
     {
       "bytes": 2247,
@@ -276,9 +276,9 @@
       "sha256": "9bc8432895eb14f1262ad8ef6982b93ecda74059c13ba8019840f1237e625a80"
     },
     {
-      "bytes": 9886,
+      "bytes": 10383,
       "path": "49_CURRENT_TURN_FRESHNESS.json",
-      "sha256": "0fc6d891765ae47e289bf35215c2bf1641989e6e44faeb2dda4d32d97d427327"
+      "sha256": "26fe52cc3b300f558e494f84c8efb17f9b356b1cd9e1034d251402ebb85fdf19"
     },
     {
       "bytes": 5688,
@@ -381,9 +381,9 @@
       "sha256": "b6352637f6278347c2fefbb9193e0c5321e66f324278930871e01218f014bc12"
     },
     {
-      "bytes": 159410,
+      "bytes": 160157,
       "path": "70_DESIGN_THREAD_STREAM.md",
-      "sha256": "be367e8d3984337a51302cc54b7e1199d9ac54ca864efa0cb20e7747a4064900"
+      "sha256": "c35fd4ec06a1b2cf9abc0a3d3a9ae6fe3f041636bb5fb1d67f633fa482868cdd"
     },
     {
       "bytes": 1222,
@@ -439,8 +439,13 @@
       "bytes": 5618,
       "path": "81_C004_TO_D64_V3_AUTHORITY_PARETO_REVIEW.md",
       "sha256": "31127875b2ef98e4bfe6695aad2168a7ca6f72a1198fb6baf62e252891a87d38"
+    },
+    {
+      "bytes": 1808,
+      "path": "82_H1_PROBE_PARETO_PUBLICATION_CLOSE.md",
+      "sha256": "61b27519450a62831b7dd50e04871c87555a53ff9942029c3d6aa6a4b31c4a60"
     }
   ],
-  "generated_utc": "2026-08-31T18:10:00+00:00",
-  "schema": "pcmmad.current_reincarnation.v13"
+  "generated_utc": "2026-08-31T18:16:00+00:00",
+  "schema": "pcmmad.current_reincarnation.v14"
 }
