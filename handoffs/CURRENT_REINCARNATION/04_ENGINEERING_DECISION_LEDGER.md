@@ -135,3 +135,14 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | Authority restart epoch may be required on namespace reconstruction | P18 old handle alias without fresh epoch | Only reusable authority namespaces surviving durable meaning |
 | Do not retrofit C004 into v2's remaining752 bytes by convenience | Current embodiment is behind science; byte pressure is real | Separate convergence/Pareto review required |
 | C004 hard-stops at P20 | Original campaign law | P21 forbidden |
+
+## 2026-08-31 H1 / donor / per-turn freshness decisions
+
+| Decision | Why | Ceiling / reopen |
+|---|---|---|
+| H1 HP Pavilion p2-1120 is first physical target | Operator supplied dormant machine intended for real qualification; developing toward it now reduces late port shock | VM proxies are not physical identity; replace assumptions with measured H1 probe facts |
+| QEMU H1 profile is a constraint proxy, not exact emulation | Q35/Phenom/SeaBIOS differ from E2-1800/A45/HP firmware | Physical H1 remains hardware authority |
+| Bochs 3.1 is admitted as independent emulator/debug witness | Cross-emulator agreement pressures hidden QEMU dependencies | Not an exact E2-1800/A45 clone; no hardware-specific authority |
+| Orthogonal OS architectures are donor pressure, never architecture authority | Avoid local-optimum rediscovery without allowing donor ontology capture | Seam must be stated locally first; local experiment/adoption required |
+| Every meaningful turn refreshes living decision/research/intent/continuity surfaces | Commander requires no repeated re-explanation and no hidden chat-only state | Historical sealed evidence is hash-attested, not rewritten |
+| Per-turn freshness includes exact continuity-tree hashes | Makes “reviewed/unchanged” distinguishable from “forgotten/stale” | Replace only with stronger automatic content-addressed continuity system |

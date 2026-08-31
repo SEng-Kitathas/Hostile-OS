@@ -1268,3 +1268,15 @@ Continued C004 from P16 through the hard stop. P16 separated authority lifetime 
 
 ## 2026-08-31 — USER/ASSISTANT — H1 target and donor-method decision
 User asked whether to import orthogonal OS architectures as donor material versus continue first-principles hostile engineering, and supplied a photo of an old HP Pavilion p2-1120 intended for eventual real hardware testing. Decision: hostile derivation remains primary; donors are quarantined adversarial evidence after local seam definition. The p2-1120 was adopted as H1 first physical target. HP/AMD published facts were verified. QEMU 11.1 x86_64 q35/phenom proxy with 2 vCPU, 4GB RAM and a sparse 500GiB qcow2 target disk was qualified; current d64-v2 core+IRQ run exited33. Explicit ceiling: proxy hardware identities are not the physical A45/E2-1800/HD7340 platform. Physical H1 probe deferred until machine is powered.
+
+## 2026-08-31 — USER — EMULATOR ACQUISITION AUTHORIZATION
+User authorized acquisition of any VM/emulator software useful for approximating the H1 HP Pavilion p2-1120 target.
+
+## 2026-08-31 — ASSISTANT — H1 EMULATOR TOOLING DECISION
+Audited emulator fit. QEMU remains primary H1 constraint proxy. 86Box was rejected for now because its fidelity focus does not materially improve E2-1800/A45 approximation. Bochs3.1 was acquired and verified installed at `C:\Program Files\Bochs-3.1\bochs.exe` as an independent x86 emulator/debug witness, not an exact H1 clone. Current QEMU readback is11.1.0. Full Bochs device-surface query timed out and remains UNKNOWN.
+
+## 2026-08-31 — USER — PER-TURN TOTAL CONTINUITY DIRECTIVE
+User directed: proceed autonomously, and ensure every decision, every piece of research, every Commander's Intent and all continuity documents are kept fresh per turn.
+
+## 2026-08-31 — ASSISTANT — PER-TURN FRESHNESS DOCTRINE EMBODIMENT
+Interpreted the directive as semantic reconciliation plus exact hash attestation, not historical rewrite theater. Added `continuity/15_PER_TURN_SEMANTIC_AND_HASH_FRESHNESS_POLICY_2026-08-31.md`; refreshed living Commander's Intent, current-state, decision ledger, Live Shadow, DTS and handoff; added machine-readable `CURRENT_TURN_FRESHNESS.json` and checker; reincarnation refresh/publication follows. Sealed historical research remains immutable and is referenced/hashed rather than rewritten.

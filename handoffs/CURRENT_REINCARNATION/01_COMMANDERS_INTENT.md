@@ -21,3 +21,13 @@ Before creating a primitive, localize the failure and test composition. Before c
 A substrate that is small because its causal structure is small, not because capability was cut away; powerful because mechanisms compose; explicit about authority/currentness; able to adapt to substrate without runtime adaptation rewriting governance; and capable of moving across machines while requalifying what reality changed.
 
 The current work is still research. No final HOSTILE-OS architecture has been promoted.
+
+## Continuity / reincarnation intent
+
+The project SHALL be able to survive thread loss, operator absence, model replacement, machine restart, and repository re-clone without requiring the commander to reconstruct project meaning from memory.
+
+Every meaningful turn therefore refreshes the living intent/state/decision/research/continuity surfaces and hash-attests the continuity tree. Historical evidence remains immutable; current interpretation is appended and indexed rather than rewritten.
+
+A decision, research result, caveat, scar, blocker, target constraint, or method change that matters enough to affect future work matters enough to enter durable project state that turn.
+
+GitHub remains the remote reincarnation ledger for the whole admitted project, while `os/` remains independently retrievable for OS-only use.

@@ -548,3 +548,15 @@ A QEMU x86_64 constraint proxy is qualified at q35 + phenom proxy CPU + 2 vCPU +
 Orthogonal donor architecture may now be used as adversarial donor material only after the HOSTILE-OS seam is stated locally. First-principles hostile derivation remains the architecture-generating method.
 
 C005 actual frontier is P01/P02 CLOSED PASS; P03 preregistered with provisional unsealed implementation.
+
+## 2026-08-31 per-turn semantic/hash freshness directive
+
+Commander explicitly strengthened continuity: every meaningful turn must keep decisions, research, Commander's Intent and all continuity/reincarnation surfaces fresh.
+
+Adopted policy: `continuity/15_PER_TURN_SEMANTIC_AND_HASH_FRESHNESS_POLICY_2026-08-31.md`.
+
+Interpretation is append-only-safe: living indexes are semantically reconciled each turn; sealed/historical evidence is hash-attested rather than rewritten for timestamp theater. `continuity/CURRENT_TURN_FRESHNESS.json` is the machine-readable turn-close attestation.
+
+Current science frontier at this checkpoint: C005/P01 and P02 CLOSED PASS; P03 preregistered and implementation sealed at `2f8d7967a1a11c4124f2b095feb7cb62832cfd44` (`Seal C005 P03 publication-order implementation`), science run not yet claimed at this freshness-policy checkpoint.
+
+H1 remains first physical target; QEMU proxy qualified; Bochs3.1 installed as an independent x86 emulator/debug witness, not an exact H1 clone. Full Bochs device-surface qualification remains open.

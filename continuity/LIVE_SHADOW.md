@@ -2,49 +2,55 @@
 
 ## Thread Identity
 - Thread: HOSTILE-OS / PCMMAD
-- Last Updated: 2026-08-31 UTC
-- Mode: BUILD-COMMIT / C005 continuation + H1 target qualification
-- Dominant Objective: continue C005 multicore coherence while developing against H1, the HP Pavilion p2-1120 physical-target constraint proxy.
+- Last Updated: 2026-08-31T04:40:57+00:00
+- Mode: BUILD-COMMIT
+- Dominant Objective: enforce per-turn semantic/hash freshness, then continue C005 from sealed P03 while maintaining H1 target pressure.
 
 ## Active User Intent
-- Keep hostile first-principles derivation as primary method while using orthogonal OS architectures as donor pressure where useful.
-- Treat the dormant HP Pavilion p2-1120 as the first real hardware target and develop against a virtual constraint proxy now to reduce later porting work.
+- Continue autonomously unless genuine operator-only input is required.
+- Every meaningful turn must keep every load-bearing decision, research outcome/adjudication, living Commander's Intent, continuity state and reincarnation handoff fresh and durable.
+- H1 HP Pavilion p2-1120 remains first physical target; VM/emulator development should reduce later physical-port cost.
+- Orthogonal OS donors are welcome only as evidence/quarry under hostile first-principles authority.
 
 ## Current Authoritative State
-- Architecture posture remains `INTEGRATED_SHADOW_CANDIDATE`.
-- `os/research_only/d64_reference_v2/` remains CURRENT_RESEARCH_REFERENCE but lags C004 authority science and active C005 multicore science.
-- C004 authority/protection campaign: CLOSED20/20; no P21.
-- C005 multicore campaign: P01 CLOSED PASS; P02 CLOSED PASS; P03 preregistered and provisional implementation exists unsealed/unrun.
-- C005/P01 earned `LOCAL_INTERRUPT_EXCLUSION != INTER_CPU_EXCLUSION` on tested QEMU x86 SMP.
-- C005/P02 earned that the shared exclusion claim transition itself must be atomic for the tested design.
-- H1 adopted: HP Pavilion p2-1120, E2-1800, AMD A45 FCH, 4GB DDR3, 500GB SATA, Radeon HD7340, as first physical target.
-- H1 VM constraint proxy qualified: QEMU x86_64, q35, phenom proxy CPU, 2 vCPU, 4096MiB, 500GiB qcow2 target disk, current v2 core+IRQ path exit33.
-- H1 proxy is explicitly not a hardware clone; exact A45/CPU/GPU/firmware/PCI behavior awaits physical probe.
-- Orthogonal donor ingress policy adopted: hostile derivation first; donors only as quarantined adversarial evidence after the local seam is stated.
+- Architecture posture: `INTEGRATED_SHADOW_CANDIDATE`; not final/release/production.
+- `d64_reference_v2` remains CURRENT_RESEARCH_REFERENCE but lags C004 authority and active C005 multicore science.
+- C004 CLOSED20/20; no P21.
+- C005: P01 CLOSED PASS; P02 CLOSED PASS; P03 preregistered and implementation sealed at `2f8d7967a1a11c4124f2b095feb7cb62832cfd44`; P03 science not yet claimed at this checkpoint.
+- P01 earned `LOCAL_INTERRUPT_EXCLUSION != INTER_CPU_EXCLUSION` on tested QEMU x86 SMP.
+- P02 earned atomic claim-transition requirement for the tested shared exclusion design.
+- H1 target adopted: HP Pavilion p2-1120; QEMU H1 proxy qualified. Bochs3.1 installed as independent emulator/debug witness; not an H1 clone.
+- Orthogonal donor ingress policy adopted: local seam first, donor evidence second, local experiment/adoption authority last.
+- Per-turn semantic/hash freshness policy adopted this turn.
 
 ## Active Constraints
-- Do not touch or promote current untracked C005/P03 implementation until pre-science qualification/seal.
-- Do not let donor architectures become default architecture authority.
-- Do not treat Q35/Phenom/QEMU timing as HP p2-1120 hardware identity.
-- Do not consume the d64-v2 remaining 752-byte envelope casually.
-- H1 physical probe is future hardware-touch work, not a blocker on VM development.
+- Historical/sealed evidence is append-only; freshness does not authorize rewriting it.
+- Every meaningful turn must reconcile living intent/state/decision/research/frontier/revisit/trace/DTS/handoff and refresh reincarnation.
+- Every turn-close must generate and verify exact continuity-tree hashes.
+- Do not consume v2 remaining752-byte envelope by convenience.
+- H1 VM proxy != H1 physical hardware.
+- QEMU/Bochs agreement != physical qualification.
 
 ## Decisions Locked In
-- H1 is the first real-machine target.
-- New general development should prefer surviving the H1 VM constraint proxy unless an experiment explicitly needs another fixture.
-- Donor order: local responsibility/seam -> donor-independent derivation -> orthogonal donor pressure -> local experiment -> separate adoption.
+- First-principles hostile derivation remains architecture-generating method.
+- H1 is first physical target.
+- QEMU primary H1 proxy; Bochs independent cross-emulator/debug witness.
+- Per-turn semantic + hash freshness is now standing Commander-directed doctrine.
 
 ## Open Loops
-- C005/P03 publication-indicator vs payload experiment remains unsealed/unrun.
-- H1 physical CPUID/PCI/BIOS/ACPI/storage/NIC/audio/graphics probe remains pending until operator powers the machine.
-- Current science-to-body embodiment lag remains open.
+- Seal/run status transition for C005/P03: implementation is sealed; controlling science execution remains next.
+- H1 physical CPUID/PCI/BIOS/ACPI/storage/device probe awaits operator hardware touch later.
+- Full Bochs device/backend qualification remains open.
+- Current research body embodiment lags C004/C005 science.
+- Foreign Opus raw packet and exact upload-byte bridge remain external/cross-plane seams.
 
 ## Immediate Next Step
-- Seal and run C005/P03 without disturbing H1 target artifacts.
-- Continue C005 by evidence to P20 hard stop.
-- Keep H1 proxy in the regression path; later replace proxy assumptions with physical H1 probe facts.
+1. commit/publish this freshness-policy checkpoint with reincarnation/readback;
+2. run sealed C005/P03 from committed source;
+3. derive P04 only from P03 result;
+4. carry H1/QEMU + Bochs pressure into integrated milestones without pretending exact hardware emulation.
 
 ## Delta Since Previous Shadow
-- Repaired stale C005 frontier from pre-P01 state to actual P02-closed/P03-preregistered state.
-- Added H1 physical-target adoption and qualified VM constraint proxy.
-- Added orthogonal donor ingress rule.
+- Added Commander-directed per-turn semantic/hash freshness as standing doctrine.
+- Corrected C005 frontier: P03 implementation is now sealed at `2f8d7967a1a11c4124f2b095feb7cb62832cfd44`.
+- Added Bochs3.1 as installed independent emulator witness with explicit authority ceiling.

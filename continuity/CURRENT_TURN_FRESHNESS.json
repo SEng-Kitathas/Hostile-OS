@@ -1,0 +1,212 @@
+{
+  "blockers": [
+    "H1 physical probe requires later operator hardware touch.",
+    "Foreign Opus raw packet not supplied.",
+    "Exact uploaded frozen-intent byte bridge into Windows Git remains open.",
+    "Full Bochs device-surface qualification remains open after bounded timeout."
+  ],
+  "commanders_intent_deltas": [
+    "Continuity/reincarnation itself is a project requirement: no load-bearing state may exist only in chat."
+  ],
+  "continuity_files": [
+    {
+      "bytes": 2302,
+      "path": "continuity/00_READ_ME_FIRST.md",
+      "sha256": "86999a120154580fd465aa7fa18691c8fb3a205380df7995cf070ba7e67a6ec3"
+    },
+    {
+      "bytes": 2673,
+      "path": "continuity/01_COMMANDERS_INTENT.md",
+      "sha256": "89c76a381f311e60b2d250183bd50b45fecd3dfabd824c1cd41af766ebebc904"
+    },
+    {
+      "bytes": 49850,
+      "path": "continuity/02_CURRENT_STATE_AND_FRONTIER.md",
+      "sha256": "6e6c3f4ede2988e31d26928c6357ec0c38424be245956b4059bbd1112557e60d"
+    },
+    {
+      "bytes": 3245,
+      "path": "continuity/03_REINCARNATION_BOOT_PROMPT.txt",
+      "sha256": "aeca381f765488a27721ece294611b30d263c531586205e13493b7c781e3abe7"
+    },
+    {
+      "bytes": 3753,
+      "path": "continuity/04_OPERATOR_INTERFACE.md",
+      "sha256": "9b272b45284d86d06a9e5bcfe15743b05d2dc7c9eb47885edd02fee903306292"
+    },
+    {
+      "bytes": 6944,
+      "path": "continuity/05_GITHUB_PUBLICATION_POLICY.md",
+      "sha256": "6b19b56d115a2ceb21d8a75243f7c7da2530ce60295db857b962f8fd2ed213cd"
+    },
+    {
+      "bytes": 2630,
+      "path": "continuity/06_BOUNDED_EXECUTION_DOCTRINE_2026-08-30.md",
+      "sha256": "dec6b6ed6a342b2363b617842fd83279fb371fca775e152493568a8fb385142d"
+    },
+    {
+      "bytes": 12014,
+      "path": "continuity/07_GITHUB_PUBLICATION_BOOTSTRAP_SCAR_2026-08-30.md",
+      "sha256": "fd116be0641bbc0e21e831735aabb695f5b6951dfa06932ceeae5295fc1d9a6b"
+    },
+    {
+      "bytes": 2689,
+      "path": "continuity/08_OVERNIGHT_PR01_CAMPAIGN_2026-08-30.md",
+      "sha256": "ebb2144971d101f9e18c22ddf1e82587589be764232069afb44d47b1c22228d9"
+    },
+    {
+      "bytes": 16352,
+      "path": "continuity/09_MAXIMUM_REINCARNATION_HANDOFF_2026-08-30.md",
+      "sha256": "f2f29ace540321507d5e1c8e29d7c8fbeb61bdbf1924356e83aecc53c6c45667"
+    },
+    {
+      "bytes": 21396,
+      "path": "continuity/10_ENGINEERING_DECISION_LEDGER_2026-08-30.md",
+      "sha256": "6b6b7aafed93a0f664be954cdee2b1294163c7e00ad593a2f5a8d91516001fac"
+    },
+    {
+      "bytes": 3993,
+      "path": "continuity/11_PER_TURN_GITHUB_CONTINUITY_POLICY.md",
+      "sha256": "747aac249c7aaac4c8e3933c724cc4629ea919e2f9f028a29974d96677a477d4"
+    },
+    {
+      "bytes": 16224,
+      "path": "continuity/12_WHAT_HOSTILE_OS_IS_BECOMING_2026-08-30.md",
+      "sha256": "f192c9dd36737b90be8014974f9f3567dd1c211c63d35a42bd40d2e4c66a84b1"
+    },
+    {
+      "bytes": 2839,
+      "path": "continuity/13_DURABLE_REPOSITORY_AND_RESEARCH_OS_POLICY_2026-08-30.md",
+      "sha256": "63c6614c6437454155d9b1ee943aa364c6d9fc419062fcc5e1701d7e6b9c5adc"
+    },
+    {
+      "bytes": 4397,
+      "path": "continuity/13_ORIGINAL_THESIS_GUARDS_AND_METHOD_REVISIT_2026-08-30.md",
+      "sha256": "74bd0cd0d38f92d2bae8bed91cca3c7df7081dae551732f15b08e2be3696cd31"
+    },
+    {
+      "bytes": 4441,
+      "path": "continuity/14_RESEARCH_CADENCE_DOCTRINE_2026-08-30.md",
+      "sha256": "f043ca98de1dee52f33aa20bf00b08f4f5fb8e0ba6e673e1292e6572b72c949c"
+    },
+    {
+      "bytes": 4238,
+      "path": "continuity/15_PER_TURN_SEMANTIC_AND_HASH_FRESHNESS_POLICY_2026-08-31.md",
+      "sha256": "9bc8432895eb14f1262ad8ef6982b93ecda74059c13ba8019840f1237e625a80"
+    },
+    {
+      "bytes": 146473,
+      "path": "continuity/DESIGN_THREAD_STREAM.md",
+      "sha256": "c8919f86141accb4502adbdeeaa3145f6a27867a13fa6c6f60800c0c01e1eb73"
+    },
+    {
+      "bytes": 3520,
+      "path": "continuity/LIVE_SHADOW.md",
+      "sha256": "4d75b4303411812b2d4a8388e9c4746651671992ba2a987cfe86b1221dfce650"
+    },
+    {
+      "bytes": 375,
+      "path": "continuity/PCMMAD_BOOTSTRAP_RECEIPT.txt",
+      "sha256": "6bb17d6a4b773a162bc0441e7dbfa227ae1eee72b258f5e896ad2cd0960ec4a9"
+    },
+    {
+      "bytes": 15349,
+      "path": "continuity/quarantine/20260829T2126_concurrent_shadow_conflict/DESIGN_THREAD_STREAM.concurrent.md",
+      "sha256": "0abeeaa0ed5d1d7ff2a681f3398736078e01bc05a39e8546f77c9b3df4bf5e85"
+    },
+    {
+      "bytes": 5156,
+      "path": "continuity/quarantine/20260829T2126_concurrent_shadow_conflict/LIVE_SHADOW.concurrent.md",
+      "sha256": "bda4f52cc902eda3e9294c36bf8d2d7834e746666801c66749ed462c3d388043"
+    },
+    {
+      "bytes": 1618,
+      "path": "continuity/quarantine/20260829T2126_concurrent_shadow_conflict/RESOLUTION.md",
+      "sha256": "a4c2c229429984b62869ade0037faa31227a496ce05af475eb64bc0510e5cd7a"
+    },
+    {
+      "bytes": 5831,
+      "path": "continuity/quarantine/20260829T2135_p06_posthoc_supersession/C003_P06_PREREGISTRATION_SUPERSESSION.concurrent.md",
+      "sha256": "1e3f69bc362522d01ec70e8b16e0f8f1402d28e2db19d030882dcfbff9160468"
+    },
+    {
+      "bytes": 1861,
+      "path": "continuity/quarantine/20260829T2135_p06_posthoc_supersession/P06_INCOMPLETE_PREREG_PROBE_DRAFT.concurrent/evaluate_p06.py",
+      "sha256": "2985cee5b40d49ee8681bf5cccba61186b59ed9ed0d927eb7bd1e7b26086b43b"
+    },
+    {
+      "bytes": 195,
+      "path": "continuity/quarantine/20260829T2135_p06_posthoc_supersession/P06_INCOMPLETE_PREREG_PROBE_DRAFT.concurrent/fixture.S",
+      "sha256": "eba074cb31bf397768874d161bcace9fbc0b918f60ff59349d20a22a002a0382"
+    },
+    {
+      "bytes": 241,
+      "path": "continuity/quarantine/20260829T2135_p06_posthoc_supersession/P06_INCOMPLETE_PREREG_PROBE_DRAFT.concurrent/linker.ld",
+      "sha256": "98e780fca52ce79e3de7a0f3363d6a321d32f009f7c056ab0ed9d41f205d9622"
+    },
+    {
+      "bytes": 2247,
+      "path": "continuity/quarantine/20260829T2135_p06_posthoc_supersession/P06_INCOMPLETE_PREREG_PROBE_DRAFT.concurrent/mechanism.S",
+      "sha256": "500cba2340932b9f269f057975ca5989518af617cdb7084332b3fa96065c3ec9"
+    },
+    {
+      "bytes": 982,
+      "path": "continuity/quarantine/20260829T2135_p06_posthoc_supersession/P06_INCOMPLETE_PREREG_PROBE_DRAFT.concurrent/REJECTION_NOTE.md",
+      "sha256": "3b32efe5314197a7eb374096a742a2cf70fb93f2ac9de352ad398382426d9179"
+    },
+    {
+      "bytes": 315,
+      "path": "continuity/quarantine/20260829T2135_p06_posthoc_supersession/P06_INCOMPLETE_PREREG_PROBE_DRAFT.concurrent/SHA256_MANIFEST.txt",
+      "sha256": "e3fdb0f81f2254a567041cefed86a8eeee529cfb022eb95974a1c5df7bdfcfd5"
+    },
+    {
+      "bytes": 1398,
+      "path": "continuity/quarantine/20260829T2135_p06_posthoc_supersession/RESOLUTION.md",
+      "sha256": "52a16e3570132413b15cf3fe6ea3c5897ac9e362699bd6b82e97a19cc0ac7ec6"
+    }
+  ],
+  "current_frontier": "C005 P03 preregistered; implementation sealed at 2f8d7967a1a11c4124f2b095feb7cb62832cfd44; science run not yet claimed at this checkpoint.",
+  "decision_deltas": [
+    "Adopt per-turn semantic+hash freshness as standing Commander-directed doctrine.",
+    "Admit Bochs3.1 as independent emulator/debug witness; QEMU remains primary H1 proxy."
+  ],
+  "generated_utc": "2026-08-31T04:40:57+00:00",
+  "living_surfaces": [
+    {
+      "path": "continuity/01_COMMANDERS_INTENT.md",
+      "status": "updated"
+    },
+    {
+      "path": "continuity/02_CURRENT_STATE_AND_FRONTIER.md",
+      "status": "updated"
+    },
+    {
+      "path": "continuity/10_ENGINEERING_DECISION_LEDGER_2026-08-30.md",
+      "status": "updated"
+    },
+    {
+      "path": "continuity/LIVE_SHADOW.md",
+      "status": "updated"
+    },
+    {
+      "path": "continuity/DESIGN_THREAD_STREAM.md",
+      "status": "updated"
+    },
+    {
+      "path": "handoffs/THIS_CONVERSATION.md",
+      "status": "updated"
+    },
+    {
+      "path": "continuity/15_PER_TURN_SEMANTIC_AND_HASH_FRESHNESS_POLICY_2026-08-31.md",
+      "status": "updated"
+    }
+  ],
+  "mode": "BUILD-COMMIT",
+  "pre_turn_git_head": "2f8d7967a1a11c4124f2b095feb7cb62832cfd44",
+  "research_deltas": [
+    "No new C005 science result this checkpoint; P03 implementation status advanced from provisional to sealed."
+  ],
+  "role": "R4 Convergence Refiner + R1 audit pressure",
+  "schema": "hostile_os.turn_freshness.v1",
+  "turn_intent": "Proceed autonomously and keep every load-bearing decision, research result/adjudication, living Commander intent, continuity and reincarnation surface fresh per meaningful turn."
+}

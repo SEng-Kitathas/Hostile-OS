@@ -1271,3 +1271,15 @@ Defined the mature-OS blind-comparison maturity gate. Current prerequisites are 
 
 ### ASSISTANT — C004 authority campaign reached P20 hard stop
 C004 authority/protection campaign was continued through P20 and closed exactly at the hard stop. The bounded surviving grammar is trusted caller provenance + checked operation-specific authority/currentness + attenuation/revocation + explicit finite reusable state + temporal/restart validation behind non-bypassable mediation. P19 passed a two-ring3-caller whole workload; P20 rejected a forged A identity from actual caller B while the bad trust-claim control wrote55. P17/P18/P19 process/harness scars are retained. No P21 exists. Current v2 body is now documented as lagging C004 science; authority integration requires a separate representation/Pareto review.
+
+### USER — H1 emulator acquisition authorization
+User authorized acquiring whatever VM/emulator tooling is useful for the physical H1 target.
+
+### ASSISTANT — emulator/tooling outcome
+QEMU remains primary H1 proxy. Bochs3.1 was installed and verified as an independent emulator/debug witness; it is not an exact E2-1800/A45 clone. 86Box was not acquired because it did not improve target-era fidelity enough to justify another tool surface. Current QEMU reports11.1.0. Full Bochs device inventory remains unverified after a bounded timeout.
+
+### USER — per-turn continuity strengthening
+User required every decision, every research item, every Commander's Intent and all continuity documents to remain fresh per turn.
+
+### ASSISTANT — continuity doctrine response
+Adopted a stronger per-turn semantic/hash freshness contract: current intent/state/decisions/research/frontier/DTS/handoff/reincarnation are reconciled each meaningful turn; sealed history is not rewritten for timestamps; the entire continuity tree is hash-attested per turn. This is standing Commander-directed doctrine.
