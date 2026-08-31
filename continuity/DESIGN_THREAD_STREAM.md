@@ -1332,3 +1332,67 @@ Committed zero-reexplanation checkpoint `4dccb659...`; committed reincarnation81
 Timestamp: 2026-08-31T15:23:33+00:00
 
 After hardening publication scratch transport, canonical `d4292e55170d8f4457b2b6aceacc5d6ed6a17e6b` published successfully as GitHub `9a573d63fb96a170db4801cc113ade1a96227324`. Publisher reported4891 files /3,183,252,214 bytes before LFS, research included, no canonical advance. Independent `ls-remote` matched the remote SHA. A brand-new remote blob-filtered/depth1 sparse `os/` checkout at the same SHA contained current D64 v3 and did not materialize research/continuity/handoffs/authority. This proves the full-ledger + OS-only retrieval contract at the remote. Final turn-close receipt commit/publication follows.
+
+
+---
+
+## 2026-08-31 — USER
+Tags: SOP-ADOPTION, UNKNOWN-ESCALATION, R3.1-REAFFIRMATION
+
+User instructed: if anything is unclear/unknown, or traces are visible but their meaning is not known, ASK. Adopt this as SOP. User then confirmed the E: project path was fixed and explicitly required adoption of the uploaded R3.1 archive.
+
+---
+
+## 2026-08-31 — ASSISTANT
+Tags: VERIFIED-ADOPTION, LOCAL-SOP-DELTA, CONTINUITY-MUTATION
+
+Recovered the canonical project path after a transient missing-E:-drive failure. Inspected the uploaded R3.1 ZIP directly in the session and established SHA-256 `4d205becc2413889bdb37c6b6ff7513d6f759a7dff1d9f9b8fddaddd8235a278`, 46 files. Re-hashed the existing tracked tree under `authority/RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED/`; all 46 payload hashes match the uploaded archive manifest exactly.
+
+Read `authority/ADOPTION_STATE.md` and confirmed R3.1 had already been promoted operationally on 2026-08-30 to `ADOPTED_IN_HOUSE_SOP`, while the sealed candidate package itself remains unchanged with historical `SHADOW_USE_CANDIDATE` metadata, compression-only/no new authority, R6 preserved as ancestry/fallback authority, and no foundation promotion.
+
+Created active local SOP delta `authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md`: inspect durable state first; separate verified/inferred/unknown; if a load-bearing unknown remains, ASK; if unexplained traces remain, ASK; never guess across the gap; zero-re-explanation still requires recovery from persisted state before asking.
+
+Appended the reaffirmation to `authority/ADOPTION_STATE.md`, wired the rule into `continuity/01_COMMANDERS_INTENT.md` and `NEXT_THREAD_START_HERE.md`, and updated the Live Shadow. No sealed R3.1 package file was rewritten.
+
+---
+
+## Turn — 2026-08-31T17:33Z — USER / SOP ESCALATION RULE
+
+User directed: if anything is unclear/unknown, or if there are traces of something whose meaning/origin is not known, ASK. User ordered this adopted as SOP.
+
+Assistant initially found the configured `E:` project root unavailable and, under the new rule, did not recreate or guess around it; asked whether the drive was disconnected/remapped or project moved. User replied that it was fixed and ordered retry.
+
+After recovery, canonical project root resolved again.
+
+---
+
+## Turn — 2026-08-31T17:34Z — USER / SOP ARCHIVE ADOPTION RECONFIRMATION
+
+User again ordered retry and added: make sure the SOP archive previously supplied is adopted as well.
+
+Inspection identified the exact archive as `RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29.zip`.
+
+Verified:
+- uploaded/canonical payload-history bytes: 104,946;
+- ZIP SHA-256: `4d205becc2413889bdb37c6b6ff7513d6f759a7dff1d9f9b8fddaddd8235a278`;
+- `authority/ADOPTION_STATE.md` already records R3.1 as `ADOPTED_IN_HOUSE_SOP`, `replacement_ready=true` for normal operational use;
+- R6 remains ancestry/fallback authority;
+- no foundation/architecture promotion follows from operational adoption;
+- sealed package retains historical `SHADOW_USE_CANDIDATE` metadata.
+
+Independent local package check:
+- manifest payload entries 45;
+- extracted missing 0;
+- extracted mismatches 0;
+- ZIP files 46 including manifest;
+- ZIP missing 0;
+- ZIP mismatches 0;
+- PASS.
+
+Created active local SOP delta `authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md`.
+
+Compact rule: **Inspect first. If a load-bearing unknown remains, ASK. If you see traces you cannot identify, ASK. Never guess across the gap.**
+
+Reconciled relationship to zero-re-explanation: persisted/known state must be recovered without asking the commander; genuinely unresolved load-bearing state after inspection must be escalated by asking rather than guessed across.
+
+Engineering frontier unchanged: P0 physical-H1 non-destructive qualification package; P1 C004-to-v3 authority/protection Pareto convergence.

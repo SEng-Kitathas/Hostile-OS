@@ -34,3 +34,27 @@ When R3.1 and R6 appear to differ, resolve through actual project obligations, i
 - On 2026-08-30 the operator explicitly instructed: `Adopt this as SOP and then proceed`.
 
 The sealed candidate package itself remains unchanged and retains its historical `SHADOW_USE_CANDIDATE` metadata. Adoption is recorded by this state file plus the separate adjudication artifact.
+
+
+## 2026-08-31 operational reaffirmation and local SOP delta
+
+The operator re-supplied `RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29.zip` and explicitly required that the R3.1 archive be adopted for this incarnation.
+
+Uploaded ZIP SHA-256: `4d205becc2413889bdb37c6b6ff7513d6f759a7dff1d9f9b8fddaddd8235a278`.
+
+That SHA exactly matches the previously adopted R3.1 ZIP recorded above. The existing 46-file tree under `authority/RAHL_ENGINEERING_R3_1_EXACT_EXTRACTED/` was independently re-hashed and matches the uploaded archive manifest byte-for-byte. No payload replacement was needed.
+
+Operational status therefore remains:
+
+- R3.1 = normal adopted in-house engineering/research SOP surface;
+- R6 = preserved ancestry/fallback authority;
+- sealed R3.1 candidate package = unchanged historical artifact with its own original `SHADOW_USE_CANDIDATE` metadata;
+- no foundation or architecture promotion is implied by operational adoption.
+
+New active local SOP delta:
+
+`authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md`
+
+Compact rule: **Inspect first. If a load-bearing unknown remains, ASK. If you see traces you cannot identify, ASK. Never guess across the gap.**
+
+This delta coexists with zero-re-explanation: the model must search durable project state before asking, but once a genuinely unresolved load-bearing unknown remains, asking the commander is mandatory rather than guessing or smoothing the gap.

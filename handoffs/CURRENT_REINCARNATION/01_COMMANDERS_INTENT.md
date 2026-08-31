@@ -51,3 +51,14 @@ A future HOSTILE-OS thread must be able to take over without requiring the comma
 All load-bearing project meaning therefore belongs in durable Git/GitHub state. Continuity must preserve both **then** and **now**: historical evidence stays intact, while living documents explicitly mark which older frontiers have been superseded.
 
 A fresh thread SHALL rehydrate from the repository and continue. Asking the commander to reconstruct already-persisted project context is a continuity failure.
+
+
+## Unknown / unclear / trace escalation intent — 2026-08-31
+
+When a load-bearing point is unclear, unknown, contradictory, or visible only through traces whose meaning cannot be recovered, inspect durable project evidence first and then **ask the commander** if the uncertainty remains.
+
+Do not guess across the gap. Do not invent provenance. Do not silently treat an unexplained trace as understood. Do not mutate around a load-bearing unknown merely to preserve momentum.
+
+This does not weaken zero-re-explanation. A fresh thread must still recover everything already persisted in Git/project state before asking. The ask rule starts where durable evidence genuinely stops.
+
+Controlling local SOP delta: `authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md`.

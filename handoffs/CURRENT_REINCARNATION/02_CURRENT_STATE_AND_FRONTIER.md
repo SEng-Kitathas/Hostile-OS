@@ -666,3 +666,17 @@ A fresh remote blob-filtered/depth1 sparse checkout of `os/` at `9a573d63fb96a17
 Close receipt: `continuity/17_ZERO_REEXPLANATION_PUBLICATION_CLOSE_2026-08-31.md`.
 
 No science/architecture authority changes.
+
+---
+
+## 2026-08-31 — SOP/continuity control update (superseding method note)
+
+No science, architecture, D64-v3 embodiment, or engineering frontier changed in this update.
+
+The adopted R3.1 in-house SOP was reverified against the exact re-supplied archive (`4d205becc2413889bdb37c6b6ff7513d6f759a7dff1d9f9b8fddaddd8235a278`): 45 manifest payload entries matched the canonical extracted tree and ZIP bytes with zero missing/mismatch; the ZIP contains 46 files including its manifest.
+
+New active SOP delta: inspect durable evidence first; if a load-bearing unknown remains, or unexplained traces cannot be identified, ask the commander rather than guessing or mutating across the gap. This is compatible with zero-re-explanation: ask only where durable evidence genuinely ends.
+
+Current engineering frontier remains unchanged:
+- P0: non-destructive physical-H1 boot/probe/qualification package around D64-v3;
+- P1: C004-to-v3 authority/protection representation/Pareto review without convenience growth.

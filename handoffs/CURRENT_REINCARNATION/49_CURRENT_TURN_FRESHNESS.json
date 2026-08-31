@@ -5,7 +5,8 @@
     "Exact uploaded frozen-intent source-byte Git ingress remains open."
   ],
   "commanders_intent_deltas": [
-    "A future thread must continue from Git/GitHub without asking the operator to reconstruct already-persisted history, nuance, reasons or current state."
+    "After inspecting durable evidence, unresolved load-bearing unknowns or unidentified traces must be escalated by asking the commander rather than guessed across.",
+    "Do not ask the commander to reconstruct state already persisted in Git/project continuity."
   ],
   "continuity_files": [
     {
@@ -14,14 +15,14 @@
       "sha256": "86999a120154580fd465aa7fa18691c8fb3a205380df7995cf070ba7e67a6ec3"
     },
     {
-      "bytes": 4838,
+      "bytes": 5625,
       "path": "continuity/01_COMMANDERS_INTENT.md",
-      "sha256": "bc201b2107f2c58700a1eb66610c546ed7ddd18b4f25a4d860850206b0edb2d3"
+      "sha256": "d4efd09f7b3e43a5a73519055fd7fe1a261315c7d265b3f77718ae8f5fc954e2"
     },
     {
-      "bytes": 57595,
+      "bytes": 58601,
       "path": "continuity/02_CURRENT_STATE_AND_FRONTIER.md",
-      "sha256": "a5150b2a6423bd7960c053563d1f67b17475e49d1d83ae8f35e6e87a59ca7312"
+      "sha256": "cfa8f694760ec37a559ad0620dddd66599c687268fa84ad7d460be5fe2cbddfa"
     },
     {
       "bytes": 3245,
@@ -59,9 +60,9 @@
       "sha256": "f2f29ace540321507d5e1c8e29d7c8fbeb61bdbf1924356e83aecc53c6c45667"
     },
     {
-      "bytes": 26259,
+      "bytes": 27168,
       "path": "continuity/10_ENGINEERING_DECISION_LEDGER_2026-08-30.md",
-      "sha256": "3a4608f17c036ffa467a5861c8a15e92831c2e87d51f94a3b6ae50fa0053fb3b"
+      "sha256": "c01c416821fc5542fead9bf0fc2a5b73d3a63796bdab438db5d870365ed1bfa8"
     },
     {
       "bytes": 3993,
@@ -94,9 +95,9 @@
       "sha256": "9bc8432895eb14f1262ad8ef6982b93ecda74059c13ba8019840f1237e625a80"
     },
     {
-      "bytes": 15105,
+      "bytes": 16196,
       "path": "continuity/16_ZERO_REEXPLANATION_REINCARNATION_2026-08-31.md",
-      "sha256": "8f85b9e3be48149f0b3cf51757afb7196bd293b4d5f5907e4f245ac1968152b4"
+      "sha256": "17a7698c5077ce8aec0b02b4704b8fd6a73c24308110e048e0cdb296ff98b4cb"
     },
     {
       "bytes": 2668,
@@ -104,14 +105,19 @@
       "sha256": "efe9355dd8efea376db24b08d0a5ba72ddf9d8b8c97770cfb74c3c5e90c99bdd"
     },
     {
-      "bytes": 152884,
-      "path": "continuity/DESIGN_THREAD_STREAM.md",
-      "sha256": "bceda0fefe01b29b6d68936fa166090840be7fc7df4df650c862c4c84a042a10"
+      "bytes": 3101,
+      "path": "continuity/18_UNKNOWN_TRACE_ASK_SOP_AND_R3_1_RECONFIRMATION_2026-08-31.md",
+      "sha256": "7c2be2ff94006ffa47b58efc6b4693673d18b86c78f68af18b35cd19840de255"
     },
     {
-      "bytes": 5801,
+      "bytes": 156808,
+      "path": "continuity/DESIGN_THREAD_STREAM.md",
+      "sha256": "13d5a466c682b80c38112a00c06fbf0468abda5f7cb38285ab84fd5c4dd8f36a"
+    },
+    {
+      "bytes": 6506,
       "path": "continuity/LIVE_SHADOW.md",
-      "sha256": "fc20c866756dd03019a00d34e4c28fd079ce44e0281810fff61c879af8d57671"
+      "sha256": "fc66b20259ee7adb105a85a5cb933e1f0fba6765f43c3a32a6c4e2f49ac4ec90"
     },
     {
       "bytes": 375,
@@ -174,15 +180,23 @@
       "sha256": "52a16e3570132413b15cf3fe6ea3c5897ac9e362699bd6b82e97a19cc0ac7ec6"
     }
   ],
-  "current_frontier": "D64 v3 current research reference; physical-H1 preparation P0; C004-to-v3 representation/Pareto review P1.",
+  "current_frontier": "D64 v3 current research reference; physical-H1 preparation P0; C004-to-v3 authority/protection representation/Pareto review P1. Frontier unchanged by SOP update.",
   "decision_deltas": [
-    "Adopt zero-re-explanation reincarnation as standing continuity requirement.",
-    "Add current ingress overlay instead of rewriting historical handoffs.",
-    "Allow GitHub publication archive/mirror scratch to move off canonical drive via HOSTILE_GITHUB_PUBLISH_SCRATCH_ROOT.",
-    "Never drop admitted research/history to solve publication disk pressure."
+    "Adopt standing SOP: inspect durable evidence first; if a load-bearing unknown remains, ask the commander rather than guess or silently route around it.",
+    "Adopt standing SOP: if traces of an artifact/state/decision/dependency exist but their identity or role cannot be recovered from durable evidence, ask the commander.",
+    "Preserve zero-re-explanation for already-persisted state; ZERO_REEXPLANATION != NEVER_ASK.",
+    "Reconfirm R3.1 as the normal adopted in-house engineering/research SOP surface; R6 remains ancestry/fallback authority; no foundation or architecture promotion."
   ],
-  "generated_utc": "2026-08-31T15:23:33+00:00",
+  "generated_utc": "2026-08-31T17:34:30+00:00",
   "living_surfaces": [
+    {
+      "path": "authority/ADOPTION_STATE.md",
+      "status": "updated"
+    },
+    {
+      "path": "authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md",
+      "status": "created"
+    },
     {
       "path": "continuity/01_COMMANDERS_INTENT.md",
       "status": "updated"
@@ -194,6 +208,14 @@
     {
       "path": "continuity/10_ENGINEERING_DECISION_LEDGER_2026-08-30.md",
       "status": "updated"
+    },
+    {
+      "path": "continuity/16_ZERO_REEXPLANATION_REINCARNATION_2026-08-31.md",
+      "status": "updated"
+    },
+    {
+      "path": "continuity/18_UNKNOWN_TRACE_ASK_SOP_AND_R3_1_RECONFIRMATION_2026-08-31.md",
+      "status": "created"
     },
     {
       "path": "continuity/LIVE_SHADOW.md",
@@ -208,17 +230,21 @@
       "status": "updated"
     },
     {
+      "path": "NEXT_THREAD_START_HERE.md",
+      "status": "updated"
+    },
+    {
       "path": "continuity/15_PER_TURN_SEMANTIC_AND_HASH_FRESHNESS_POLICY_2026-08-31.md",
       "status": "verified_unchanged"
     }
   ],
   "mode": "BUILD-COMMIT / CHECKPOINT",
-  "pre_turn_git_head": "fa86af05b845765626c56e16124a6d2760d825ad",
+  "pre_turn_git_head": "64d655334d0c2b6b8941d2a983c7021e8e34e3b7",
   "research_deltas": [
-    "No new science/architecture promotion; current D64-v3/H1 evidence remains controlling.",
-    "Full project publication and remote OS-only sparse retrieval verified; this is repository/continuity evidence only."
+    "No science, architecture, D64-v3 embodiment, or engineering frontier changed this turn.",
+    "R3.1 package integrity reverified: 45 manifest payload entries, 0 missing/mismatch in extracted tree and ZIP; ZIP has 46 files including manifest; SHA-256 4d205becc2413889bdb37c6b6ff7513d6f759a7dff1d9f9b8fddaddd8235a278."
   ],
-  "role": "R4 Convergence Refiner + R1 continuity audit",
+  "role": "R4 Convergence Refiner + R1 audit pressure",
   "schema": "hostile_os.turn_freshness.v1",
-  "turn_intent": "Publish every unique project datum and create a zero-re-explanation next-thread handoff while preserving the OS-only retrieval contract."
+  "turn_intent": "Adopt inspect-first/ask-at-real-unknown-boundary as SOP and reconfirm adoption/integrity of the supplied R3.1 SOP archive."
 }

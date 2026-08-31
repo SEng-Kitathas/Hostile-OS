@@ -1315,3 +1315,24 @@ Committed zero-reexplanation checkpoint `4dccb659...`; committed reincarnation81
 Timestamp: 2026-08-31T15:23:33+00:00
 
 After hardening publication scratch transport, canonical `d4292e55170d8f4457b2b6aceacc5d6ed6a17e6b` published successfully as GitHub `9a573d63fb96a170db4801cc113ade1a96227324`. Publisher reported4891 files /3,183,252,214 bytes before LFS, research included, no canonical advance. Independent `ls-remote` matched the remote SHA. A brand-new remote blob-filtered/depth1 sparse `os/` checkout at the same SHA contained current D64 v3 and did not materialize research/continuity/handoffs/authority. This proves the full-ledger + OS-only retrieval contract at the remote. Final turn-close receipt commit/publication follows.
+
+
+### USER — unresolved unknowns / traces SOP directive
+Timestamp: 2026-08-31T17:33Z
+
+User directed that if anything is unclear/unknown, or if traces of something exist without enough knowledge to identify or interpret them, the assistant must ASK. User ordered this adopted as SOP.
+
+### ASSISTANT — first SOP-boundary use
+The configured E: project root briefly failed to resolve. Assistant did not recreate or infer around the missing path; asked whether the drive was disconnected/remapped or the project moved. User replied that the environment was fixed and ordered retry.
+
+### USER — SOP archive adoption reconfirmation
+Timestamp: 2026-08-31T17:34Z
+
+User ordered another retry and added that the SOP archive previously supplied must be adopted as well.
+
+### ASSISTANT — exact SOP/archive reconciliation
+Recovered canonical project root. Identified exact R3.1 archive: `RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29.zip`. Canonical payload-history ZIP is 104,946 bytes with SHA-256 `4d205becc2413889bdb37c6b6ff7513d6f759a7dff1d9f9b8fddaddd8235a278`, matching the supplied upload. `authority/ADOPTION_STATE.md` already records R3.1 as `ADOPTED_IN_HOUSE_SOP` for normal operational use, with R6 preserved as ancestry/fallback authority and no foundation/architecture promotion.
+
+Independent re-verification checked all 45 manifest payload entries against both the extracted authority tree and ZIP members: 0 missing, 0 mismatches; ZIP contains 46 files including manifest; PASS.
+
+Created/activated local SOP delta `authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md` and reconciled living continuity. Compact rule: `Inspect first. If a load-bearing unknown remains, ASK. If you see traces you cannot identify, ASK. Never guess across the gap.` Zero-re-explanation remains active for state already recoverable from Git/project evidence. Engineering frontier unchanged: P0 physical-H1 package preparation, P1 C004-to-v3 authority/protection Pareto review.

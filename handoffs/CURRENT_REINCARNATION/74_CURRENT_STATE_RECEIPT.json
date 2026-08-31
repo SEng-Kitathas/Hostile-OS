@@ -5,6 +5,7 @@
     "C004": "CLOSED20/20",
     "C005": "CLOSED20/20"
   },
+  "canonical_source_head": "47ba80bd60f1b96d078c6260317607a26952ab60",
   "current_research_reference": "os/research_only/d64_reference_v3",
   "d64_v3": {
     "all_mode_qemu_boots": 9,
@@ -18,7 +19,7 @@
     "stage1_bytes": 512,
     "stage2_raw_bytes": 4494
   },
-  "generated_utc": "2026-08-31T15:11:56+00:00",
+  "generated_utc": "2026-08-31T17:36:30+00:00",
   "h1": {
     "bochs_independent_replay": "PASS",
     "physical_hardware": "UNQUALIFIED",
@@ -29,5 +30,14 @@
   "next_local_p0": "prepare non-destructive physical-H1 qualification/boot/probe/replay package",
   "next_local_p1": "C004-to-v3 representation/Pareto convergence",
   "operator_input_required_now": false,
-  "schema": "hostile_os.reincarnation.current_state.v1"
+  "schema": "hostile_os.reincarnation.current_state.v1",
+  "sop": {
+    "r3_1_operational_status": "ADOPTED_IN_HOUSE_SOP",
+    "r3_1_reverification": "PASS_45_MANIFEST_PAYLOADS_0_MISSING_0_MISMATCH_ZIP_46_FILES_INCLUDING_MANIFEST",
+    "r3_1_zip_sha256": "4d205becc2413889bdb37c6b6ff7513d6f759a7dff1d9f9b8fddaddd8235a278",
+    "unknown_trace_rule": "Inspect first. If a load-bearing unknown remains, ASK. If you see traces you cannot identify, ASK. Never guess across the gap.",
+    "zero_reexplanation_boundary": "Do not ask for persisted state; do ask after inspection when a load-bearing unknown genuinely remains."
+  },
+  "verified_pre_turn_checkpoint": "64d655334d0c2b6b8941d2a983c7021e8e34e3b7",
+  "verified_pre_turn_github_publication": "00bd8c48a8bc4494d5a6b5d3acc57e12a3ea030c"
 }

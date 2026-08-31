@@ -180,3 +180,15 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 |---|---|---|
 | Publication scratch location is transport, not canonical state | Full snapshot needs archive+mirror space; E: exhausted while D: had ample free space | Scratch may move drives through `HOSTILE_GITHUB_PUBLISH_SCRATCH_ROOT`; exact canonical commit capture/readback rules remain unchanged |
 | Never drop research to solve publication disk pressure | GitHub is whole-project durability ledger | Adapt scratch/storage/LFS transport instead; only explicit commander policy may weaken inclusion |
+
+---
+
+## D-UNKNOWN-ASK-2026-08-31 — unresolved load-bearing unknowns require commander escalation
+
+**Decision:** Adopt as standing in-house SOP: inspect durable evidence first; if a load-bearing unknown remains, ask the commander. If traces of an artifact/state/decision/dependency exist but their identity or role cannot be recovered, ask rather than infer across the gap.
+
+**Why:** Evidence-before-inference already preserves UNKNOWN, but without an explicit escalation rule a model can still smooth over traces or route around uncertainty. The new rule makes the human escalation boundary explicit while preserving zero-re-explanation for facts already in Git/project state.
+
+**Authority:** Operator-directed local SOP delta under the adopted R3.1 operational surface. No foundation or architecture promotion.
+
+**Controlling artifact:** `authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md`.

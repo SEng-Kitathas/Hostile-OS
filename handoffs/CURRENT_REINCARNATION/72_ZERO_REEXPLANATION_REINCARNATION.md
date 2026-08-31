@@ -280,3 +280,19 @@ If local Git is newer than a narrative file, prefer the newer verified artifact 
 The first publication attempt for the zero-re-explanation checkpoint exposed source-drive scratch exhaustion after producing a ~3.19GB immutable archive. No remote success was claimed. Publisher now supports `HOSTILE_GITHUB_PUBLISH_SCRATCH_ROOT`; this machine uses D: for publication transport. See `scars/GITHUB_PUBLICATION_SCRATCH_SPACE_SCAR_2026-08-31.md`.
 
 Do not solve future disk pressure by omitting research/history from GitHub.
+
+## 15. Unknown / unclear / trace escalation SOP
+
+Zero-re-explanation stops the model from asking the commander to reconstruct state that Git/project evidence already contains. It does **not** authorize guessing where durable evidence stops.
+
+Required order when a load-bearing point is unclear, unknown, contradictory, or visible only through unexplained traces:
+
+1. inspect local Git/project/files/receipts/logs/manifests/execution state first;
+2. separate verified, inferred and unknown state;
+3. if the load-bearing unknown remains, **ASK the commander** before crossing it;
+4. if there are traces of an artifact, decision, dependency, prior action or external input whose identity/role cannot be recovered, **ASK** rather than treating the trace as understood;
+5. do not ask for already-persisted history merely because rehydration would take work.
+
+Compact form: **Inspect first. If a load-bearing unknown remains, ASK. If you see traces you cannot identify, ASK. Never guess across the gap.**
+
+Controlling SOP delta: `authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md`.

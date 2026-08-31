@@ -19,3 +19,20 @@ Current high-level state: C004 and C005 are both CLOSED20/20. `os/research_only/
 Immediate local frontier: prepare non-destructive physical-H1 qualification/boot/probe package; then run C004-to-v3 representation/Pareto convergence. Do not spend v3 headroom by convenience. Do not run C005/P21.
 
 Repository rule: all unique project data belongs in Git/GitHub, but OS-only users may sparse-checkout `os/`; research/history is never an implicit OS install dependency.
+
+
+## Mandatory unknown/trace rule — 2026-08-31
+
+R3.1 is the adopted normal in-house engineering/research SOP surface. Also read `authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md` during ingress.
+
+Rule: inspect durable project evidence first. If a load-bearing unknown remains, **ASK**. If traces of an artifact, decision, dependency, prior action, or state remain but their meaning/origin cannot be established, **ASK**. Never guess across the gap.
+
+This starts only after zero-re-explanation recovery has been attempted; do not ask the commander to restate material already persisted in Git/project continuity.
+
+## Unknown / trace rule added 2026-08-31
+
+Do not ask the commander to reconstruct persisted project history. Inspect Git/project state first.
+
+If, after inspection, a load-bearing point is still unknown/unclear/contradictory, or you see traces of something whose identity or role cannot be recovered, **ASK the commander** instead of guessing, inventing provenance, or silently routing around it.
+
+Controlling SOP delta: `authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md`.

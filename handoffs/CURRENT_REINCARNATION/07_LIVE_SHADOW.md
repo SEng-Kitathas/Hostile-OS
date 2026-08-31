@@ -2,76 +2,79 @@
 
 ## Thread Identity
 - Thread: HOSTILE-OS / PCMMAD
-- Last Updated: 2026-08-31T15:23:33+00:00
+- Last Updated: 2026-08-31T17:34:30Z
 - Mode: BUILD-COMMIT / CHECKPOINT
-- Dominant Objective: commit/publish the final verified publication receipt, then hand off seamlessly to physical-H1 preparation.
+- Role: R4 Convergence Refiner with R1 audit pressure
+- Dominant Objective: close the commander-directed unknown/trace/ask SOP delta and reconfirm exact R3.1 SOP adoption, then resume physical-H1 preparation.
 
 ## Active User Intent
-- Push all unique project data to GitHub in the proper separated tree.
-- Make the next thread understand the project then and now, including nuance, subtleties, Commander’s Intent, research, decisions, rejected paths, scars and open seams.
-- Require zero need for the operator to re-explain already-persisted context.
-- Preserve the OS-only retrieval/install contract: full R&D ledger on GitHub must not become an implicit `os/` dependency.
-- Continue autonomously until a genuine operator-only blocker is reached.
+- Continue from the current reincarnation-grade checkpoint without re-explaining persisted history.
+- If anything load-bearing is unclear/unknown/contradictory, or traces exist whose identity/meaning cannot be recovered, inspect first and then ASK rather than guess.
+- Make sure the supplied R3.1 SOP archive is actually adopted.
+- Continue autonomous local work until a real operator-only blocker is reached.
 
 ## Current Authoritative State
-- Architecture posture: `INTEGRATED_SHADOW_CANDIDATE`; not final/release/production.
-- C004 CLOSED20/20; C005 CLOSED20/20; hard stops obeyed, no P21.
-- `os/research_only/d64_reference_v3/` = CURRENT_RESEARCH_REFERENCE — RESEARCH PURPOSES ONLY.
-- v3 promotion commit: `af8a11eb055b486c38cefb3676066b3e6d808f32`.
-- v3 body: stage1 512; stage2 raw4494; linked8089/8192; headroom103; semantic state3467; scratch62/128; isolated verifier20/20; all-mode9 QEMU boots.
-- Selected H1 topology: BSP sole relation mutator + ordered AP request/result mailbox. Candidate A remains valid alternate; Candidate C deferred/not disproven.
-- Current H1 cross-emulator replay: QEMU PASS + Bochs core/restart/five-fault PASS. Physical H1 remains unqualified.
-- Current canonical base at start of this publication pass: `fa86af05b845765626c56e16124a6d2760d825ad`, clean before continuity mutation.
-- New current ingress surfaces: `NEXT_THREAD_START_HERE.md` and `continuity/16_ZERO_REEXPLANATION_REINCARNATION_2026-08-31.md`.
-- Publication transport scar: async wrapper failed before start; exact-commit publisher then hit E:-drive `Errno28`; publisher now supports external scratch root and rerun used D: successfully.
-- Verified full-ledger publication: canonical `d4292e55170d8f4457b2b6aceacc5d6ed6a17e6b` -> GitHub `9a573d63fb96a170db4801cc113ade1a96227324`,4891 files /3,183,252,214 pre-LFS bytes, research included, independent remote readback matched.
-- Fresh remote sparse `os/` clone verified v3 present while research/continuity/handoffs/authority were not materialized.
+- Canonical local HOSTILE-OS checkpoint before this turn: `64d655334d0c2b6b8941d2a983c7021e8e34e3b7`.
+- Canonical worktree was clean at re-entry.
+- Verified GitHub publication-mirror `main`: `00bd8c48a8bc4494d5a6b5d3acc57e12a3ea030c` by independent `ls-remote` in this incarnation.
+- Canonical tree at re-entry: 4,893 tracked files / 3,183,263,350 bytes before LFS conversion.
+- Current reincarnation package at re-entry: 83 manifest files.
+- C004 CLOSED 20/20; C005 CLOSED 20/20; no P21 for either.
+- `os/research_only/d64_reference_v3/` = `CURRENT_RESEARCH_REFERENCE — RESEARCH PURPOSES ONLY`.
+- D64-v3 measured body: stage1 512; stage2 raw 4494; linked 8089/8192; headroom 103; semantic state 3467; scratch 62/128; isolated verifier PASS 20/20; all-mode admission 9 QEMU boots.
+- Selected H1 topology: BSP sole current relation mutator + ordered AP request/result mailbox participant. Candidate A remains valid alternate; Candidate C deferred/not disproven.
+- Physical H1 remains unqualified. QEMU/Bochs evidence does not promote to physical truth.
+- C004 authority/protection science is not silently considered fully embodied in D64-v3.
+
+## SOP / Authority State
+- R3.1 exact ZIP is already the adopted normal in-house engineering/research SOP surface per `authority/ADOPTION_STATE.md`.
+- Adopted ZIP SHA-256: `4d205becc2413889bdb37c6b6ff7513d6f759a7dff1d9f9b8fddaddd8235a278`.
+- Re-supplied uploaded ZIP matches canonical `payload_history` byte-for-byte: 104,946 bytes, same SHA-256.
+- Independent 2026-08-31 verification: 45 manifest payload entries; 0 extracted missing; 0 extracted mismatches; ZIP has 46 files including manifest; 0 ZIP missing/mismatches; PASS.
+- Operational status stays: R3.1 adopted for normal SOP use; R6 preserved ancestry/fallback authority; sealed package keeps historical `SHADOW_USE_CANDIDATE` metadata; no foundation/architecture promotion.
+- New active local SOP delta: `authority/R3_1_LOCAL_SOP_DELTA_UNKNOWN_TRACE_ASK_2026-08-31.md`.
+- Compact law: **Inspect first. If a load-bearing unknown remains, ASK. If you see traces you cannot identify, ASK. Never guess across the gap.**
+- Zero-re-explanation remains active: do not ask the commander for facts already recoverable from Git/project state.
+- Boundary rule: `ZERO_REEXPLANATION != NEVER_ASK`.
 
 ## Active Constraints
-- Historical/sealed evidence is append-only; current overlays supersede stale frontier prose without deleting it.
-- `QEMU_H1_PROXY_PASS + BOCHS_PASS != H1_PHYSICAL_PASS`.
-- Current research body != complete current research shadow; C004 embodiment gap remains.
-- Do not spend v3's103-byte headroom by convenience.
+- Project/runtime evidence outranks narrative.
+- Historical/sealed evidence is append-only; newer interpretation is added, not silently rewritten into old evidence.
+- Every meaningful turn refreshes living continuity/reincarnation/freshness state, commits exact admitted paths, publishes full admitted delta, and verifies remote readback.
+- `os/` remains independently retrievable; full R&D history on GitHub may not become an implicit build/install dependency.
+- Do not spend D64-v3's 103-byte headroom by convenience.
 - Working nouns remain compression vocabulary, not constitutional primitives.
-- Every meaningful turn must refresh living continuity, reincarnation, hashes, durable-repository gate, commit, GitHub publication and remote readback.
-- `os/` must remain independently obtainable; research/history may not become hidden build/install dependencies.
-
-## Decisions Locked In
-- First-principles hostile derivation remains architecture-generating method; donors are evidence/quarry only.
-- H1 HP Pavilion p2-1120 is first physical target.
-- Candidate B is selected current H1 successor representation.
-- v3 supersedes v2 as current reviewer body; v2/I001 remain preserved lineage.
-- Zero-re-explanation reincarnation is standing continuity policy: a fresh thread must rehydrate from Git instead of asking the operator to retell the project.
+- Timeout/ambiguous execution remains UNKNOWN.
+- Do not guess across unresolved provenance/authority/state gaps.
 
 ## Open Loops
-- Prepare non-destructive physical-H1 qualification/boot/probe/replay package.
-- Physical H1 CPUID/PCI/BIOS/ACPI/storage/interrupt/SMP qualification.
-- C004-to-v3 representation/Pareto convergence without convenience growth.
-- Candidate-B owner availability/progress only if measured workload makes it relevant.
+- P0: prepare non-destructive physical-H1 boot/probe/qualification/replay package around D64-v3.
+- Physical H1 CPUID/PCI/BIOS/ACPI/storage/interrupt/SMP observations when hardware touch is ready.
+- P1: C004 -> D64-v3 authority/protection representation/Pareto convergence without convenience growth.
+- Candidate-B owner availability/progress only if measured workload earns it.
 - Arbitrary-core/weak-memory/DMA/IOMMU/NMI/SMI/fairness/production guarantees remain unearned.
 - Foreign Opus raw packet remains reported-only until supplied/hashed.
 - Exact uploaded frozen-intent source-byte Git ingress remains open.
 
 ## Immediate Next Step
-1. commit this final publication/readback receipt and refreshed reincarnation package;
-2. publish/read back that final canonical close;
-3. next thread resumes physical-H1 package preparation locally without operator re-explanation;
-4. P1 remains C004-to-v3 representation/Pareto convergence.
+1. close this SOP/adoption turn through continuity, reincarnation package, freshness gate, canonical Git, GitHub publication, and remote readback;
+2. resume P0 physical-H1 package preparation locally;
+3. ask the commander only if inspection reaches a genuinely load-bearing unresolved unknown or unidentified trace.
 
 ## Last 10 Turn Reinforcement Window
-1. USER: authorized emulator acquisition for H1.
-2. ASSISTANT: installed Bochs3.1; QEMU remains primary H1 proxy; no exact H1 emulator claim.
-3. USER: required all decisions/research/Commander intent/continuity fresh per turn.
-4. ASSISTANT: adopted semantic+hash freshness policy and checker.
-5. USER: directed H1 durable profile + dual-emulator replay while concurrency continued.
-6. ASSISTANT: C005 closed20/20 and post-campaign H1 SMP convergence measured MIN01/MIN02/MIN03.
-7. USER: repeatedly said Proceed, retaining autonomous continuation authority.
-8. ASSISTANT: Candidate B selected; D64 v3 created, isolated, promoted and retargeted as current reference; H1 QEMU+Bochs replay passed.
-9. ASSISTANT: post-C005/v3 continuity and reincarnation refreshed at canonical `fa86af0...`.
-10. USER: ordered full GitHub push and zero-re-explanation next-thread continuity; current state-changing directive.
+1. USER supplied the newer reincarnation-grade checkpoint and stated the branch was far behind current state.
+2. ASSISTANT rehydrated from canonical Git and verified local HEAD `64d6553...`, clean tree, remote `00bd8c4...`, 4,893 files / 3,183,263,350 bytes, and 83-file reincarnation package.
+3. USER directed: if anything is unclear/unknown or only visible through traces, ASK; adopt this as SOP.
+4. ASSISTANT first hit a transient project-root failure and correctly asked whether E: was disconnected/moved rather than recreating state.
+5. USER said the drive/path issue was fixed and directed retry.
+6. Project root recovered. Existing doctrine was inspected; unresolved-unknown escalation was found not explicit enough.
+7. USER again said retry and additionally required the SOP archive they sent to be adopted.
+8. Exact R3.1 archive was identified as `RAHL_ENGINEERING_IN_HOUSE_SOP_SPLIT_CANDIDATE_R3_1_2026-08-29.zip`; canonical payload-history copy matches uploaded SHA `4d205be...`.
+9. Current `ADOPTION_STATE.md` proved R3.1 was already `ADOPTED_IN_HOUSE_SOP`; R6 remains fallback/parent, no foundation promotion.
+10. Archive manifest/extracted tree were independently reverified PASS and new ask-on-unknown local SOP delta was written.
 
 ## Delta Since Previous Shadow
-- Added zero-re-explanation as explicit Commander continuity requirement.
-- Added current root/thread ingress surfaces and exact interpretation rule for stale historical handoffs.
-- Publication objective changed from ordinary turn close to reincarnation-grade full-project checkpoint.
-- Science/architecture state itself is unchanged from post-C005 D64-v3 close.
+- Rebased Live Shadow from older publication state to verified incarnation checkpoint (`64d6553...` local / `00bd8c4...` remote).
+- Added commander-directed unknown/trace escalation SOP.
+- Reconfirmed exact R3.1 archive adoption and package integrity.
+- Engineering/science frontier unchanged.
