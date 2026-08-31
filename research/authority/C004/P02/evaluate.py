@@ -1,0 +1,4 @@
+from pathlib import Path
+import json,sys
+expected=['S1_8K_OK','TEST=C004_P02','A_READ=W','A_READ_VAL=7E','A_WRITE=W','A_AFTER=55','B_READ=W','B_READ_VAL=7E','B_WRITE=U','B_AFTER=7E','B_BINARY_WRITE=W','B_BINARY_AFTER=55','DONE']
+trace=Path(sys.argv[1]).read_text(encoding='ascii',errors='replace').splitlines();checks={'trace_exact':trace==expected,'owner_read_write':all(x in trace for x in ['A_READ=W','A_WRITE=W','A_AFTER=55']),'b_read_only':all(x in trace for x in ['B_READ=W','B_READ_VAL=7E','B_WRITE=U','B_AFTER=7E']),'binary_allow_overauthorizes':all(x in trace for x in ['B_BINARY_WRITE=W','B_BINARY_AFTER=55'])};out={'format':'C004_P02_EVALUATION_V1','passed':all(checks.values()),'checks':checks,'trace':trace};Path(sys.argv[2]).write_text(json.dumps(out,indent=2)+'\n',encoding='utf-8',newline='\n');print(json.dumps(out,indent=2));raise SystemExit(0 if out['passed'] else 1)

@@ -1,0 +1,18 @@
+{
+  "format": "C004_P07_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "gp_enforcement_observed": true,
+    "kernel_resource_preserved": true,
+    "explicit_mediated_gate_reached": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P07",
+    "GP_SEEN=1",
+    "RESOURCE_AFTER=7E",
+    "MEDIATED_GATE=1",
+    "DONE"
+  ]
+}

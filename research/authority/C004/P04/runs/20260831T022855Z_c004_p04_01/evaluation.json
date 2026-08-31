@@ -1,0 +1,26 @@
+{
+  "format": "C004_P04_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "resource_currentness_unchanged": true,
+    "a_survives_revoke": true,
+    "b_old_authority_revoked": true,
+    "resource_only_bad_control_still_works": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P04",
+    "B_BEFORE=W",
+    "B_BEFORE_VAL=7E",
+    "RES_GEN=01",
+    "RES_EPOCH=01",
+    "A_AFTER=W",
+    "A_AFTER_VAL=7E",
+    "B_OLD_AUTH=U",
+    "B_OLD_AUTH_VAL=00",
+    "B_RESOURCE_ONLY=W",
+    "B_RESOURCE_ONLY_VAL=7E",
+    "DONE"
+  ]
+}

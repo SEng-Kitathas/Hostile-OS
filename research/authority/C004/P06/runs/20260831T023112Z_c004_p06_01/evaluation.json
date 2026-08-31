@@ -1,0 +1,17 @@
+{
+  "format": "C004_P06_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "checked_path_denies": true,
+    "raw_same_domain_bypasses": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P06",
+    "B_CHECKED_WRITE=U",
+    "B_CHECKED_AFTER=7E",
+    "B_RAW_AFTER=55",
+    "DONE"
+  ]
+}

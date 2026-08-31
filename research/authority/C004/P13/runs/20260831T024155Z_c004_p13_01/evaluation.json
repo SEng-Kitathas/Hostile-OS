@@ -1,0 +1,23 @@
+{
+  "format": "C004_P13_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "boundary_active": true,
+    "local_failure_allows_later_authorized_read": true,
+    "global_latch_poison_control": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P13",
+    "GOOD_WRITE=U",
+    "GOOD_AFTER=7E",
+    "GOOD_LATER_READ=W",
+    "GOOD_LATER_VAL=7E",
+    "BAD_WRITE=U",
+    "BAD_LATER_READ=G",
+    "BAD_LATER_VAL=00",
+    "GP_SEEN=1",
+    "DONE"
+  ]
+}

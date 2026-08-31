@@ -1,0 +1,21 @@
+{
+  "format": "C004_P05_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "stale_rejects": true,
+    "fresh_reuse_works": true,
+    "slot_only_retargets": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P05",
+    "B_STALE=U",
+    "B_STALE_AFTER=7E",
+    "C_FRESH=W",
+    "C_AFTER=55",
+    "B_SLOT_ONLY=W",
+    "B_SLOT_ONLY_AFTER=55",
+    "DONE"
+  ]
+}

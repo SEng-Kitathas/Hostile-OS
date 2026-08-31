@@ -1,0 +1,18 @@
+{
+  "format": "C004_P10_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "boundary_active": true,
+    "protected_attenuation": true,
+    "protected_bad_mediator_amplifies": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P10",
+    "GOOD_C_RIGHTS=01",
+    "BAD_C_RIGHTS=03",
+    "GP_SEEN=1",
+    "DONE"
+  ]
+}

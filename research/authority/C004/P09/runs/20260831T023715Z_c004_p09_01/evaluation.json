@@ -1,0 +1,20 @@
+{
+  "format": "C004_P09_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "boundary_active": true,
+    "trusted_provenance_denies": true,
+    "untrusted_identity_claim_escalates": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P09",
+    "TRUSTED_CALLER_WRITE=U",
+    "TRUSTED_AFTER=7E",
+    "CLAIMED_A_WRITE=W",
+    "CLAIMED_AFTER=55",
+    "GP_SEEN=1",
+    "DONE"
+  ]
+}

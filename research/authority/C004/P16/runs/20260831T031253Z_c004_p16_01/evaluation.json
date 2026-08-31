@@ -1,0 +1,22 @@
+{
+  "format": "C004_P16_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "boundary_active": true,
+    "authority_revoke_preserves_resource": true,
+    "bad_coupled_reclaim_loses_a_future": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P16",
+    "GOOD_LIVE=02",
+    "GOOD_A_READ=W",
+    "GOOD_A_VAL=7E",
+    "BAD_LIVE=00",
+    "BAD_A_READ=R",
+    "BAD_A_VAL=00",
+    "GP_SEEN=1",
+    "DONE"
+  ]
+}

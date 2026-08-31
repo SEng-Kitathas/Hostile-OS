@@ -1,0 +1,24 @@
+{
+  "format": "C004_P15_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "boundary_active": true,
+    "good_reuse_initializes": true,
+    "bad_reuse_inherits_rights": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P15",
+    "GOOD_C_RIGHTS=01",
+    "GOOD_C_GEN=02",
+    "GOOD_C_WRITE=U",
+    "GOOD_AFTER=7E",
+    "BAD_C_RIGHTS=02",
+    "BAD_C_GEN=02",
+    "BAD_C_WRITE=W",
+    "BAD_AFTER=55",
+    "GP_SEEN=1",
+    "DONE"
+  ]
+}

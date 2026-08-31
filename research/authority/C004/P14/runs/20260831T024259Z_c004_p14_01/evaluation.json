@@ -1,0 +1,22 @@
+{
+  "format": "C004_P14_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "boundary_active": true,
+    "good_full_preserves": true,
+    "bad_overwrite_on_full": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P14",
+    "GOOD_FULL=F",
+    "GOOD_OWNER0=41",
+    "GOOD_OWNER1=42",
+    "BAD_ALLOC=W",
+    "BAD_OWNER0=43",
+    "BAD_OWNER1=42",
+    "GP_SEEN=1",
+    "DONE"
+  ]
+}

@@ -1,0 +1,4 @@
+from pathlib import Path
+import json,sys
+expected=['S1_8K_OK','TEST=C004_P09','TRUSTED_CALLER_WRITE=U','TRUSTED_AFTER=7E','CLAIMED_A_WRITE=W','CLAIMED_AFTER=55','GP_SEEN=1','DONE']
+trace=Path(sys.argv[1]).read_text(encoding='ascii',errors='replace').splitlines();checks={'trace_exact':trace==expected,'boundary_active':('GP_SEEN=1' in trace),'trusted_provenance_denies':all(x in trace for x in ['TRUSTED_CALLER_WRITE=U','TRUSTED_AFTER=7E']),'untrusted_identity_claim_escalates':all(x in trace for x in ['CLAIMED_A_WRITE=W','CLAIMED_AFTER=55'])};out={'format':'C004_P09_EVALUATION_V1','passed':all(checks.values()),'checks':checks,'trace':trace};Path(sys.argv[2]).write_text(json.dumps(out,indent=2)+'\n',encoding='utf-8',newline='\n');print(json.dumps(out,indent=2));raise SystemExit(0 if out['passed'] else 1)

@@ -1,0 +1,4 @@
+from pathlib import Path
+import json,sys
+expected=['S1_8K_OK','TEST=C004_P16','GOOD_LIVE=02','GOOD_A_READ=W','GOOD_A_VAL=7E','BAD_LIVE=00','BAD_A_READ=R','BAD_A_VAL=00','GP_SEEN=1','DONE']
+trace=Path(sys.argv[1]).read_text(encoding='ascii',errors='replace').splitlines();checks={'trace_exact':trace==expected,'boundary_active':('GP_SEEN=1' in trace),'authority_revoke_preserves_resource':all(x in trace for x in ['GOOD_LIVE=02','GOOD_A_READ=W','GOOD_A_VAL=7E']),'bad_coupled_reclaim_loses_a_future':all(x in trace for x in ['BAD_LIVE=00','BAD_A_READ=R','BAD_A_VAL=00'])};out={'format':'C004_P16_EVALUATION_V1','passed':all(checks.values()),'checks':checks,'trace':trace};Path(sys.argv[2]).write_text(json.dumps(out,indent=2)+'\n',encoding='utf-8',newline='\n');print(json.dumps(out,indent=2));raise SystemExit(0 if out['passed'] else 1)

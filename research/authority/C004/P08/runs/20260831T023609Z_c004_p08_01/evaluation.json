@@ -1,0 +1,23 @@
+{
+  "format": "C004_P08_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "boundary_active": true,
+    "read_allowed": true,
+    "write_denied_preserved": true,
+    "binary_mediator_overauthorizes": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P08",
+    "GOOD_READ=W",
+    "GOOD_READ_VAL=7E",
+    "GOOD_WRITE=U",
+    "GOOD_AFTER=7E",
+    "BAD_BINARY_WRITE=W",
+    "BAD_BINARY_AFTER=55",
+    "GP_SEEN=1",
+    "DONE"
+  ]
+}

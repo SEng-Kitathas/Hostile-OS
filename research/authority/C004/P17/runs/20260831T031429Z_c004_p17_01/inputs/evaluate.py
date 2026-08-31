@@ -1,0 +1,4 @@
+from pathlib import Path
+import json,sys
+expected=['S1_8K_OK','TEST=C004_P17','GOOD_QUEUE=Q','GOOD_REVOKE=1','GOOD_APPLY=U','GOOD_AFTER=7E','BAD_QUEUE=Q','BAD_REVOKE=1','BAD_APPLY=W','BAD_AFTER=55','GP_SEEN=1','DONE']
+trace=Path(sys.argv[1]).read_text(encoding='ascii',errors='replace').splitlines();checks={'trace_exact':trace==expected,'boundary_active':('GP_SEEN=1' in trace),'good_revalidation_blocks_revoked_effect':all(x in trace for x in ['GOOD_APPLY=U','GOOD_AFTER=7E']),'bad_cached_decision_applies_after_revoke':all(x in trace for x in ['BAD_APPLY=W','BAD_AFTER=55'])};out={'format':'C004_P17_EVALUATION_V1','passed':all(checks.values()),'checks':checks,'trace':trace};Path(sys.argv[2]).write_text(json.dumps(out,indent=2)+'\n',encoding='utf-8',newline='\n');print(json.dumps(out,indent=2));raise SystemExit(0 if out['passed'] else 1)

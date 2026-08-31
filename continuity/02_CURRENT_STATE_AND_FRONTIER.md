@@ -521,3 +521,20 @@ The timing tails preserve exact guest traces and localize to host/QEMU/toolchain
 No burden discriminator currently justifies optimizing the representation or enlarging the 8 KiB loader. The remaining 752 bytes are a pressure budget, not free feature space.
 
 The previously deferred mature-OS blind-comparison maturity gate is now satisfied at governance level. Comparison is eligible to open under strict quarantine: external systems may supply responsibility comparison/questions, never architecture authority or copied answers. See `research/audits/MATURE_OS_BLIND_COMPARISON_MATURITY_GATE_2026-08-30.md`.
+
+## 2026-08-31 C004 authority/protection campaign closure
+
+C004 — mutually-untrusted authority/protection re-derivation — is **CLOSED 20/20**. P20 hard stop was obeyed; no P21 exists.
+
+Campaign close: `research/authority/C004/C004_CAMPAIGN_CLOSE_2026-08-31.md`.
+Adoption review: `research/authority/C004/C004_ADOPTION_REVIEW_2026-08-31.md`.
+
+The adopted bounded grammar separates trusted caller provenance, operation-specific authority, attenuation, authority currentness/revocation, finite reusable authority storage, explicit reuse initialization, authority/resource lifetime, effect-time revalidation and restart authority epoch, all behind a non-bypassable enforcement boundary for actually untrusted code.
+
+P19 composed these rules under two distinct ring3 caller selectors. P20 showed a B caller claiming A cannot replace CPU-supplied protected provenance; the bad trust-claim control wrote55.
+
+Process scars remain explicit: P17 prereg was fixed before runtime but not Git-sealed before implementation; P18 first build failed pre-QEMU due duplicate loader signature; P19 first controlling attempt is UNKNOWN due caller-frame offset bug before Amendment A.
+
+Current v2 research body remains runnable/current as an embodiment generation but now lags C004 authority science. Do not consume its remaining752 bytes casually.
+
+The next broad comparison pressure is concurrency/coherence beyond one-core maskable IRQ scope.

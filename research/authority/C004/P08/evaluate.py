@@ -1,0 +1,4 @@
+from pathlib import Path
+import json,sys
+expected=['S1_8K_OK','TEST=C004_P08','GOOD_READ=W','GOOD_READ_VAL=7E','GOOD_WRITE=U','GOOD_AFTER=7E','BAD_BINARY_WRITE=W','BAD_BINARY_AFTER=55','GP_SEEN=1','DONE']
+trace=Path(sys.argv[1]).read_text(encoding='ascii',errors='replace').splitlines();checks={'trace_exact':trace==expected,'boundary_active':('GP_SEEN=1' in trace),'read_allowed':all(x in trace for x in ['GOOD_READ=W','GOOD_READ_VAL=7E']),'write_denied_preserved':all(x in trace for x in ['GOOD_WRITE=U','GOOD_AFTER=7E']),'binary_mediator_overauthorizes':all(x in trace for x in ['BAD_BINARY_WRITE=W','BAD_BINARY_AFTER=55'])};out={'format':'C004_P08_EVALUATION_V1','passed':all(checks.values()),'checks':checks,'trace':trace};Path(sys.argv[2]).write_text(json.dumps(out,indent=2)+'\n',encoding='utf-8',newline='\n');print(json.dumps(out,indent=2));raise SystemExit(0 if out['passed'] else 1)

@@ -1,0 +1,22 @@
+{
+  "format": "C004_P03_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "attenuated_grant_read_only": true,
+    "bad_grant_amplifies": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P03",
+    "GOOD_C_RIGHTS=01",
+    "GOOD_C_READ=W",
+    "GOOD_C_READ_VAL=7E",
+    "GOOD_C_WRITE=U",
+    "GOOD_AFTER=7E",
+    "BAD_C_RIGHTS=03",
+    "BAD_C_WRITE=W",
+    "BAD_AFTER=55",
+    "DONE"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "format": "C004_P01_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "owner_succeeds": true,
+    "b_caller_aware_rejects": true,
+    "b_currentness_only_succeeds": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P01",
+    "OWNER_CHECKED=W",
+    "OWNER_VAL=7E",
+    "B_CALLER_AWARE=U",
+    "B_CALLER_AWARE_VAL=00",
+    "B_CURRENT_ONLY=W",
+    "B_CURRENT_ONLY_VAL=7E",
+    "DONE"
+  ]
+}

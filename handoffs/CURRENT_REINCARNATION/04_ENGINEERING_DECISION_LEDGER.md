@@ -122,3 +122,16 @@ Purpose: preserve not only what was chosen, but why, what evidence earned it, wh
 | Treat measured command/boot wall times as reproduction burden, not OS latency | Large tails preserved exact guest traces and were host/QEMU/toolchain localized | Exact host/QEMU envelope only | Guest-cycle/hardware timing instrumentation exists |
 | Mature-OS blind comparison is now eligible to open | Independent derivation, integrated os-only body, and first burden baseline now exist | Research comparison/quarry only | Comparison contaminates architecture authority or gate prerequisites regress |
 | External comparison findings cannot directly add mechanisms | Mature systems supply questions/disagreement, not design answers | Project-wide | Never waive without explicit doctrine change |
+
+## 2026-08-31 C004 authority adoption
+
+| Decision | Why | Ceiling / reopen |
+|---|---|---|
+| Adopt checked authority relation distinct from current resource/reference | C004 P01-P20 repeatedly loses futures when collapsed | Bounded C004 scope; reopen under new targets/concurrency |
+| Trusted caller provenance is load-bearing | P09/P20 forged-claim controls fail | Hardware boundary mechanism remains target-specific |
+| Operation-specific rights + attenuation + currentness remain separate | P02/P03/P08/P10/P11 | No universal policy language earned |
+| Effect-time revalidation required when revocation can intervene | P17 cached authorization wrote after revoke | Only delayed-effect situations |
+| Authority lifetime != resource lifetime | P16 bad revoke/reclaim destroyed A future | No universal ownership model |
+| Authority restart epoch may be required on namespace reconstruction | P18 old handle alias without fresh epoch | Only reusable authority namespaces surviving durable meaning |
+| Do not retrofit C004 into v2's remaining752 bytes by convenience | Current embodiment is behind science; byte pressure is real | Separate convergence/Pareto review required |
+| C004 hard-stops at P20 | Original campaign law | P21 forbidden |

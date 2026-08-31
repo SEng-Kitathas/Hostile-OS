@@ -1,0 +1,24 @@
+{
+  "format": "C004_P17_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "boundary_active": true,
+    "good_revalidation_blocks_revoked_effect": true,
+    "bad_cached_decision_applies_after_revoke": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P17",
+    "GOOD_QUEUE=Q",
+    "GOOD_REVOKE=1",
+    "GOOD_APPLY=U",
+    "GOOD_AFTER=7E",
+    "BAD_QUEUE=Q",
+    "BAD_REVOKE=1",
+    "BAD_APPLY=W",
+    "BAD_AFTER=55",
+    "GP_SEEN=1",
+    "DONE"
+  ]
+}

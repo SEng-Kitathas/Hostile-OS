@@ -1,0 +1,17 @@
+{
+  "format": "C004_P12_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "direct_ring3_io_faulted": true,
+    "no_raw_user_marker": true,
+    "trusted_mediated_io_path": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C004_P12",
+    "IO_GP=1",
+    "MEDIATED_IO=1",
+    "DONE"
+  ]
+}
