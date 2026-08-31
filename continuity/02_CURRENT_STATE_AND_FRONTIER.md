@@ -538,3 +538,13 @@ Process scars remain explicit: P17 prereg was fixed before runtime but not Git-s
 Current v2 research body remains runnable/current as an embodiment generation but now lags C004 authority science. Do not consume its remaining752 bytes casually.
 
 The next broad comparison pressure is concurrency/coherence beyond one-core maskable IRQ scope.
+
+## 2026-08-31 H1 first physical target adopted
+
+The operator's HP Pavilion p2-1120 is adopted as H1, the first planned real HOSTILE-OS hardware target. Verified published constraints include AMD E2-1800 1.7GHz, AMD A45 FCH, 4GB DDR3-1333, 500GB SATA and Radeon HD7340.
+
+A QEMU x86_64 constraint proxy is qualified at q35 + phenom proxy CPU + 2 vCPU + 4096MiB + 500GiB qcow2. Current d64_reference_v2 core+IRQ reviewer boots and exits33 under this profile. The proxy is not an exact hardware clone; A45/CPU/GPU/firmware/PCI identity remains physical-probe work.
+
+Orthogonal donor architecture may now be used as adversarial donor material only after the HOSTILE-OS seam is stated locally. First-principles hostile derivation remains the architecture-generating method.
+
+C005 actual frontier is P01/P02 CLOSED PASS; P03 preregistered with provisional unsealed implementation.

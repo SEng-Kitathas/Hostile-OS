@@ -1,0 +1,33 @@
+{
+  "format": "HOSTILE_OS_H1_VM_PROFILE_V1",
+  "status": "VM_CONSTRAINT_PROXY_NOT_HARDWARE_CLONE",
+  "target": "HP Pavilion p2-1120",
+  "physical": {
+    "cpu": "AMD E2-1800",
+    "cpu_cores": 2,
+    "cpu_threads": 2,
+    "cpu_clock_ghz": 1.7,
+    "chipset": "AMD A45 FCH",
+    "memory_mib": 4096,
+    "disk_capacity_gib": 500,
+    "graphics": "AMD Radeon HD 7340"
+  },
+  "qemu_proxy": {
+    "system_binary": "qemu-system-x86_64",
+    "machine": "pc-q35-11.1",
+    "cpu_model": "phenom",
+    "smp": "2,sockets=1,cores=2,threads=1",
+    "memory_mib": 4096,
+    "target_disk_format": "qcow2",
+    "target_disk_capacity_gib": 500,
+    "core_network": "none",
+    "accel": "tcg"
+  },
+  "non_fidelity": [
+    "phenom CPU model is not E2-1800 identity",
+    "Q35/ICH9 is not AMD A45 FCH",
+    "emulated display is not Radeon HD 7340",
+    "TCG timing is not 1.7 GHz physical performance",
+    "proxy firmware/PCI/ACPI tables are not HP firmware tables"
+  ]
+}

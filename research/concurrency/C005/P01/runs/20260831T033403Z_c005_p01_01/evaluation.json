@@ -1,0 +1,16 @@
+{
+  "format": "C005_P01_EVALUATION_V1",
+  "passed": false,
+  "checks": {
+    "trace_exact": false,
+    "two_cpu_participation": false,
+    "cli_only_allows_mixed_observation": false,
+    "atomic_shared_exclusion_prevents_mixed": false
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C005_P01",
+    "AP_START_FAIL",
+    "C005_P01_FAIL"
+  ]
+}

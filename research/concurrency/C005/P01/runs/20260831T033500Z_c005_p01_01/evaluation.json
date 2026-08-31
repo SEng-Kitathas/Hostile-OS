@@ -1,0 +1,22 @@
+{
+  "format": "C005_P01_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "two_cpu_participation": true,
+    "cli_only_allows_mixed_observation": true,
+    "atomic_shared_exclusion_prevents_mixed": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C005_P01",
+    "CPU_COUNT=02",
+    "AP_READY=1",
+    "BAD_MIXED=1",
+    "BAD_FINAL=1",
+    "GOOD_MIXED=0",
+    "GOOD_FINAL=1",
+    "AP_DONE=1",
+    "DONE"
+  ]
+}

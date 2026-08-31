@@ -1,0 +1,22 @@
+{
+  "format": "C005_P02_EVALUATION_V1",
+  "passed": true,
+  "checks": {
+    "trace_exact": true,
+    "two_cpu_participation": true,
+    "bad_both_read_free_before_store": true,
+    "atomic_claim_has_one_winner": true
+  },
+  "trace": [
+    "S1_8K_OK",
+    "TEST=C005_P02",
+    "CPU_COUNT=02",
+    "AP_READY=1",
+    "BAD_BSP_SAW_FREE=1",
+    "BAD_AP_SAW_FREE=1",
+    "BAD_ENTERED=02",
+    "GOOD_ENTERED=01",
+    "AP_DONE=1",
+    "DONE"
+  ]
+}
