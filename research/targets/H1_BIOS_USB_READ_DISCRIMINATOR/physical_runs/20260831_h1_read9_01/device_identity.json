@@ -1,0 +1,11 @@
+﻿{
+    "captured_utc":  "2026-09-01T00:22:22.3282249Z",
+    "model":  "SanDisk Extreme Pro",
+    "disk_number":  3,
+    "bus_type":  "USB",
+    "is_system":  false,
+    "device":  "\\\\.\\PhysicalDrive3",
+    "size":  128043712512,
+    "serial":  "0FDC87754321",
+    "is_boot":  false
+}

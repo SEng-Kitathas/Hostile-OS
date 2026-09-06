@@ -1,0 +1,13 @@
+﻿{
+    "model":  "SanDisk Extreme Pro",
+    "prepared_utc":  "2026-08-31T21:07:17.4163363Z",
+    "disk_bytes":  128043712512,
+    "journal_lba_end":  383,
+    "journal_lba_start":  256,
+    "source_image":  "E:\\new pc\\AI_Pushes_Sandbox\\projects\\PCMMAD\\HOSTILE_OS\\research\\targets\\H1_PHYSICAL_PROBE_DURABLE_LOG\\package\\h1_probe_durable_log_physical.img",
+    "prefix_sha256":  "d9854764012eac4f16e2c887c748abc7c85b84e29cca33960e4da21e979bca35",
+    "journal_initially_zero":  true,
+    "device":  "\\\\.\\PhysicalDrive3",
+    "serial":  "0FDC87754321",
+    "written_bytes":  1048576
+}

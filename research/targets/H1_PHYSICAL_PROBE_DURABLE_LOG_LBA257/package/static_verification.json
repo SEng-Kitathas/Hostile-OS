@@ -1,0 +1,43 @@
+{
+  "checks": {
+    "extractor_self_test": true,
+    "flush_on_newline": true,
+    "hook_pointer_installed": true,
+    "journal_bounds_constants": true,
+    "journal_header_magic": true,
+    "journal_session_from_bios_ticks": true,
+    "loader_no_other_disk_write_functions": true,
+    "loader_write_functions_exact": true,
+    "logger_loader_within_4096": true,
+    "no_graphics_mode13": true,
+    "no_vga_framebuffer_programming": true,
+    "physical_image_size_1440k": true,
+    "physical_journal_initially_zero": true,
+    "probe_derivation_parent_plus_one_hook": true,
+    "probe_only_readonly_int13": true,
+    "probe_physical_within_8192": true,
+    "probe_qemu_within_8192": true,
+    "qemu_image_size_1440k": true,
+    "qemu_journal_initially_zero": true,
+    "stage1_exact_512": true,
+    "stage1_readonly_ah02": true,
+    "stage1_signature": true
+  },
+  "format": "HOSTILE_H1_DURABLE_LOG_STATIC_V1",
+  "loader_int13": [
+    "0x41",
+    "0x08",
+    "0x42",
+    "0x02",
+    "0x43",
+    "0x03"
+  ],
+  "pass": true,
+  "probe_int13": [
+    "0x08",
+    "0x41"
+  ],
+  "stage1_int13": [
+    "0x02"
+  ]
+}
